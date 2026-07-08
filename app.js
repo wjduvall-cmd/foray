@@ -31,6 +31,14 @@ const BRANCH_COLORS = {
 
 const $ = (sel, el = document) => el.querySelector(sel);
 
+/* All catalog data flows through innerHTML templates; escape every
+   data-derived string so a hostile episode title in a feed can never
+   become markup. */
+function esc(s) {
+  return String(s ?? "").replace(/[&<>"']/g, c =>
+    ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+
 /* ---------- storage helpers ---------- */
 
 function lsGet(key, fallback) {
@@ -171,10 +179,10 @@ function renderContinue() {
     <span class="chip">Continue</span>
     ${starBtn(c.id)}
     <div class="head">
-      ${c.artwork_url ? `<img class="art" src="${c.artwork_url}" alt="" loading="lazy">` : ""}
+      ${c.artwork_url ? `<img class="art" src="${esc(c.artwork_url)}" alt="" loading="lazy">` : ""}
       <div>
-        <p class="show">${c.show}</p>
-        <h2>${c.title}</h2>
+        <p class="show">${esc(c.show)}</p>
+        <h2>${esc(c.title)}</h2>
       </div>
     </div>
     <p class="fit">Picking back up where you left off — your app remembers the spot.</p>
@@ -285,10 +293,10 @@ function renderSplatter() {
     const l = links(item);
     const dot = BRANCH_COLORS[branchOf(item)] || "var(--text-dim)";
     return `<div class="sp-item">
-      ${item.artwork_url ? `<img class="sp-art" src="${item.artwork_url}" alt="" loading="lazy">` : `<div class="sp-art"></div>`}
+      ${item.artwork_url ? `<img class="sp-art" src="${esc(item.artwork_url)}" alt="" loading="lazy">` : `<div class="sp-art"></div>`}
       <div class="sp-info">
-        <p class="sp-hook">${item.hook || item.title}</p>
-        <p class="sp-meta"><span class="dot" style="background:${dot}"></span>${item.show} · ${fmtDur(item.duration_min)}${item._explore ? ` · <span class="wild">wildcard</span>` : ""}</p>
+        <p class="sp-hook">${esc(item.hook || item.title)}</p>
+        <p class="sp-meta"><span class="dot" style="background:${dot}"></span>${esc(item.show)} · ${fmtDur(item.duration_min)}${item._explore ? ` · <span class="wild">wildcard</span>` : ""}</p>
       </div>
       ${starBtn(item.id)}
       <a class="go" href="${l.apple}" target="_blank" rel="noopener"
@@ -312,8 +320,8 @@ function renderSavedShelf() {
       const l = links(item);
       return `<div class="ep-row">
         <div class="info">
-          <div class="t">${item.title}</div>
-          <div class="s">${item.show} · ${fmtDur(item.duration_min)}</div>
+          <div class="t">${esc(item.title)}</div>
+          <div class="s">${esc(item.show)} · ${fmtDur(item.duration_min)}</div>
         </div>
         ${starBtn(item.id)}
         <a class="go" href="${l.apple}" target="_blank" rel="noopener"
@@ -332,7 +340,7 @@ function renderInterests() {
   if (!state.taxonomy) { el.innerHTML = ""; return; }
   el.innerHTML = leafNodes().map(n => `
     <label class="int-row">
-      <span class="int-label">${n.label}</span>
+      <span class="int-label">${esc(n.label)}</span>
       <input type="range" min="0" max="100" value="${Math.round((state.interests[n.id] ?? 0.5) * 100)}" data-node="${n.id}">
     </label>`).join("") +
     `<p class="int-note">These tilt the splatter — but 3 in 10 picks always ignore them. Surprise is the point.</p>`;
@@ -377,13 +385,13 @@ function renderCard(card) {
     <span class="chip">${card.archetype_label}</span>
     ${starBtn(id)}
     <div class="head">
-      ${ep.artwork_url ? `<img class="art" src="${ep.artwork_url}" alt="" loading="lazy">` : ""}
+      ${ep.artwork_url ? `<img class="art" src="${esc(ep.artwork_url)}" alt="" loading="lazy">` : ""}
       <div>
-        <p class="show">${ep.show}</p>
-        <h2>${ep.title}</h2>
+        <p class="show">${esc(ep.show)}</p>
+        <h2>${esc(ep.title)}</h2>
       </div>
     </div>
-    <p class="why">${why}</p>
+    <p class="why">${esc(why)}</p>
     <p class="meta">${fmtDur(ep.duration_min)} · ${ep.release_date}</p>
     ${playButtons(snap, `card-${card.archetype}`)}
     ${chain.length > 1 ? `<button class="swap" data-slot="${card.slot}">show me a different ${card.archetype_label.toLowerCase()} pick</button>` : ""}
@@ -397,9 +405,9 @@ function renderFusionTour() {
   if (!cat) return "";
   return `
     <details class="cat">
-      <summary><span>${cat.label}<span class="desc">${cat.description}</span></span></summary>
+      <summary><span>${esc(cat.label)}<span class="desc">${esc(cat.description)}</span></span></summary>
       ${cat.groups.map(g => `
-        <div class="group-label">${g.label}</div>
+        <div class="group-label">${esc(g.label)}</div>
         ${g.episode_ids.map(id => {
           const ep = episode(id);
           if (!ep) return "";
@@ -407,8 +415,8 @@ function renderFusionTour() {
           const l = links(ep);
           return `<div class="ep-row">
             <div class="info">
-              <div class="t">${ep.title}</div>
-              <div class="s">${ep.show} · ${fmtDur(ep.duration_min)}</div>
+              <div class="t">${esc(ep.title)}</div>
+              <div class="s">${esc(ep.show)} · ${fmtDur(ep.duration_min)}</div>
             </div>
             ${starBtn(id)}
             <a class="go" href="${l.apple}" target="_blank" rel="noopener"
