@@ -58,7 +58,7 @@ export const env: Env = {
   podcastIndexApiSecret: readString("PODCASTINDEX_API_SECRET"),
   dailyBudgetUsd: readNumber("DAILY_BUDGET_USD", 2.0),
   databaseUrl: readString("DATABASE_URL"),
-  userAgent: "CommutePilot/0.1 (personal podcast client; contact wjduvall@gmail.com)",
+  userAgent: "Foray/0.1 (personal podcast client; contact wjduvall@gmail.com)",
   get anthropicDryRun(): boolean {
     return this.anthropicApiKey === undefined;
   },

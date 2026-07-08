@@ -95,7 +95,7 @@ const SEEDED_USER_ID = "00000000-0000-0000-0000-000000000001";
 async function main(): Promise<void> {
   const args = parseArgs(process.argv.slice(2));
 
-  console.log("CommutePilot session builder");
+  console.log("Foray session builder");
   console.log("  env:", envPresenceSummary());
   console.log(`  anthropic mode: ${env.anthropicDryRun ? "DRY-RUN (StubEnricher)" : "LIVE (AnthropicEnricher)"}`);
 

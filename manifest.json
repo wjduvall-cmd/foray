@@ -1,6 +1,6 @@
 {
-  "name": "CommutePilot",
-  "short_name": "CommutePilot",
+  "name": "Foray",
+  "short_name": "Foray",
   "description": "Your commute session: four curated podcast picks.",
   "start_url": ".",
   "display": "standalone",

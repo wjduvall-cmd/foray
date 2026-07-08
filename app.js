@@ -1,4 +1,4 @@
-/* CommutePilot web client v3.
+/* Foray web client v3.
    - Fresh content every load: card slots rotate through their chains
      (already-played picks deprioritized), splatter re-samples with a
      recently-seen exclusion window.

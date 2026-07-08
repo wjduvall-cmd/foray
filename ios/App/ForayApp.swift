@@ -20,7 +20,7 @@ extension EnvironmentValues {
 }
 
 @main
-struct CommutePilotApp: App {
+struct ForayApp: App {
     @StateObject private var sessionStore = SessionStore()
 
     // Single instance for the app's lifetime — this IS the single-player

@@ -9,7 +9,7 @@ import CoreMedia
 // orchestration logic (which effect -> which backend call, in what order)
 // can be exercised in tests with a fake/mock backend, without touching
 // AVFoundation or a real audio session. The actual state-machine logic this
-// wraps around lives in CommutePilotKit and is already fully unit tested
+// wraps around lives in ForayKit and is already fully unit tested
 // without AVFoundation; this protocol boundary is for testing the *glue*.
 //
 // Deliberately synchronous/void where AVPlayer itself is synchronous

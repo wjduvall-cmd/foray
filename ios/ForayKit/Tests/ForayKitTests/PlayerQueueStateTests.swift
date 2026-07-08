@@ -1,5 +1,5 @@
 import XCTest
-@testable import CommutePilotKit
+@testable import ForayKit
 
 final class PlayerQueueStateTests: XCTestCase {
 

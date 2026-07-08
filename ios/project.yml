@@ -1,17 +1,17 @@
-# XcodeGen spec for CommutePilot.
+# XcodeGen spec for Foray.
 #
 # On the Mac:
 #   brew install xcodegen
 #   cd ios
 #   xcodegen
-#   open CommutePilot.xcodeproj
+#   open Foray.xcodeproj
 #
-# This generates a single "CommutePilot" app target from ios/App, wired to
-# the local CommutePilotKit Swift package (ios/CommutePilotKit) as a
-# dependency. CommutePilotKitTests runs via Xcode's native local-package
+# This generates a single "Foray" app target from ios/App, wired to
+# the local ForayKit Swift package (ios/ForayKit) as a
+# dependency. ForayKitTests runs via Xcode's native local-package
 # test integration (it shows up automatically in the Test navigator once
 # the package is a dependency — no separate XcodeGen test target needed)
-# or via `swift test` directly inside ios/CommutePilotKit.
+# or via `swift test` directly inside ios/ForayKit.
 #
 # AUDIT: this file has never been run through the real `xcodegen` binary
 # (Windows dev machine, no Xcode/xcodegen available here). The overall
@@ -21,7 +21,7 @@
 # `info.path`) is sufficient for the current XcodeGen version to synthesize
 # a valid Info.plist, or whether an explicit Info.plist file is preferred.
 
-name: CommutePilot
+name: Foray
 
 options:
   bundleIdPrefix: com.wjduvall
@@ -33,22 +33,22 @@ options:
   generateEmptyDirectories: false
 
 packages:
-  CommutePilotKit:
-    path: CommutePilotKit
+  ForayKit:
+    path: ForayKit
 
 targets:
-  CommutePilot:
+  Foray:
     type: application
     platform: iOS
     deploymentTarget: "17.0"
     sources:
       - path: App
     dependencies:
-      - package: CommutePilotKit
-        product: CommutePilotKit
+      - package: ForayKit
+        product: ForayKit
     info:
       properties:
-        CFBundleDisplayName: CommutePilot
+        CFBundleDisplayName: Foray
         UILaunchScreen: {}
         # Background audio playback (04_VOICE_AUDIO_SPEC.md: playback must
         # survive backgrounding/lock — every commute session is played with
@@ -65,16 +65,16 @@ targets:
         # present the permission prompt; VoiceController (not implemented
         # in this scaffold) is what will actually trigger these prompts.
         NSMicrophoneUsageDescription: >-
-          CommutePilot listens briefly when you hold the talk button, so you
+          Foray listens briefly when you hold the talk button, so you
           can say things like "skip" or "something different" without
           touching your phone while driving.
         NSSpeechRecognitionUsageDescription: >-
-          CommutePilot uses on-device speech recognition to understand your
+          Foray uses on-device speech recognition to understand your
           hold-to-talk voice commands. Recognition happens entirely on your
           phone, offline.
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: com.wjduvall.commutepilot
+        PRODUCT_BUNDLE_IDENTIFIER: com.wjduvall.foray
         SWIFT_VERSION: "5.10"
         TARGETED_DEVICE_FAMILY: "1"
         IPHONEOS_DEPLOYMENT_TARGET: "17.0"
@@ -94,19 +94,19 @@ targets:
         CODE_SIGN_STYLE: Automatic
 
 schemes:
-  CommutePilot:
+  Foray:
     build:
       targets:
-        CommutePilot: all
+        Foray: all
     run:
       config: Debug
     test:
       config: Debug
-      # CommutePilotKitTests is picked up automatically once the package
+      # ForayKitTests is picked up automatically once the package
       # is added as a target dependency above; listed explicitly here so
-      # `xcodebuild test -scheme CommutePilot` also runs it from the CLI.
+      # `xcodebuild test -scheme Foray` also runs it from the CLI.
       targets:
-        - name: CommutePilotKitTests
+        - name: ForayKitTests
           parallelizable: true
     archive:
       config: Release

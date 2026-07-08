@@ -1,6 +1,6 @@
-# MASTER PROMPT — "CommutePilot" Podcast Curator
+# MASTER PROMPT — "Foray" Podcast Curator
 
-You are building **CommutePilot**: a personal AI podcast curator with an iPhone app front end. One user for now (me), but architected so multi-user monetization later doesn't require a rewrite.
+You are building **Foray**: a personal AI podcast curator with an iPhone app front end. One user for now (me), but architected so multi-user monetization later doesn't require a rewrite.
 
 Read this file fully, then read the companion docs in this folder before writing any code:
 

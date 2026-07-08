@@ -1,5 +1,5 @@
 import XCTest
-@testable import CommutePilotKit
+@testable import ForayKit
 
 /// Decodes the real `data/session.json` (copied verbatim into
 /// Fixtures/session_fixture.json — keep the two in sync) and asserts on

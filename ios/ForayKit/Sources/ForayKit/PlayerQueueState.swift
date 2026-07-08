@@ -2,7 +2,7 @@ import Foundation
 
 // MARK: - PlayerQueueState
 //
-// Formal state machine for CommutePilot's player queue, per
+// Formal state machine for Foray's player queue, per
 // docs/brief/04_VOICE_AUDIO_SPEC.md ("Custom PlayerQueueManager over
 // AVPlayer... Formal state machine: idle -> loadingItem -> playing ->
 // transitioning -> interrupted -> ended, with unit tests for every edge").

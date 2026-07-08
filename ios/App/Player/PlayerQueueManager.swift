@@ -2,13 +2,13 @@ import Foundation
 import AVFoundation
 import CoreMedia
 import MediaPlayer
-import CommutePilotKit
+import ForayKit
 import OSLog
 
 // MARK: - PlayableItem
 //
 // The App-level realization of a session queue entry: a `QueueItemRef`
-// (identity + kind, from CommutePilotKit) plus everything needed to
+// (identity + kind, from ForayKit) plus everything needed to
 // actually play it locally. Mirrors the session document's item shape
 // (docs/brief/02_ARCHITECTURE.md: "ordered items, each: {type: intro_tts |
 // episode | transition_tts | outro_tts, asset_url, episode_ref?,
@@ -88,7 +88,7 @@ public struct UserDefaultsPositionStore: PositionStore {
 //
 // The AVPlayer-backed actor. Owns a SINGLE `PlayerBackend` (in production,
 // a single `AVPlayer` wrapped by `AVPlayerBackend`) and drives it entirely
-// through `PlayerQueueState.reduce` from CommutePilotKit — this file
+// through `PlayerQueueState.reduce` from ForayKit — this file
 // contains no playback *policy*, only the mapping from abstract
 // `PlayerEffect`s to real AVFoundation/MediaPlayer calls, and the mapping
 // from real AVFoundation/AVAudioSession notifications to abstract
@@ -99,7 +99,7 @@ public struct UserDefaultsPositionStore: PositionStore {
 public actor PlayerQueueManager {
     private let backend: PlayerBackend
     private let positionStore: PositionStore
-    private let log = Logger(subsystem: "com.wjduvall.commutepilot", category: "PlayerQueueManager")
+    private let log = Logger(subsystem: "com.wjduvall.foray", category: "PlayerQueueManager")
 
     private var state: PlayerQueueState = .idle
     private var queue: [PlayableItem] = []
@@ -238,7 +238,7 @@ public actor PlayerQueueManager {
 
     // MARK: - Voice / Tier-1 grammar hookup
     //
-    // `IntentGrammar.parse` (CommutePilotKit) returns a `ParsedIntent`;
+    // `IntentGrammar.parse` (ForayKit) returns a `ParsedIntent`;
     // routing `.recognized` intents to these transport methods is the
     // VoiceController's job (not implemented in this scaffold — see
     // README). This manager only needs to expose the primitives.
@@ -648,7 +648,7 @@ public actor PlayerQueueManager {
 
     private var remoteCommandsConfigured = false
 
-    /// Call once, early (e.g. from `CommutePilotApp.init`), independent of
+    /// Call once, early (e.g. from `ForayApp.init`), independent of
     /// queue/session state — MPRemoteCommandCenter handlers must exist
     /// before the app is ever backgrounded/locked, and per
     /// 05_CORNER_CASES.md #23 must also work from a cold Siri-intent

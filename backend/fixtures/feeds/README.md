@@ -1,7 +1,7 @@
 # Feed fixture corpus
 
 Real RSS feeds fetched on 2026-07-07 with the project's honest User-Agent
-(`CommutePilot/0.1 (personal podcast client; contact wjduvall@gmail.com)`),
+(`Foray/0.1 (personal podcast client; contact wjduvall@gmail.com)`),
 used by `test/parser.test.ts` to exercise the lenient parser against actual
 publisher weirdness rather than hand-crafted XML. Per 01_PROMPT.md item 8
 ("build a fixture corpus of >=20 real-world weird feeds"), this is a starter

@@ -1,4 +1,4 @@
-# Curation Practices Research — standards to leverage for CommutePilot
+# Curation Practices Research — standards to leverage for Foray
 
 Purpose: don't reinvent taxonomy, interest modeling, or exploration mechanics. This
 grounds `03_CURATION_SPEC.md`'s interest model, scoring, and serendipity slot in
@@ -83,7 +83,7 @@ picked — **both a symbolic hierarchy and embeddings, not one or the other**:
   short-text metadata (titles/descriptions) rather than relying only on publisher-declared
   categories — because Apple categories are too coarse and self-reported inconsistently.
   Their "Trajectory Based Podcast Recommendation" paper models listening sequences as
-  graph walks, which is a heavier approach than CommutePilot needs at single-user scale
+  graph walks, which is a heavier approach than Foray needs at single-user scale
   but validates graph/embedding adjacency as the mechanism for "similar but not
   identical" recommendations — i.e., the Stretch slot.
 - **Netflix's knowledge graph** (nodes = titles, genres, people, "abstract concepts";
@@ -94,10 +94,10 @@ picked — **both a symbolic hierarchy and embeddings, not one or the other**:
   the same justification the spec gives for why taxonomy powers explainability while
   embeddings power serendipity.
 
-**Verdict for CommutePilot:** the spec's design (two-level tree + per-node centroid
+**Verdict for Foray:** the spec's design (two-level tree + per-node centroid
 embedding, node weight -1..+1, confidence, last_evidence_at) is standard practice at a
 scale appropriate for one user. No need for GNNs or dynamic topic modeling — that's
-solving a cold-catalog/millions-of-users problem CommutePilot doesn't have. The one
+solving a cold-catalog/millions-of-users problem Foray doesn't have. The one
 addition worth adopting from this research: store the centroid as an incrementally-updated
 running mean (exponential moving average weighted by recency/signal strength) rather than
 recomputing from scratch, so "adjacent" tracks taste drift without a batch job.
@@ -122,7 +122,7 @@ pattern in that domain.
 Addict, Player FM, and "podcasts for learning" roundups turned up filtering by topic,
 genre, status, and download state — never by skill/depth level. It isn't in Apple's
 taxonomy, Podcast Index's schema, or any directory's metadata. This is a genuine gap
-CommutePilot would be filling, not a wheel to avoid reinventing.
+Foray would be filling, not a wheel to avoid reinventing.
 
 **Recommendation: depth is a per-episode attribute, not a taxonomy dimension.**
 Reasoning:
@@ -152,7 +152,7 @@ Sources:
 Production recommenders overwhelmingly use **uniform ε-greedy exploration** rather than
 Thompson Sampling or full contextual bandits, specifically because it's simple and
 composable with black-box personalization models — the same reasoning applies at
-CommutePilot's single-user, low-QPS scale even more strongly (no need for the statistical
+Foray's single-user, low-QPS scale even more strongly (no need for the statistical
 machinery multi-armed bandits exist to justify at web scale). The spec's existing design —
 a fixed Stretch slot that explicitly ignores historical skip rate for the region it
 explores — **is** an ε-greedy floor, just expressed as one guaranteed slot instead of a
@@ -238,4 +238,4 @@ any LLM call.
 | Adjacency / serendipity computation | Embedding cosine similarity to node centroids (standard technique) | The Stretch-slot selection policy itself (near-not-inside radius, cold-node-with-high-quality fallback, damped negative-signal weighting) |
 | Exploration mechanism | ε-greedy-as-guaranteed-slot, the dominant production pattern per bandit literature | Confidence-scaled radius decay; slot-provenance-tagged signal weighting |
 | Difficulty/depth | Beginner/intermediate/advanced vocabulary borrowed from ed-tech (Coursera/Khan/Skillsoft) | No podcast product has this — the per-episode `depth` field, its inference in the classification cascade, and its use in scoring are all novel to this product |
-| Format/evergreen tagging | Loosely modeled on how ed-tech and Spotify's topic modeling treat metadata-derived tags | Evergreen-vs-decaying freshness curve and format-driven slot assignment (Narrative/Comfort) are CommutePilot-specific |
+| Format/evergreen tagging | Loosely modeled on how ed-tech and Spotify's topic modeling treat metadata-derived tags | Evergreen-vs-decaying freshness curve and format-driven slot assignment (Narrative/Comfort) are Foray-specific |

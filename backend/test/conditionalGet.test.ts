@@ -23,7 +23,7 @@ describe("fetchFeedConditional", () => {
     const headersSent = fetchImpl.mock.calls[0]![1].headers;
     expect(headersSent["If-None-Match"]).toBe('"old-etag"');
     expect(headersSent["If-Modified-Since"]).toBe("Mon, 01 Jan 2024 00:00:00 GMT");
-    expect(headersSent["User-Agent"]).toContain("CommutePilot");
+    expect(headersSent["User-Agent"]).toContain("Foray");
   });
 
   it("omits conditional headers on first fetch (no prior state)", async () => {

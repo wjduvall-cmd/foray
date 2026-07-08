@@ -1,4 +1,4 @@
-# CommutePilot — iOS
+# Foray — iOS
 
 This was scaffolded on Windows, so **none of it has been compiled or run**.
 Every file was written with care for Swift/AVFoundation/SwiftUI correctness,
@@ -15,25 +15,25 @@ in this scaffold, per `docs/brief/04_VOICE_AUDIO_SPEC.md`.
 brew install xcodegen
 cd ios
 xcodegen
-open CommutePilot.xcodeproj
+open Foray.xcodeproj
 ```
 
 Then in Xcode:
-1. Select the `CommutePilot` scheme, pick a simulator or your device.
+1. Select the `Foray` scheme, pick a simulator or your device.
 2. Signing: `project.yml` leaves `DEVELOPMENT_TEAM` blank on purpose (it's
    not something to hardcode into a shared spec file). Set your team in
    Xcode's Signing & Capabilities tab after the project is generated, or
    edit `project.yml`'s `DEVELOPMENT_TEAM` and re-run `xcodegen`.
-3. Build and run. `CommutePilotApp` loads the bundled
+3. Build and run. `ForayApp` loads the bundled
    `App/Resources/sample_session.json` (a verbatim copy of
    `data/session.json`) on launch — there is no backend yet, so this is
    what populates the Today screen's four cards.
-4. `CommutePilotKitTests` (the state machine, intent grammar, and session
+4. `ForayKitTests` (the state machine, intent grammar, and session
    model tests) run either from Xcode's Test navigator (⌘U — it appears
-   automatically once the local `CommutePilotKit` package is a target
+   automatically once the local `ForayKit` package is a target
    dependency) or from the command line:
    ```bash
-   cd ios/CommutePilotKit
+   cd ios/ForayKit
    swift test
    ```
    The `swift test` path requires no Xcode project at all and is the
@@ -41,25 +41,25 @@ Then in Xcode:
    AVFoundation/UIKit dependency by design.
 
 Re-run `xcodegen` from `ios/` any time `project.yml` or the file layout
-under `App/`/`CommutePilotKit/` changes; the generated `.xcodeproj` is a
+under `App/`/`ForayKit/` changes; the generated `.xcodeproj` is a
 build artifact, not something to hand-edit or commit.
 
 ## Repo layout
 
 ```
 ios/
-  CommutePilotKit/            Swift Package — platform-independent core
-    Sources/CommutePilotKit/
+  ForayKit/            Swift Package — platform-independent core
+    Sources/ForayKit/
       SessionModels.swift     Codable models for the session.json v1 document
       PlayerQueueState.swift  Formal player state machine (pure, no AVFoundation)
       IntentGrammar.swift     Tier-1 local voice-intent grammar (pure)
-    Tests/CommutePilotKitTests/
+    Tests/ForayKitTests/
       SessionModelsTests.swift
       PlayerQueueStateTests.swift
       IntentGrammarTests.swift
       Fixtures/session_fixture.json   (copy of data/session.json — keep in sync)
   App/                         SwiftUI app (assembled by XcodeGen, not a checked-in .xcodeproj)
-    CommutePilotApp.swift
+    ForayApp.swift
     Views/
       TodayView.swift          4-card session picker
       NowPlayingView.swift     Now Playing skeleton
@@ -76,7 +76,7 @@ ios/
 
 ## What's implemented vs. stubbed
 
-**Fully implemented, unit tested, platform-independent (CommutePilotKit):**
+**Fully implemented, unit tested, platform-independent (ForayKit):**
 - `SessionModels.swift` — Codable models matching `data/session.json` v1
   exactly, including forward-compatible open enums (`Archetype`,
   `EpisodeDepth`, `EpisodeFormat`) that degrade to `.other(rawValue)`
@@ -127,7 +127,7 @@ app actually plays audio end-to-end):**
   05_CORNER_CASES.md #23 ("Siri intent while app cold") will need
   `PlayerQueueManager.configureRemoteCommands()` (or an equivalent) to be
   reachable from an App Intent's `perform()` independent of any view
-  appearing; `CommutePilotApp.swift` flags this with a comment.
+  appearing; `ForayApp.swift` flags this with a comment.
 - Backend networking — `GET /sessions/current`, `POST /events`, etc. don't
   exist; `SessionStore` reads the bundled fixture only.
 - Library/History, Interests editor, Settings screens.
@@ -140,7 +140,7 @@ app actually plays audio end-to-end):**
   simulator. The App target is a thin adapter layer over it.
 - **`PlayerQueueManager` is an `actor`**, and the app creates exactly one
   instance for its whole lifetime (see the comment in
-  `CommutePilotApp.swift`). That, plus the state machine's own
+  `ForayApp.swift`). That, plus the state machine's own
   single-player-invariant guard, is the two-layer defense against
   05_CORNER_CASES.md #19 (two AVPlayers alive after a fast skip).
 - **Pause is modeled by re-using `interruptionBegan`/`interruptionEnded`**
@@ -224,7 +224,7 @@ Windows.
 | # | Test | What to check | Where the logic lives |
 |---|------|----------------|------------------------|
 | 1 | Cold build & run | `xcodegen` succeeds, app launches, Today shows 4 cards from the sample session | `project.yml`, `TodayView.swift` |
-| 2 | `swift test` in `ios/CommutePilotKit` | All tests pass with zero AVFoundation involved | `CommutePilotKitTests/*` |
+| 2 | `swift test` in `ios/ForayKit` | All tests pass with zero AVFoundation involved | `ForayKitTests/*` |
 | 3 | Play a local file, no interruptions | Tap a card → audio starts within the 1.5s budget (04_VOICE_AUDIO_SPEC.md latency budget), no pop at start | `PlayerQueueManager.play(itemAt:)`, `AVPlayerBackend.load` |
 | 4 | Skip mid-episode | Tap skip → next item's audio audible within 1s, exactly one `pausePlayback` + one `loadItem` (no overlap) | `PlayerQueueState.handleSkip`, `PlayerQueueStateTests.testFastDoubleSkipToNextReplacesInFlightLoadWithoutStackingLoads` |
 | 5 | Fast double-skip | Tap skip twice in quick succession → only the second target ever becomes audible, no overlapping audio | Same as #4 |

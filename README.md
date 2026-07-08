@@ -1,8 +1,8 @@
-# CommutePilot
+# Foray
 
 Personal AI podcast curator. Long-term target: iOS app per the briefing package in `docs/brief/`. Current phase: a deployed static web menu that tests curation quality (the M2 gate) before any audio engineering.
 
-**Live:** https://wjduvall-cmd.github.io/commute-curator/ (deploys automatically on push to `main`)
+**Live:** https://wjduvall-cmd.github.io/foray/ (deploys automatically on push to `main`)
 
 ## Layout
 

@@ -1,5 +1,5 @@
 import SwiftUI
-import CommutePilotKit
+import ForayKit
 
 // MARK: - NowPlayingView (skeleton)
 //
@@ -14,7 +14,7 @@ import CommutePilotKit
 // Design follows 04_VOICE_AUDIO_SPEC.md "Safety framing": every action here
 // must also be reachable eyes-free. The hold-to-talk button is the
 // eyes-free entry point for everything else on this screen (skip,
-// more-like-this, save, etc. — see CommutePilotKit's `IntentGrammar`); it
+// more-like-this, save, etc. — see ForayKit's `IntentGrammar`); it
 // is rendered here as a large, unmissable affordance even though the
 // speech pipeline behind it (`VoiceController`) isn't implemented yet.
 struct NowPlayingView: View {

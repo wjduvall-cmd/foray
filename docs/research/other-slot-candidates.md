@@ -1,4 +1,4 @@
-# CommutePilot Podcast Candidates: Stretch, Narrative, Comfort
+# Foray Podcast Candidates: Stretch, Narrative, Comfort
 
 Research for three additional archetype slots. All candidates verified via iTunes Search API and podcast feeds.
 

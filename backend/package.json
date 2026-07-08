@@ -1,8 +1,8 @@
 {
-  "name": "commutepilot-backend",
+  "name": "foray-backend",
   "version": "0.1.0",
   "private": true,
-  "description": "CommutePilot backend core: feed ingest, enrichment, curation engine, session builder.",
+  "description": "Foray backend core: feed ingest, enrichment, curation engine, session builder.",
   "engines": {
     "node": ">=20"
   },

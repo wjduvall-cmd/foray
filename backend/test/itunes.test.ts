@@ -25,7 +25,7 @@ describe("ItunesClient (keyless — every test uses a stub fetchImpl, never the 
     expect(results[0]!.collectionId).toBe(123);
     const [url, init] = fetchImpl.mock.calls[0]!;
     expect(String(url)).toContain("itunes.apple.com/search");
-    expect(init.headers["User-Agent"]).toContain("CommutePilot");
+    expect(init.headers["User-Agent"]).toContain("Foray");
   });
 
   it("lookupByCollectionId returns the first result or null", async () => {

@@ -1,4 +1,4 @@
-# CommutePilot — Claude Code briefing package
+# Foray — Claude Code briefing package
 
 Six files. Drop the whole folder into your project root (or a `docs/brief/` folder) before starting Claude Code.
 

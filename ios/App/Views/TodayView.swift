@@ -1,5 +1,5 @@
 import SwiftUI
-import CommutePilotKit
+import ForayKit
 
 // MARK: - TodayView
 //
@@ -82,7 +82,7 @@ struct TodayView: View {
 
 /// Requires `SessionCard: Identifiable`. Slot number is already a stable,
 /// unique-within-session identifier, so we conform via slot rather than
-/// adding a synthetic id to the Codable model in CommutePilotKit.
+/// adding a synthetic id to the Codable model in ForayKit.
 extension SessionCard: Identifiable {
     public var id: Int { slot }
 }

@@ -1,5 +1,5 @@
 import Foundation
-import CommutePilotKit
+import ForayKit
 
 // MARK: - SessionStore
 //
@@ -8,7 +8,7 @@ import CommutePilotKit
 // via `Bundle.main` — there is no backend yet (`GET /sessions/current` per
 // docs/brief/02_ARCHITECTURE.md API surface is not implemented). Swapping
 // this for a real network+local-cache-backed implementation should not
-// require any changes to `Session`/`SessionCard`/`Episode` (CommutePilotKit)
+// require any changes to `Session`/`SessionCard`/`Episode` (ForayKit)
 // or to TodayView/NowPlayingView, which only depend on those model types.
 @MainActor
 public final class SessionStore: ObservableObject {
@@ -18,7 +18,7 @@ public final class SessionStore: ObservableObject {
     public init() {}
 
     /// Loads `sample_session.json` from the app bundle. Call from
-    /// `CommutePilotApp.init` or a `.task` modifier on the root view.
+    /// `ForayApp.init` or a `.task` modifier on the root view.
     public func loadSampleSession() {
         guard let url = Bundle.main.url(forResource: "sample_session", withExtension: "json") else {
             loadError = "sample_session.json not found in app bundle — check project.yml resources."
