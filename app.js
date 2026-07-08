@@ -1,19 +1,28 @@
-/* CommutePilot web client v2 — 4-card session + serendipity splatter.
-   Discovery principle: weighted by interests, but 30% of every splatter
-   ignores the weights entirely (exploration floor — no echo chambers). */
+/* CommutePilot web client v3.
+   - Fresh content every load: card slots rotate through their chains
+     (already-played picks deprioritized), splatter re-samples with a
+     recently-seen exclusion window.
+   - Continue card: your last pick pins to the top while it's plausibly
+     unfinished (longer than one commute), until you mark it done.
+   - Stars: save any episode for later; saving nudges its topics up.
+   - Exploration floor: 30% of every splatter ignores your weights. */
 
 const state = {
   session: null,
-  validated: null,          // data/validated-links.json overlay (track ids, artwork)
+  validated: null,
   taxonomy: null,
-  discover: null,           // data/discover.json pool (optional, richer)
-  interests: {},            // nodeId -> 0..1 (localStorage-backed)
-  swapIdx: {},              // card slot -> index into [primary, ...alternates]
-  splatter: [],             // current sample
+  discover: null,
+  interests: {},
+  swapIdx: {},              // slot -> offset within the slot's (shuffled) chain
+  chains: {},               // slot -> ordered episode-id chain for this load
+  splatter: [],
+  itemIndex: {},            // id -> snapshot (everything rendered this load)
 };
 
 const EXPLORATION_SHARE = 0.3;
 const SPLATTER_SIZE = 12;
+const SEEN_WINDOW = 36;     // splatter ids excluded from re-sampling
+const CONTINUE_MAX_AGE_H = 72;
 
 const BRANCH_COLORS = {
   engineering: "#4c9aff", science: "#b07ce8", history: "#e8a04c",
@@ -22,12 +31,19 @@ const BRANCH_COLORS = {
 
 const $ = (sel, el = document) => el.querySelector(sel);
 
+/* ---------- storage helpers ---------- */
+
+function lsGet(key, fallback) {
+  try { return JSON.parse(localStorage.getItem(key)) ?? fallback; } catch (_) { return fallback; }
+}
+function lsSet(key, value) {
+  try { localStorage.setItem(key, JSON.stringify(value)); } catch (_) {}
+}
+
 function logEvent(type, payload) {
-  try {
-    const events = JSON.parse(localStorage.getItem("cp_events") || "[]");
-    events.push({ ts: new Date().toISOString(), type, payload });
-    localStorage.setItem("cp_events", JSON.stringify(events.slice(-500)));
-  } catch (_) { /* never break the page over storage */ }
+  const events = lsGet("cp_events", []);
+  events.push({ ts: new Date().toISOString(), type, payload });
+  lsSet("cp_events", events.slice(-500));
 }
 
 /* ---------- interests ---------- */
@@ -37,18 +53,24 @@ function leafNodes() {
 }
 
 function loadInterests() {
-  let saved = {};
-  try { saved = JSON.parse(localStorage.getItem("cp_interests") || "{}"); } catch (_) {}
+  const saved = lsGet("cp_interests", {});
   leafNodes().forEach(n => {
     state.interests[n.id] = saved[n.id] ?? Math.max(0, n.weight);
   });
 }
 
-function saveInterests() {
-  try { localStorage.setItem("cp_interests", JSON.stringify(state.interests)); } catch (_) {}
+function saveInterests() { lsSet("cp_interests", state.interests); }
+
+function boostTopics(topics, amount) {
+  (topics || []).forEach(t => {
+    if (t in state.interests) {
+      state.interests[t] = Math.min(1, state.interests[t] + amount);
+    }
+  });
+  saveInterests();
 }
 
-/* ---------- episode helpers ---------- */
+/* ---------- episode / snapshot helpers ---------- */
 
 function episode(id) {
   const ep = state.session.episodes[id];
@@ -62,11 +84,26 @@ function episode(id) {
   } : ep;
 }
 
-function links(ep) {
-  const cid = ep.apple_collection_id;
-  const apple = ep.apple_episode_url
-    || (ep.apple_track_id
-        ? `https://podcasts.apple.com/us/podcast/id${cid}?i=${ep.apple_track_id}`
+function snapshot(id, src) {
+  const snap = {
+    id, show: src.show, title: src.title,
+    apple_collection_id: src.apple_collection_id,
+    apple_track_id: src.apple_track_id ?? null,
+    apple_episode_url: src.apple_episode_url ?? null,
+    duration_min: src.duration_min ?? null,
+    artwork_url: src.artwork_url ?? null,
+    topics: src.topics || [],
+    hook: src.hook || src.summary || src.title,
+  };
+  state.itemIndex[id] = snap;
+  return snap;
+}
+
+function links(item) {
+  const cid = item.apple_collection_id;
+  const apple = item.apple_episode_url
+    || (item.apple_track_id
+        ? `https://podcasts.apple.com/us/podcast/id${cid}?i=${item.apple_track_id}`
         : `https://podcasts.apple.com/us/podcast/id${cid}`);
   return { apple, overcast: `https://overcast.fm/itunes${cid}`, podlink: `https://pod.link/${cid}` };
 }
@@ -81,23 +118,104 @@ function branchOf(item) {
   return t.split("/")[0] || "other";
 }
 
+/* ---------- stars ---------- */
+
+function savedMap() { return lsGet("cp_saved", {}); }
+
+function isSaved(id) { return id in savedMap(); }
+
+function toggleStar(id) {
+  const saved = savedMap();
+  if (saved[id]) {
+    delete saved[id];
+    logEvent("unsaved", { episode_id: id });
+  } else {
+    const snap = state.itemIndex[id];
+    if (!snap) return;
+    saved[id] = { ...snap, saved_at: new Date().toISOString() };
+    boostTopics(snap.topics, 0.05);
+    logEvent("saved", { episode_id: id, topics: snap.topics });
+  }
+  lsSet("cp_saved", saved);
+  renderSavedShelf();
+  document.querySelectorAll(`[data-star="${CSS.escape(id)}"]`).forEach(b => {
+    b.textContent = isSaved(id) ? "★" : "☆";
+    b.classList.toggle("on", isSaved(id));
+  });
+}
+
+function starBtn(id) {
+  const on = isSaved(id);
+  return `<button class="star ${on ? "on" : ""}" data-star="${id}" aria-label="Save for later">${on ? "★" : "☆"}</button>`;
+}
+
+/* ---------- continue card ---------- */
+
+function currentContinue() {
+  const last = lsGet("cp_lastpick", null);
+  if (!last) return null;
+  const ageH = (Date.now() - new Date(last.ts).getTime()) / 3.6e6;
+  const commuteMin = state.session.commute.content_minutes || 27;
+  if (ageH > CONTINUE_MAX_AGE_H) return null;
+  if ((last.duration_min || 0) <= commuteMin + 5) return null; // plausibly finished in one drive
+  return last;
+}
+
+function renderContinue() {
+  const el = $("#continue-slot");
+  const c = currentContinue();
+  if (!c) { el.innerHTML = ""; return; }
+  snapshot(c.id, c);
+  const l = links(c);
+  el.innerHTML = `<article class="card continue">
+    <span class="chip">Continue</span>
+    ${starBtn(c.id)}
+    <div class="head">
+      ${c.artwork_url ? `<img class="art" src="${c.artwork_url}" alt="" loading="lazy">` : ""}
+      <div>
+        <p class="show">${c.show}</p>
+        <h2>${c.title}</h2>
+      </div>
+    </div>
+    <p class="fit">Picking back up where you left off — your app remembers the spot.</p>
+    <div class="btns">
+      <a class="primary" href="${l.apple}" target="_blank" rel="noopener" data-ev="picked" data-ep="${c.id}" data-app="Apple Podcasts" data-ctx="continue">Resume</a>
+      <a href="${l.overcast}" target="_blank" rel="noopener" data-ev="picked" data-ep="${c.id}" data-app="Overcast" data-ctx="continue">Overcast</a>
+      <button class="done" id="continue-done">Done with it ✓</button>
+    </div>
+  </article>`;
+  $("#continue-done").addEventListener("click", () => {
+    logEvent("finished", { episode_id: c.id, topics: c.topics });
+    boostTopics(c.topics, 0.05);
+    lsSet("cp_lastpick", null);
+    renderContinue();
+  });
+  bindPickLogging(el);
+  bindStars(el);
+}
+
+/* ---------- fresh card chains ---------- */
+
+function pickedHistory() { return lsGet("cp_history", []); }
+
+function buildChains() {
+  const history = new Set(pickedHistory());
+  state.session.cards.forEach(card => {
+    const all = [card.episode_id, ...(card.alternates || [])];
+    const fresh = all.filter(id => !history.has(id));
+    const stale = all.filter(id => history.has(id));
+    // Shuffle the fresh ones so each load leads with something new;
+    // already-played picks sink to the back of the chain.
+    const shuffled = fresh.sort(() => Math.random() - 0.5).concat(stale);
+    state.chains[card.slot] = shuffled.length ? shuffled : all;
+  });
+}
+
 /* ---------- the splatter ---------- */
 
 function splatterPool() {
   if (state.discover?.items?.length) return state.discover.items;
-  // Fallback before discover.json exists: session episodes as pool
-  return Object.entries(state.session.episodes).map(([id, ep]) => {
-    const merged = episode(id);
-    return {
-      id, show: merged.show, title: merged.title,
-      apple_collection_id: merged.apple_collection_id,
-      apple_track_id: merged.apple_track_id,
-      apple_episode_url: merged.apple_episode_url || null,
-      release_date: merged.release_date, duration_min: merged.duration_min,
-      artwork_url: merged.artwork_url || null,
-      topics: merged.topics || [], hook: merged.summary,
-    };
-  });
+  return Object.keys(state.session.episodes).map(id => snapshot(id, episode(id)));
 }
 
 function interestScore(item) {
@@ -108,13 +226,18 @@ function interestScore(item) {
 }
 
 function sampleSplatter() {
-  const pool = [...splatterPool()];
+  let pool = [...splatterPool()];
   if (!pool.length) return [];
+
+  const seen = new Set(lsGet("cp_seen", []));
+  if (pool.length > SPLATTER_SIZE * 2) {
+    const unseen = pool.filter(i => !seen.has(i.id));
+    if (unseen.length >= SPLATTER_SIZE) pool = unseen;
+  }
 
   const nExplore = Math.round(SPLATTER_SIZE * EXPLORATION_SHARE);
   const nWeighted = Math.min(SPLATTER_SIZE - nExplore, pool.length);
 
-  // Weighted picks: interest score + heavy jitter so it never becomes a fixed top-list
   const scored = pool
     .map(item => ({ item, s: interestScore(item) + (Math.random() - 0.5) * 0.6 }))
     .sort((a, b) => b.s - a.s);
@@ -128,7 +251,6 @@ function sampleSplatter() {
     perShow[item.show] = (perShow[item.show] || 0) + 1;
   }
 
-  // Exploration floor: uniform random from the rest, interests ignored on purpose
   const rest = pool.filter(i => !picked.includes(i));
   for (let k = 0; k < nExplore && rest.length; k++) {
     const idx = Math.floor(Math.random() * rest.length);
@@ -139,7 +261,6 @@ function sampleSplatter() {
     perShow[item.show] = (perShow[item.show] || 0) + 1;
   }
 
-  // Interleave: greedy reorder so neighbors never share a top-level branch
   const remaining = [...picked].sort(() => Math.random() - 0.5);
   const ordered = [];
   while (remaining.length) {
@@ -148,6 +269,12 @@ function sampleSplatter() {
     if (idx === -1) idx = 0;
     ordered.push(remaining.splice(idx, 1)[0]);
   }
+
+  // Remember what was shown so next load skews new
+  const seenArr = lsGet("cp_seen", []).concat(ordered.map(i => i.id));
+  lsSet("cp_seen", seenArr.slice(-SEEN_WINDOW));
+
+  ordered.forEach(i => snapshot(i.id, i));
   return ordered;
 }
 
@@ -163,11 +290,39 @@ function renderSplatter() {
         <p class="sp-hook">${item.hook || item.title}</p>
         <p class="sp-meta"><span class="dot" style="background:${dot}"></span>${item.show} · ${fmtDur(item.duration_min)}${item._explore ? ` · <span class="wild">wildcard</span>` : ""}</p>
       </div>
+      ${starBtn(item.id)}
       <a class="go" href="${l.apple}" target="_blank" rel="noopener"
          data-ev="picked" data-ep="${item.id}" data-app="Apple Podcasts" data-ctx="splatter${item._explore ? "-explore" : ""}">Play</a>
     </div>`;
   }).join("");
   bindPickLogging(el);
+  bindStars(el);
+}
+
+/* ---------- saved shelf ---------- */
+
+function renderSavedShelf() {
+  const el = $("#saved-shelf");
+  const saved = Object.values(savedMap()).sort((a, b) => (b.saved_at || "").localeCompare(a.saved_at || ""));
+  if (!saved.length) { el.innerHTML = ""; return; }
+  saved.forEach(s => { state.itemIndex[s.id] = s; });
+  el.innerHTML = `<details class="cat" open>
+    <summary><span>Saved for later<span class="desc">${saved.length} starred — saving also teaches your interests.</span></span></summary>
+    ${saved.map(item => {
+      const l = links(item);
+      return `<div class="ep-row">
+        <div class="info">
+          <div class="t">${item.title}</div>
+          <div class="s">${item.show} · ${fmtDur(item.duration_min)}</div>
+        </div>
+        ${starBtn(item.id)}
+        <a class="go" href="${l.apple}" target="_blank" rel="noopener"
+           data-ev="picked" data-ep="${item.id}" data-app="Apple Podcasts" data-ctx="saved">Play</a>
+      </div>`;
+    }).join("")}
+  </details>`;
+  bindPickLogging(el);
+  bindStars(el);
 }
 
 /* ---------- interests panel ---------- */
@@ -195,11 +350,11 @@ function renderInterests() {
 
 /* ---------- session cards ---------- */
 
-function playButtons(ep, ctx) {
-  const l = links(ep);
+function playButtons(item, ctx) {
+  const l = links(item);
   const mk = (href, label, cls) =>
     `<a class="${cls}" href="${href}" target="_blank" rel="noopener"
-        data-ev="picked" data-ep="${ep._id}" data-app="${label}" data-ctx="${ctx}">${label}</a>`;
+        data-ev="picked" data-ep="${item.id}" data-app="${label}" data-ctx="${ctx}">${label}</a>`;
   return `<div class="btns">
     ${mk(l.apple, "Apple Podcasts", "primary")}
     ${mk(l.overcast, "Overcast", "")}
@@ -208,20 +363,20 @@ function playButtons(ep, ctx) {
 }
 
 function renderCard(card) {
-  const chain = [card.episode_id, ...(card.alternates || [])];
+  const chain = state.chains[card.slot] || [card.episode_id];
   const idx = (state.swapIdx[card.slot] || 0) % chain.length;
-  const ep = episode(chain[idx]);
+  const id = chain[idx];
+  const ep = episode(id);
   if (!ep) return "";
-  ep._id = chain[idx];
+  const snap = snapshot(id, ep);
 
-  const isAlternate = idx !== 0;
-  const why = isAlternate ? (ep.summary || "") : card.why_line;
-  const fit = isAlternate
-    ? `${fmtDur(ep.duration_min)} — alternate pick ${idx} of ${chain.length - 1}`
-    : card.fit_line;
+  const isPrimary = id === card.episode_id;
+  const why = isPrimary ? card.why_line : (ep.summary || "");
+  const fit = isPrimary ? card.fit_line : `${fmtDur(ep.duration_min)} — rotated in fresh for this visit`;
 
   return `<article class="card" data-archetype="${card.archetype}">
     <span class="chip">${card.archetype_label}</span>
+    ${starBtn(id)}
     <div class="head">
       ${ep.artwork_url ? `<img class="art" src="${ep.artwork_url}" alt="" loading="lazy">` : ""}
       <div>
@@ -232,7 +387,7 @@ function renderCard(card) {
     <p class="why">${why}</p>
     <p class="fit">${fit}</p>
     <p class="meta">${fmtDur(ep.duration_min)} · ${ep.release_date}</p>
-    ${playButtons(ep, `card-${card.archetype}`)}
+    ${playButtons(snap, `card-${card.archetype}`)}
     ${chain.length > 1 ? `<button class="swap" data-slot="${card.slot}">show me a different ${card.archetype_label.toLowerCase()} pick</button>` : ""}
   </article>`;
 }
@@ -250,13 +405,14 @@ function renderFusionTour() {
         ${g.episode_ids.map(id => {
           const ep = episode(id);
           if (!ep) return "";
-          ep._id = id;
+          snapshot(id, ep);
           const l = links(ep);
           return `<div class="ep-row">
             <div class="info">
               <div class="t">${ep.title}</div>
               <div class="s">${ep.show} · ${fmtDur(ep.duration_min)}</div>
             </div>
+            ${starBtn(id)}
             <a class="go" href="${l.apple}" target="_blank" rel="noopener"
                data-ev="picked" data-ep="${id}" data-app="Apple Podcasts" data-ctx="fusion-tour">Play</a>
           </div>`;
@@ -270,7 +426,27 @@ function renderFusionTour() {
 function bindPickLogging(scope) {
   scope.querySelectorAll("[data-ev='picked']").forEach(a => {
     a.addEventListener("click", () => {
-      logEvent("picked", { episode_id: a.dataset.ep, app: a.dataset.app, context: a.dataset.ctx });
+      const id = a.dataset.ep;
+      logEvent("picked", { episode_id: id, app: a.dataset.app, context: a.dataset.ctx });
+
+      const history = pickedHistory();
+      if (!history.includes(id)) lsSet("cp_history", history.concat(id).slice(-200));
+
+      const snap = state.itemIndex[id];
+      if (snap && a.dataset.ctx !== "continue") {
+        lsSet("cp_lastpick", { ...snap, ts: new Date().toISOString() });
+      }
+    });
+  });
+}
+
+function bindStars(scope) {
+  scope.querySelectorAll("[data-star]").forEach(btn => {
+    if (btn._bound) return;
+    btn._bound = true;
+    btn.addEventListener("click", (e) => {
+      e.preventDefault();
+      toggleStar(btn.dataset.star);
     });
   });
 }
@@ -280,6 +456,7 @@ function render() {
   $("#built-at").textContent =
     `Built ${new Date(s.built_at).toLocaleString([], { weekday: "long", hour: "numeric", minute: "2-digit" })}` +
     ` · tuned for a ${s.commute.minutes}-min drive at ${s.commute.playback_speed}×`;
+  renderContinue();
   $("#cards").innerHTML = s.cards.map(renderCard).join("");
   $("#fusion-tour").innerHTML = renderFusionTour();
 
@@ -291,8 +468,12 @@ function render() {
       render();
     });
   });
-  bindPickLogging(document);
+  bindPickLogging($("#cards"));
+  bindStars($("#cards"));
+  bindPickLogging($("#fusion-tour"));
+  bindStars($("#fusion-tour"));
   renderSplatter();
+  renderSavedShelf();
 }
 
 async function fetchJson(path) {
@@ -315,6 +496,7 @@ async function init() {
   ]);
 
   loadInterests();
+  buildChains();
   state.splatter = sampleSplatter();
   render();
   renderInterests();
@@ -322,7 +504,7 @@ async function init() {
 
   $("#refresh-all").addEventListener("click", () => {
     state.session.cards.forEach(c => {
-      if (c.alternates?.length) state.swapIdx[c.slot] = (state.swapIdx[c.slot] || 0) + 1;
+      if ((state.chains[c.slot] || []).length > 1) state.swapIdx[c.slot] = (state.swapIdx[c.slot] || 0) + 1;
     });
     logEvent("refreshed_all", {});
     render();
