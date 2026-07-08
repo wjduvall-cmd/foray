@@ -45,10 +45,13 @@ header.masthead p { margin: 4px 0 0; color: var(--text-dim); font-size: 0.9rem; 
   padding: 16px;
   border-top: 3px solid var(--accent, var(--line));
 }
-.card[data-archetype="deep-learn"] { --accent: var(--deep-learn); }
-.card[data-archetype="stretch"]    { --accent: var(--stretch); }
-.card[data-archetype="narrative"]  { --accent: var(--narrative); }
-.card[data-archetype="comfort"]    { --accent: var(--comfort); }
+.card[data-branch="engineering"] { --accent: var(--deep-learn); }
+.card[data-branch="science"]     { --accent: var(--stretch); }
+.card[data-branch="history"]     { --accent: var(--narrative); }
+.card[data-branch="craft"]       { --accent: var(--comfort); }
+.card[data-branch="business"]    { --accent: #4cc9c0; }
+.card[data-branch="comedy"]      { --accent: #e87ca0; }
+.card[data-branch="food"]        { --accent: #e8734c; }
 
 .card { position: relative; }
 .card.continue { --accent: #e8d34c; margin-bottom: 14px; }

@@ -13,8 +13,7 @@ const state = {
   taxonomy: null,
   discover: null,
   interests: {},
-  swapIdx: {},              // slot -> offset within the slot's (shuffled) chain
-  chains: {},               // slot -> ordered episode-id chain for this load
+  cardSlots: [],            // the four dealt cards: {slot, branch, chain, idx}
   splatter: [],
   itemIndex: {},            // id -> snapshot (everything rendered this load)
 };
@@ -211,20 +210,54 @@ function renderContinue() {
   bindStars(el);
 }
 
-/* ---------- fresh card chains ---------- */
+/* ---------- the four cards ----------
+   Variety by construction, invisibly: the four cards draw from the whole
+   pool and are guaranteed to span four distinct topic branches, but no
+   category name ever appears in the UI and no slot is owned by a topic.
+   Branch choice is interests-weighted with heavy jitter so every load
+   (and every refresh) deals a different spread. */
 
 function pickedHistory() { return lsGet("cp_history", []); }
 
-function buildChains() {
+function fullPool() {
+  const pool = [];
+  const seen = new Set();
+  for (const id of Object.keys(state.session.episodes)) {
+    pool.push(snapshot(id, episode(id)));
+    seen.add(id);
+  }
+  for (const item of (state.discover?.items || [])) {
+    if (!seen.has(item.id)) pool.push(snapshot(item.id, item));
+  }
+  return pool;
+}
+
+/* Hand-crafted why-lines survive where they exist (the original curated
+   picks); everything else uses its hook. */
+function whyFor(id, item) {
+  const curated = state.session.cards.find(c => c.episode_id === id);
+  return curated ? curated.why_line : (item.hook || "");
+}
+
+function buildCards() {
+  const pool = fullPool();
   const history = new Set(pickedHistory());
-  state.session.cards.forEach(card => {
-    const all = [card.episode_id, ...(card.alternates || [])];
-    const fresh = all.filter(id => !history.has(id));
-    const stale = all.filter(id => history.has(id));
-    // Shuffle the fresh ones so each load leads with something new;
-    // already-played picks sink to the back of the chain.
-    const shuffled = fresh.sort(() => Math.random() - 0.5).concat(stale);
-    state.chains[card.slot] = shuffled.length ? shuffled : all;
+  const byBranch = {};
+  pool.forEach(i => { (byBranch[branchOf(i)] = byBranch[branchOf(i)] || []).push(i); });
+
+  const rankedBranches = Object.keys(byBranch)
+    .map(b => {
+      const avg = byBranch[b].reduce((s, i) => s + interestScore(i), 0) / byBranch[b].length;
+      return { b, s: avg + (Math.random() - 0.5) * 0.7 };
+    })
+    .sort((x, y) => y.s - x.s)
+    .map(x => x.b);
+
+  state.cardSlots = rankedBranches.slice(0, 4).map((branch, i) => {
+    const items = byBranch[branch];
+    const fresh = items.filter(it => !history.has(it.id)).sort(() => Math.random() - 0.5);
+    const stale = items.filter(it => history.has(it.id));
+    return { slot: i + 1, branch, chain: fresh.concat(stale), idx: 0 };
   });
 }
 
@@ -351,15 +384,16 @@ function renderInterests() {
       <span class="int-label">${esc(n.label)}</span>
       <input type="range" min="0" max="100" value="${Math.round((state.interests[n.id] ?? 0.5) * 100)}" data-node="${n.id}">
     </label>`).join("") +
-    `<p class="int-note">These tilt the splatter — but 3 in 10 picks always ignore them. Surprise is the point.</p>`;
+    `<p class="int-note">These tilt the cards and the splatter — but surprise is built in and always wins a share. New topics appear on their own.</p>`;
 
   el.querySelectorAll("input[type=range]").forEach(input => {
     input.addEventListener("change", () => {
       state.interests[input.dataset.node] = Number(input.value) / 100;
       saveInterests();
       logEvent("interest_adjusted", { node: input.dataset.node, value: Number(input.value) / 100 });
+      buildCards();
       state.splatter = sampleSplatter();
-      renderSplatter();
+      render();
     });
   });
 }
@@ -378,31 +412,25 @@ function playButtons(item, ctx) {
   </div>`;
 }
 
-function renderCard(card) {
-  const chain = state.chains[card.slot] || [card.episode_id];
-  const idx = (state.swapIdx[card.slot] || 0) % chain.length;
-  const id = chain[idx];
-  const ep = episode(id);
-  if (!ep) return "";
-  const snap = snapshot(id, ep);
+function renderCard(slotObj) {
+  const chain = slotObj.chain;
+  if (!chain.length) return "";
+  const item = chain[slotObj.idx % chain.length];
+  const why = whyFor(item.id, item);
 
-  const isPrimary = id === card.episode_id;
-  const why = isPrimary ? card.why_line : (ep.summary || "");
-
-  return `<article class="card" data-archetype="${card.archetype}">
-    <span class="chip">${card.archetype_label}</span>
-    ${starBtn(id)}
+  return `<article class="card" data-branch="${esc(slotObj.branch)}">
+    ${starBtn(item.id)}
     <div class="head">
-      ${ep.artwork_url ? `<img class="art" src="${esc(safeUrl(ep.artwork_url))}" alt="" loading="lazy">` : ""}
+      ${item.artwork_url ? `<img class="art" src="${esc(safeUrl(item.artwork_url))}" alt="" loading="lazy">` : ""}
       <div>
-        <p class="show">${esc(ep.show)}</p>
-        <h2>${esc(ep.title)}</h2>
+        <p class="show">${esc(item.show)}</p>
+        <h2>${esc(item.title)}</h2>
       </div>
     </div>
     <p class="why">${esc(why)}</p>
-    <p class="meta">${fmtDur(ep.duration_min)} · ${ep.release_date}</p>
-    ${playButtons(snap, `card-${card.archetype}`)}
-    ${chain.length > 1 ? `<button class="swap" data-slot="${card.slot}">show me a different ${card.archetype_label.toLowerCase()} pick</button>` : ""}
+    <p class="meta">${fmtDur(item.duration_min)}${item.release_date ? ` · ${esc(item.release_date)}` : ""}</p>
+    ${playButtons(item, `card-${slotObj.branch}`)}
+    ${chain.length > 1 ? `<button class="swap" data-slot="${slotObj.slot}">show me something different here</button>` : ""}
   </article>`;
 }
 
@@ -470,14 +498,14 @@ function render() {
   $("#built-at").textContent =
     `Built ${new Date(s.built_at).toLocaleString([], { weekday: "long", hour: "numeric", minute: "2-digit" })}`;
   renderContinue();
-  $("#cards").innerHTML = s.cards.map(renderCard).join("");
+  $("#cards").innerHTML = (state.cardSlots || []).map(renderCard).join("");
   $("#fusion-tour").innerHTML = renderFusionTour();
 
   document.querySelectorAll(".swap").forEach(btn => {
     btn.addEventListener("click", () => {
-      const slot = Number(btn.dataset.slot);
-      state.swapIdx[slot] = (state.swapIdx[slot] || 0) + 1;
-      logEvent("refreshed_slot", { slot });
+      const slot = state.cardSlots.find(sl => sl.slot === Number(btn.dataset.slot));
+      if (slot) slot.idx += 1;
+      logEvent("refreshed_slot", { slot: Number(btn.dataset.slot), branch: slot?.branch });
       render();
     });
   });
@@ -509,16 +537,14 @@ async function init() {
   ]);
 
   loadInterests();
-  buildChains();
+  buildCards();
   state.splatter = sampleSplatter();
   render();
   renderInterests();
   logEvent("session_shown", { session_id: state.session.session_id });
 
   $("#refresh-all").addEventListener("click", () => {
-    state.session.cards.forEach(c => {
-      if ((state.chains[c.slot] || []).length > 1) state.swapIdx[c.slot] = (state.swapIdx[c.slot] || 0) + 1;
-    });
+    buildCards(); // full re-deal: new branches, new picks
     logEvent("refreshed_all", {});
     render();
   });
