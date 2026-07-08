@@ -372,7 +372,6 @@ function renderCard(card) {
 
   const isPrimary = id === card.episode_id;
   const why = isPrimary ? card.why_line : (ep.summary || "");
-  const fit = isPrimary ? card.fit_line : `${fmtDur(ep.duration_min)} — rotated in fresh for this visit`;
 
   return `<article class="card" data-archetype="${card.archetype}">
     <span class="chip">${card.archetype_label}</span>
@@ -385,7 +384,6 @@ function renderCard(card) {
       </div>
     </div>
     <p class="why">${why}</p>
-    <p class="fit">${fit}</p>
     <p class="meta">${fmtDur(ep.duration_min)} · ${ep.release_date}</p>
     ${playButtons(snap, `card-${card.archetype}`)}
     ${chain.length > 1 ? `<button class="swap" data-slot="${card.slot}">show me a different ${card.archetype_label.toLowerCase()} pick</button>` : ""}
@@ -454,8 +452,7 @@ function bindStars(scope) {
 function render() {
   const s = state.session;
   $("#built-at").textContent =
-    `Built ${new Date(s.built_at).toLocaleString([], { weekday: "long", hour: "numeric", minute: "2-digit" })}` +
-    ` · tuned for a ${s.commute.minutes}-min drive at ${s.commute.playback_speed}×`;
+    `Built ${new Date(s.built_at).toLocaleString([], { weekday: "long", hour: "numeric", minute: "2-digit" })}`;
   renderContinue();
   $("#cards").innerHTML = s.cards.map(renderCard).join("");
   $("#fusion-tour").innerHTML = renderFusionTour();
