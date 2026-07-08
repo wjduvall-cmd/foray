@@ -1,0 +1,79 @@
+import * as path from "path";
+import * as fs from "fs";
+import * as dotenv from "dotenv";
+
+/**
+ * Central env access. Loads the repo-root `.env` (one level up from backend/)
+ * so the single .env file described in the project brief is the source of
+ * truth for both local dev and any future process.
+ *
+ * IMPORTANT: never log the *values* read here. Logging which keys are
+ * present/absent (booleans) is fine and is how the rest of the codebase
+ * decides whether to run in dry-run/stub mode.
+ */
+
+const REPO_ROOT_ENV = path.resolve(__dirname, "..", "..", "..", ".env");
+const BACKEND_LOCAL_ENV = path.resolve(__dirname, "..", "..", ".env");
+
+// Load repo-root .env first (primary per project brief), then allow an
+// optional backend/.env.local to override for local-only experimentation.
+// Neither file is required to exist — everything below degrades gracefully.
+if (fs.existsSync(REPO_ROOT_ENV)) {
+  dotenv.config({ path: REPO_ROOT_ENV });
+}
+if (fs.existsSync(BACKEND_LOCAL_ENV)) {
+  dotenv.config({ path: BACKEND_LOCAL_ENV, override: true });
+}
+
+function readString(name: string): string | undefined {
+  const v = process.env[name];
+  if (v === undefined) return undefined;
+  const trimmed = v.trim();
+  return trimmed.length === 0 ? undefined : trimmed;
+}
+
+function readNumber(name: string, fallback: number): number {
+  const raw = readString(name);
+  if (raw === undefined) return fallback;
+  const n = Number(raw);
+  return Number.isFinite(n) ? n : fallback;
+}
+
+export interface Env {
+  anthropicApiKey: string | undefined;
+  podcastIndexApiKey: string | undefined;
+  podcastIndexApiSecret: string | undefined;
+  dailyBudgetUsd: number;
+  databaseUrl: string | undefined;
+  userAgent: string;
+  /** true when no ANTHROPIC_API_KEY is configured -> StubEnricher must be used */
+  readonly anthropicDryRun: boolean;
+  /** true when no Podcast Index credentials configured -> client runs dry-run */
+  readonly podcastIndexDryRun: boolean;
+}
+
+export const env: Env = {
+  anthropicApiKey: readString("ANTHROPIC_API_KEY"),
+  podcastIndexApiKey: readString("PODCASTINDEX_API_KEY"),
+  podcastIndexApiSecret: readString("PODCASTINDEX_API_SECRET"),
+  dailyBudgetUsd: readNumber("DAILY_BUDGET_USD", 2.0),
+  databaseUrl: readString("DATABASE_URL"),
+  userAgent: "CommutePilot/0.1 (personal podcast client; contact wjduvall@gmail.com)",
+  get anthropicDryRun(): boolean {
+    return this.anthropicApiKey === undefined;
+  },
+  get podcastIndexDryRun(): boolean {
+    return this.podcastIndexApiKey === undefined || this.podcastIndexApiSecret === undefined;
+  }
+};
+
+/** Safe-for-logs summary — booleans only, never raw values. */
+export function envPresenceSummary(): Record<string, boolean | number> {
+  return {
+    anthropicApiKeyPresent: env.anthropicApiKey !== undefined,
+    podcastIndexKeyPresent: env.podcastIndexApiKey !== undefined,
+    podcastIndexSecretPresent: env.podcastIndexApiSecret !== undefined,
+    databaseUrlPresent: env.databaseUrl !== undefined,
+    dailyBudgetUsd: env.dailyBudgetUsd
+  };
+}
