@@ -1,0 +1,1498 @@
+{
+  "version": 1,
+  "built_at": "2026-07-09T23:07:21.413Z",
+  "provenance": {
+    "produced_by": "depth-wave-a",
+    "model": "opus",
+    "date": "2026-07-09"
+  },
+  "items": [
+    {
+      "id": "titans-of-nuclear--newcleo-fast-reactor",
+      "show": "Titans of Nuclear",
+      "title": "Ep 451: Stefano Buono - Founder and CEO, newcleo",
+      "apple_collection_id": 1331598443,
+      "apple_track_id": 1000657965039,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/ep-451-stefano-buono-founder-and-ceo-newcleo/id1331598443?i=1000657965039&uo=4",
+      "release_date": "2024-06-05",
+      "duration_min": 39,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts113/v4/8f/c0/fb/8fc0fb3a-89f7-cfc7-e596-2fd3988a255b/mza_435383747906350604.jpg/600x600bb.jpg",
+      "topics": [
+        "engineering/energy-fusion"
+      ],
+      "hook": "newcleo's Stefano Buono on lead-cooled fast reactors that run on recycled nuclear waste as fuel."
+    },
+    {
+      "id": "titans-of-nuclear--dual-fluid-reactor",
+      "show": "Titans of Nuclear",
+      "title": "Ep 429: Claire Schaffnit-Chatterjee - Head of Operations, Dual Fluid",
+      "apple_collection_id": 1331598443,
+      "apple_track_id": 1000640580118,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/ep-429-claire-schaffnit-chatterjee-head-of/id1331598443?i=1000640580118&uo=4",
+      "release_date": "2024-01-04",
+      "duration_min": 19,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts113/v4/8f/c0/fb/8fc0fb3a-89f7-cfc7-e596-2fd3988a255b/mza_435383747906350604.jpg/600x600bb.jpg",
+      "topics": [
+        "engineering/energy-fusion"
+      ],
+      "hook": "Dual Fluid's reactor separates fuel and coolant into two liquid loops for higher temperatures."
+    },
+    {
+      "id": "titans-of-nuclear--heat-pipes-thermal",
+      "show": "Titans of Nuclear",
+      "title": "Ep 438: Bahman Zohuri - Professor, Golden Gate University",
+      "apple_collection_id": 1331598443,
+      "apple_track_id": 1000648120200,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/ep-438-bahman-zohuri-professor-golden-gate-university/id1331598443?i=1000648120200&uo=4",
+      "release_date": "2024-03-05",
+      "duration_min": 49,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts113/v4/8f/c0/fb/8fc0fb3a-89f7-cfc7-e596-2fd3988a255b/mza_435383747906350604.jpg/600x600bb.jpg",
+      "topics": [
+        "engineering/energy-fusion"
+      ],
+      "hook": "A professor on heat pipes, compact heat exchangers, and combined-cycle systems for reactor thermal design."
+    },
+    {
+      "id": "titans-of-nuclear--data-centers-nuclear",
+      "show": "Titans of Nuclear",
+      "title": "Ep 441: Shannon Bragg-Sitton & Bill Kleyman - Nuclear Nexus: Data Centers, Episode 2",
+      "apple_collection_id": 1331598443,
+      "apple_track_id": 1000650410282,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/ep-441-shannon-bragg-sitton-bill-kleyman-nuclear-nexus/id1331598443?i=1000650410282&uo=4",
+      "release_date": "2024-03-25",
+      "duration_min": 52,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts113/v4/8f/c0/fb/8fc0fb3a-89f7-cfc7-e596-2fd3988a255b/mza_435383747906350604.jpg/600x600bb.jpg",
+      "topics": [
+        "engineering/energy-fusion"
+      ],
+      "hook": "How data-center electricity demand is reviving nuclear, from small reactors to factory-built plants."
+    },
+    {
+      "id": "titans-of-nuclear--atomic-canyon-ai",
+      "show": "Titans of Nuclear",
+      "title": "Ep 448: Trey Lauderdale - Founder and CEO, Atomic Canyon",
+      "apple_collection_id": 1331598443,
+      "apple_track_id": 1000654830574,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/ep-448-trey-lauderdale-founder-and-ceo-atomic-canyon/id1331598443?i=1000654830574&uo=4",
+      "release_date": "2024-05-07",
+      "duration_min": 52,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts113/v4/8f/c0/fb/8fc0fb3a-89f7-cfc7-e596-2fd3988a255b/mza_435383747906350604.jpg/600x600bb.jpg",
+      "topics": [
+        "engineering/energy-fusion"
+      ],
+      "hook": "Atomic Canyon's founder on building AI search tools for the nuclear industry's mountains of paperwork."
+    },
+    {
+      "id": "omega-tau--nuclear-waste-storage",
+      "show": "omega tau",
+      "title": "Nuclear Waste Disposal and Storage",
+      "apple_collection_id": 350159142,
+      "apple_track_id": 1000519580526,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/nuclear-waste-disposal-and-storage/id350159142?i=1000519580526&uo=4",
+      "release_date": "2021-05-01",
+      "duration_min": 196,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/45/79/ff/4579ffe8-ae75-a586-df5a-940e3b0b8ae7/mza_12776813321781247935.png/600x600bb.jpg",
+      "topics": [
+        "engineering/energy-fusion",
+        "science/materials"
+      ],
+      "hook": "Radiochemists and geologists on Finland's Onkalo, the world's first deep geological nuclear-waste repository."
+    },
+    {
+      "id": "omega-tau--plasma-wakefield-awake",
+      "show": "omega tau",
+      "title": "Plasma Wakefield Acceleration with AWAKE",
+      "apple_collection_id": 350159142,
+      "apple_track_id": 1000472290288,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/plasma-wakefield-acceleration-with-awake/id350159142?i=1000472290288&uo=4",
+      "release_date": "2020-04-22",
+      "duration_min": 67,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/45/79/ff/4579ffe8-ae75-a586-df5a-940e3b0b8ae7/mza_12776813321781247935.png/600x600bb.jpg",
+      "topics": [
+        "engineering/energy-fusion",
+        "science/materials"
+      ],
+      "hook": "CERN's AWAKE uses plasma wakefields to accelerate particles far harder than radio-frequency cavities can."
+    },
+    {
+      "id": "omega-tau--forensic-engineering",
+      "show": "omega tau",
+      "title": "Forensic Engineering",
+      "apple_collection_id": 350159142,
+      "apple_track_id": 1000434565467,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/forensic-engineering/id350159142?i=1000434565467&uo=4",
+      "release_date": "2019-04-09",
+      "duration_min": 125,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/45/79/ff/4579ffe8-ae75-a586-df5a-940e3b0b8ae7/mza_12776813321781247935.png/600x600bb.jpg",
+      "topics": [
+        "engineering/energy-fusion",
+        "science/materials"
+      ],
+      "hook": "Structural engineer Sean Brady on why buildings fail and how root-cause analysis finds out."
+    },
+    {
+      "id": "omega-tau--solar-geoengineering",
+      "show": "omega tau",
+      "title": "385 - Solar Geoengineering",
+      "apple_collection_id": 350159142,
+      "apple_track_id": 1000554471322,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/385-solar-geoengineering/id350159142?i=1000554471322&uo=4",
+      "release_date": "2022-03-18",
+      "duration_min": 62,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/45/79/ff/4579ffe8-ae75-a586-df5a-940e3b0b8ae7/mza_12776813321781247935.png/600x600bb.jpg",
+      "topics": [
+        "engineering/energy-fusion",
+        "science/materials"
+      ],
+      "hook": "Harvard's David Keith on injecting reflective particles into the stratosphere to cool the planet."
+    },
+    {
+      "id": "lex-fridman-podcast--demis-hassabis-ai",
+      "show": "Lex Fridman Podcast",
+      "title": "#475 – Demis Hassabis: Future of AI, Simulating Reality, Physics and Video Games",
+      "apple_collection_id": 1434243584,
+      "apple_track_id": 1000718721313,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/475-demis-hassabis-future-of-ai-simulating-reality/id1434243584?i=1000718721313&uo=4",
+      "release_date": "2025-07-23",
+      "duration_min": 155,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/3e/e3/9c/3ee39c89-de08-47a6-7f3d-3849cef6d255/mza_16657851278549137484.png/600x600bb.jpg",
+      "topics": [
+        "engineering/energy-fusion"
+      ],
+      "hook": "DeepMind's Nobel-winning CEO on AlphaFold, simulating reality, and what artificial general intelligence might become."
+    },
+    {
+      "id": "lex-fridman-podcast--terence-tao-math",
+      "show": "Lex Fridman Podcast",
+      "title": "#472 – Terence Tao: Hardest Problems in Mathematics, Physics & the Future of AI",
+      "apple_collection_id": 1434243584,
+      "apple_track_id": 1000712908152,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/472-terence-tao-hardest-problems-in-mathematics-physics/id1434243584?i=1000712908152&uo=4",
+      "release_date": "2025-06-15",
+      "duration_min": 204,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/3e/e3/9c/3ee39c89-de08-47a6-7f3d-3849cef6d255/mza_16657851278549137484.png/600x600bb.jpg",
+      "topics": [
+        "engineering/energy-fusion"
+      ],
+      "hook": "Fields medalist Terence Tao on the hardest open problems and how AI could crack them."
+    },
+    {
+      "id": "lex-fridman-podcast--janna-levin-black-holes",
+      "show": "Lex Fridman Podcast",
+      "title": "#468 – Janna Levin: Black Holes, Wormholes, Aliens, Paradoxes & Extra Dimensions",
+      "apple_collection_id": 1434243584,
+      "apple_track_id": 1000706451517,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/468-janna-levin-black-holes-wormholes-aliens-paradoxes/id1434243584?i=1000706451517&uo=4",
+      "release_date": "2025-05-05",
+      "duration_min": 187,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/3e/e3/9c/3ee39c89-de08-47a6-7f3d-3849cef6d255/mza_16657851278549137484.png/600x600bb.jpg",
+      "topics": [
+        "engineering/energy-fusion"
+      ],
+      "hook": "Theoretical physicist Janna Levin on black holes, gravitational waves, wormholes, and extra dimensions."
+    },
+    {
+      "id": "lex-fridman-podcast--dave-hone-dinosaurs",
+      "show": "Lex Fridman Podcast",
+      "title": "#480 – Dave Hone: T-Rex, Dinosaurs, Extinction, Evolution, and Jurassic Park",
+      "apple_collection_id": 1434243584,
+      "apple_track_id": 1000725047032,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/480-dave-hone-t-rex-dinosaurs-extinction-evolution/id1434243584?i=1000725047032&uo=4",
+      "release_date": "2025-09-04",
+      "duration_min": 222,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/3e/e3/9c/3ee39c89-de08-47a6-7f3d-3849cef6d255/mza_16657851278549137484.png/600x600bb.jpg",
+      "topics": [
+        "engineering/energy-fusion"
+      ],
+      "hook": "Paleontologist Dave Hone on T-Rex biology, dinosaur behavior, and mass extinction."
+    },
+    {
+      "id": "catalyst-shayle-kann--superhot-geothermal",
+      "show": "Catalyst with Shayle Kann",
+      "title": "Digging deep for super hot geothermal",
+      "apple_collection_id": 1593204897,
+      "apple_track_id": 1000753320627,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/digging-deep-for-super-hot-geothermal/id1593204897?i=1000753320627&uo=4",
+      "release_date": "2026-03-05",
+      "duration_min": 36,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/85/b4/75/85b475a8-93d1-ccdf-be5e-3399f4b322b2/mza_4579948121520406325.jpeg/600x600bb.jpg",
+      "topics": [
+        "engineering/energy-fusion"
+      ],
+      "hook": "Quaise Energy vaporizes rock with millimeter-wave drills to reach superhot geothermal twelve miles down."
+    },
+    {
+      "id": "catalyst-shayle-kann--nuclear-fuel-supply-chain",
+      "show": "Catalyst with Shayle Kann",
+      "title": "Building a domestic nuclear fuel supply chain",
+      "apple_collection_id": 1593204897,
+      "apple_track_id": 1000758828390,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/building-a-domestic-nuclear-fuel-supply-chain/id1593204897?i=1000758828390&uo=4",
+      "release_date": "2026-04-02",
+      "duration_min": 39,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/85/b4/75/85b475a8-93d1-ccdf-be5e-3399f4b322b2/mza_4579948121520406325.jpeg/600x600bb.jpg",
+      "topics": [
+        "engineering/energy-fusion"
+      ],
+      "hook": "General Matter's CEO on rebuilding domestic uranium enrichment to end reliance on Russian fuel."
+    },
+    {
+      "id": "catalyst-shayle-kann--grid-power-electronics",
+      "show": "Catalyst with Shayle Kann",
+      "title": "The rise of grid power electronics with Drew Baglino",
+      "apple_collection_id": 1593204897,
+      "apple_track_id": 1000750470459,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-rise-of-grid-power-electronics-with-drew-baglino/id1593204897?i=1000750470459&uo=4",
+      "release_date": "2026-02-19",
+      "duration_min": 50,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/85/b4/75/85b475a8-93d1-ccdf-be5e-3399f4b322b2/mza_4579948121520406325.jpeg/600x600bb.jpg",
+      "topics": [
+        "engineering/energy-fusion"
+      ],
+      "hook": "Ex-Tesla engineer Drew Baglino on solid-state transformers replacing the grid's dumb 1970s hardware."
+    },
+    {
+      "id": "catalyst-shayle-kann--electric-supercycle",
+      "show": "Catalyst with Shayle Kann",
+      "title": "Enter the electric supercycle",
+      "apple_collection_id": 1593204897,
+      "apple_track_id": 1000773249576,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/enter-the-electric-supercycle/id1593204897?i=1000773249576&uo=4",
+      "release_date": "2026-06-18",
+      "duration_min": 36,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/85/b4/75/85b475a8-93d1-ccdf-be5e-3399f4b322b2/mza_4579948121520406325.jpeg/600x600bb.jpg",
+      "topics": [
+        "engineering/energy-fusion"
+      ],
+      "hook": "An energy analyst maps the interlocking technology flywheels driving a decades-long electric supercycle."
+    },
+    {
+      "id": "catalyst-shayle-kann--fertilizer-crunch",
+      "show": "Catalyst with Shayle Kann",
+      "title": "Inside the global fertilizer crunch",
+      "apple_collection_id": 1593204897,
+      "apple_track_id": 1000767741303,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/inside-the-global-fertilizer-crunch/id1593204897?i=1000767741303&uo=4",
+      "release_date": "2026-05-14",
+      "duration_min": 36,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/85/b4/75/85b475a8-93d1-ccdf-be5e-3399f4b322b2/mza_4579948121520406325.jpeg/600x600bb.jpg",
+      "topics": [
+        "engineering/energy-fusion"
+      ],
+      "hook": "Why a third of seaborne fertilizer trade through the Strait of Hormuz threatens global food."
+    },
+    {
+      "id": "volts--grid-utilization",
+      "show": "Volts",
+      "title": "Using more of the grid we’ve already built",
+      "apple_collection_id": 1548554104,
+      "apple_track_id": 1000758680373,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/using-more-of-the-grid-weve-already-built/id1548554104?i=1000758680373&uo=4",
+      "release_date": "2026-04-01",
+      "duration_min": 65,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/f4/ec/55/f4ec55b0-e781-4b63-d852-6e3ae373f407/mza_13099907872217237817.jpg/600x600bb.jpg",
+      "topics": [
+        "engineering/energy-grid"
+      ],
+      "hook": "The US grid runs at half capacity; the Utilize Coalition wants to use what exists."
+    },
+    {
+      "id": "volts--plug-in-ders",
+      "show": "Volts",
+      "title": "Are plug-in DERs going to spark a grid revolution?",
+      "apple_collection_id": 1548554104,
+      "apple_track_id": 1000770994419,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/are-plug-in-ders-going-to-spark-a-grid-revolution/id1548554104?i=1000770994419&uo=4",
+      "release_date": "2026-06-03",
+      "duration_min": 74,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/f4/ec/55/f4ec55b0-e781-4b63-d852-6e3ae373f407/mza_13099907872217237817.jpg/600x600bb.jpg",
+      "topics": [
+        "engineering/energy-grid"
+      ],
+      "hook": "Plug-in batteries that need no permits could quietly spark a distributed-energy revolution."
+    },
+    {
+      "id": "volts--ruggedized-solar-nanogrids",
+      "show": "Volts",
+      "title": "Ruggedized solar power for the hard places",
+      "apple_collection_id": 1548554104,
+      "apple_track_id": 1000760694739,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/ruggedized-solar-power-for-the-hard-places/id1548554104?i=1000760694739&uo=4",
+      "release_date": "2026-04-10",
+      "duration_min": 52,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/f4/ec/55/f4ec55b0-e781-4b63-d852-6e3ae373f407/mza_13099907872217237817.jpg/600x600bb.jpg",
+      "topics": [
+        "engineering/energy-grid"
+      ],
+      "hook": "Sesame Solar's self-contained nanogrids pair solar, batteries, and hydrogen for disaster zones and bases."
+    },
+    {
+      "id": "volts--bidirectional-ev-charging",
+      "show": "Volts",
+      "title": "America's flagship automaker enters the home energy market",
+      "apple_collection_id": 1548554104,
+      "apple_track_id": 1000773435618,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/americas-flagship-automaker-enters-the-home-energy-market/id1548554104?i=1000773435618&uo=4",
+      "release_date": "2026-06-19",
+      "duration_min": 56,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/f4/ec/55/f4ec55b0-e781-4b63-d852-6e3ae373f407/mza_13099907872217237817.jpg/600x600bb.jpg",
+      "topics": [
+        "engineering/energy-grid"
+      ],
+      "hook": "GM Energy on turning hundreds of thousands of EVs into mobile home backup generators."
+    },
+    {
+      "id": "acquired--tsmc-morris-chang",
+      "show": "Acquired",
+      "title": "TSMC Founder Morris Chang",
+      "apple_collection_id": 1050462261,
+      "apple_track_id": 1000685569822,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/tsmc-founder-morris-chang/id1050462261?i=1000685569822&uo=4",
+      "release_date": "2025-01-27",
+      "duration_min": 168,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/65/08/2d/65082d51-4c48-f604-a480-38839bf89028/mza_12588002078552567770.jpg/600x600bb.jpg",
+      "topics": [
+        "business/startups",
+        "history/technology"
+      ],
+      "hook": "A rare English interview with the founder who made TSMC the world's chip foundry."
+    },
+    {
+      "id": "acquired--nvidia-ai-era",
+      "show": "Acquired",
+      "title": "Nvidia Part III: The Dawn of the AI Era (2022-2023)",
+      "apple_collection_id": 1050462261,
+      "apple_track_id": 1000626913736,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/nvidia-part-iii-the-dawn-of-the-ai-era-2022-2023/id1050462261?i=1000626913736&uo=4",
+      "release_date": "2023-09-06",
+      "duration_min": 167,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/43/c5/fb/43c5fbdf-b302-053a-2704-ba5f74322625/mza_13119989780540450831.jpg/600x600bb.jpg",
+      "topics": [
+        "business/startups",
+        "history/technology"
+      ],
+      "hook": "How CUDA and a decade of bets turned Nvidia into the engine of the AI boom."
+    },
+    {
+      "id": "acquired--lockheed-martin",
+      "show": "Acquired",
+      "title": "Lockheed Martin",
+      "apple_collection_id": 1050462261,
+      "apple_track_id": 1000614949686,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/lockheed-martin/id1050462261?i=1000614949686&uo=4",
+      "release_date": "2023-05-30",
+      "duration_min": 211,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/72/59/11/72591126-8066-2e75-dd18-788c39bbdaf6/mza_16687073896714746543.jpg/600x600bb.jpg",
+      "topics": [
+        "business/startups",
+        "history/technology"
+      ],
+      "hook": "Skunk Works' U-2, SR-71, and stealth fighter — plus Lockheed's hidden role founding Silicon Valley."
+    },
+    {
+      "id": "acquired--renaissance-technologies",
+      "show": "Acquired",
+      "title": "Renaissance Technologies",
+      "apple_collection_id": 1050462261,
+      "apple_track_id": 1000649514382,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/renaissance-technologies/id1050462261?i=1000649514382&uo=4",
+      "release_date": "2024-03-18",
+      "duration_min": 180,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/43/c5/fb/43c5fbdf-b302-053a-2704-ba5f74322625/mza_13119989780540450831.jpg/600x600bb.jpg",
+      "topics": [
+        "business/startups",
+        "history/technology"
+      ],
+      "hook": "How mathematicians and physicists built the best-performing quant fund in market history."
+    },
+    {
+      "id": "founders--james-dyson",
+      "show": "Founders",
+      "title": "#400 The Stubborn Genius of James Dyson",
+      "apple_collection_id": 1141877104,
+      "apple_track_id": 1000726425716,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/400-the-stubborn-genius-of-james-dyson/id1141877104?i=1000726425716&uo=4",
+      "release_date": "2025-09-12",
+      "duration_min": 73,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/ed/71/4f/ed714f67-f095-a4ef-f38e-d8c02300666a/mza_11432355988627368701.jpg/600x600bb.jpg",
+      "topics": [
+        "business/startups"
+      ],
+      "hook": "Five thousand prototypes and total control: James Dyson's stubborn approach to engineering a company."
+    },
+    {
+      "id": "founders--koenigsegg",
+      "show": "Founders",
+      "title": "#406 Christian von Koenigsegg",
+      "apple_collection_id": 1141877104,
+      "apple_track_id": 1000739549284,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/406-christian-von-koenigsegg/id1141877104?i=1000739549284&uo=4",
+      "release_date": "2025-12-03",
+      "duration_min": 46,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/ed/71/4f/ed714f67-f095-a4ef-f38e-d8c02300666a/mza_11432355988627368701.jpg/600x600bb.jpg",
+      "topics": [
+        "business/startups"
+      ],
+      "hook": "Christian von Koenigsegg builds the world's fastest cars by refusing to accept existing engineering limits."
+    },
+    {
+      "id": "founders--jim-simons",
+      "show": "Founders",
+      "title": "#387 Jim Simons Built The World’s Greatest Money-Making Machine",
+      "apple_collection_id": 1141877104,
+      "apple_track_id": 1000705757061,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/387-jim-simons-built-the-worlds-greatest-money-making/id1141877104?i=1000705757061&uo=4",
+      "release_date": "2025-05-01",
+      "duration_min": 68,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/ed/71/4f/ed714f67-f095-a4ef-f38e-d8c02300666a/mza_11432355988627368701.jpg/600x600bb.jpg",
+      "topics": [
+        "business/startups"
+      ],
+      "hook": "A mathematician staffed a hedge fund with scientists and made over $100 billion."
+    },
+    {
+      "id": "founders--rockefeller",
+      "show": "Founders",
+      "title": "#405 How Rockefeller Worked",
+      "apple_collection_id": 1141877104,
+      "apple_track_id": 1000737108655,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/405-how-rockefeller-worked/id1141877104?i=1000737108655&uo=4",
+      "release_date": "2025-11-17",
+      "duration_min": 58,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/ed/71/4f/ed714f67-f095-a4ef-f38e-d8c02300666a/mza_11432355988627368701.jpg/600x600bb.jpg",
+      "topics": [
+        "business/startups"
+      ],
+      "hook": "The company-building principles that made John D. Rockefeller and Standard Oil dominate American energy."
+    },
+    {
+      "id": "odd-lots--invention-of-rope",
+      "show": "Odd Lots",
+      "title": "How the Invention of Rope Gave Us Modern Civilization",
+      "apple_collection_id": 1056200096,
+      "apple_track_id": 1000770303215,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/how-the-invention-of-rope-gave-us-modern-civilization/id1056200096?i=1000770303215&uo=4",
+      "release_date": "2026-05-30",
+      "duration_min": 37,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/f3/99/6a/f3996a52-e4a4-bf0d-b7d6-e376c4058568/mza_15550359494736224565.jpg/600x600bb.jpg",
+      "topics": [
+        "economics/markets"
+      ],
+      "hook": "Twisting fibers into rope made bridges, cranes, and whaling possible — a quiet materials revolution."
+    },
+    {
+      "id": "odd-lots--cerebras-wafer-chip",
+      "show": "Odd Lots",
+      "title": "Why Cerebras CEO Andrew Feldman Built The World's Largest Computer Chip",
+      "apple_collection_id": 1056200096,
+      "apple_track_id": 1000768880215,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/why-cerebras-ceo-andrew-feldman-built-the-worlds/id1056200096?i=1000768880215&uo=4",
+      "release_date": "2026-05-21",
+      "duration_min": 52,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/f3/99/6a/f3996a52-e4a4-bf0d-b7d6-e376c4058568/mza_15550359494736224565.jpg/600x600bb.jpg",
+      "topics": [
+        "economics/markets"
+      ],
+      "hook": "Cerebras builds chips the size of a dinner plate for blazing-fast AI inference."
+    },
+    {
+      "id": "odd-lots--undersea-cables",
+      "show": "Odd Lots",
+      "title": "Samanth Subramanian on the Undersea Cables That Keep the Internet Alive",
+      "apple_collection_id": 1056200096,
+      "apple_track_id": 1000767544230,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/samanth-subramanian-on-the-undersea-cables-that-keep/id1056200096?i=1000767544230&uo=4",
+      "release_date": "2026-05-13",
+      "duration_min": 42,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/f3/99/6a/f3996a52-e4a4-bf0d-b7d6-e376c4058568/mza_15550359494736224565.jpg/600x600bb.jpg",
+      "topics": [
+        "economics/markets"
+      ],
+      "hook": "Miles of fiber-optic cable on the ocean floor carry the internet — and break easily."
+    },
+    {
+      "id": "odd-lots--commodity-finance",
+      "show": "Odd Lots",
+      "title": "The Hidden Plumbing of Commodity Finance",
+      "apple_collection_id": 1056200096,
+      "apple_track_id": 1000770541491,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-hidden-plumbing-of-commodity-finance/id1056200096?i=1000770541491&uo=4",
+      "release_date": "2026-06-01",
+      "duration_min": 46,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/f3/99/6a/f3996a52-e4a4-bf0d-b7d6-e376c4058568/mza_15550359494736224565.jpg/600x600bb.jpg",
+      "topics": [
+        "economics/markets"
+      ],
+      "hook": "Who actually funds the oil tanker? The hidden financing that moves the world's commodities."
+    },
+    {
+      "id": "odd-lots--norman-foster-building",
+      "show": "Odd Lots",
+      "title": "Architect Norman Foster on Why the West Struggles to Build Big",
+      "apple_collection_id": 1056200096,
+      "apple_track_id": 1000769198080,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/architect-norman-foster-on-why-the-west-struggles-to/id1056200096?i=1000769198080&uo=4",
+      "release_date": "2026-05-23",
+      "duration_min": 54,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/f3/99/6a/f3996a52-e4a4-bf0d-b7d6-e376c4058568/mza_15550359494736224565.jpg/600x600bb.jpg",
+      "topics": [
+        "economics/markets"
+      ],
+      "hook": "Architect Norman Foster on why some countries build landmark megaprojects and the West struggles."
+    },
+    {
+      "id": "well-theres-your-problem--sl-1-reactor-explosion",
+      "show": "Well There's Your Problem",
+      "title": "Episode 183: SL-1 Nuclear Reactor Explosion",
+      "apple_collection_id": 1487829595,
+      "apple_track_id": 1000718012314,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/episode-183-sl-1-nuclear-reactor-explosion/id1487829595?i=1000718012314&uo=4",
+      "release_date": "2025-07-18",
+      "duration_min": 176,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/21/da/66/21da66c0-ff2d-981c-862c-8d8138903ec5/mza_1840288066774406949.jpg/600x600bb.jpg",
+      "topics": [
+        "engineering/disasters"
+      ],
+      "hook": "The 1961 SL-1 reactor explosion that killed three operators and reshaped US reactor safety."
+    },
+    {
+      "id": "well-theres-your-problem--deepwater-horizon",
+      "show": "Well There's Your Problem",
+      "title": "Episode 193: The Deepwater Horizon Disaster",
+      "apple_collection_id": 1487829595,
+      "apple_track_id": 1000747405412,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/episode-193-the-deepwater-horizon-disaster/id1487829595?i=1000747405412&uo=4",
+      "release_date": "2026-01-30",
+      "duration_min": 174,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/21/da/66/21da66c0-ff2d-981c-862c-8d8138903ec5/mza_1840288066774406949.jpg/600x600bb.jpg",
+      "topics": [
+        "engineering/disasters"
+      ],
+      "hook": "How cost-cutting and a failed blowout preventer caused the Deepwater Horizon oil-rig catastrophe."
+    },
+    {
+      "id": "well-theres-your-problem--pencil-towers",
+      "show": "Well There's Your Problem",
+      "title": "Episode 190: 432 Park Avenue (and other pencil towers)",
+      "apple_collection_id": 1487829595,
+      "apple_track_id": 1000739547331,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/episode-190-432-park-avenue-and-other-pencil-towers/id1487829595?i=1000739547331&uo=4",
+      "release_date": "2025-12-03",
+      "duration_min": 202,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/21/da/66/21da66c0-ff2d-981c-862c-8d8138903ec5/mza_1840288066774406949.jpg/600x600bb.jpg",
+      "topics": [
+        "engineering/disasters"
+      ],
+      "hook": "Why New York's ultra-thin supertall pencil towers sway, leak, and fight physics."
+    },
+    {
+      "id": "well-theres-your-problem--texas-city-disaster",
+      "show": "Well There's Your Problem",
+      "title": "Episode 192: The Other Texas City Disaster",
+      "apple_collection_id": 1487829595,
+      "apple_track_id": 1000744862135,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/episode-192-the-other-texas-city-disaster/id1487829595?i=1000744862135&uo=4",
+      "release_date": "2026-01-12",
+      "duration_min": 158,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/21/da/66/21da66c0-ff2d-981c-862c-8d8138903ec5/mza_1840288066774406949.jpg/600x600bb.jpg",
+      "topics": [
+        "engineering/disasters"
+      ],
+      "hook": "Another catastrophic industrial explosion in Texas City, and the engineering failures behind it."
+    },
+    {
+      "id": "practical-ai--ai-policy-computing-power",
+      "show": "Practical AI",
+      "title": "AI policy and the battle for computing power",
+      "apple_collection_id": 1406537385,
+      "apple_track_id": 1000754016280,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/ai-policy-and-the-battle-for-computing-power/id1406537385?i=1000754016280&uo=4",
+      "release_date": "2026-03-09",
+      "duration_min": 49,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/bc/c1/cb/bcc1cb43-4df3-da99-2881-9492a3843190/mza_960043804335503851.jpg/600x600bb.jpg",
+      "topics": [
+        "engineering/ai-robotics"
+      ],
+      "hook": "Former White House AI advisor Ben Buchanan on computing power, chips, and US-China competition."
+    },
+    {
+      "id": "practical-ai--document-understanding",
+      "show": "Practical AI",
+      "title": "Technical advances in document understanding",
+      "apple_collection_id": 1406537385,
+      "apple_track_id": 1000739375511,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/technical-advances-in-document-understanding/id1406537385?i=1000739375511&uo=4",
+      "release_date": "2025-12-02",
+      "duration_min": 49,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/35/fd/2c/35fd2c55-4004-9760-2c28-cade8e85d578/mza_2741363449896701480.jpg/600x600bb.jpg",
+      "topics": [
+        "engineering/ai-robotics"
+      ],
+      "hook": "How AI document processing moved past OCR to vision-language models like DeepSeek-OCR."
+    },
+    {
+      "id": "practical-ai--stanford-ai-index-2026",
+      "show": "Practical AI",
+      "title": "Breaking down the 2026 Stanford AI Index Report",
+      "apple_collection_id": 1406537385,
+      "apple_track_id": 1000771134499,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/breaking-down-the-2026-stanford-ai-index-report/id1406537385?i=1000771134499&uo=4",
+      "release_date": "2026-06-04",
+      "duration_min": 47,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/91/98/1a/91981a4c-f87e-aead-2bf4-859612a9dc26/mza_18028928074587510372.jpg/600x600bb.jpg",
+      "topics": [
+        "engineering/ai-robotics"
+      ],
+      "hook": "AI wins math olympiads but can't read a clock: unpacking the 2026 Stanford AI Index."
+    },
+    {
+      "id": "practical-ai--durable-ai-agents",
+      "show": "Practical AI",
+      "title": "Building Durable AI Agents",
+      "apple_collection_id": 1406537385,
+      "apple_track_id": 1000776095061,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/building-durable-ai-agents/id1406537385?i=1000776095061&uo=4",
+      "release_date": "2026-07-09",
+      "duration_min": 47,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/68/f1/7d/68f17d72-8312-c573-4787-b83df95ce41f/mza_13104268380707564710.jpg/600x600bb.jpg",
+      "topics": [
+        "engineering/ai-robotics"
+      ],
+      "hook": "Moving AI agents from demos to reliable production using MLOps, agent harnesses, and fleets."
+    },
+    {
+      "id": "huberman-lab--rhonda-patrick-protocols",
+      "show": "Huberman Lab",
+      "title": "The Best Vitality & Health Protocols | Dr. Rhonda Patrick",
+      "apple_collection_id": 1545953110,
+      "apple_track_id": 1000756721065,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-best-vitality-health-protocols-dr-rhonda-patrick/id1545953110?i=1000756721065&uo=4",
+      "release_date": "2026-03-23",
+      "duration_min": 211,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/9a/d3/19/9ad31912-0b5a-a16e-2d7c-9fd074698b9c/mza_8994222203629500925.jpg/600x600bb.jpg",
+      "topics": [
+        "medicine/neuroscience"
+      ],
+      "hook": "Rhonda Patrick on cardio, resistance training, fasting, omega-3s, creatine, and building a total health program."
+    },
+    {
+      "id": "huberman-lab--cancer-immune-system",
+      "show": "Huberman Lab",
+      "title": "Avoiding, Treating & Curing Cancer With the Immune System | Dr. Alex Marson",
+      "apple_collection_id": 1545953110,
+      "apple_track_id": 1000753971766,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/avoiding-treating-curing-cancer-with-the-immune-system/id1545953110?i=1000753971766&uo=4",
+      "release_date": "2026-03-09",
+      "duration_min": 147,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/9a/d3/19/9ad31912-0b5a-a16e-2d7c-9fd074698b9c/mza_8994222203629500925.jpg/600x600bb.jpg",
+      "topics": [
+        "medicine/neuroscience"
+      ],
+      "hook": "How engineered T-cells fight cancer, plus CRISPR gene editing and everyday cancer-risk choices."
+    },
+    {
+      "id": "huberman-lab--aging-brain-vitality",
+      "show": "Huberman Lab",
+      "title": "Restore Youthfulness & Vitality to the Aging Brain & Body | Dr. Tony Wyss-Coray",
+      "apple_collection_id": 1545953110,
+      "apple_track_id": 1000750984268,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/restore-youthfulness-vitality-to-the-aging-brain-body/id1545953110?i=1000750984268&uo=4",
+      "release_date": "2026-02-23",
+      "duration_min": 119,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/9a/d3/19/9ad31912-0b5a-a16e-2d7c-9fd074698b9c/mza_8994222203629500925.jpg/600x600bb.jpg",
+      "topics": [
+        "medicine/neuroscience"
+      ],
+      "hook": "Stanford's Tony Wyss-Coray on proteins in young blood that rejuvenate the aging brain."
+    },
+    {
+      "id": "huberman-lab--peptides-science",
+      "show": "Huberman Lab",
+      "title": "Peptides: The Science, Uses & Safety | Dr. Abud Bakri",
+      "apple_collection_id": 1545953110,
+      "apple_track_id": 1000770542712,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/peptides-the-science-uses-safety-dr-abud-bakri/id1545953110?i=1000770542712&uo=4",
+      "release_date": "2026-06-01",
+      "duration_min": 169,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/9a/d3/19/9ad31912-0b5a-a16e-2d7c-9fd074698b9c/mza_8994222203629500925.jpg/600x600bb.jpg",
+      "topics": [
+        "medicine/neuroscience"
+      ],
+      "hook": "A physician on the real science and safety of BPC-157, GLP-1s, and growth-hormone peptides."
+    },
+    {
+      "id": "the-peter-attia-drive--longevity-101",
+      "show": "The Peter Attia Drive",
+      "title": "Longevity 101: a foundational guide to Peter's frameworks for longevity, and understanding CVD, cancer, neurodegenerative disease, nutrition, exercise, sleep, and more  (re-broadcast)",
+      "apple_collection_id": 1400828889,
+      "apple_track_id": 1000733646543,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/longevity-101-a-foundational-guide-to-peters/id1400828889?i=1000733646543&uo=4",
+      "release_date": "2025-10-27",
+      "duration_min": 85,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/89/b8/c0/89b8c0bb-f65c-66ef-8b96-fffea8f0cf5f/mza_872007510196734520.png/600x600bb.jpg",
+      "topics": [
+        "medicine/neuroscience"
+      ],
+      "hook": "Attia's foundational framework: lifespan, healthspan, the four horsemen, and five strategies to delay them."
+    },
+    {
+      "id": "the-peter-attia-drive--aging-clocks",
+      "show": "The Peter Attia Drive",
+      "title": "#386 - Aging clocks—what they measure, how they work, and their clinical and real-world relevance",
+      "apple_collection_id": 1400828889,
+      "apple_track_id": 1000759477214,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/386-aging-clocks-what-they-measure-how-they-work-and/id1400828889?i=1000759477214&uo=4",
+      "release_date": "2026-04-06",
+      "duration_min": 56,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/89/b8/c0/89b8c0bb-f65c-66ef-8b96-fffea8f0cf5f/mza_872007510196734520.png/600x600bb.jpg",
+      "topics": [
+        "medicine/neuroscience"
+      ],
+      "hook": "What epigenetic aging clocks actually measure, and whether lifestyle can slow biological aging."
+    },
+    {
+      "id": "the-peter-attia-drive--brain-computer-interfaces",
+      "show": "The Peter Attia Drive",
+      "title": "A new frontier in neurosurgery: restoring brain function with brain-computer interfaces, advancing glioblastoma care, and new hope for devastating brain diseases | Edward Chang, M.D.",
+      "apple_collection_id": 1400828889,
+      "apple_track_id": 1000725463341,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/a-new-frontier-in-neurosurgery-restoring-brain/id1400828889?i=1000725463341&uo=4",
+      "release_date": "2025-09-08",
+      "duration_min": 113,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/89/b8/c0/89b8c0bb-f65c-66ef-8b96-fffea8f0cf5f/mza_872007510196734520.png/600x600bb.jpg",
+      "topics": [
+        "medicine/neuroscience"
+      ],
+      "hook": "Neurosurgeon Edward Chang on brain-computer interfaces that restore speech and movement to patients."
+    },
+    {
+      "id": "the-peter-attia-drive--thinking-scientifically",
+      "show": "The Peter Attia Drive",
+      "title": "#389 - Thinking scientifically: why it's hard, why it matters, and a practical toolkit",
+      "apple_collection_id": 1400828889,
+      "apple_track_id": 1000763751402,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/389-thinking-scientifically-why-its-hard-why-it-matters/id1400828889?i=1000763751402&uo=4",
+      "release_date": "2026-04-27",
+      "duration_min": 54,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/89/b8/c0/89b8c0bb-f65c-66ef-8b96-fffea8f0cf5f/mza_872007510196734520.png/600x600bb.jpg",
+      "topics": [
+        "medicine/neuroscience"
+      ],
+      "hook": "Why scientific thinking is hard, the biases that sabotage it, and a practical toolkit."
+    },
+    {
+      "id": "making-chips--lights-out-machining",
+      "show": "Making Chips Podcast for Manufacturing Leaders",
+      "title": "Lights Out Isn't the Future—It's Already Here",
+      "apple_collection_id": 953541032,
+      "apple_track_id": 1000755551737,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/lights-out-isnt-the-future-its-already-here/id953541032?i=1000755551737&uo=4",
+      "release_date": "2026-03-16",
+      "duration_min": 65,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/3d/14/ae/3d14aee2-cf0c-2ac9-24b5-798e78820153/mza_1466453196835194745.jpg/600x600bb.jpg",
+      "topics": [
+        "engineering/precision-mfg"
+      ],
+      "hook": "Keith Grano on what lights-out machining actually looks like when shops run unattended overnight."
+    },
+    {
+      "id": "making-chips--additive-machining",
+      "show": "Making Chips Podcast for Manufacturing Leaders",
+      "title": "Printing the Future: How One Shop Is Winning with Additive + Machining",
+      "apple_collection_id": 953541032,
+      "apple_track_id": 1000767175263,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/printing-the-future-how-one-shop-is-winning-with/id953541032?i=1000767175263&uo=4",
+      "release_date": "2026-05-11",
+      "duration_min": 52,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/3d/14/ae/3d14aee2-cf0c-2ac9-24b5-798e78820153/mza_1466453196835194745.jpg/600x600bb.jpg",
+      "topics": [
+        "engineering/precision-mfg"
+      ],
+      "hook": "A young shop owner combining CNC machining with metal 3D printing for aerospace parts."
+    },
+    {
+      "id": "making-chips--supply-chain-resilience",
+      "show": "Making Chips Podcast for Manufacturing Leaders",
+      "title": "Supply Chain Reality Check: Risk, Resilience, and What's Next",
+      "apple_collection_id": 953541032,
+      "apple_track_id": 1000766028419,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/supply-chain-reality-check-risk-resilience-and-whats-next/id953541032?i=1000766028419&uo=4",
+      "release_date": "2026-05-04",
+      "duration_min": 65,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/3d/14/ae/3d14aee2-cf0c-2ac9-24b5-798e78820153/mza_1466453196835194745.jpg/600x600bb.jpg",
+      "topics": [
+        "engineering/precision-mfg"
+      ],
+      "hook": "How geopolitics ripples down to machine shops, from defense systems to everyday parts."
+    },
+    {
+      "id": "making-chips--sendcutsend",
+      "show": "Making Chips Podcast for Manufacturing Leaders",
+      "title": "SendCutSend and the Future of Manufacturing: Speed, Scale, and Specialization, 523",
+      "apple_collection_id": 953541032,
+      "apple_track_id": 1000769442686,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/sendcutsend-and-the-future-of-manufacturing/id953541032?i=1000769442686&uo=4",
+      "release_date": "2026-05-25",
+      "duration_min": 69,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/3d/14/ae/3d14aee2-cf0c-2ac9-24b5-798e78820153/mza_1466453196835194745.jpg/600x600bb.jpg",
+      "topics": [
+        "engineering/precision-mfg"
+      ],
+      "hook": "SendCutSend's founder on applying software thinking to speed and scale in sheet-metal manufacturing."
+    },
+    {
+      "id": "this-podcast-will-kill-you--cancer-part-1",
+      "show": "This Podcast Will Kill You",
+      "title": "Ep 202 Cancer Part 1: What is it?",
+      "apple_collection_id": 1299915173,
+      "apple_track_id": 1000752843427,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/ep-202-cancer-part-1-what-is-it/id1299915173?i=1000752843427&uo=4",
+      "release_date": "2026-03-03",
+      "duration_min": 96,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/31/fc/17/31fc17a4-78dc-a4ec-ed10-909b8aa0a67b/mza_1082798024989117655.jpg/600x600bb.jpg",
+      "topics": [
+        "medicine/biology"
+      ],
+      "hook": "Part one of a cancer series: why it's not one disease but many."
+    },
+    {
+      "id": "this-podcast-will-kill-you--tear-gas",
+      "show": "This Podcast Will Kill You",
+      "title": "Ep 207 Tear Gas: How can a chemical weapon be “humane”?",
+      "apple_collection_id": 1299915173,
+      "apple_track_id": 1000761253609,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/ep-207-tear-gas-how-can-a-chemical-weapon-be-humane/id1299915173?i=1000761253609&uo=4",
+      "release_date": "2026-04-14",
+      "duration_min": 75,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/31/fc/17/31fc17a4-78dc-a4ec-ed10-909b8aa0a67b/mza_1082798024989117655.jpg/600x600bb.jpg",
+      "topics": [
+        "medicine/biology"
+      ],
+      "hook": "The chemistry and history of tear gas: banned in war, routine at protests."
+    },
+    {
+      "id": "this-podcast-will-kill-you--sleep-part-1",
+      "show": "This Podcast Will Kill You",
+      "title": "Ep 198 Sleep Part 1: Sleeping with one eye open",
+      "apple_collection_id": 1299915173,
+      "apple_track_id": 1000745863307,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/ep-198-sleep-part-1-sleeping-with-one-eye-open/id1299915173?i=1000745863307&uo=4",
+      "release_date": "2026-01-20",
+      "duration_min": 74,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/31/fc/17/31fc17a4-78dc-a4ec-ed10-909b8aa0a67b/mza_1082798024989117655.jpg/600x600bb.jpg",
+      "topics": [
+        "medicine/biology"
+      ],
+      "hook": "Why jellyfish, worms, and humans all sleep, and what the process actually does."
+    },
+    {
+      "id": "this-podcast-will-kill-you--necrotizing-fasciitis",
+      "show": "This Podcast Will Kill You",
+      "title": "Ep 193 Necrotizing Fasciitis: A strange beast",
+      "apple_collection_id": 1299915173,
+      "apple_track_id": 1000736233079,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/ep-193-necrotizing-fasciitis-a-strange-beast/id1299915173?i=1000736233079&uo=4",
+      "release_date": "2025-11-11",
+      "duration_min": 67,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/31/fc/17/31fc17a4-78dc-a4ec-ed10-909b8aa0a67b/mza_1082798024989117655.jpg/600x600bb.jpg",
+      "topics": [
+        "medicine/biology"
+      ],
+      "hook": "Flesh-eating bacteria: how necrotizing fasciitis destroys tissue so fast doctors struggle to stop it."
+    },
+    {
+      "id": "this-podcast-will-kill-you--motion-sickness",
+      "show": "This Podcast Will Kill You",
+      "title": "Ep 211 Motion Sickness: It comes in waves",
+      "apple_collection_id": 1299915173,
+      "apple_track_id": 1000769599977,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/ep-211-motion-sickness-it-comes-in-waves/id1299915173?i=1000769599977&uo=4",
+      "release_date": "2026-05-26",
+      "duration_min": 77,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/31/fc/17/31fc17a4-78dc-a4ec-ed10-909b8aa0a67b/mza_1082798024989117655.jpg/600x600bb.jpg",
+      "topics": [
+        "medicine/biology"
+      ],
+      "hook": "Why boats, cars, and planes make us sweat, salivate, and vomit — the physiology of motion sickness."
+    },
+    {
+      "id": "materialism-podcast--titanium",
+      "show": "Materialism: A Materials Science Podcast",
+      "title": "Titanium",
+      "apple_collection_id": 1448663986,
+      "apple_track_id": 1000677312101,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/titanium/id1448663986?i=1000677312101&uo=4",
+      "release_date": "2024-11-18",
+      "duration_min": 40,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/14/4b/6a/144b6aa5-03ea-0e07-eb69-c80e069a52ae/mza_13610307441121266719.jpg/600x600bb.jpg",
+      "topics": [
+        "science/materials"
+      ],
+      "hook": "Titanium links the SR-71 to the hip replacement — and it's notoriously hard to work."
+    },
+    {
+      "id": "materialism-podcast--high-entropy-alloys",
+      "show": "Materialism: A Materials Science Podcast",
+      "title": "High Entropy Alloys",
+      "apple_collection_id": 1448663986,
+      "apple_track_id": 1000663191236,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/high-entropy-alloys/id1448663986?i=1000663191236&uo=4",
+      "release_date": "2024-07-24",
+      "duration_min": 41,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/b1/c2/3d/b1c23d25-536b-dfc2-e205-f71c56d3be95/mza_6677536705620736452.jpg/600x600bb.jpg",
+      "topics": [
+        "science/materials"
+      ],
+      "hook": "High-entropy alloys mix many metals in equal parts and break metallurgy's usual rules."
+    },
+    {
+      "id": "materialism-podcast--pure-uranium",
+      "show": "Materialism: A Materials Science Podcast",
+      "title": "The Quest for Pure Uranium",
+      "apple_collection_id": 1448663986,
+      "apple_track_id": 1000666231193,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-quest-for-pure-uranium/id1448663986?i=1000666231193&uo=4",
+      "release_date": "2024-08-22",
+      "duration_min": 40,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/25/ce/5b/25ce5b53-5c62-e440-071f-be3d37022b12/mza_15773405335075838507.jpg/600x600bb.jpg",
+      "topics": [
+        "science/materials"
+      ],
+      "hook": "The Ames Process and Harley Wilhelm's overlooked role producing pure uranium for the Manhattan Project."
+    },
+    {
+      "id": "materialism-podcast--metal-organic-frameworks",
+      "show": "Materialism: A Materials Science Podcast",
+      "title": "Metal Organic Frameworks",
+      "apple_collection_id": 1448663986,
+      "apple_track_id": 1000740835469,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/metal-organic-frameworks/id1448663986?i=1000740835469&uo=4",
+      "release_date": "2025-12-11",
+      "duration_min": 51,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/14/4b/6a/144b6aa5-03ea-0e07-eb69-c80e069a52ae/mza_13610307441121266719.jpg/600x600bb.jpg",
+      "topics": [
+        "science/materials"
+      ],
+      "hook": "The 2025 Nobel-winning metal-organic frameworks, and how they might capture CO2 from the air."
+    }
+  ],
+  "tags": {
+    "titans-of-nuclear--newcleo-fast-reactor": [
+      "nuclear",
+      "fission",
+      "fast-reactor",
+      "lead-cooled",
+      "fuel-recycling",
+      "newcleo",
+      "startups",
+      "interview"
+    ],
+    "titans-of-nuclear--dual-fluid-reactor": [
+      "nuclear",
+      "fission",
+      "reactor-design",
+      "molten-fuel",
+      "dual-fluid",
+      "engineering",
+      "interview"
+    ],
+    "titans-of-nuclear--heat-pipes-thermal": [
+      "nuclear",
+      "thermal-engineering",
+      "heat-transfer",
+      "heat-exchangers",
+      "reactor-design",
+      "interview"
+    ],
+    "titans-of-nuclear--data-centers-nuclear": [
+      "nuclear",
+      "fission",
+      "data-centers",
+      "smr",
+      "energy-demand",
+      "grid",
+      "interview"
+    ],
+    "titans-of-nuclear--atomic-canyon-ai": [
+      "nuclear",
+      "artificial-intelligence",
+      "startups",
+      "software",
+      "licensing",
+      "interview"
+    ],
+    "omega-tau--nuclear-waste-storage": [
+      "nuclear",
+      "nuclear-waste",
+      "radiochemistry",
+      "geology",
+      "onkalo",
+      "finland",
+      "documentary"
+    ],
+    "omega-tau--plasma-wakefield-awake": [
+      "physics",
+      "particle-physics",
+      "plasma",
+      "accelerators",
+      "cern",
+      "awake",
+      "interview"
+    ],
+    "omega-tau--forensic-engineering": [
+      "engineering",
+      "civil-engineering",
+      "structural-failure",
+      "forensic-engineering",
+      "root-cause",
+      "interview"
+    ],
+    "omega-tau--solar-geoengineering": [
+      "climate",
+      "geoengineering",
+      "atmosphere",
+      "solar-radiation-management",
+      "climate-science",
+      "interview"
+    ],
+    "lex-fridman-podcast--demis-hassabis-ai": [
+      "artificial-intelligence",
+      "deepmind",
+      "alphafold",
+      "agi",
+      "protein-folding",
+      "interview"
+    ],
+    "lex-fridman-podcast--terence-tao-math": [
+      "mathematics",
+      "number-theory",
+      "artificial-intelligence",
+      "fields-medal",
+      "physics",
+      "interview"
+    ],
+    "lex-fridman-podcast--janna-levin-black-holes": [
+      "physics",
+      "cosmology",
+      "black-holes",
+      "gravitational-waves",
+      "astrophysics",
+      "interview"
+    ],
+    "lex-fridman-podcast--dave-hone-dinosaurs": [
+      "paleontology",
+      "dinosaurs",
+      "evolution",
+      "biology",
+      "extinction",
+      "interview"
+    ],
+    "catalyst-shayle-kann--superhot-geothermal": [
+      "geothermal",
+      "energy",
+      "drilling",
+      "egs",
+      "quaise",
+      "clean-energy",
+      "interview"
+    ],
+    "catalyst-shayle-kann--nuclear-fuel-supply-chain": [
+      "nuclear",
+      "uranium",
+      "enrichment",
+      "supply-chain",
+      "energy-security",
+      "interview"
+    ],
+    "catalyst-shayle-kann--grid-power-electronics": [
+      "grid",
+      "power-electronics",
+      "transformers",
+      "energy",
+      "hardware",
+      "interview"
+    ],
+    "catalyst-shayle-kann--electric-supercycle": [
+      "energy",
+      "electrification",
+      "clean-energy",
+      "markets",
+      "analysis",
+      "interview"
+    ],
+    "catalyst-shayle-kann--fertilizer-crunch": [
+      "fertilizer",
+      "commodities",
+      "supply-chain",
+      "agriculture",
+      "geopolitics",
+      "interview"
+    ],
+    "volts--grid-utilization": [
+      "grid",
+      "transmission",
+      "energy",
+      "gets",
+      "capacity",
+      "interview"
+    ],
+    "volts--plug-in-ders": [
+      "grid",
+      "batteries",
+      "distributed-energy",
+      "ders",
+      "storage",
+      "interview"
+    ],
+    "volts--ruggedized-solar-nanogrids": [
+      "solar",
+      "microgrid",
+      "batteries",
+      "hydrogen",
+      "resilience",
+      "interview"
+    ],
+    "volts--bidirectional-ev-charging": [
+      "electric-vehicles",
+      "grid",
+      "vehicle-to-grid",
+      "home-energy",
+      "storage",
+      "interview"
+    ],
+    "acquired--tsmc-morris-chang": [
+      "semiconductors",
+      "tsmc",
+      "business-history",
+      "manufacturing",
+      "taiwan",
+      "interview"
+    ],
+    "acquired--nvidia-ai-era": [
+      "nvidia",
+      "semiconductors",
+      "artificial-intelligence",
+      "cuda",
+      "gpus",
+      "business-history"
+    ],
+    "acquired--lockheed-martin": [
+      "aerospace",
+      "skunk-works",
+      "defense",
+      "business-history",
+      "engineering",
+      "cold-war"
+    ],
+    "acquired--renaissance-technologies": [
+      "quant-finance",
+      "hedge-fund",
+      "mathematics",
+      "markets",
+      "business-history"
+    ],
+    "founders--james-dyson": [
+      "engineering",
+      "invention",
+      "product-design",
+      "entrepreneurship",
+      "dyson",
+      "biography"
+    ],
+    "founders--koenigsegg": [
+      "engineering",
+      "automotive",
+      "hypercars",
+      "innovation",
+      "entrepreneurship",
+      "biography"
+    ],
+    "founders--jim-simons": [
+      "quant-finance",
+      "mathematics",
+      "hedge-fund",
+      "renaissance-technologies",
+      "markets",
+      "biography"
+    ],
+    "founders--rockefeller": [
+      "business-history",
+      "oil",
+      "standard-oil",
+      "monopoly",
+      "entrepreneurship",
+      "biography"
+    ],
+    "odd-lots--invention-of-rope": [
+      "materials",
+      "history",
+      "technology",
+      "engineering",
+      "manufacturing",
+      "interview"
+    ],
+    "odd-lots--cerebras-wafer-chip": [
+      "semiconductors",
+      "artificial-intelligence",
+      "hardware",
+      "chips",
+      "cerebras",
+      "interview"
+    ],
+    "odd-lots--undersea-cables": [
+      "infrastructure",
+      "internet",
+      "telecommunications",
+      "fiber-optics",
+      "geopolitics",
+      "interview"
+    ],
+    "odd-lots--commodity-finance": [
+      "commodities",
+      "finance",
+      "trade",
+      "supply-chain",
+      "markets",
+      "interview"
+    ],
+    "odd-lots--norman-foster-building": [
+      "architecture",
+      "construction",
+      "infrastructure",
+      "economics",
+      "megaprojects",
+      "interview"
+    ],
+    "well-theres-your-problem--sl-1-reactor-explosion": [
+      "nuclear",
+      "disaster",
+      "reactor-safety",
+      "engineering-failure",
+      "history",
+      "sl-1"
+    ],
+    "well-theres-your-problem--deepwater-horizon": [
+      "oil",
+      "disaster",
+      "offshore-drilling",
+      "engineering-failure",
+      "safety",
+      "deepwater-horizon"
+    ],
+    "well-theres-your-problem--pencil-towers": [
+      "architecture",
+      "skyscrapers",
+      "structural-engineering",
+      "construction",
+      "real-estate",
+      "disaster"
+    ],
+    "well-theres-your-problem--texas-city-disaster": [
+      "industrial-disaster",
+      "explosion",
+      "chemical",
+      "engineering-failure",
+      "safety",
+      "history"
+    ],
+    "practical-ai--ai-policy-computing-power": [
+      "artificial-intelligence",
+      "policy",
+      "semiconductors",
+      "geopolitics",
+      "ai-governance",
+      "interview"
+    ],
+    "practical-ai--document-understanding": [
+      "artificial-intelligence",
+      "ocr",
+      "document-processing",
+      "vision-language-models",
+      "machine-learning"
+    ],
+    "practical-ai--stanford-ai-index-2026": [
+      "artificial-intelligence",
+      "research",
+      "benchmarks",
+      "ai-adoption",
+      "robotics",
+      "analysis"
+    ],
+    "practical-ai--durable-ai-agents": [
+      "artificial-intelligence",
+      "ai-agents",
+      "mlops",
+      "production",
+      "infrastructure",
+      "interview"
+    ],
+    "huberman-lab--rhonda-patrick-protocols": [
+      "health",
+      "nutrition",
+      "exercise",
+      "supplements",
+      "longevity",
+      "interview"
+    ],
+    "huberman-lab--cancer-immune-system": [
+      "cancer",
+      "immunology",
+      "immunotherapy",
+      "crispr",
+      "gene-editing",
+      "interview"
+    ],
+    "huberman-lab--aging-brain-vitality": [
+      "aging",
+      "neuroscience",
+      "longevity",
+      "biology",
+      "blood",
+      "interview"
+    ],
+    "huberman-lab--peptides-science": [
+      "peptides",
+      "pharmacology",
+      "health",
+      "glp-1",
+      "supplements",
+      "interview"
+    ],
+    "the-peter-attia-drive--longevity-101": [
+      "longevity",
+      "healthspan",
+      "prevention",
+      "medicine",
+      "framework",
+      "solo"
+    ],
+    "the-peter-attia-drive--aging-clocks": [
+      "aging",
+      "epigenetics",
+      "longevity",
+      "biomarkers",
+      "biology",
+      "solo"
+    ],
+    "the-peter-attia-drive--brain-computer-interfaces": [
+      "neuroscience",
+      "brain-computer-interface",
+      "neurosurgery",
+      "neurotechnology",
+      "medicine",
+      "interview"
+    ],
+    "the-peter-attia-drive--thinking-scientifically": [
+      "science",
+      "critical-thinking",
+      "cognitive-bias",
+      "epistemics",
+      "reasoning",
+      "solo"
+    ],
+    "making-chips--lights-out-machining": [
+      "manufacturing",
+      "machining",
+      "automation",
+      "cnc",
+      "lights-out",
+      "interview"
+    ],
+    "making-chips--additive-machining": [
+      "manufacturing",
+      "machining",
+      "additive-manufacturing",
+      "3d-printing",
+      "aerospace",
+      "interview"
+    ],
+    "making-chips--supply-chain-resilience": [
+      "manufacturing",
+      "supply-chain",
+      "geopolitics",
+      "defense",
+      "machining",
+      "interview"
+    ],
+    "making-chips--sendcutsend": [
+      "manufacturing",
+      "machining",
+      "software",
+      "automation",
+      "sheet-metal",
+      "interview"
+    ],
+    "this-podcast-will-kill-you--cancer-part-1": [
+      "cancer",
+      "biology",
+      "medicine",
+      "oncology",
+      "disease",
+      "science"
+    ],
+    "this-podcast-will-kill-you--tear-gas": [
+      "toxicology",
+      "chemistry",
+      "chemical-weapons",
+      "history",
+      "physiology",
+      "science"
+    ],
+    "this-podcast-will-kill-you--sleep-part-1": [
+      "sleep",
+      "physiology",
+      "biology",
+      "neuroscience",
+      "medicine",
+      "science"
+    ],
+    "this-podcast-will-kill-you--necrotizing-fasciitis": [
+      "infectious-disease",
+      "bacteria",
+      "medicine",
+      "microbiology",
+      "pathology",
+      "science"
+    ],
+    "this-podcast-will-kill-you--motion-sickness": [
+      "physiology",
+      "neuroscience",
+      "medicine",
+      "vestibular-system",
+      "biology",
+      "science"
+    ],
+    "materialism-podcast--titanium": [
+      "materials",
+      "metallurgy",
+      "titanium",
+      "alloys",
+      "aerospace",
+      "science"
+    ],
+    "materialism-podcast--high-entropy-alloys": [
+      "materials",
+      "metallurgy",
+      "alloys",
+      "high-entropy-alloys",
+      "corrosion-resistance",
+      "science"
+    ],
+    "materialism-podcast--pure-uranium": [
+      "materials",
+      "metallurgy",
+      "uranium",
+      "manhattan-project",
+      "nuclear",
+      "history"
+    ],
+    "materialism-podcast--metal-organic-frameworks": [
+      "materials",
+      "chemistry",
+      "metal-organic-frameworks",
+      "carbon-capture",
+      "nobel-prize",
+      "interview"
+    ]
+  }
+}

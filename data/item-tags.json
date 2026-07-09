@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "built_at": "2026-07-09T06:16:02.773Z",
+  "built_at": "2026-07-09T23:07:47.845Z",
   "tags": {
     "lex-fridman-podcast--don-lincoln-physics": [
       "physics",
@@ -3842,6 +3842,590 @@
       "metallurgy",
       "aerospace",
       "startups",
+      "interview"
+    ],
+    "fall-of-civilizations--egypt": [
+      "egypt",
+      "ancient-egypt",
+      "pharaohs",
+      "ancient-history",
+      "empires",
+      "collapse",
+      "documentary",
+      "storytelling",
+      "epic"
+    ],
+    "fall-of-civilizations--carthage": [
+      "carthage",
+      "phoenicians",
+      "ancient-history",
+      "mediterranean",
+      "rome",
+      "empires",
+      "military-history",
+      "documentary",
+      "storytelling"
+    ],
+    "fall-of-civilizations--byzantium": [
+      "byzantium",
+      "romans",
+      "constantinople",
+      "medieval",
+      "empires",
+      "military-history",
+      "documentary",
+      "storytelling",
+      "epic"
+    ],
+    "fall-of-civilizations--inca": [
+      "inca",
+      "andes",
+      "south-america",
+      "empires",
+      "conquest",
+      "spanish-conquest",
+      "documentary",
+      "storytelling",
+      "epic"
+    ],
+    "fall-of-civilizations--bronze-age-collapse": [
+      "bronze-age",
+      "collapse",
+      "mediterranean",
+      "ancient-history",
+      "sea-peoples",
+      "empires",
+      "documentary",
+      "storytelling"
+    ],
+    "the-rest-is-history--mona-lisa": [
+      "mona-lisa",
+      "leonardo-da-vinci",
+      "renaissance",
+      "art-history",
+      "italy",
+      "storytelling",
+      "narrative"
+    ],
+    "the-rest-is-history--greece-persia-superpower": [
+      "ancient-greece",
+      "persia",
+      "darius",
+      "greco-persian-wars",
+      "ancient-history",
+      "military-history",
+      "storytelling",
+      "narrative"
+    ],
+    "the-rest-is-history--iran-fall-of-shah": [
+      "iran",
+      "iranian-revolution",
+      "shah",
+      "1979",
+      "modern-history",
+      "politics",
+      "storytelling",
+      "narrative"
+    ],
+    "the-rest-is-history--paul-mccartney": [
+      "paul-mccartney",
+      "beatles",
+      "music",
+      "liverpool",
+      "interview",
+      "storytelling",
+      "narrative"
+    ],
+    "unauthorized-history-pacific-war--pearl-harbor-first-wave": [
+      "world-war-2",
+      "pacific-war",
+      "pearl-harbor",
+      "japan",
+      "navy",
+      "aviation",
+      "military-history",
+      "storytelling"
+    ],
+    "unauthorized-history-pacific-war--fall-of-singapore": [
+      "world-war-2",
+      "pacific-war",
+      "singapore",
+      "britain",
+      "japan",
+      "military-history",
+      "storytelling"
+    ],
+    "unauthorized-history-pacific-war--destruction-of-force-z": [
+      "world-war-2",
+      "pacific-war",
+      "force-z",
+      "royal-navy",
+      "battleships",
+      "naval-aviation",
+      "military-history",
+      "storytelling"
+    ],
+    "unauthorized-history-pacific-war--war-in-china": [
+      "world-war-2",
+      "pacific-war",
+      "china",
+      "japan",
+      "nanking",
+      "shanghai",
+      "military-history",
+      "storytelling"
+    ],
+    "conan-obrien-needs-a-friend--eric-andre": [
+      "conan-obrien",
+      "eric-andre",
+      "comedy",
+      "funny",
+      "mental-health",
+      "hang",
+      "interview"
+    ],
+    "conan-obrien-needs-a-friend--ken-burns": [
+      "conan-obrien",
+      "ken-burns",
+      "documentary",
+      "history",
+      "filmmaking",
+      "comedy",
+      "hang",
+      "interview"
+    ],
+    "conan-obrien-needs-a-friend--charli-xcx": [
+      "conan-obrien",
+      "charli-xcx",
+      "music",
+      "pop",
+      "comedy",
+      "funny",
+      "hang",
+      "interview"
+    ],
+    "conan-obrien-needs-a-friend--jodie-foster": [
+      "conan-obrien",
+      "jodie-foster",
+      "acting",
+      "filmmaking",
+      "comedy",
+      "hang",
+      "interview"
+    ],
+    "smartless--stephen-colbert": [
+      "smartless",
+      "stephen-colbert",
+      "comedy",
+      "funny",
+      "celebrities",
+      "hang",
+      "interview"
+    ],
+    "smartless--julia-roberts": [
+      "smartless",
+      "julia-roberts",
+      "acting",
+      "comedy",
+      "funny",
+      "hang",
+      "interview"
+    ],
+    "smartless--lionel-richie": [
+      "smartless",
+      "lionel-richie",
+      "music",
+      "comedy",
+      "funny",
+      "hang",
+      "interview"
+    ],
+    "smartless--benedict-cumberbatch": [
+      "smartless",
+      "benedict-cumberbatch",
+      "acting",
+      "comedy",
+      "funny",
+      "hang",
+      "interview"
+    ],
+    "gastropod--sushi": [
+      "sushi",
+      "food-history",
+      "food-science",
+      "japan",
+      "fermentation",
+      "storytelling",
+      "explainer"
+    ],
+    "gastropod--refrigeration": [
+      "refrigeration",
+      "food-science",
+      "food-history",
+      "technology",
+      "cold-chain",
+      "storytelling",
+      "explainer"
+    ],
+    "gastropod--beer-and-writing": [
+      "beer",
+      "fermentation",
+      "mesopotamia",
+      "food-history",
+      "writing",
+      "civilization",
+      "storytelling",
+      "explainer"
+    ],
+    "gastropod--avocado": [
+      "avocado",
+      "food-history",
+      "food-science",
+      "agriculture",
+      "mexico",
+      "storytelling",
+      "explainer"
+    ],
+    "gastropod--absinthe": [
+      "absinthe",
+      "food-history",
+      "food-science",
+      "france",
+      "spirits",
+      "storytelling",
+      "explainer"
+    ],
+    "myths-and-legends--korean-feet-first": [
+      "mythology",
+      "folklore",
+      "korean-folklore",
+      "storytelling",
+      "narrative"
+    ],
+    "myths-and-legends--1001-nights-djinn": [
+      "mythology",
+      "folklore",
+      "1001-nights",
+      "genies",
+      "arabian-nights",
+      "storytelling",
+      "narrative"
+    ],
+    "myths-and-legends--monkey-king-pride": [
+      "mythology",
+      "folklore",
+      "monkey-king",
+      "journey-to-the-west",
+      "chinese-mythology",
+      "storytelling",
+      "narrative"
+    ],
+    "myths-and-legends--celtic-the-wake": [
+      "mythology",
+      "folklore",
+      "celtic-folklore",
+      "irish-mythology",
+      "storytelling",
+      "narrative"
+    ],
+    "sticky-notes--beethoven-5": [
+      "classical-music",
+      "symphony",
+      "beethoven",
+      "composers",
+      "music-history",
+      "music-analysis",
+      "explainer"
+    ],
+    "sticky-notes--rachmaninoff-piano-2": [
+      "classical-music",
+      "concerto",
+      "rachmaninoff",
+      "piano",
+      "music-history",
+      "music-analysis",
+      "explainer"
+    ],
+    "sticky-notes--holst-planets": [
+      "classical-music",
+      "orchestral",
+      "holst",
+      "the-planets",
+      "music-history",
+      "music-analysis",
+      "explainer"
+    ],
+    "sticky-notes--gershwin-rhapsody": [
+      "classical-music",
+      "gershwin",
+      "jazz",
+      "rhapsody-in-blue",
+      "american-music",
+      "music-history",
+      "music-analysis",
+      "explainer"
+    ],
+    "song-exploder--a-ha-take-on-me": [
+      "a-ha",
+      "take-on-me",
+      "synth-pop",
+      "songwriting",
+      "music-production",
+      "music",
+      "1980s",
+      "interview"
+    ],
+    "song-exploder--lady-gaga-abracadabra": [
+      "lady-gaga",
+      "pop",
+      "songwriting",
+      "music-production",
+      "music",
+      "interview",
+      "storytelling"
+    ],
+    "song-exploder--clipse-birds-dont-sing": [
+      "clipse",
+      "hip-hop",
+      "pusha-t",
+      "pharrell",
+      "songwriting",
+      "music-production",
+      "music",
+      "interview"
+    ],
+    "song-exploder--goo-goo-dolls-iris": [
+      "goo-goo-dolls",
+      "iris",
+      "rock",
+      "songwriting",
+      "music-production",
+      "music",
+      "1990s",
+      "interview"
+    ],
+    "song-exploder--silvana-estrada-como-un-pajaro": [
+      "silvana-estrada",
+      "latin-music",
+      "mexico",
+      "songwriting",
+      "music-production",
+      "music",
+      "interview"
+    ],
+    "the-war-on-cars--car-free-desire": [
+      "car-free",
+      "cities",
+      "urbanism",
+      "transportation",
+      "housing",
+      "policy",
+      "interview"
+    ],
+    "the-war-on-cars--american-car-culture": [
+      "car-culture",
+      "history",
+      "cities",
+      "urbanism",
+      "highways",
+      "streets",
+      "storytelling",
+      "explainer"
+    ],
+    "the-war-on-cars--free-bus": [
+      "buses",
+      "transit",
+      "fare-free",
+      "cities",
+      "urbanism",
+      "policy",
+      "interview"
+    ],
+    "the-war-on-cars--cities-and-fashion": [
+      "fashion",
+      "cities",
+      "urbanism",
+      "walkability",
+      "culture",
+      "interview"
+    ],
+    "ologies-with-alie-ward--collapsology": [
+      "collapsology",
+      "societal-collapse",
+      "joseph-tainter",
+      "complexity",
+      "civilization",
+      "interview",
+      "quirky"
+    ],
+    "ologies-with-alie-ward--megafelinology": [
+      "megafelinology",
+      "big-cats",
+      "snow-leopards",
+      "wildlife-biology",
+      "conservation",
+      "biology",
+      "interview",
+      "quirky"
+    ],
+    "ologies-with-alie-ward--ornithorhynchology": [
+      "ornithorhynchology",
+      "platypus",
+      "monotremes",
+      "conservation",
+      "biology",
+      "interview",
+      "quirky"
+    ],
+    "ologies-with-alie-ward--strigiformology-owls": [
+      "strigiformology",
+      "owls",
+      "ornithology",
+      "silent-flight",
+      "folklore",
+      "biology",
+      "interview",
+      "quirky"
+    ],
+    "the-allusionist--hues": [
+      "etymology",
+      "words",
+      "color",
+      "dictionaries",
+      "lexicography",
+      "language",
+      "storytelling"
+    ],
+    "the-allusionist--flyting": [
+      "etymology",
+      "flyting",
+      "scotland",
+      "poetry",
+      "insults",
+      "language",
+      "social-history",
+      "storytelling"
+    ],
+    "the-allusionist--misophonia": [
+      "misophonia",
+      "words",
+      "sound",
+      "condition",
+      "language",
+      "storytelling"
+    ],
+    "the-allusionist--queer-arab-glossary": [
+      "etymology",
+      "arabic",
+      "slang",
+      "queer",
+      "glossary",
+      "language",
+      "interview"
+    ],
+    "philosophize-this--marcus-aurelius": [
+      "philosophy",
+      "marcus-aurelius",
+      "stoicism",
+      "ethics",
+      "ancient-philosophy",
+      "ideas",
+      "explainer"
+    ],
+    "philosophize-this--after-virtue": [
+      "philosophy",
+      "alasdair-macintyre",
+      "ethics",
+      "virtue-ethics",
+      "morality",
+      "ideas",
+      "explainer"
+    ],
+    "philosophize-this--camus-the-stranger": [
+      "philosophy",
+      "albert-camus",
+      "absurdism",
+      "existentialism",
+      "the-stranger",
+      "ideas",
+      "explainer"
+    ],
+    "philosophize-this--technofeudalism": [
+      "philosophy",
+      "yanis-varoufakis",
+      "technofeudalism",
+      "capitalism",
+      "economics",
+      "politics",
+      "ideas",
+      "explainer"
+    ],
+    "the-enormocast--300-honnold-kalous": [
+      "climbing",
+      "alex-honnold",
+      "chris-kalous",
+      "free-soloing",
+      "milestone",
+      "interview",
+      "storytelling"
+    ],
+    "the-enormocast--303-villanueva": [
+      "climbing",
+      "alpinism",
+      "sean-villanueva-odriscoll",
+      "big-wall",
+      "interview",
+      "storytelling"
+    ],
+    "the-enormocast--316-astorga": [
+      "climbing",
+      "alpinism",
+      "chantel-astorga",
+      "mountaineering",
+      "athletes",
+      "interview",
+      "storytelling"
+    ],
+    "the-enormocast--298-erickson": [
+      "climbing",
+      "jim-erickson",
+      "clean-climbing",
+      "1970s",
+      "boulder",
+      "history",
+      "interview",
+      "storytelling"
+    ],
+    "science-for-sport-podcast--blood-flow-restriction": [
+      "blood-flow-restriction",
+      "training",
+      "sports-science",
+      "physiology",
+      "recovery",
+      "interview"
+    ],
+    "science-for-sport-podcast--nfl-fields": [
+      "nfl",
+      "turf",
+      "sports-science",
+      "engineering",
+      "injury-prevention",
+      "interview"
+    ],
+    "science-for-sport-podcast--acl-rehab": [
+      "acl",
+      "rehabilitation",
+      "injury",
+      "strength-conditioning",
+      "sports-science",
+      "interview"
+    ],
+    "science-for-sport-podcast--female-physiology": [
+      "female-physiology",
+      "women-in-sport",
+      "sports-science",
+      "research",
+      "physiology",
       "interview"
     ]
   }
