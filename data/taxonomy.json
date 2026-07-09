@@ -478,6 +478,132 @@
       "weight": 0.5,
       "confidence": 0.3,
       "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "science/storytelling",
+      "parent": "science",
+      "label": "Storytelling",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "business/founders",
+      "parent": "business",
+      "label": "Founders",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "history/military-modern",
+      "parent": "history",
+      "label": "Military Modern",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "cities",
+      "parent": null,
+      "label": "Cities",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "cities/urbanism",
+      "parent": "cities",
+      "label": "Urbanism",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "science/chemistry",
+      "parent": "science",
+      "label": "Chemistry",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "adventure",
+      "parent": null,
+      "label": "Adventure",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "adventure/exploration",
+      "parent": "adventure",
+      "label": "Exploration",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "gaming",
+      "parent": null,
+      "label": "Gaming",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "gaming/design",
+      "parent": "gaming",
+      "label": "Design",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "medicine/neuroscience",
+      "parent": "medicine",
+      "label": "Neuroscience",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "society",
+      "parent": null,
+      "label": "Society",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "society/law",
+      "parent": "society",
+      "label": "Law",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "food/fermentation",
+      "parent": "food",
+      "label": "Fermentation",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
     }
   ],
   "episode_attributes": {

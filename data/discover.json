@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "built_at": "2026-07-09T05:39:42.554Z",
+  "built_at": "2026-07-09T05:53:24.859Z",
   "items": [
     {
       "id": "lex-fridman-podcast--don-lincoln-physics",
@@ -3253,6 +3253,1356 @@
         "craft/filmmaking"
       ],
       "hook": "Scratched glass and soot filters give Black Rabbit its raw, analog look."
+    },
+    {
+      "id": "radiolab--this-is-your-brain-on-hormones",
+      "show": "Radiolab",
+      "title": "This is Your Brain on Hormones",
+      "apple_collection_id": 152249110,
+      "apple_track_id": 1000773415203,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/this-is-your-brain-on-hormones/id152249110?i=1000773415203&uo=4",
+      "release_date": "2026-06-19",
+      "duration_min": 40,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/2b/b2/4d/2bb24d28-f3bb-916f-6bf3-9e125ba5219b/mza_4476298389845914795.jpg/600x600bb.jpg",
+      "topics": [
+        "science/storytelling"
+      ],
+      "hook": "A senior correspondent investigates how menstrual cycles quietly shape cognition and mood."
+    },
+    {
+      "id": "radiolab--this-american-roach",
+      "show": "Radiolab",
+      "title": "This American Roach",
+      "apple_collection_id": 152249110,
+      "apple_track_id": 1000770182964,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/this-american-roach/id152249110?i=1000770182964&uo=4",
+      "release_date": "2026-05-29",
+      "duration_min": 37,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/2b/b2/4d/2bb24d28-f3bb-916f-6bf3-9e125ba5219b/mza_4476298389845914795.jpg/600x600bb.jpg",
+      "topics": [
+        "science/storytelling"
+      ],
+      "hook": "A reporter confronts her cockroach phobia and finds surprising biology and history."
+    },
+    {
+      "id": "radiolab--the-resistance-of-a-cow",
+      "show": "Radiolab",
+      "title": "The Resistance of a Cow",
+      "apple_collection_id": 152249110,
+      "apple_track_id": 1000762002962,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-resistance-of-a-cow/id152249110?i=1000762002962&uo=4",
+      "release_date": "2026-04-17",
+      "duration_min": 51,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/2b/b2/4d/2bb24d28-f3bb-916f-6bf3-9e125ba5219b/mza_4476298389845914795.jpg/600x600bb.jpg",
+      "topics": [
+        "science/storytelling"
+      ],
+      "hook": "Mysterious behavior changes in dairy herds trace back to power-line interference."
+    },
+    {
+      "id": "science-vs--raw-milk-secret-superfood",
+      "show": "Science Vs",
+      "title": "Raw Milk: Secret Superfood??",
+      "apple_collection_id": 1051557000,
+      "apple_track_id": 1000774163772,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/raw-milk-secret-superfood/id1051557000?i=1000774163772&uo=4",
+      "release_date": "2026-06-25",
+      "duration_min": 41,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/62/15/18/621518e5-8eb3-392b-25a7-e7444aab86b6/mza_815589518502039493.jpg/600x600bb.jpg",
+      "topics": [
+        "science/storytelling"
+      ],
+      "hook": "Raw milk's superfood claims meet food-safety science and pediatric expertise."
+    },
+    {
+      "id": "science-vs--caffeine-how-much-is-too-much",
+      "show": "Science Vs",
+      "title": "Caffeine: How Much Is Too Much?",
+      "apple_collection_id": 1051557000,
+      "apple_track_id": 1000773243374,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/caffeine-how-much-is-too-much/id1051557000?i=1000773243374&uo=4",
+      "release_date": "2026-06-18",
+      "duration_min": 42,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/62/15/18/621518e5-8eb3-392b-25a7-e7444aab86b6/mza_815589518502039493.jpg/600x600bb.jpg",
+      "topics": [
+        "science/storytelling"
+      ],
+      "hook": "How much caffeine is too much, and does it really wreck sleep."
+    },
+    {
+      "id": "science-vs--ibogaine-a-miracle-psychedelic",
+      "show": "Science Vs",
+      "title": "Ibogaine: A Miracle Psychedelic?",
+      "apple_collection_id": 1051557000,
+      "apple_track_id": 1000768892813,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/ibogaine-a-miracle-psychedelic/id1051557000?i=1000768892813&uo=4",
+      "release_date": "2026-05-21",
+      "duration_min": 49,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/62/15/18/621518e5-8eb3-392b-25a7-e7444aab86b6/mza_815589518502039493.jpg/600x600bb.jpg",
+      "topics": [
+        "science/storytelling"
+      ],
+      "hook": "A psychedelic drug's addiction-treatment promise weighed against real safety concerns."
+    },
+    {
+      "id": "unexplainable--are-we-all-living-in-an-enormous-black-hole",
+      "show": "Unexplainable",
+      "title": "Are we all living in an enormous black hole?",
+      "apple_collection_id": 1554578197,
+      "apple_track_id": 1000775612366,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/are-we-all-living-in-an-enormous-black-hole/id1554578197?i=1000775612366&uo=4",
+      "release_date": "2026-07-06",
+      "duration_min": 26,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/eb/87/4d/eb874d60-4424-62df-a136-d5b5f32c451b/mza_11680166435885601347.jpg/600x600bb.jpg",
+      "topics": [
+        "science/storytelling"
+      ],
+      "hook": "Physicists ask whether our entire observable universe might sit inside a black hole."
+    },
+    {
+      "id": "unexplainable--risky-business",
+      "show": "Unexplainable",
+      "title": "Risky business",
+      "apple_collection_id": 1554578197,
+      "apple_track_id": 1000774662125,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/risky-business/id1554578197?i=1000774662125&uo=4",
+      "release_date": "2026-06-29",
+      "duration_min": 30,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/eb/87/4d/eb874d60-4424-62df-a136-d5b5f32c451b/mza_11680166435885601347.jpg/600x600bb.jpg",
+      "topics": [
+        "science/storytelling"
+      ],
+      "hook": "Why some risks terrify us while far deadlier ones barely register at all."
+    },
+    {
+      "id": "unexplainable--should-we-really-kill-all-the-lanternflies",
+      "show": "Unexplainable",
+      "title": "Should we really kill all the lanternflies?",
+      "apple_collection_id": 1554578197,
+      "apple_track_id": 1000773088387,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/should-we-really-kill-all-the-lanternflies/id1554578197?i=1000773088387&uo=4",
+      "release_date": "2026-06-17",
+      "duration_min": 33,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/eb/87/4d/eb874d60-4424-62df-a136-d5b5f32c451b/mza_11680166435885601347.jpg/600x600bb.jpg",
+      "topics": [
+        "science/storytelling"
+      ],
+      "hook": "Entomologists weigh in on the campaign to stomp every spotted lanternfly on sight."
+    },
+    {
+      "id": "how-i-built-this--catalina-crunch-krishna-kaliannan-from-homemade-keto-cocoa-p",
+      "show": "How I Built This with Guy Raz",
+      "title": "Catalina Crunch: Krishna Kaliannan. From Homemade Keto Cocoa Puffs to Breakfast Aisle Breakthrough",
+      "apple_collection_id": 1150510297,
+      "apple_track_id": 1000775608111,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/catalina-crunch-krishna-kaliannan-from-homemade-keto/id1150510297?i=1000775608111&uo=4",
+      "release_date": "2026-07-06",
+      "duration_min": 64,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/64/45/06/644506b5-c44f-f661-f74e-f63a4b2511bc/mza_14892199991035639268.jpeg/600x600bb.jpg",
+      "topics": [
+        "business/founders"
+      ],
+      "hook": "A home cook's keto cocoa puffs experiment becomes a cereal-aisle breakthrough brand."
+    },
+    {
+      "id": "how-i-built-this--e-l-f-cosmetics-joey-shamah-the-dollar-store-formula-that-bu",
+      "show": "How I Built This with Guy Raz",
+      "title": "e.l.f. Cosmetics: Joey Shamah. The Dollar Store Formula That Built a Cosmetics Giant",
+      "apple_collection_id": 1150510297,
+      "apple_track_id": 1000774663382,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/e-l-f-cosmetics-joey-shamah-the-dollar-store/id1150510297?i=1000774663382&uo=4",
+      "release_date": "2026-06-29",
+      "duration_min": 75,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/64/45/06/644506b5-c44f-f661-f74e-f63a4b2511bc/mza_14892199991035639268.jpeg/600x600bb.jpg",
+      "topics": [
+        "business/founders"
+      ],
+      "hook": "How a dollar-store makeup line grew into a full cosmetics giant."
+    },
+    {
+      "id": "how-i-built-this--starr-restaurants-stephen-starr-how-a-non-foodie-built-thriv",
+      "show": "How I Built This with Guy Raz",
+      "title": "STARR Restaurants: Stephen Starr. How a Non-Foodie Built Thriving Restaurants on Gut Instinct",
+      "apple_collection_id": 1150510297,
+      "apple_track_id": 1000773693439,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/starr-restaurants-stephen-starr-how-a-non-foodie/id1150510297?i=1000773693439&uo=4",
+      "release_date": "2026-06-22",
+      "duration_min": 74,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/64/45/06/644506b5-c44f-f661-f74e-f63a4b2511bc/mza_14892199991035639268.jpeg/600x600bb.jpg",
+      "topics": [
+        "business/founders"
+      ],
+      "hook": "A self-described non-foodie built a thriving restaurant empire on gut instinct."
+    },
+    {
+      "id": "business-wars--universal-vs-disney-the-battle-for-orlando-a-kingdom-invaded",
+      "show": "Business Wars",
+      "title": "Universal vs. Disney: The Battle for Orlando | A Kingdom Invaded",
+      "apple_collection_id": 1335814741,
+      "apple_track_id": 1000775818237,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/universal-vs-disney-the-battle-for-orlando-a/id1335814741?i=1000775818237&uo=4",
+      "release_date": "2026-07-08",
+      "duration_min": 48,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/88/78/24/887824a1-8191-f922-a27e-499bb3f9e624/mza_2534133078841157643.jpeg/600x600bb.jpg",
+      "topics": [
+        "business/founders"
+      ],
+      "hook": "Universal and Disney wage an all-out theme-park battle for Orlando tourists."
+    },
+    {
+      "id": "business-wars--encore-cruise-ship-wars-anchors-aweigh",
+      "show": "Business Wars",
+      "title": "ENCORE: Cruise Ship Wars | Anchors Aweigh!",
+      "apple_collection_id": 1335814741,
+      "apple_track_id": 1000774750005,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/encore-cruise-ship-wars-anchors-aweigh/id1335814741?i=1000774750005&uo=4",
+      "release_date": "2026-07-01",
+      "duration_min": 42,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/88/78/24/887824a1-8191-f922-a27e-499bb3f9e624/mza_2534133078841157643.jpeg/600x600bb.jpg",
+      "topics": [
+        "business/founders"
+      ],
+      "hook": "Cruise lines fight for market share as ships get bigger and stranger."
+    },
+    {
+      "id": "business-wars--chobani-the-yogurt-that-ate-america-nothing-but-good",
+      "show": "Business Wars",
+      "title": "Chobani: The Yogurt That Ate America | Nothing But Good",
+      "apple_collection_id": 1335814741,
+      "apple_track_id": 1000773014767,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/chobani-the-yogurt-that-ate-america-nothing-but-good/id1335814741?i=1000773014767&uo=4",
+      "release_date": "2026-06-17",
+      "duration_min": 39,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/88/78/24/887824a1-8191-f922-a27e-499bb3f9e624/mza_2534133078841157643.jpeg/600x600bb.jpg",
+      "topics": [
+        "business/founders"
+      ],
+      "hook": "How a small Greek-yogurt startup outmaneuvered the giants of the dairy aisle."
+    },
+    {
+      "id": "masters-of-scale--how-to-build-breakout-products-with-mark-pincus-and-reid-hof",
+      "show": "Masters of Scale",
+      "title": "How to build breakout products, with Mark Pincus & Reid Hoffman",
+      "apple_collection_id": 1227971746,
+      "apple_track_id": 1000775135675,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/how-to-build-breakout-products-with-mark-pincus-reid/id1227971746?i=1000775135675&uo=4",
+      "release_date": "2026-07-02",
+      "duration_min": 30,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/13/4b/81/134b8173-d713-cbb2-2d3b-4a8692bd87c0/mza_996010941061703843.jpeg/600x600bb.jpg",
+      "topics": [
+        "business/founders"
+      ],
+      "hook": "Zynga's co-founder on breakout product design and the mistakes that taught him most."
+    },
+    {
+      "id": "masters-of-scale--pioneers-of-ai-reid-hoffman-says-the-ai-race-is-not-a-cage-m",
+      "show": "Masters of Scale",
+      "title": "Pioneers of AI: Reid Hoffman says the AI race is not a cage match",
+      "apple_collection_id": 1227971746,
+      "apple_track_id": 1000774456415,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/pioneers-of-ai-reid-hoffman-says-the-ai-race-is-not/id1227971746?i=1000774456415&uo=4",
+      "release_date": "2026-06-27",
+      "duration_min": 36,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/13/4b/81/134b8173-d713-cbb2-2d3b-4a8692bd87c0/mza_996010941061703843.jpeg/600x600bb.jpg",
+      "topics": [
+        "business/founders"
+      ],
+      "hook": "Reid Hoffman argues the AI race isn't the winner-take-all fight people assume."
+    },
+    {
+      "id": "masters-of-scale--ibm-s-10-billion-bet-on-what-comes-after-ai",
+      "show": "Masters of Scale",
+      "title": "IBM's $10 billion bet on what comes after AI",
+      "apple_collection_id": 1227971746,
+      "apple_track_id": 1000773242685,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/ibms-%2410-billion-bet-on-what-comes-after-ai/id1227971746?i=1000773242685&uo=4",
+      "release_date": "2026-06-18",
+      "duration_min": 41,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/13/4b/81/134b8173-d713-cbb2-2d3b-4a8692bd87c0/mza_996010941061703843.jpeg/600x600bb.jpg",
+      "topics": [
+        "business/founders"
+      ],
+      "hook": "IBM's CEO on enterprise AI adoption, risk-taking, and betting big on quantum."
+    },
+    {
+      "id": "we-have-ways-of-making-you-talk--north-african-odyssey-blood-on-the-sand-part-2",
+      "show": "WW2 Pod: We Have Ways of Making You Talk",
+      "title": "North African Odyssey: Blood On The Sand (Part 2)",
+      "apple_collection_id": 1457552694,
+      "apple_track_id": 1000775333312,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/north-african-odyssey-blood-on-the-sand-part-2/id1457552694?i=1000775333312&uo=4",
+      "release_date": "2026-07-08",
+      "duration_min": 49,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/c5/22/e9/c522e983-ceb9-9337-d7b5-9b6f1e77e16b/mza_10534174726318393863.jpeg/600x600bb.jpg",
+      "topics": [
+        "history/military-modern"
+      ],
+      "hook": "James Holland and Al Murray track the brutal desert fighting across North Africa."
+    },
+    {
+      "id": "we-have-ways-of-making-you-talk--operation-barbarossa-countdown-part-4",
+      "show": "WW2 Pod: We Have Ways of Making You Talk",
+      "title": "Operation Barbarossa: Countdown (Part 4)",
+      "apple_collection_id": 1457552694,
+      "apple_track_id": 1000773756110,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/operation-barbarossa-countdown-part-4/id1457552694?i=1000773756110&uo=4",
+      "release_date": "2026-07-01",
+      "duration_min": 46,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/c5/22/e9/c522e983-ceb9-9337-d7b5-9b6f1e77e16b/mza_10534174726318393863.jpeg/600x600bb.jpg",
+      "topics": [
+        "history/military-modern"
+      ],
+      "hook": "The countdown to Hitler's catastrophic invasion of the Soviet Union, step by step."
+    },
+    {
+      "id": "we-have-ways-of-making-you-talk--naval-battle-of-narvik-plans-and-schemes-part-1",
+      "show": "WW2 Pod: We Have Ways of Making You Talk",
+      "title": "Naval Battle of Narvik: Plans & Schemes (Part 1)",
+      "apple_collection_id": 1457552694,
+      "apple_track_id": 1000772002052,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/naval-battle-of-narvik-plans-schemes-part-1/id1457552694?i=1000772002052&uo=4",
+      "release_date": "2026-06-10",
+      "duration_min": 70,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/c5/22/e9/c522e983-ceb9-9337-d7b5-9b6f1e77e16b/mza_10534174726318393863.jpeg/600x600bb.jpg",
+      "topics": [
+        "history/military-modern"
+      ],
+      "hook": "The opening moves of the ferocious naval battle for a Norwegian fjord port."
+    },
+    {
+      "id": "unauthorized-history-pacific-war--holding-the-door-open-the-battles-towards-bataan-episode-606",
+      "show": "The Unauthorized History of the Pacific War",
+      "title": "Holding the Door Open: The Battles Towards Bataan – Episode 606",
+      "apple_collection_id": 1641383288,
+      "apple_track_id": 1000774821873,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/holding-the-door-open-the-battles-towards-bataan/id1641383288?i=1000774821873&uo=4",
+      "release_date": "2026-06-30",
+      "duration_min": 98,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/fb/ee/c8/fbeec8e6-3d1f-20b4-d8b4-025fc884959e/mza_7133861084749007820.jpg/600x600bb.jpg",
+      "topics": [
+        "history/military-modern"
+      ],
+      "hook": "A WWII historian and a submarine commodore trace the fight toward Bataan."
+    },
+    {
+      "id": "unauthorized-history-pacific-war--disaster-at-clark-field-air-raid-philippines-1941-episode-60",
+      "show": "The Unauthorized History of the Pacific War",
+      "title": "Disaster at Clark Field: Air Raid Philippines 1941 - Episode 603",
+      "apple_collection_id": 1641383288,
+      "apple_track_id": 1000771836643,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/disaster-at-clark-field-air-raid-philippines-1941-episode/id1641383288?i=1000771836643&uo=4",
+      "release_date": "2026-06-09",
+      "duration_min": 113,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/fb/ee/c8/fbeec8e6-3d1f-20b4-d8b4-025fc884959e/mza_7133861084749007820.jpg/600x600bb.jpg",
+      "topics": [
+        "history/military-modern"
+      ],
+      "hook": "How a catastrophic air raid wiped out American air power in the Philippines."
+    },
+    {
+      "id": "unauthorized-history-pacific-war--shipbuilding-and-fleet-repair-in-the-pto-with-sal-mercoglian",
+      "show": "The Unauthorized History of the Pacific War",
+      "title": "Shipbuilding and Fleet Repair in the PTO with Sal Mercogliano – Episode 549",
+      "apple_collection_id": 1641383288,
+      "apple_track_id": 1000760001495,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/shipbuilding-and-fleet-repair-in-the-pto-with/id1641383288?i=1000760001495&uo=4",
+      "release_date": "2026-04-07",
+      "duration_min": 117,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/fb/ee/c8/fbeec8e6-3d1f-20b4-d8b4-025fc884959e/mza_7133861084749007820.jpg/600x600bb.jpg",
+      "topics": [
+        "history/military-modern"
+      ],
+      "hook": "A maritime historian on the unglamorous shipbuilding that actually won the Pacific War."
+    },
+    {
+      "id": "history-of-wwii-podcast--episode-636-no-mercy-no-quarter-given",
+      "show": "The History of WWII Podcast",
+      "title": "Episode 636-No Mercy, No Quarter Given",
+      "apple_collection_id": 493253759,
+      "apple_track_id": 1000775344717,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/episode-636-no-mercy-no-quarter-given/id493253759?i=1000775344717&uo=4",
+      "release_date": "2026-07-03",
+      "duration_min": 19,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/bb/fa/9a/bbfa9a3d-9cb1-a452-fc74-c8ebab7bac9a/mza_13831910833290623732.jpg/600x600bb.jpg",
+      "topics": [
+        "history/military-modern"
+      ],
+      "hook": "The brutal combat tactics that emerged after the Battle of Alligator Creek."
+    },
+    {
+      "id": "history-of-wwii-podcast--episode-635-battle-of-alligator-creek",
+      "show": "The History of WWII Podcast",
+      "title": "Episode 635-Battle of Alligator Creek",
+      "apple_collection_id": 493253759,
+      "apple_track_id": 1000774858783,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/episode-635-battle-of-alligator-creek/id493253759?i=1000774858783&uo=4",
+      "release_date": "2026-06-30",
+      "duration_min": 28,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/bb/fa/9a/bbfa9a3d-9cb1-a452-fc74-c8ebab7bac9a/mza_13831910833290623732.jpg/600x600bb.jpg",
+      "topics": [
+        "history/military-modern"
+      ],
+      "hook": "Japanese reinforcements land on Guadalcanal ahead of Colonel Ichiki's fateful attack."
+    },
+    {
+      "id": "history-of-wwii-podcast--episode-632-battle-of-savo-island",
+      "show": "The History of WWII Podcast",
+      "title": "Episode 632-Battle of Savo Island",
+      "apple_collection_id": 493253759,
+      "apple_track_id": 1000772386197,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/episode-632-battle-of-savo-island/id493253759?i=1000772386197&uo=4",
+      "release_date": "2026-06-12",
+      "duration_min": 35,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/bb/fa/9a/bbfa9a3d-9cb1-a452-fc74-c8ebab7bac9a/mza_13831910833290623732.jpg/600x600bb.jpg",
+      "topics": [
+        "history/military-modern"
+      ],
+      "hook": "A devastating Japanese naval assault hits Allied ships off Guadalcanal within a day."
+    },
+    {
+      "id": "the-war-on-cars--sidewalk-nation",
+      "show": "The War on Cars",
+      "title": "Sidewalk Nation",
+      "apple_collection_id": 1437755068,
+      "apple_track_id": 1000775778102,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/sidewalk-nation/id1437755068?i=1000775778102&uo=4",
+      "release_date": "2026-07-07",
+      "duration_min": 66,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/0b/ad/19/0bad19f8-b182-5020-a70f-85729285514a/mza_1833798207903169371.png/600x600bb.jpg",
+      "topics": [
+        "cities/urbanism"
+      ],
+      "hook": "Sidewalks exist in legal limbo across the US -- a case for fixing that."
+    },
+    {
+      "id": "the-war-on-cars--rethinking-criminal-consequences-for-drivers-who-kill",
+      "show": "The War on Cars",
+      "title": "Rethinking Criminal Consequences for Drivers Who Kill",
+      "apple_collection_id": 1437755068,
+      "apple_track_id": 1000773869738,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/rethinking-criminal-consequences-for-drivers-who-kill/id1437755068?i=1000773869738&uo=4",
+      "release_date": "2026-06-23",
+      "duration_min": 62,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/0b/ad/19/0bad19f8-b182-5020-a70f-85729285514a/mza_1833798207903169371.png/600x600bb.jpg",
+      "topics": [
+        "cities/urbanism"
+      ],
+      "hook": "Why punishing individual reckless drivers alone masks deeper, systemic road-safety failures."
+    },
+    {
+      "id": "the-war-on-cars--changing-lanes",
+      "show": "The War on Cars",
+      "title": "Changing Lanes",
+      "apple_collection_id": 1437755068,
+      "apple_track_id": 1000771848200,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/changing-lanes/id1437755068?i=1000771848200&uo=4",
+      "release_date": "2026-06-09",
+      "duration_min": 59,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/0b/ad/19/0bad19f8-b182-5020-a70f-85729285514a/mza_1833798207903169371.png/600x600bb.jpg",
+      "topics": [
+        "cities/urbanism"
+      ],
+      "hook": "Brooklyn residents fight to make a deadly boulevard safer, one lane at a time."
+    },
+    {
+      "id": "strong-towns-podcast--the-deadly-road-design-we-keep-defending",
+      "show": "The Strong Towns Podcast",
+      "title": "The Deadly Road Design We Keep Defending",
+      "apple_collection_id": 369032477,
+      "apple_track_id": 1000774678658,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-deadly-road-design-we-keep-defending/id369032477?i=1000774678658&uo=4",
+      "release_date": "2026-06-29",
+      "duration_min": 57,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/63/63/8c/63638c2a-3e02-dc38-8a26-50a832d39a6f/mza_868145100848425715.jpg/600x600bb.jpg",
+      "topics": [
+        "cities/urbanism"
+      ],
+      "hook": "Why pedestrian deaths keep climbing, and the street-design choices behind it."
+    },
+    {
+      "id": "strong-towns-podcast--what-s-the-housing-crisis-beneath-the-housing-crisis",
+      "show": "The Strong Towns Podcast",
+      "title": "What's the Housing Crisis Beneath the Housing Crisis?",
+      "apple_collection_id": 369032477,
+      "apple_track_id": 1000772786354,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/whats-the-housing-crisis-beneath-the-housing-crisis/id369032477?i=1000772786354&uo=4",
+      "release_date": "2026-06-15",
+      "duration_min": 69,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/63/63/8c/63638c2a-3e02-dc38-8a26-50a832d39a6f/mza_868145100848425715.jpg/600x600bb.jpg",
+      "topics": [
+        "cities/urbanism"
+      ],
+      "hook": "Land economics explain more about the housing crisis than most people realize."
+    },
+    {
+      "id": "strong-towns-podcast--how-inner-city-highways-bankrupt-downtowns-and-how-we-rebuil",
+      "show": "The Strong Towns Podcast",
+      "title": "How Inner City Highways Bankrupt Downtowns And How We Rebuild",
+      "apple_collection_id": 369032477,
+      "apple_track_id": 1000763786952,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/how-inner-city-highways-bankrupt-downtowns-and-how-we/id369032477?i=1000763786952&uo=4",
+      "release_date": "2026-04-27",
+      "duration_min": 59,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/63/63/8c/63638c2a-3e02-dc38-8a26-50a832d39a6f/mza_868145100848425715.jpg/600x600bb.jpg",
+      "topics": [
+        "cities/urbanism"
+      ],
+      "hook": "Data from 142 cities shows how inner-city highways bankrupt their own downtowns."
+    },
+    {
+      "id": "talking-headways--episode-194-mondays-at-the-overhead-wire-family-friendly-cit",
+      "show": "Talking Headways: A Streetsblog Podcast",
+      "title": "Episode 194: Mondays at The Overhead Wire - Family Friendly Cities?",
+      "apple_collection_id": 775143271,
+      "apple_track_id": 1000774814570,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/episode-194-mondays-at-the-overhead-wire-family/id775143271?i=1000774814570&uo=4",
+      "release_date": "2026-06-30",
+      "duration_min": 77,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/89/59/f1/8959f121-bfad-7597-127c-66ddafc642e2/mza_17751439431270750380.png/600x600bb.jpg",
+      "topics": [
+        "cities/urbanism"
+      ],
+      "hook": "What actually makes a city work for families, not just cars and traffic."
+    },
+    {
+      "id": "talking-headways--episode-583-the-transit-abundance-playbook",
+      "show": "Talking Headways: A Streetsblog Podcast",
+      "title": "Episode 583: The Transit Abundance Playbook",
+      "apple_collection_id": 775143271,
+      "apple_track_id": 1000774145517,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/episode-583-the-transit-abundance-playbook/id775143271?i=1000774145517&uo=4",
+      "release_date": "2026-06-25",
+      "duration_min": 57,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/89/59/f1/8959f121-bfad-7597-127c-66ddafc642e2/mza_17751439431270750380.png/600x600bb.jpg",
+      "topics": [
+        "cities/urbanism"
+      ],
+      "hook": "A playbook for building transit abundance instead of managing permanent scarcity."
+    },
+    {
+      "id": "talking-headways--episode-193-mondays-at-the-overhead-wire-henry-george-s-urba",
+      "show": "Talking Headways: A Streetsblog Podcast",
+      "title": "Episode 193: Mondays at The Overhead Wire - Henry George's Urbanist Army",
+      "apple_collection_id": 775143271,
+      "apple_track_id": 1000772919728,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/episode-193-mondays-at-the-overhead-wire-henry/id775143271?i=1000772919728&uo=4",
+      "release_date": "2026-06-16",
+      "duration_min": 77,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/89/59/f1/8959f121-bfad-7597-127c-66ddafc642e2/mza_17751439431270750380.png/600x600bb.jpg",
+      "topics": [
+        "cities/urbanism"
+      ],
+      "hook": "How a 19th-century economist's land-tax idea built a modern urbanist movement."
+    },
+    {
+      "id": "chemistry-world-podcast--an-update-on-the-strait-of-hormuz-and-potential-explosives-a",
+      "show": "Chemistry World Podcast",
+      "title": "An update on the Strait of Hormuz & potential explosives at an Antarctic base | The chemical breakdown podcast",
+      "apple_collection_id": 1162734003,
+      "apple_track_id": 1000775953360,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/an-update-on-the-strait-of-hormuz-potential/id1162734003?i=1000775953360&uo=4",
+      "release_date": "2026-07-08",
+      "duration_min": 28,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/e9/bd/26/e9bd26f1-5fd8-c11d-9099-9a5ba8e4d2fa/mza_7726010091290240505.jpg/600x600bb.jpg",
+      "topics": [
+        "science/chemistry"
+      ],
+      "hook": "Geopolitics meets chemistry news: shipping tensions and a mysterious Antarctic find."
+    },
+    {
+      "id": "chemistry-world-podcast--a-warning-for-us-science-and-wool-s-chemical-versatility-the",
+      "show": "Chemistry World Podcast",
+      "title": "A warning for US science & wool's chemical versatility | The chemical breakdown podcast",
+      "apple_collection_id": 1162734003,
+      "apple_track_id": 1000774029627,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/a-warning-for-us-science-wools-chemical-versatility/id1162734003?i=1000774029627&uo=4",
+      "release_date": "2026-06-24",
+      "duration_min": 30,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/e9/bd/26/e9bd26f1-5fd8-c11d-9099-9a5ba8e4d2fa/mza_7726010091290240505.jpg/600x600bb.jpg",
+      "topics": [
+        "science/chemistry"
+      ],
+      "hook": "A funding warning for US science, plus the surprising chemistry of wool."
+    },
+    {
+      "id": "chemistry-world-podcast--quantum-computing-and-a-mysterious-contaminant-in-microplast",
+      "show": "Chemistry World Podcast",
+      "title": "Quantum computing & a mysterious contaminant in microplastics research | The chemical breakdown podcast",
+      "apple_collection_id": 1162734003,
+      "apple_track_id": 1000770027009,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/quantum-computing-a-mysterious-contaminant-in/id1162734003?i=1000770027009&uo=4",
+      "release_date": "2026-05-28",
+      "duration_min": 34,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/e9/bd/26/e9bd26f1-5fd8-c11d-9099-9a5ba8e4d2fa/mza_7726010091290240505.jpg/600x600bb.jpg",
+      "topics": [
+        "science/chemistry"
+      ],
+      "hook": "Quantum computing news meets a puzzling contaminant found in microplastics research."
+    },
+    {
+      "id": "distillations--the-history-of-clinical-trials-from-fake-exorcisms-to-testin",
+      "show": "Distillations | Science History Institute",
+      "title": "The History of Clinical Trials: From Fake Exorcisms to Testing Today",
+      "apple_collection_id": 270428918,
+      "apple_track_id": 1000774904181,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-history-of-clinical-trials-from-fake-exorcisms/id270428918?i=1000774904181&uo=4",
+      "release_date": "2026-06-30",
+      "duration_min": 54,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/f8/ac/cb/f8accb85-5de3-13cf-79c7-2ae52d7d788b/mza_13590418307554863530.jpg/600x600bb.jpg",
+      "topics": [
+        "science/chemistry"
+      ],
+      "hook": "From fake exorcisms to modern protocols: the strange history of clinical trials."
+    },
+    {
+      "id": "distillations--agnes-pockels-and-the-kitchen-sink-myth",
+      "show": "Distillations | Science History Institute",
+      "title": "Agnes Pockels and the Kitchen Sink Myth",
+      "apple_collection_id": 270428918,
+      "apple_track_id": 1000756132821,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/agnes-pockels-and-the-kitchen-sink-myth/id270428918?i=1000756132821&uo=4",
+      "release_date": "2026-03-19",
+      "duration_min": 37,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/f8/ac/cb/f8accb85-5de3-13cf-79c7-2ae52d7d788b/mza_13590418307554863530.jpg/600x600bb.jpg",
+      "topics": [
+        "science/chemistry"
+      ],
+      "hook": "A self-taught scientist's kitchen-sink experiments quietly founded surface chemistry."
+    },
+    {
+      "id": "distillations--gene-therapy-s-dark-ages",
+      "show": "Distillations | Science History Institute",
+      "title": "Gene Therapy's Dark Ages",
+      "apple_collection_id": 270428918,
+      "apple_track_id": 1000722644731,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/gene-therapys-dark-ages/id270428918?i=1000722644731&uo=4",
+      "release_date": "2025-08-19",
+      "duration_min": 49,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/f8/ac/cb/f8accb85-5de3-13cf-79c7-2ae52d7d788b/mza_13590418307554863530.jpg/600x600bb.jpg",
+      "topics": [
+        "science/chemistry"
+      ],
+      "hook": "The setbacks and scandals that nearly ended gene therapy before it began."
+    },
+    {
+      "id": "tiny-matters--fireworks-over-millennia-from-battlefields-and-royal-display",
+      "show": "Tiny Matters",
+      "title": "Fireworks over millennia: From battlefields and royal displays to sustainable spectacles",
+      "apple_collection_id": 1599757941,
+      "apple_track_id": 1000775928183,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/fireworks-over-millennia-from-battlefields-and-royal/id1599757941?i=1000775928183&uo=4",
+      "release_date": "2026-07-08",
+      "duration_min": 31,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/32/b2/87/32b287af-fcdb-1d61-0b23-9bf511c23f0e/mza_13346310199661029114.jpeg/600x600bb.jpg",
+      "topics": [
+        "science/chemistry"
+      ],
+      "hook": "The chemistry behind fireworks, from ancient battlefields to sustainable modern displays."
+    },
+    {
+      "id": "tiny-matters--collisions-in-space-satellites-space-debris-and-the-quest-to",
+      "show": "Tiny Matters",
+      "title": "Collisions in space: Satellites, space debris, and the quest to clean up Earth's orbit",
+      "apple_collection_id": 1599757941,
+      "apple_track_id": 1000774010353,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/collisions-in-space-satellites-space-debris-and-the/id1599757941?i=1000774010353&uo=4",
+      "release_date": "2026-06-24",
+      "duration_min": 37,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/32/b2/87/32b287af-fcdb-1d61-0b23-9bf511c23f0e/mza_13346310199661029114.jpeg/600x600bb.jpg",
+      "topics": [
+        "science/chemistry"
+      ],
+      "hook": "Space debris and satellite collisions -- the chemistry of cleaning up Earth's orbit."
+    },
+    {
+      "id": "tiny-matters--the-challenger-disaster-how-a-nasa-tragedy-led-to-a-safer-ar",
+      "show": "Tiny Matters",
+      "title": "The Challenger disaster: How a NASA tragedy led to a safer Artemis II",
+      "apple_collection_id": 1599757941,
+      "apple_track_id": 1000772025604,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-challenger-disaster-how-a-nasa-tragedy-led-to/id1599757941?i=1000772025604&uo=4",
+      "release_date": "2026-06-10",
+      "duration_min": 36,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/32/b2/87/32b287af-fcdb-1d61-0b23-9bf511c23f0e/mza_13346310199661029114.jpeg/600x600bb.jpg",
+      "topics": [
+        "science/chemistry"
+      ],
+      "hook": "How the Challenger tragedy quietly reshaped safety engineering ahead of Artemis II."
+    },
+    {
+      "id": "the-sharp-end-podcast--ep-126-mountain-rescue-in-the-bugaboos-zach-watson",
+      "show": "the Sharp End Podcast",
+      "title": "Ep 126 - Mountain Rescue in the Bugaboos - Zach Watson",
+      "apple_collection_id": 1080036452,
+      "apple_track_id": 1000775023094,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/ep-126-mountain-rescue-in-the-bugaboos-zach-watson/id1080036452?i=1000775023094&uo=4",
+      "release_date": "2026-07-01",
+      "duration_min": 66,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/74/f2/d7/74f2d72c-fa5e-6ad6-6ca8-665b6aa2798a/mza_3128307597345150216.jpg/600x600bb.jpg",
+      "topics": [
+        "adventure/exploration"
+      ],
+      "hook": "A climber recounts a Bugaboos rescue and what real preparation looks like."
+    },
+    {
+      "id": "the-sharp-end-podcast--ep-125-the-way-out-a-true-story-of-survival-in-the-heart-of-",
+      "show": "the Sharp End Podcast",
+      "title": "Ep 125 - The Way Out - A True Story of Survival in the Heart of the Rockies - Devon O'Neil",
+      "apple_collection_id": 1080036452,
+      "apple_track_id": 1000770594105,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/ep-125-the-way-out-a-true-story-of-survival/id1080036452?i=1000770594105&uo=4",
+      "release_date": "2026-06-01",
+      "duration_min": 49,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/74/f2/d7/74f2d72c-fa5e-6ad6-6ca8-665b6aa2798a/mza_3128307597345150216.jpg/600x600bb.jpg",
+      "topics": [
+        "adventure/exploration"
+      ],
+      "hook": "A backcountry ski tragedy in the Rockies and the rescue that followed."
+    },
+    {
+      "id": "the-sharp-end-podcast--ep-124-climbing-liberty-ridge-lessons-learned-from-a-challen",
+      "show": "the Sharp End Podcast",
+      "title": "Ep 124 - Climbing Liberty Ridge - Lessons Learned from a Challenging Ascent - Andy & Eric",
+      "apple_collection_id": 1080036452,
+      "apple_track_id": 1000765528544,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/ep-124-climbing-liberty-ridge-lessons-learned-from/id1080036452?i=1000765528544&uo=4",
+      "release_date": "2026-05-01",
+      "duration_min": 57,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/74/f2/d7/74f2d72c-fa5e-6ad6-6ca8-665b6aa2798a/mza_3128307597345150216.jpg/600x600bb.jpg",
+      "topics": [
+        "adventure/exploration"
+      ],
+      "hook": "Two climbers on Rainier's Liberty Ridge share the calls that kept them alive."
+    },
+    {
+      "id": "the-enormocast--enormocast-326-julia-cassou-telling-true-stories",
+      "show": "The Enormocast: the climbing podcast",
+      "title": "Enormocast 326: Julia Cassou – Telling True Stories",
+      "apple_collection_id": 490027390,
+      "apple_track_id": 1000775790968,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/enormocast-326-julia-cassou-telling-true-stories/id490027390?i=1000775790968&uo=4",
+      "release_date": "2026-07-07",
+      "duration_min": 82,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/ca/f3/b5/caf3b5bf-75df-9cd9-ab9a-040a9db19900/mza_11650686212841206162.jpg/600x600bb.jpg",
+      "topics": [
+        "adventure/exploration"
+      ],
+      "hook": "A climbing journalist on what makes a true story worth telling."
+    },
+    {
+      "id": "the-enormocast--enormocast-323-cole-brauer-every-day-the-sea",
+      "show": "The Enormocast: the climbing podcast",
+      "title": "Enormocast 323: Cole Brauer – Every Day the Sea",
+      "apple_collection_id": 490027390,
+      "apple_track_id": 1000766227518,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/enormocast-323-cole-brauer-every-day-the-sea/id490027390?i=1000766227518&uo=4",
+      "release_date": "2026-05-05",
+      "duration_min": 106,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/ca/f3/b5/caf3b5bf-75df-9cd9-ab9a-040a9db19900/mza_11650686212841206162.jpg/600x600bb.jpg",
+      "topics": [
+        "adventure/exploration"
+      ],
+      "hook": "A solo ocean racer on months alone at sea and what it teaches."
+    },
+    {
+      "id": "the-enormocast--enormocast-318-babsi-zangerl-10-years-later",
+      "show": "The Enormocast: the climbing podcast",
+      "title": "Enormocast 318: Babsi Zangerl – 10 Years Later",
+      "apple_collection_id": 490027390,
+      "apple_track_id": 1000746205952,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/enormocast-318-babsi-zangerl-10-years-later/id490027390?i=1000746205952&uo=4",
+      "release_date": "2026-01-22",
+      "duration_min": 105,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/ca/f3/b5/caf3b5bf-75df-9cd9-ab9a-040a9db19900/mza_11650686212841206162.jpg/600x600bb.jpg",
+      "topics": [
+        "adventure/exploration"
+      ],
+      "hook": "One of climbing's best free climbers looks back ten years into her career."
+    },
+    {
+      "id": "alpinist--kelsey-gray-a-world-of-routes",
+      "show": "Alpinist",
+      "title": "Kelsey Gray - A World of Routes",
+      "apple_collection_id": 1270813772,
+      "apple_track_id": 1000767456575,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/kelsey-gray-a-world-of-routes/id1270813772?i=1000767456575&uo=4",
+      "release_date": "2026-05-12",
+      "duration_min": 40,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts123/v4/e7/9b/e7/e79be7c0-9ad1-3173-6d32-ea6de8ceccce/mza_2356562848676951642.png/600x600bb.jpg",
+      "topics": [
+        "adventure/exploration"
+      ],
+      "hook": "A route developer on opening new lines across Alaska's remote peaks."
+    },
+    {
+      "id": "alpinist--alita-contreras-woman-warrior",
+      "show": "Alpinist",
+      "title": "Alita Contreras - Woman Warrior",
+      "apple_collection_id": 1270813772,
+      "apple_track_id": 1000764580641,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/alita-contreras-woman-warrior/id1270813772?i=1000764580641&uo=4",
+      "release_date": "2026-05-07",
+      "duration_min": 47,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts123/v4/e7/9b/e7/e79be7c0-9ad1-3173-6d32-ea6de8ceccce/mza_2356562848676951642.png/600x600bb.jpg",
+      "topics": [
+        "adventure/exploration"
+      ],
+      "hook": "A documentary on Colombian women climbers and the identity built on rock."
+    },
+    {
+      "id": "alpinist--will-moss-one-step-further",
+      "show": "Alpinist",
+      "title": "Will Moss - One Step Further",
+      "apple_collection_id": 1270813772,
+      "apple_track_id": 1000723799513,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/will-moss-one-step-further/id1270813772?i=1000723799513&uo=4",
+      "release_date": "2025-08-27",
+      "duration_min": 35,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts123/v4/e7/9b/e7/e79be7c0-9ad1-3173-6d32-ea6de8ceccce/mza_2356562848676951642.png/600x600bb.jpg",
+      "topics": [
+        "adventure/exploration"
+      ],
+      "hook": "A young climber's 22-hour push up El Capitan, from gym walls to big walls."
+    },
+    {
+      "id": "designer-notes--designer-notes-96-owen-mahoney",
+      "show": "Designer Notes",
+      "title": "Designer Notes 96: Owen Mahoney",
+      "apple_collection_id": 935345158,
+      "apple_track_id": 1000775690567,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/designer-notes-96-owen-mahoney/id935345158?i=1000775690567&uo=4",
+      "release_date": "2026-07-06",
+      "duration_min": 89,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/c9/10/5c/c9105c1d-64eb-9d62-0949-a08ec7a0e7b9/mza_9310467645383947947.jpg/600x600bb.jpg",
+      "topics": [
+        "gaming/design"
+      ],
+      "hook": "A former Nexon CEO on the hard tradeoffs of free-to-play game design."
+    },
+    {
+      "id": "designer-notes--designer-notes-94-charles-cecil-part-2",
+      "show": "Designer Notes",
+      "title": "Designer Notes 94: Charles Cecil - Part 2",
+      "apple_collection_id": 935345158,
+      "apple_track_id": 1000766069639,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/designer-notes-94-charles-cecil-part-2/id935345158?i=1000766069639&uo=4",
+      "release_date": "2026-05-04",
+      "duration_min": 214,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/c9/10/5c/c9105c1d-64eb-9d62-0949-a08ec7a0e7b9/mza_9310467645383947947.jpg/600x600bb.jpg",
+      "topics": [
+        "gaming/design"
+      ],
+      "hook": "An adventure-game pioneer on digital distribution and decades of design lessons."
+    },
+    {
+      "id": "designer-notes--designer-notes-92-paul-kilduff-taylor",
+      "show": "Designer Notes",
+      "title": "Designer Notes 92: Paul Kilduff-Taylor",
+      "apple_collection_id": 935345158,
+      "apple_track_id": 1000742817181,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/designer-notes-92-paul-kilduff-taylor/id935345158?i=1000742817181&uo=4",
+      "release_date": "2025-12-26",
+      "duration_min": 189,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/c9/10/5c/c9105c1d-64eb-9d62-0949-a08ec7a0e7b9/mza_9310467645383947947.jpg/600x600bb.jpg",
+      "topics": [
+        "gaming/design"
+      ],
+      "hook": "Frozen Synapse's creator on simultaneous-turn design and indie self-distribution."
+    },
+    {
+      "id": "game-design-round-table--revisiting-civ-7",
+      "show": "The Game Design Round Table",
+      "title": "Revisiting Civ 7",
+      "apple_collection_id": 578641256,
+      "apple_track_id": 1000774868180,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/revisiting-civ-7/id578641256?i=1000774868180&uo=4",
+      "release_date": "2026-06-30",
+      "duration_min": 58,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/25/3b/bf/253bbfd2-5db2-b9a4-1886-9eb87ea7f67a/mza_8863316281658631687.jpg/600x600bb.jpg",
+      "topics": [
+        "gaming/design"
+      ],
+      "hook": "A big swing that missed: dissecting Civilization 7's rocky course correction."
+    },
+    {
+      "id": "game-design-round-table--season-rpg-exploring-the-success-behind-neon-odyssey-with-mi",
+      "show": "The Game Design Round Table",
+      "title": "Season: RPG - Exploring the Success Behind Neon Odyssey with Mikey Gilder",
+      "apple_collection_id": 578641256,
+      "apple_track_id": 1000773041105,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/season-rpg-exploring-the-success-behind-neon-odyssey/id578641256?i=1000773041105&uo=4",
+      "release_date": "2026-06-16",
+      "duration_min": 61,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/25/3b/bf/253bbfd2-5db2-b9a4-1886-9eb87ea7f67a/mza_8863316281658631687.jpg/600x600bb.jpg",
+      "topics": [
+        "gaming/design"
+      ],
+      "hook": "A $9M Kickstarter's designer on narrative freedom versus mechanical depth in RPGs."
+    },
+    {
+      "id": "game-design-round-table--listener-questions-ai-and-the-future-of-game-design",
+      "show": "The Game Design Round Table",
+      "title": "Listener Questions, AI and the Future of Game Design",
+      "apple_collection_id": 578641256,
+      "apple_track_id": 1000770861180,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/listener-questions-ai-and-the-future-of-game-design/id578641256?i=1000770861180&uo=4",
+      "release_date": "2026-06-03",
+      "duration_min": 56,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/25/3b/bf/253bbfd2-5db2-b9a4-1886-9eb87ea7f67a/mza_8863316281658631687.jpg/600x600bb.jpg",
+      "topics": [
+        "gaming/design"
+      ],
+      "hook": "What AI actually changes about game design, memory, and creative ethics."
+    },
+    {
+      "id": "clockwork-game-design-podcast--the-rpg-report-and-the-worst-things-in-rpgs",
+      "show": "The Clockwork Game Design Podcast",
+      "title": "The RPG Report, and the worst things in RPGs",
+      "apple_collection_id": 1048826488,
+      "apple_track_id": 1000636505653,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-rpg-report-and-the-worst-things-in-rpgs/id1048826488?i=1000636505653&uo=4",
+      "release_date": "2023-11-25",
+      "duration_min": 63,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/07/37/43/073743cb-a057-3692-b2bb-3f0d678ed7b3/mza_10460167288299676493.jpg/600x600bb.jpg",
+      "topics": [
+        "gaming/design"
+      ],
+      "hook": "An opinionated designer names the worst recurring mistakes in RPG design."
+    },
+    {
+      "id": "clockwork-game-design-podcast--rpg-questions-and-trails-in-the-sky-fc",
+      "show": "The Clockwork Game Design Podcast",
+      "title": "RPG Questions, and Trails in the Sky FC",
+      "apple_collection_id": 1048826488,
+      "apple_track_id": 1000612575877,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/rpg-questions-and-trails-in-the-sky-fc/id1048826488?i=1000612575877&uo=4",
+      "release_date": "2023-05-11",
+      "duration_min": 52,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/07/37/43/073743cb-a057-3692-b2bb-3f0d678ed7b3/mza_10460167288299676493.jpg/600x600bb.jpg",
+      "topics": [
+        "gaming/design"
+      ],
+      "hook": "Listener design questions collide with a close read of Trails in the Sky."
+    },
+    {
+      "id": "clockwork-game-design-podcast--clockwork-game-design-podcast-the-final-fantasy-episode",
+      "show": "The Clockwork Game Design Podcast",
+      "title": "Clockwork Game Design Podcast – The Final Fantasy Episode",
+      "apple_collection_id": 1048826488,
+      "apple_track_id": 1000583225701,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/clockwork-game-design-podcast-the-final-fantasy-episode/id1048826488?i=1000583225701&uo=4",
+      "release_date": "2022-10-19",
+      "duration_min": 71,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/07/37/43/073743cb-a057-3692-b2bb-3f0d678ed7b3/mza_10460167288299676493.jpg/600x600bb.jpg",
+      "topics": [
+        "gaming/design"
+      ],
+      "hook": "A strategy-game designer picks apart what actually works in Final Fantasy."
+    },
+    {
+      "id": "huberman-lab--raising-a-dog-and-mastering-calm-assertive-energy-cesar-mill",
+      "show": "Huberman Lab",
+      "title": "Raising a Dog & Mastering Calm Assertive Energy | Cesar Millan",
+      "apple_collection_id": 1545953110,
+      "apple_track_id": 1000775612409,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/raising-a-dog-mastering-calm-assertive-energy-cesar-millan/id1545953110?i=1000775612409&uo=4",
+      "release_date": "2026-07-06",
+      "duration_min": 158,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/9a/d3/19/9ad31912-0b5a-a16e-2d7c-9fd074698b9c/mza_8994222203629500925.jpg/600x600bb.jpg",
+      "topics": [
+        "medicine/neuroscience"
+      ],
+      "hook": "Cesar Millan on calm-assertive energy and what dog training reveals about behavior."
+    },
+    {
+      "id": "huberman-lab--movement-practice-to-strengthen-your-mind-body-connection-id",
+      "show": "Huberman Lab",
+      "title": "Movement Practice to Strengthen Your Mind-Body Connection | Ido Portal",
+      "apple_collection_id": 1545953110,
+      "apple_track_id": 1000774664535,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/movement-practice-to-strengthen-your-mind-body-connection/id1545953110?i=1000774664535&uo=4",
+      "release_date": "2026-06-29",
+      "duration_min": 180,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/9a/d3/19/9ad31912-0b5a-a16e-2d7c-9fd074698b9c/mza_8994222203629500925.jpg/600x600bb.jpg",
+      "topics": [
+        "medicine/neuroscience"
+      ],
+      "hook": "A movement coach on training the mind-body connection most people ignore."
+    },
+    {
+      "id": "huberman-lab--science-of-attraction-compatibility-and-romance-dr-paul-east",
+      "show": "Huberman Lab",
+      "title": "Science of Attraction, Compatibility & Romance | Dr. Paul Eastwick",
+      "apple_collection_id": 1545953110,
+      "apple_track_id": 1000773699928,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/science-of-attraction-compatibility-romance-dr-paul/id1545953110?i=1000773699928&uo=4",
+      "release_date": "2026-06-22",
+      "duration_min": 171,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/9a/d3/19/9ad31912-0b5a-a16e-2d7c-9fd074698b9c/mza_8994222203629500925.jpg/600x600bb.jpg",
+      "topics": [
+        "medicine/neuroscience"
+      ],
+      "hook": "The psychology of attraction, compatibility, and why romance follows patterns."
+    },
+    {
+      "id": "the-matt-walker-podcast--142-how-memory-affects-sleep",
+      "show": "The Matt Walker Podcast",
+      "title": "#142 - How Memory Affects Sleep",
+      "apple_collection_id": 1578319619,
+      "apple_track_id": 1000775608462,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/142-how-memory-affects-sleep/id1578319619?i=1000775608462&uo=4",
+      "release_date": "2026-07-06",
+      "duration_min": 29,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/5a/3e/6c/5a3e6c8c-6c6f-31eb-6002-0bdaba3ae4f8/mza_5768385804711493809.jpg/600x600bb.jpg",
+      "topics": [
+        "medicine/neuroscience"
+      ],
+      "hook": "The harder your brain works by day, the more it rests at night."
+    },
+    {
+      "id": "the-matt-walker-podcast--141-the-daylight-mistake",
+      "show": "The Matt Walker Podcast",
+      "title": "#141 - The Daylight Mistake",
+      "apple_collection_id": 1578319619,
+      "apple_track_id": 1000773692523,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/141-the-daylight-mistake/id1578319619?i=1000773692523&uo=4",
+      "release_date": "2026-06-22",
+      "duration_min": 26,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/5a/3e/6c/5a3e6c8c-6c6f-31eb-6002-0bdaba3ae4f8/mza_5768385804711493809.jpg/600x600bb.jpg",
+      "topics": [
+        "medicine/neuroscience"
+      ],
+      "hook": "Hidden circuits in your eyes control alertness -- and most people misuse them."
+    },
+    {
+      "id": "the-matt-walker-podcast--140-tired-but-wired",
+      "show": "The Matt Walker Podcast",
+      "title": "#140 - Tired but Wired",
+      "apple_collection_id": 1578319619,
+      "apple_track_id": 1000772737264,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/140-tired-but-wired/id1578319619?i=1000772737264&uo=4",
+      "release_date": "2026-06-15",
+      "duration_min": 29,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/5a/3e/6c/5a3e6c8c-6c6f-31eb-6002-0bdaba3ae4f8/mza_5768385804711493809.jpg/600x600bb.jpg",
+      "topics": [
+        "medicine/neuroscience"
+      ],
+      "hook": "Insomnia is often hyperarousal, not a lack of sleep drive -- here's the fix."
+    },
+    {
+      "id": "the-peter-attia-drive--building-strength-and-muscle-mass-how-to-optimize-training-n",
+      "show": "The Peter Attia Drive",
+      "title": "Building strength and muscle mass: how to optimize training, nutrition, and more for longevity (AMA #71 rebroadcast)",
+      "apple_collection_id": 1400828889,
+      "apple_track_id": 1000775593548,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/building-strength-and-muscle-mass-how-to-optimize/id1400828889?i=1000775593548&uo=4",
+      "release_date": "2026-07-06",
+      "duration_min": 104,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/89/b8/c0/89b8c0bb-f65c-66ef-8b96-fffea8f0cf5f/mza_872007510196734520.png/600x600bb.jpg",
+      "topics": [
+        "medicine/neuroscience"
+      ],
+      "hook": "Building muscle for longevity -- progressive overload, protein, and training safely at any age."
+    },
+    {
+      "id": "the-peter-attia-drive--397-endometriosis-and-adenomyosis-diagnosis-fertility-reprod",
+      "show": "The Peter Attia Drive",
+      "title": "#397 – Endometriosis and adenomyosis: diagnosis, fertility, reproductive aging, and emerging treatments | Renato Tomioka, M.D., Ph.D.",
+      "apple_collection_id": 1400828889,
+      "apple_track_id": 1000773684644,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/397-endometriosis-and-adenomyosis-diagnosis-fertility/id1400828889?i=1000773684644&uo=4",
+      "release_date": "2026-06-22",
+      "duration_min": 119,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/89/b8/c0/89b8c0bb-f65c-66ef-8b96-fffea8f0cf5f/mza_872007510196734520.png/600x600bb.jpg",
+      "topics": [
+        "medicine/neuroscience"
+      ],
+      "hook": "Diagnostic advances and modern treatments for two under-discussed reproductive conditions."
+    },
+    {
+      "id": "the-peter-attia-drive--395-brain-lipidology-understanding-apoe-cholesterol-homeosta",
+      "show": "The Peter Attia Drive",
+      "title": "#395 - Brain lipidology: understanding APOE, cholesterol homeostasis, Alzheimer's disease risk, and the effects of lipid-lowering therapies on brain health | Tom Dayspring, M.D.",
+      "apple_collection_id": 1400828889,
+      "apple_track_id": 1000771628543,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/395-brain-lipidology-understanding-apoe-cholesterol/id1400828889?i=1000771628543&uo=4",
+      "release_date": "2026-06-08",
+      "duration_min": 101,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/89/b8/c0/89b8c0bb-f65c-66ef-8b96-fffea8f0cf5f/mza_872007510196734520.png/600x600bb.jpg",
+      "topics": [
+        "medicine/neuroscience"
+      ],
+      "hook": "How the APOE gene, cholesterol, and brain lipids shape Alzheimer's risk."
+    },
+    {
+      "id": "strict-scrutiny--scotus-just-barely-preserves-birthright-citizenship",
+      "show": "Strict Scrutiny",
+      "title": "SCOTUS Just Barely Preserves Birthright Citizenship",
+      "apple_collection_id": 1469168641,
+      "apple_track_id": 1000774906761,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/scotus-just-barely-preserves-birthright-citizenship/id1469168641?i=1000774906761&uo=4",
+      "release_date": "2026-06-30",
+      "duration_min": 59,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/68/3f/62/683f6228-b15b-e0de-8c2c-e8c20860ca98/mza_763663699315012405.png/600x600bb.jpg",
+      "topics": [
+        "society/law"
+      ],
+      "hook": "The Court's late-term rulings on birthright citizenship, sports, and campaign finance."
+    },
+    {
+      "id": "strict-scrutiny--scotus-kills-independent-agencies-expands-presidential-power",
+      "show": "Strict Scrutiny",
+      "title": "SCOTUS Kills Independent Agencies, Expands Presidential Power",
+      "apple_collection_id": 1469168641,
+      "apple_track_id": 1000774760589,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/scotus-kills-independent-agencies-expands-presidential/id1469168641?i=1000774760589&uo=4",
+      "release_date": "2026-06-29",
+      "duration_min": 54,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/68/3f/62/683f6228-b15b-e0de-8c2c-e8c20860ca98/mza_763663699315012405.png/600x600bb.jpg",
+      "topics": [
+        "society/law"
+      ],
+      "hook": "Two rulings quietly hand the presidency sweeping new power over agencies."
+    },
+    {
+      "id": "strict-scrutiny--breaking-scotus-greenlights-trump-s-cruel-immigration-polici",
+      "show": "Strict Scrutiny",
+      "title": "BREAKING: SCOTUS Greenlights Trump's Cruel Immigration Policies",
+      "apple_collection_id": 1469168641,
+      "apple_track_id": 1000774238359,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/breaking-scotus-greenlights-trumps-cruel-immigration/id1469168641?i=1000774238359&uo=4",
+      "release_date": "2026-06-25",
+      "duration_min": 38,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/68/3f/62/683f6228-b15b-e0de-8c2c-e8c20860ca98/mza_763663699315012405.png/600x600bb.jpg",
+      "topics": [
+        "society/law"
+      ],
+      "hook": "Justice Sotomayor's sharp warning follows two major immigration rulings from the Court."
+    },
+    {
+      "id": "amicus-dahlia-lithwick--bad-history-will-kill-america",
+      "show": "Amicus With Dahlia Lithwick | Law, justice, and the courts",
+      "title": "Bad History Will Kill America",
+      "apple_collection_id": 928790786,
+      "apple_track_id": 1000775271595,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/bad-history-will-kill-america/id928790786?i=1000775271595&uo=4",
+      "release_date": "2026-07-04",
+      "duration_min": 58,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/e8/52/9b/e8529b7b-21fe-9692-48fd-7696d23a8807/mza_17089514366859568033.jpeg/600x600bb.jpg",
+      "topics": [
+        "society/law"
+      ],
+      "hook": "Flawed historical reasoning drives the Court's final rulings on agencies and citizenship."
+    },
+    {
+      "id": "amicus-dahlia-lithwick--a-constitutional-travesty-narrowly-avoided",
+      "show": "Amicus With Dahlia Lithwick | Law, justice, and the courts",
+      "title": "A Constitutional Travesty Narrowly Avoided",
+      "apple_collection_id": 928790786,
+      "apple_track_id": 1000774900716,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/a-constitutional-travesty-narrowly-avoided/id928790786?i=1000774900716&uo=4",
+      "release_date": "2026-06-30",
+      "duration_min": 15,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/e8/52/9b/e8529b7b-21fe-9692-48fd-7696d23a8807/mza_17089514366859568033.jpeg/600x600bb.jpg",
+      "topics": [
+        "society/law"
+      ],
+      "hook": "Close 5-4 votes decide birthright citizenship, campaign finance, and student athletes."
+    },
+    {
+      "id": "amicus-dahlia-lithwick--the-roberts-court-shows-its-true-colors",
+      "show": "Amicus With Dahlia Lithwick | Law, justice, and the courts",
+      "title": "The Roberts Court Shows Its True Colors",
+      "apple_collection_id": 928790786,
+      "apple_track_id": 1000774403494,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-roberts-court-shows-its-true-colors/id928790786?i=1000774403494&uo=4",
+      "release_date": "2026-06-27",
+      "duration_min": 69,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/e8/52/9b/e8529b7b-21fe-9692-48fd-7696d23a8807/mza_17089514366859568033.jpeg/600x600bb.jpg",
+      "topics": [
+        "society/law"
+      ],
+      "hook": "Immigration rulings reveal the Roberts Court's approach to race-conscious law."
+    },
+    {
+      "id": "5-4-podcast--trump-v-barbara",
+      "show": "5-4",
+      "title": "Trump v. Barbara",
+      "apple_collection_id": 1497785843,
+      "apple_track_id": 1000775762527,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/trump-v-barbara/id1497785843?i=1000775762527&uo=4",
+      "release_date": "2026-07-07",
+      "duration_min": 66,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts114/v4/ca/d5/c1/cad5c11c-26c6-7e25-afc7-9a496c7f6e03/mza_5631414486129804049.jpeg/600x600bb.jpg",
+      "topics": [
+        "society/law"
+      ],
+      "hook": "A skeptical breakdown of the Court's newest ruling favoring executive power."
+    },
+    {
+      "id": "5-4-podcast--250-years-of-bad-decisions-scotus-the-civil-war-and-the-end-",
+      "show": "5-4",
+      "title": "250 Years of Bad Decisions: SCOTUS, the Civil War, and the End of Reconstruction",
+      "apple_collection_id": 1497785843,
+      "apple_track_id": 1000774827725,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/250-years-of-bad-decisions-scotus-the-civil-war/id1497785843?i=1000774827725&uo=4",
+      "release_date": "2026-06-30",
+      "duration_min": 54,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts114/v4/ca/d5/c1/cad5c11c-26c6-7e25-afc7-9a496c7f6e03/mza_5631414486129804049.jpeg/600x600bb.jpg",
+      "topics": [
+        "society/law"
+      ],
+      "hook": "Tracing SCOTUS's role in the Civil War's aftermath and Reconstruction's collapse."
+    },
+    {
+      "id": "5-4-podcast--the-most-destructive-chief-justice-in-my-lifetime-dissecting",
+      "show": "5-4",
+      "title": "\"The Most Destructive Chief Justice in My Lifetime\": Dissecting John Roberts with Lisa Graves",
+      "apple_collection_id": 1497785843,
+      "apple_track_id": 1000773854036,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-most-destructive-chief-justice-in-my-lifetime/id1497785843?i=1000773854036&uo=4",
+      "release_date": "2026-06-23",
+      "duration_min": 54,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts114/v4/ca/d5/c1/cad5c11c-26c6-7e25-afc7-9a496c7f6e03/mza_5631414486129804049.jpeg/600x600bb.jpg",
+      "topics": [
+        "society/law"
+      ],
+      "hook": "A legal historian argues John Roberts has reshaped the Court more than any peer."
+    },
+    {
+      "id": "craft-beer-and-brewing-magazine-podcast--mike-stein-and-pete-jones-of-lost-lagers-look-back-at-americ",
+      "show": "Craft Beer & Brewing Magazine Podcast",
+      "title": "Mike Stein and Pete Jones of Lost Lagers Look Back at American Brewing Over the Past 250 Years",
+      "apple_collection_id": 1296082082,
+      "apple_track_id": 1000775339021,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/mike-stein-and-pete-jones-of-lost-lagers-look-back/id1296082082?i=1000775339021&uo=4",
+      "release_date": "2026-07-03",
+      "duration_min": 75,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/b6/db/11/b6db1143-1196-629d-97cc-f028ceda4084/mza_14037476996481271738.jpg/600x600bb.jpg",
+      "topics": [
+        "food/fermentation"
+      ],
+      "hook": "Two brewers look back at 250 years of American beer history."
+    },
+    {
+      "id": "craft-beer-and-brewing-magazine-podcast--the-post-s-nick-tedeschi-brews-flavorful-low-abv-beers-for-g",
+      "show": "Craft Beer & Brewing Magazine Podcast",
+      "title": "The Post's Nick Tedeschi Brews Flavorful Low-ABV Beers for Great Times with Great Food",
+      "apple_collection_id": 1296082082,
+      "apple_track_id": 1000774287973,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-posts-nick-tedeschi-brews-flavorful-low-abv-beers/id1296082082?i=1000774287973&uo=4",
+      "release_date": "2026-06-26",
+      "duration_min": 65,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/b6/db/11/b6db1143-1196-629d-97cc-f028ceda4084/mza_14037476996481271738.jpg/600x600bb.jpg",
+      "topics": [
+        "food/fermentation"
+      ],
+      "hook": "A brewer makes the case for flavorful, low-alcohol beer built for real food."
+    },
+    {
+      "id": "craft-beer-and-brewing-magazine-podcast--wynn-whisenhunt-of-wondrous-makes-better-beer-by-doing-less",
+      "show": "Craft Beer & Brewing Magazine Podcast",
+      "title": "Wynn Whisenhunt of Wondrous Makes Better Beer by Doing Less",
+      "apple_collection_id": 1296082082,
+      "apple_track_id": 1000773372037,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/wynn-whisenhunt-of-wondrous-makes-better-beer-by-doing-less/id1296082082?i=1000773372037&uo=4",
+      "release_date": "2026-06-19",
+      "duration_min": 73,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/b6/db/11/b6db1143-1196-629d-97cc-f028ceda4084/mza_14037476996481271738.jpg/600x600bb.jpg",
+      "topics": [
+        "food/fermentation"
+      ],
+      "hook": "A brewer explains why doing less often makes for noticeably better beer."
+    },
+    {
+      "id": "experimental-brewing--episode-210-bob-and-denny-take-belgium-part-2",
+      "show": "Experimental Brewing",
+      "title": "Episode 210 – Bob and Denny Take Belgium, Part 2",
+      "apple_collection_id": 1056223392,
+      "apple_track_id": 1000756285773,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/episode-210-bob-and-denny-take-belgium-part-2/id1056223392?i=1000756285773&uo=4",
+      "release_date": "2026-03-20",
+      "duration_min": 59,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts123/v4/69/02/c9/6902c9d5-5666-4f07-3484-a59a050924b0/mza_14428162548472453750.jpg/600x600bb.jpg",
+      "topics": [
+        "food/fermentation"
+      ],
+      "hook": "Two homebrew authors dig into Belgian brewing tradition, part two of two."
+    },
+    {
+      "id": "experimental-brewing--episode-207-fonio-fonio-what-the-heck-are-you-fonio",
+      "show": "Experimental Brewing",
+      "title": "Episode 207 – Fonio, Fonio, What The Heck Are You, Fonio?",
+      "apple_collection_id": 1056223392,
+      "apple_track_id": 1000703518071,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/episode-207-fonio-fonio-what-the-heck-are-you-fonio/id1056223392?i=1000703518071&uo=4",
+      "release_date": "2025-04-14",
+      "duration_min": 65,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts123/v4/69/02/c9/6902c9d5-5666-4f07-3484-a59a050924b0/mza_14428162548472453750.jpg/600x600bb.jpg",
+      "topics": [
+        "food/fermentation"
+      ],
+      "hook": "An obscure West African grain gets the experimental-homebrewing treatment."
+    },
+    {
+      "id": "experimental-brewing--episode-203-27-years-of-experience-in-norcal",
+      "show": "Experimental Brewing",
+      "title": "Episode 203 – 27 Years Of Experience In NorCal",
+      "apple_collection_id": 1056223392,
+      "apple_track_id": 1000680634000,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/episode-203-27-years-of-experience-in-norcal/id1056223392?i=1000680634000&uo=4",
+      "release_date": "2024-12-17",
+      "duration_min": 63,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts123/v4/69/02/c9/6902c9d5-5666-4f07-3484-a59a050924b0/mza_14428162548472453750.jpg/600x600bb.jpg",
+      "topics": [
+        "food/fermentation"
+      ],
+      "hook": "A brewer reflects on 27 years of Northern California craft-beer experience."
+    },
+    {
+      "id": "fermup--101-sandor-katz",
+      "show": "FermUp - The Fermented Food Podcast",
+      "title": "101: Sandor Katz",
+      "apple_collection_id": 593958494,
+      "apple_track_id": 1000356572718,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/101-sandor-katz/id593958494?i=1000356572718&uo=4",
+      "release_date": "2015-11-06",
+      "duration_min": 24,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/fd/44/87/fd44870b-c4cc-2d63-3eaa-2c592249faeb/mza_7028328887605081253.jpg/600x600bb.jpg",
+      "topics": [
+        "food/fermentation"
+      ],
+      "hook": "Fermentation's best-known evangelist talks technique during his fall residency program."
+    },
+    {
+      "id": "fermup--100-bill-shurtleff",
+      "show": "FermUp - The Fermented Food Podcast",
+      "title": "100: Bill Shurtleff",
+      "apple_collection_id": 593958494,
+      "apple_track_id": 1000354551891,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/100-bill-shurtleff/id593958494?i=1000354551891&uo=4",
+      "release_date": "2015-10-09",
+      "duration_min": 30,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/fd/44/87/fd44870b-c4cc-2d63-3eaa-2c592249faeb/mza_7028328887605081253.jpg/600x600bb.jpg",
+      "topics": [
+        "food/fermentation"
+      ],
+      "hook": "The author of the definitive tofu and miso reference books on fermenting food."
+    },
+    {
+      "id": "fermup--93-researching-fermentation",
+      "show": "FermUp - The Fermented Food Podcast",
+      "title": "93: Researching Fermentation",
+      "apple_collection_id": 593958494,
+      "apple_track_id": 1000327298752,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/93-researching-fermentation/id593958494?i=1000327298752&uo=4",
+      "release_date": "2014-12-12",
+      "duration_min": 47,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/fd/44/87/fd44870b-c4cc-2d63-3eaa-2c592249faeb/mza_7028328887605081253.jpg/600x600bb.jpg",
+      "topics": [
+        "food/fermentation"
+      ],
+      "hook": "A researcher explains what actually happens, chemically, when food ferments."
     }
   ]
 }

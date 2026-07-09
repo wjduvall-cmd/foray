@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "built_at": "2026-07-09T05:39:42.554Z",
+  "built_at": "2026-07-09T05:53:24.859Z",
   "notes": "Show-level bench for the curation engine, per docs/brief/03_CURATION_SPEC.md. Carried-over shows (already referenced in data/session.json) were not re-verified via iTunes -- only their existing apple_collection_id was reused, plus feed_url already verified in docs/research/fusion-candidates.md and docs/research/other-slot-candidates.md by prior research passes in this project. All newly added shows were verified fresh via https://itunes.apple.com/search and https://itunes.apple.com/lookup; no collection id or feed url in this file was invented. cadence_hint is inferred from each show's most recent indexed release date (via iTunes lookup) relative to built_at, corroborated by trackCount and, where noted, public knowledge of the show's known publishing rhythm -- treat it as an approximation, not a guarantee.",
   "shows": [
     {
@@ -1835,6 +1835,596 @@
         "stretch"
       ],
       "cadence_hint": "biweekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "radiolab",
+      "title": "Radiolab",
+      "apple_collection_id": 152249110,
+      "feed_url": "https://feeds.simplecast.com/EmVW7VGp",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/2b/b2/4d/2bb24d28-f3bb-916f-6bf3-9e125ba5219b/mza_4476298389845914795.jpg/600x600bb.jpg",
+      "apple_genre": "Natural Sciences",
+      "episode_count": 856,
+      "editorial_note": "WNYC's original science-storytelling show, turning curiosity and hard evidence into sound-rich narrative journeys.",
+      "taxonomy_node_ids": [
+        "science/storytelling"
+      ],
+      "archetype_fit": [
+        "narrative",
+        "stretch"
+      ],
+      "cadence_hint": "biweekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "science-vs",
+      "title": "Science Vs",
+      "apple_collection_id": 1051557000,
+      "feed_url": "https://feeds.megaphone.fm/sciencevs",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/62/15/18/621518e5-8eb3-392b-25a7-e7444aab86b6/mza_815589518502039493.jpg/600x600bb.jpg",
+      "apple_genre": "Science",
+      "episode_count": 337,
+      "editorial_note": "Wendy Zukerman puts popular claims on trial against the actual scientific evidence.",
+      "taxonomy_node_ids": [
+        "science/storytelling"
+      ],
+      "archetype_fit": [
+        "stretch",
+        "deep-learn"
+      ],
+      "cadence_hint": "weekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "unexplainable",
+      "title": "Unexplainable",
+      "apple_collection_id": 1554578197,
+      "feed_url": "https://feeds.megaphone.fm/VMP9331026707",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/eb/87/4d/eb874d60-4424-62df-a136-d5b5f32c451b/mza_11680166435885601347.jpg/600x600bb.jpg",
+      "apple_genre": "Life Sciences",
+      "episode_count": 292,
+      "editorial_note": "Vox's science show for the stuff researchers still can't fully explain.",
+      "taxonomy_node_ids": [
+        "science/storytelling"
+      ],
+      "archetype_fit": [
+        "stretch",
+        "narrative"
+      ],
+      "cadence_hint": "weekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "how-i-built-this",
+      "title": "How I Built This with Guy Raz",
+      "apple_collection_id": 1150510297,
+      "feed_url": "https://rss.art19.com/how-i-built-this",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/64/45/06/644506b5-c44f-f661-f74e-f63a4b2511bc/mza_14892199991035639268.jpeg/600x600bb.jpg",
+      "apple_genre": "Business",
+      "episode_count": 849,
+      "editorial_note": "Guy Raz asks founders how they actually built their companies, mistakes included.",
+      "taxonomy_node_ids": [
+        "business/founders"
+      ],
+      "archetype_fit": [
+        "narrative",
+        "deep-learn"
+      ],
+      "cadence_hint": "weekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "business-wars",
+      "title": "Business Wars",
+      "apple_collection_id": 1335814741,
+      "feed_url": "https://rss.art19.com/business-wars",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/88/78/24/887824a1-8191-f922-a27e-499bb3f9e624/mza_2534133078841157643.jpeg/600x600bb.jpg",
+      "apple_genre": "Management",
+      "episode_count": 723,
+      "editorial_note": "Head-to-head corporate rivalry stories -- real strategy, real stakes, real winners and losers.",
+      "taxonomy_node_ids": [
+        "business/founders"
+      ],
+      "archetype_fit": [
+        "narrative",
+        "stretch"
+      ],
+      "cadence_hint": "weekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "masters-of-scale",
+      "title": "Masters of Scale",
+      "apple_collection_id": 1227971746,
+      "feed_url": "https://rss.art19.com/masters-of-scale",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/13/4b/81/134b8173-d713-cbb2-2d3b-4a8692bd87c0/mza_996010941061703843.jpeg/600x600bb.jpg",
+      "apple_genre": "Management",
+      "episode_count": 713,
+      "editorial_note": "Reid Hoffman and founders unpack how companies actually scale, one hard lesson at a time.",
+      "taxonomy_node_ids": [
+        "business/founders"
+      ],
+      "archetype_fit": [
+        "deep-learn",
+        "stretch"
+      ],
+      "cadence_hint": "weekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "we-have-ways-of-making-you-talk",
+      "title": "WW2 Pod: We Have Ways of Making You Talk",
+      "apple_collection_id": 1457552694,
+      "feed_url": "https://feeds.megaphone.fm/GLT8434431415",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/c5/22/e9/c522e983-ceb9-9337-d7b5-9b6f1e77e16b/mza_10534174726318393863.jpeg/600x600bb.jpg",
+      "apple_genre": "History",
+      "episode_count": 1006,
+      "editorial_note": "James Holland and Al Murray's meticulous, funny rundown of World War II campaigns.",
+      "taxonomy_node_ids": [
+        "history/military-modern"
+      ],
+      "archetype_fit": [
+        "narrative",
+        "deep-learn"
+      ],
+      "cadence_hint": "weekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "unauthorized-history-pacific-war",
+      "title": "The Unauthorized History of the Pacific War",
+      "apple_collection_id": 1641383288,
+      "feed_url": "https://feeds.simplecast.com/SacR7vrI",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/fb/ee/c8/fbeec8e6-3d1f-20b4-d8b4-025fc884959e/mza_7133861084749007820.jpg/600x600bb.jpg",
+      "apple_genre": "History",
+      "episode_count": 228,
+      "editorial_note": "A WWII Museum historian and a submarine commodore reconstruct the Pacific War's naval battles.",
+      "taxonomy_node_ids": [
+        "history/military-modern"
+      ],
+      "archetype_fit": [
+        "narrative",
+        "deep-learn"
+      ],
+      "cadence_hint": "biweekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "history-of-wwii-podcast",
+      "title": "The History of WWII Podcast",
+      "apple_collection_id": 493253759,
+      "feed_url": "https://rss.pdrl.fm/eb4bb2/feeds.megaphone.fm/history-of-world-war-ii",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/bb/fa/9a/bbfa9a3d-9cb1-a452-fc74-c8ebab7bac9a/mza_13831910833290623732.jpg/600x600bb.jpg",
+      "apple_genre": "History",
+      "episode_count": 643,
+      "editorial_note": "Ray Harris Jr's methodical, near-daily march through World War II, battle by battle.",
+      "taxonomy_node_ids": [
+        "history/military-modern"
+      ],
+      "archetype_fit": [
+        "deep-learn",
+        "narrative"
+      ],
+      "cadence_hint": "weekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "the-war-on-cars",
+      "title": "The War on Cars",
+      "apple_collection_id": 1437755068,
+      "feed_url": "https://rss.libsyn.com/shows/132228/destinations/807818.xml",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/0b/ad/19/0bad19f8-b182-5020-a70f-85729285514a/mza_1833798207903169371.png/600x600bb.jpg",
+      "apple_genre": "Society & Culture",
+      "episode_count": 246,
+      "editorial_note": "Sarah Goodyear, Doug Gordon, and Aaron Naparstek on the fight between cars and cities.",
+      "taxonomy_node_ids": [
+        "cities/urbanism"
+      ],
+      "archetype_fit": [
+        "stretch",
+        "deep-learn"
+      ],
+      "cadence_hint": "biweekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "strong-towns-podcast",
+      "title": "The Strong Towns Podcast",
+      "apple_collection_id": 369032477,
+      "feed_url": "https://feed.podbean.com/podcast.strongtowns.org/feed.xml",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/63/63/8c/63638c2a-3e02-dc38-8a26-50a832d39a6f/mza_868145100848425715.jpg/600x600bb.jpg",
+      "apple_genre": "Government",
+      "episode_count": 600,
+      "editorial_note": "Chuck Marohn's movement rethinking how American towns actually build and pay for infrastructure.",
+      "taxonomy_node_ids": [
+        "cities/urbanism"
+      ],
+      "archetype_fit": [
+        "deep-learn",
+        "stretch"
+      ],
+      "cadence_hint": "biweekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "talking-headways",
+      "title": "Talking Headways: A Streetsblog Podcast",
+      "apple_collection_id": 775143271,
+      "feed_url": "https://rss.libsyn.com/shows/49347/destinations/170891.xml",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/89/59/f1/8959f121-bfad-7597-127c-66ddafc642e2/mza_17751439431270750380.png/600x600bb.jpg",
+      "apple_genre": "Government",
+      "episode_count": 807,
+      "editorial_note": "Streetsblog's transit-nerd interview show -- policy, funding, and the politics of getting around.",
+      "taxonomy_node_ids": [
+        "cities/urbanism"
+      ],
+      "archetype_fit": [
+        "deep-learn"
+      ],
+      "cadence_hint": "weekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "chemistry-world-podcast",
+      "title": "Chemistry World Podcast",
+      "apple_collection_id": 1162734003,
+      "feed_url": "https://rss.libsyn.com/shows/83563/destinations/393838.xml",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/e9/bd/26/e9bd26f1-5fd8-c11d-9099-9a5ba8e4d2fa/mza_7726010091290240505.jpg/600x600bb.jpg",
+      "apple_genre": "Chemistry",
+      "episode_count": 72,
+      "editorial_note": "The Royal Society of Chemistry's weekly tour of chemistry news and the periodic table.",
+      "taxonomy_node_ids": [
+        "science/chemistry"
+      ],
+      "archetype_fit": [
+        "deep-learn"
+      ],
+      "cadence_hint": "biweekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "distillations",
+      "title": "Distillations | Science History Institute",
+      "apple_collection_id": 270428918,
+      "feed_url": "https://rss.libsyn.com/shows/36404/destinations/94300.xml",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/f8/ac/cb/f8accb85-5de3-13cf-79c7-2ae52d7d788b/mza_13590418307554863530.jpg/600x600bb.jpg",
+      "apple_genre": "History",
+      "episode_count": 362,
+      "editorial_note": "Science History Institute's documentary strand on chemistry's stranger, more human stories.",
+      "taxonomy_node_ids": [
+        "science/chemistry"
+      ],
+      "archetype_fit": [
+        "narrative",
+        "deep-learn"
+      ],
+      "cadence_hint": "monthly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "tiny-matters",
+      "title": "Tiny Matters",
+      "apple_collection_id": 1599757941,
+      "feed_url": "https://rss.introcast.io/1599757941/rss.art19.com/tiny-matters",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/32/b2/87/32b287af-fcdb-1d61-0b23-9bf511c23f0e/mza_13346310199661029114.jpeg/600x600bb.jpg",
+      "apple_genre": "Life Sciences",
+      "episode_count": 179,
+      "editorial_note": "ACS-affiliated hosts unpack molecules and microbes with a big, surprising societal reach.",
+      "taxonomy_node_ids": [
+        "science/chemistry"
+      ],
+      "archetype_fit": [
+        "stretch",
+        "deep-learn"
+      ],
+      "cadence_hint": "biweekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "the-sharp-end-podcast",
+      "title": "the Sharp End Podcast",
+      "apple_collection_id": 1080036452,
+      "feed_url": "https://feeds.soundcloud.com/users/soundcloud:users:198260728/sounds.rss",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/74/f2/d7/74f2d72c-fa5e-6ad6-6ca8-665b6aa2798a/mza_3128307597345150216.jpg/600x600bb.jpg",
+      "apple_genre": "Sports",
+      "episode_count": 138,
+      "editorial_note": "Real climbers and rescuers narrate the accidents behind the American Alpine Club's annual report.",
+      "taxonomy_node_ids": [
+        "adventure/exploration"
+      ],
+      "archetype_fit": [
+        "narrative"
+      ],
+      "cadence_hint": "monthly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "the-enormocast",
+      "title": "The Enormocast: the climbing podcast",
+      "apple_collection_id": 490027390,
+      "feed_url": "https://enormocast.com/?feed=podcast",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/ca/f3/b5/caf3b5bf-75df-9cd9-ab9a-040a9db19900/mza_11650686212841206162.jpg/600x600bb.jpg",
+      "apple_genre": "Wilderness",
+      "episode_count": 340,
+      "editorial_note": "Chris Kalous's long-form conversations with the most interesting people in climbing.",
+      "taxonomy_node_ids": [
+        "adventure/exploration"
+      ],
+      "archetype_fit": [
+        "narrative",
+        "stretch"
+      ],
+      "cadence_hint": "monthly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "alpinist",
+      "title": "Alpinist",
+      "apple_collection_id": 1270813772,
+      "feed_url": "https://rss.libsyn.com/shows/104175/destinations/557065.xml",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts123/v4/e7/9b/e7/e79be7c0-9ad1-3173-6d32-ea6de8ceccce/mza_2356562848676951642.png/600x600bb.jpg",
+      "apple_genre": "Wilderness",
+      "episode_count": 74,
+      "editorial_note": "Alpinist Magazine's oral-history interviews -- dramatic ascents and the community's sharpest debates.",
+      "taxonomy_node_ids": [
+        "adventure/exploration"
+      ],
+      "archetype_fit": [
+        "narrative"
+      ],
+      "cadence_hint": "monthly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "designer-notes",
+      "title": "Designer Notes",
+      "apple_collection_id": 935345158,
+      "feed_url": "https://www.idlethumbs.net/feeds/designer-notes",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/c9/10/5c/c9105c1d-64eb-9d62-0949-a08ec7a0e7b9/mza_9310467645383947947.jpg/600x600bb.jpg",
+      "apple_genre": "Video Games",
+      "episode_count": 96,
+      "editorial_note": "Soren Johnson interviews veteran game designers about the decisions behind their defining games.",
+      "taxonomy_node_ids": [
+        "gaming/design"
+      ],
+      "archetype_fit": [
+        "deep-learn",
+        "stretch"
+      ],
+      "cadence_hint": "monthly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "game-design-round-table",
+      "title": "The Game Design Round Table",
+      "apple_collection_id": 578641256,
+      "feed_url": "https://rss.libsyn.com/shows/232646/destinations/1719626.xml",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/25/3b/bf/253bbfd2-5db2-b9a4-1886-9eb87ea7f67a/mza_8863316281658631687.jpg/600x600bb.jpg",
+      "apple_genre": "Design",
+      "episode_count": 391,
+      "editorial_note": "Two working designers cover thematic design, mechanics, and the business behind games.",
+      "taxonomy_node_ids": [
+        "gaming/design"
+      ],
+      "archetype_fit": [
+        "deep-learn"
+      ],
+      "cadence_hint": "biweekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "clockwork-game-design-podcast",
+      "title": "The Clockwork Game Design Podcast",
+      "apple_collection_id": 1048826488,
+      "feed_url": "http://keithburgun.net/feed/podcast/",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/07/37/43/073743cb-a057-3692-b2bb-3f0d678ed7b3/mza_10460167288299676493.jpg/600x600bb.jpg",
+      "apple_genre": "Video Games",
+      "episode_count": 50,
+      "editorial_note": "Keith Burgun's opinionated, technical take on strategy games and what makes them work.",
+      "taxonomy_node_ids": [
+        "gaming/design"
+      ],
+      "archetype_fit": [
+        "deep-learn",
+        "stretch"
+      ],
+      "cadence_hint": "ended",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "huberman-lab",
+      "title": "Huberman Lab",
+      "apple_collection_id": 1545953110,
+      "feed_url": "https://feeds.megaphone.fm/hubermanlab",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/9a/d3/19/9ad31912-0b5a-a16e-2d7c-9fd074698b9c/mza_8994222203629500925.jpg/600x600bb.jpg",
+      "apple_genre": "Health & Fitness",
+      "episode_count": 421,
+      "editorial_note": "Stanford neuroscientist Andrew Huberman translates lab research into usable protocols for body and mind.",
+      "taxonomy_node_ids": [
+        "medicine/neuroscience"
+      ],
+      "archetype_fit": [
+        "deep-learn"
+      ],
+      "cadence_hint": "weekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "the-matt-walker-podcast",
+      "title": "The Matt Walker Podcast",
+      "apple_collection_id": 1578319619,
+      "feed_url": "https://rss.buzzsprout.com/1821163.rss",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/5a/3e/6c/5a3e6c8c-6c6f-31eb-6002-0bdaba3ae4f8/mza_5768385804711493809.jpg/600x600bb.jpg",
+      "apple_genre": "Medicine",
+      "episode_count": 179,
+      "editorial_note": "UC Berkeley sleep scientist Matt Walker on the neuroscience of rest and its consequences.",
+      "taxonomy_node_ids": [
+        "medicine/neuroscience"
+      ],
+      "archetype_fit": [
+        "deep-learn"
+      ],
+      "cadence_hint": "biweekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "the-peter-attia-drive",
+      "title": "The Peter Attia Drive",
+      "apple_collection_id": 1400828889,
+      "feed_url": "https://rss.libsyn.com/shows/121729/destinations/713489.xml",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/89/b8/c0/89b8c0bb-f65c-66ef-8b96-fffea8f0cf5f/mza_872007510196734520.png/600x600bb.jpg",
+      "apple_genre": "Medicine",
+      "episode_count": 446,
+      "editorial_note": "Physician Peter Attia on longevity science -- training, nutrition, and disease risk in real depth.",
+      "taxonomy_node_ids": [
+        "medicine/neuroscience"
+      ],
+      "archetype_fit": [
+        "deep-learn"
+      ],
+      "cadence_hint": "biweekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "strict-scrutiny",
+      "title": "Strict Scrutiny",
+      "apple_collection_id": 1469168641,
+      "feed_url": "https://audioboom.com/channels/5166629.rss",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/68/3f/62/683f6228-b15b-e0de-8c2c-e8c20860ca98/mza_763663699315012405.png/600x600bb.jpg",
+      "apple_genre": "Government",
+      "episode_count": 419,
+      "editorial_note": "Three law professors dissect Supreme Court cases with real expertise and sharp opinions.",
+      "taxonomy_node_ids": [
+        "society/law"
+      ],
+      "archetype_fit": [
+        "deep-learn",
+        "stretch"
+      ],
+      "cadence_hint": "weekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "amicus-dahlia-lithwick",
+      "title": "Amicus With Dahlia Lithwick | Law, justice, and the courts",
+      "apple_collection_id": 928790786,
+      "feed_url": "https://my.slate.com/podcasts/feeds/amicus/",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/e8/52/9b/e8529b7b-21fe-9692-48fd-7696d23a8807/mza_17089514366859568033.jpeg/600x600bb.jpg",
+      "apple_genre": "News",
+      "episode_count": 617,
+      "editorial_note": "Dahlia Lithwick's long-running Slate show on the Supreme Court and how courts actually work.",
+      "taxonomy_node_ids": [
+        "society/law"
+      ],
+      "archetype_fit": [
+        "deep-learn"
+      ],
+      "cadence_hint": "weekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "5-4-podcast",
+      "title": "5-4",
+      "apple_collection_id": 1497785843,
+      "feed_url": "https://feeds.redcircle.com/b6f505a9-f29d-4915-9e94-85182953a0ba",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts114/v4/ca/d5/c1/cad5c11c-26c6-7e25-afc7-9a496c7f6e03/mza_5631414486129804049.jpeg/600x600bb.jpg",
+      "apple_genre": "Government",
+      "episode_count": 408,
+      "editorial_note": "A skeptical, sharply argued rundown of Supreme Court rulings from Prologue Projects.",
+      "taxonomy_node_ids": [
+        "society/law"
+      ],
+      "archetype_fit": [
+        "stretch",
+        "deep-learn"
+      ],
+      "cadence_hint": "weekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "craft-beer-and-brewing-magazine-podcast",
+      "title": "Craft Beer & Brewing Magazine Podcast",
+      "apple_collection_id": 1296082082,
+      "feed_url": "https://feeds.fireside.fm/beerandbrewing/rss",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/b6/db/11/b6db1143-1196-629d-97cc-f028ceda4084/mza_14037476996481271738.jpg/600x600bb.jpg",
+      "apple_genre": "Food",
+      "episode_count": 490,
+      "editorial_note": "Trade-magazine interviews with brewers on recipes, technique, and the business of beer.",
+      "taxonomy_node_ids": [
+        "food/fermentation"
+      ],
+      "archetype_fit": [
+        "stretch",
+        "deep-learn"
+      ],
+      "cadence_hint": "weekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "experimental-brewing",
+      "title": "Experimental Brewing",
+      "apple_collection_id": 1056223392,
+      "feed_url": "https://www.experimentalbrew.com/feed/podcast/",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts123/v4/69/02/c9/6902c9d5-5666-4f07-3484-a59a050924b0/mza_14428162548472453750.jpg/600x600bb.jpg",
+      "apple_genre": "Hobbies",
+      "episode_count": 385,
+      "editorial_note": "Homebrewing authors Denny Conn and Drew Beechum test ingredients and technique on air.",
+      "taxonomy_node_ids": [
+        "food/fermentation"
+      ],
+      "archetype_fit": [
+        "deep-learn"
+      ],
+      "cadence_hint": "monthly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "fermup",
+      "title": "FermUp - The Fermented Food Podcast",
+      "apple_collection_id": 593958494,
+      "feed_url": "https://www.fermup.com/feed/fermuppodcast.xml",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/fd/44/87/fd44870b-c4cc-2d63-3eaa-2c592249faeb/mza_7028328887605081253.jpg/600x600bb.jpg",
+      "apple_genre": "Food",
+      "episode_count": 100,
+      "editorial_note": "Weekly conversations on the art, science, and history of fermenting food at home.",
+      "taxonomy_node_ids": [
+        "food/fermentation"
+      ],
+      "archetype_fit": [
+        "stretch",
+        "deep-learn"
+      ],
+      "cadence_hint": "ended",
       "explicit": false,
       "source": "itunes_verified"
     }
