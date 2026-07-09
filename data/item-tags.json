@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "built_at": "2026-07-09T23:07:47.845Z",
+  "built_at": "2026-07-09T23:08:54.271Z",
   "tags": {
     "lex-fridman-podcast--don-lincoln-physics": [
       "physics",
@@ -4426,6 +4426,523 @@
       "sports-science",
       "research",
       "physiology",
+      "interview"
+    ],
+    "titans-of-nuclear--newcleo-fast-reactor": [
+      "nuclear",
+      "fission",
+      "fast-reactor",
+      "lead-cooled",
+      "fuel-recycling",
+      "newcleo",
+      "startups",
+      "interview"
+    ],
+    "titans-of-nuclear--dual-fluid-reactor": [
+      "nuclear",
+      "fission",
+      "reactor-design",
+      "molten-fuel",
+      "dual-fluid",
+      "engineering",
+      "interview"
+    ],
+    "titans-of-nuclear--heat-pipes-thermal": [
+      "nuclear",
+      "thermal-engineering",
+      "heat-transfer",
+      "heat-exchangers",
+      "reactor-design",
+      "interview"
+    ],
+    "titans-of-nuclear--data-centers-nuclear": [
+      "nuclear",
+      "fission",
+      "data-centers",
+      "smr",
+      "energy-demand",
+      "grid",
+      "interview"
+    ],
+    "titans-of-nuclear--atomic-canyon-ai": [
+      "nuclear",
+      "artificial-intelligence",
+      "startups",
+      "software",
+      "licensing",
+      "interview"
+    ],
+    "omega-tau--nuclear-waste-storage": [
+      "nuclear",
+      "nuclear-waste",
+      "radiochemistry",
+      "geology",
+      "onkalo",
+      "finland",
+      "documentary"
+    ],
+    "omega-tau--plasma-wakefield-awake": [
+      "physics",
+      "particle-physics",
+      "plasma",
+      "accelerators",
+      "cern",
+      "awake",
+      "interview"
+    ],
+    "omega-tau--forensic-engineering": [
+      "engineering",
+      "civil-engineering",
+      "structural-failure",
+      "forensic-engineering",
+      "root-cause",
+      "interview"
+    ],
+    "omega-tau--solar-geoengineering": [
+      "climate",
+      "geoengineering",
+      "atmosphere",
+      "solar-radiation-management",
+      "climate-science",
+      "interview"
+    ],
+    "lex-fridman-podcast--demis-hassabis-ai": [
+      "artificial-intelligence",
+      "deepmind",
+      "alphafold",
+      "agi",
+      "protein-folding",
+      "interview"
+    ],
+    "lex-fridman-podcast--terence-tao-math": [
+      "mathematics",
+      "number-theory",
+      "artificial-intelligence",
+      "fields-medal",
+      "physics",
+      "interview"
+    ],
+    "lex-fridman-podcast--janna-levin-black-holes": [
+      "physics",
+      "cosmology",
+      "black-holes",
+      "gravitational-waves",
+      "astrophysics",
+      "interview"
+    ],
+    "lex-fridman-podcast--dave-hone-dinosaurs": [
+      "paleontology",
+      "dinosaurs",
+      "evolution",
+      "biology",
+      "extinction",
+      "interview"
+    ],
+    "catalyst-shayle-kann--superhot-geothermal": [
+      "geothermal",
+      "energy",
+      "drilling",
+      "egs",
+      "quaise",
+      "clean-energy",
+      "interview"
+    ],
+    "catalyst-shayle-kann--nuclear-fuel-supply-chain": [
+      "nuclear",
+      "uranium",
+      "enrichment",
+      "supply-chain",
+      "energy-security",
+      "interview"
+    ],
+    "catalyst-shayle-kann--grid-power-electronics": [
+      "grid",
+      "power-electronics",
+      "transformers",
+      "energy",
+      "hardware",
+      "interview"
+    ],
+    "catalyst-shayle-kann--electric-supercycle": [
+      "energy",
+      "electrification",
+      "clean-energy",
+      "markets",
+      "analysis",
+      "interview"
+    ],
+    "catalyst-shayle-kann--fertilizer-crunch": [
+      "fertilizer",
+      "commodities",
+      "supply-chain",
+      "agriculture",
+      "geopolitics",
+      "interview"
+    ],
+    "volts--grid-utilization": [
+      "grid",
+      "transmission",
+      "energy",
+      "gets",
+      "capacity",
+      "interview"
+    ],
+    "volts--plug-in-ders": [
+      "grid",
+      "batteries",
+      "distributed-energy",
+      "ders",
+      "storage",
+      "interview"
+    ],
+    "volts--ruggedized-solar-nanogrids": [
+      "solar",
+      "microgrid",
+      "batteries",
+      "hydrogen",
+      "resilience",
+      "interview"
+    ],
+    "volts--bidirectional-ev-charging": [
+      "electric-vehicles",
+      "grid",
+      "vehicle-to-grid",
+      "home-energy",
+      "storage",
+      "interview"
+    ],
+    "acquired--tsmc-morris-chang": [
+      "semiconductors",
+      "tsmc",
+      "business-history",
+      "manufacturing",
+      "taiwan",
+      "interview"
+    ],
+    "acquired--nvidia-ai-era": [
+      "nvidia",
+      "semiconductors",
+      "artificial-intelligence",
+      "cuda",
+      "gpus",
+      "business-history"
+    ],
+    "acquired--lockheed-martin": [
+      "aerospace",
+      "skunk-works",
+      "defense",
+      "business-history",
+      "engineering",
+      "cold-war"
+    ],
+    "acquired--renaissance-technologies": [
+      "quant-finance",
+      "hedge-fund",
+      "mathematics",
+      "markets",
+      "business-history"
+    ],
+    "founders--james-dyson": [
+      "engineering",
+      "invention",
+      "product-design",
+      "entrepreneurship",
+      "dyson",
+      "biography"
+    ],
+    "founders--koenigsegg": [
+      "engineering",
+      "automotive",
+      "hypercars",
+      "innovation",
+      "entrepreneurship",
+      "biography"
+    ],
+    "founders--jim-simons": [
+      "quant-finance",
+      "mathematics",
+      "hedge-fund",
+      "renaissance-technologies",
+      "markets",
+      "biography"
+    ],
+    "founders--rockefeller": [
+      "business-history",
+      "oil",
+      "standard-oil",
+      "monopoly",
+      "entrepreneurship",
+      "biography"
+    ],
+    "odd-lots--invention-of-rope": [
+      "materials",
+      "history",
+      "technology",
+      "engineering",
+      "manufacturing",
+      "interview"
+    ],
+    "odd-lots--cerebras-wafer-chip": [
+      "semiconductors",
+      "artificial-intelligence",
+      "hardware",
+      "chips",
+      "cerebras",
+      "interview"
+    ],
+    "odd-lots--undersea-cables": [
+      "infrastructure",
+      "internet",
+      "telecommunications",
+      "fiber-optics",
+      "geopolitics",
+      "interview"
+    ],
+    "odd-lots--commodity-finance": [
+      "commodities",
+      "finance",
+      "trade",
+      "supply-chain",
+      "markets",
+      "interview"
+    ],
+    "odd-lots--norman-foster-building": [
+      "architecture",
+      "construction",
+      "infrastructure",
+      "economics",
+      "megaprojects",
+      "interview"
+    ],
+    "well-theres-your-problem--sl-1-reactor-explosion": [
+      "nuclear",
+      "disaster",
+      "reactor-safety",
+      "engineering-failure",
+      "history",
+      "sl-1"
+    ],
+    "well-theres-your-problem--deepwater-horizon": [
+      "oil",
+      "disaster",
+      "offshore-drilling",
+      "engineering-failure",
+      "safety",
+      "deepwater-horizon"
+    ],
+    "well-theres-your-problem--pencil-towers": [
+      "architecture",
+      "skyscrapers",
+      "structural-engineering",
+      "construction",
+      "real-estate",
+      "disaster"
+    ],
+    "well-theres-your-problem--texas-city-disaster": [
+      "industrial-disaster",
+      "explosion",
+      "chemical",
+      "engineering-failure",
+      "safety",
+      "history"
+    ],
+    "practical-ai--ai-policy-computing-power": [
+      "artificial-intelligence",
+      "policy",
+      "semiconductors",
+      "geopolitics",
+      "ai-governance",
+      "interview"
+    ],
+    "practical-ai--document-understanding": [
+      "artificial-intelligence",
+      "ocr",
+      "document-processing",
+      "vision-language-models",
+      "machine-learning"
+    ],
+    "practical-ai--stanford-ai-index-2026": [
+      "artificial-intelligence",
+      "research",
+      "benchmarks",
+      "ai-adoption",
+      "robotics",
+      "analysis"
+    ],
+    "practical-ai--durable-ai-agents": [
+      "artificial-intelligence",
+      "ai-agents",
+      "mlops",
+      "production",
+      "infrastructure",
+      "interview"
+    ],
+    "huberman-lab--rhonda-patrick-protocols": [
+      "health",
+      "nutrition",
+      "exercise",
+      "supplements",
+      "longevity",
+      "interview"
+    ],
+    "huberman-lab--cancer-immune-system": [
+      "cancer",
+      "immunology",
+      "immunotherapy",
+      "crispr",
+      "gene-editing",
+      "interview"
+    ],
+    "huberman-lab--aging-brain-vitality": [
+      "aging",
+      "neuroscience",
+      "longevity",
+      "biology",
+      "blood",
+      "interview"
+    ],
+    "huberman-lab--peptides-science": [
+      "peptides",
+      "pharmacology",
+      "health",
+      "glp-1",
+      "supplements",
+      "interview"
+    ],
+    "the-peter-attia-drive--longevity-101": [
+      "longevity",
+      "healthspan",
+      "prevention",
+      "medicine",
+      "framework",
+      "solo"
+    ],
+    "the-peter-attia-drive--aging-clocks": [
+      "aging",
+      "epigenetics",
+      "longevity",
+      "biomarkers",
+      "biology",
+      "solo"
+    ],
+    "the-peter-attia-drive--brain-computer-interfaces": [
+      "neuroscience",
+      "brain-computer-interface",
+      "neurosurgery",
+      "neurotechnology",
+      "medicine",
+      "interview"
+    ],
+    "the-peter-attia-drive--thinking-scientifically": [
+      "science",
+      "critical-thinking",
+      "cognitive-bias",
+      "epistemics",
+      "reasoning",
+      "solo"
+    ],
+    "making-chips--lights-out-machining": [
+      "manufacturing",
+      "machining",
+      "automation",
+      "cnc",
+      "lights-out",
+      "interview"
+    ],
+    "making-chips--additive-machining": [
+      "manufacturing",
+      "machining",
+      "additive-manufacturing",
+      "3d-printing",
+      "aerospace",
+      "interview"
+    ],
+    "making-chips--supply-chain-resilience": [
+      "manufacturing",
+      "supply-chain",
+      "geopolitics",
+      "defense",
+      "machining",
+      "interview"
+    ],
+    "making-chips--sendcutsend": [
+      "manufacturing",
+      "machining",
+      "software",
+      "automation",
+      "sheet-metal",
+      "interview"
+    ],
+    "this-podcast-will-kill-you--cancer-part-1": [
+      "cancer",
+      "biology",
+      "medicine",
+      "oncology",
+      "disease",
+      "science"
+    ],
+    "this-podcast-will-kill-you--tear-gas": [
+      "toxicology",
+      "chemistry",
+      "chemical-weapons",
+      "history",
+      "physiology",
+      "science"
+    ],
+    "this-podcast-will-kill-you--sleep-part-1": [
+      "sleep",
+      "physiology",
+      "biology",
+      "neuroscience",
+      "medicine",
+      "science"
+    ],
+    "this-podcast-will-kill-you--necrotizing-fasciitis": [
+      "infectious-disease",
+      "bacteria",
+      "medicine",
+      "microbiology",
+      "pathology",
+      "science"
+    ],
+    "this-podcast-will-kill-you--motion-sickness": [
+      "physiology",
+      "neuroscience",
+      "medicine",
+      "vestibular-system",
+      "biology",
+      "science"
+    ],
+    "materialism-podcast--titanium": [
+      "materials",
+      "metallurgy",
+      "titanium",
+      "alloys",
+      "aerospace",
+      "science"
+    ],
+    "materialism-podcast--high-entropy-alloys": [
+      "materials",
+      "metallurgy",
+      "alloys",
+      "high-entropy-alloys",
+      "corrosion-resistance",
+      "science"
+    ],
+    "materialism-podcast--pure-uranium": [
+      "materials",
+      "metallurgy",
+      "uranium",
+      "manhattan-project",
+      "nuclear",
+      "history"
+    ],
+    "materialism-podcast--metal-organic-frameworks": [
+      "materials",
+      "chemistry",
+      "metal-organic-frameworks",
+      "carbon-capture",
+      "nobel-prize",
       "interview"
     ]
   }

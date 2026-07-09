@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "built_at": "2026-07-09T23:07:21.413Z",
+  "built_at": "2026-07-09T23:08:03.647Z",
   "provenance": {
     "produced_by": "depth-wave-a",
     "model": "opus",
@@ -913,7 +913,7 @@
       "topics": [
         "medicine/biology"
       ],
-      "hook": "Why boats, cars, and planes make us sweat, salivate, and vomit — the physiology of motion sickness."
+      "hook": "Why boats, cars, and planes make us sweat, salivate, and vomit: the physiology of motion sickness."
     },
     {
       "id": "materialism-podcast--titanium",
