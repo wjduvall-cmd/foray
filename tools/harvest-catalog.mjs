@@ -10,21 +10,32 @@ import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
-const REGION = "us";
 const UA = "Foray/0.1 (personal podcast client; contact wjduvall@gmail.com)";
-const THROTTLE_MS = 3200;
+const THROTTLE_MS = 3000;
 const CHART_LIMIT = 200;
 const LOOKUP_BATCH = 150;
 
 const args = process.argv.slice(2);
 const genreLimit = args.includes("--genres") ? Number(args[args.indexOf("--genres") + 1]) : Infinity;
+const REGIONS = (args.includes("--regions") ? args[args.indexOf("--regions") + 1] : "us").split(",");
 const outPath = args.includes("--out") ? args[args.indexOf("--out") + 1] : join(ROOT, "data", "catalog-breadth.json");
+// --exclude a,b: breadth files whose collectionIds are skipped (saves lookup
+// calls and keeps harvest batches disjoint)
+const excludeIds = new Set();
+if (args.includes("--exclude")) {
+  for (const p of args[args.indexOf("--exclude") + 1].split(",")) {
+    try {
+      JSON.parse(readFileSync(join(ROOT, p), "utf8")).shows.forEach(s => excludeIds.add(s.apple_collection_id));
+    } catch (e) { console.warn(`exclude file ${p} unreadable: ${e.message}`); }
+  }
+  console.log(`excluding ${excludeIds.size} already-harvested ids`);
+}
 
 const sleep = (ms) => new Promise(r => setTimeout(r, ms));
 
 /* Long runs get killed by session limits; checkpoint after every genre and
    every lookup batch so a re-run resumes instead of restarting. */
-const CKPT = join(ROOT, "data", ".harvest-checkpoint.json");
+const CKPT = outPath + ".checkpoint";
 function loadCkpt() {
   const defaults = { doneGenres: [], chartRows: {}, lookedUpBatches: 0, shows: [] };
   try { return { ...defaults, ...JSON.parse(readFileSync(CKPT, "utf8")) }; } catch (_) {
@@ -68,37 +79,41 @@ async function main() {
   const genres = flattenGenres(podcastsNode).filter(g => g.id !== "26").slice(0, genreLimit);
   console.log(`   ${genres.length} genres`);
 
-  console.log("2/3 top charts per genre…");
+  console.log(`2/3 top charts: ${REGIONS.length} region(s) × ${genres.length} genres…`);
   const ckpt = loadCkpt();
-  const doneGenres = new Set(ckpt.doneGenres);
+  const doneGenres = new Set(ckpt.doneGenres); // keys: "region:genreId"
   const chartRows = new Map(Object.entries(ckpt.chartRows).map(([k, v]) => [Number(k), v]));
   let failedGenres = 0;
-  for (const [i, g] of genres.entries()) {
-    if (doneGenres.has(g.id)) continue;
-    const url = `https://itunes.apple.com/${REGION}/rss/toppodcasts/limit=${CHART_LIMIT}/genre=${g.id}/json`;
-    try {
-      const feed = await fetchJson(url);
-      const entries = feed?.feed?.entry || [];
-      const list = Array.isArray(entries) ? entries : [entries];
-      list.forEach((e, idx) => {
-        const cid = Number(e?.id?.attributes?.["im:id"]);
-        if (!cid) return;
-        const prev = chartRows.get(cid);
-        if (!prev || idx + 1 < prev.rank) {
-          chartRows.set(cid, { rank: idx + 1, genreId: g.id, genreName: g.name });
-        }
-      });
-      if ((i + 1) % 10 === 0) console.log(`   ${i + 1}/${genres.length} genres, ${chartRows.size} unique shows`);
-    } catch (e) {
-      failedGenres++;
-      console.warn(`   genre ${g.id} (${g.name}) failed: ${e.message}`);
+  for (const region of REGIONS) {
+    for (const [i, g] of genres.entries()) {
+      const key = `${region}:${g.id}`;
+      if (doneGenres.has(key)) continue;
+      const url = `https://itunes.apple.com/${region}/rss/toppodcasts/limit=${CHART_LIMIT}/genre=${g.id}/json`;
+      try {
+        const feed = await fetchJson(url);
+        const entries = feed?.feed?.entry || [];
+        const list = Array.isArray(entries) ? entries : [entries];
+        list.forEach((e, idx) => {
+          const cid = Number(e?.id?.attributes?.["im:id"]);
+          if (!cid || excludeIds.has(cid)) return;
+          const prev = chartRows.get(cid);
+          if (!prev || idx + 1 < prev.rank) {
+            chartRows.set(cid, { rank: idx + 1, genreId: g.id, genreName: g.name, region });
+          }
+        });
+        if ((i + 1) % 20 === 0) console.log(`   [${region}] ${i + 1}/${genres.length} genres, ${chartRows.size} unique new shows`);
+      } catch (e) {
+        failedGenres++;
+        console.warn(`   [${region}] genre ${g.id} failed: ${e.message}`);
+      }
+      doneGenres.add(key);
+      ckpt.doneGenres = [...doneGenres];
+      ckpt.chartRows = Object.fromEntries(chartRows);
+      saveCkpt(ckpt);
     }
-    doneGenres.add(g.id);
-    ckpt.doneGenres = [...doneGenres];
-    ckpt.chartRows = Object.fromEntries(chartRows);
-    saveCkpt(ckpt);
+    console.log(`   [${region}] complete — ${chartRows.size} unique new shows so far`);
   }
-  console.log(`   done: ${chartRows.size} unique shows (${failedGenres} genres failed this run)`);
+  console.log(`   charts done: ${chartRows.size} unique shows (${failedGenres} genre-fetches failed this run)`);
 
   console.log("3/3 batched lookups…");
   const curated = existsSync(join(ROOT, "data", "catalog.json"))
@@ -129,7 +144,7 @@ async function main() {
           in_curated: curated.has(r.collectionId),
           podcastindex_id: null,
           tier: "breadth",
-          region: REGION,
+          region: chart.region ?? REGIONS[0],
           harvest_source: "apple-top-charts",
           harvested_at: new Date().toISOString(),
         });
@@ -150,7 +165,7 @@ async function main() {
   const doc = {
     version: 1,
     built_at: new Date().toISOString(),
-    region: REGION,
+    regions: REGIONS,
     source: "apple-top-charts+lookup",
     genre_count: genres.length,
     shows: unique,
