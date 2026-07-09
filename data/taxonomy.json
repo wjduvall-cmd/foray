@@ -1324,6 +1324,24 @@
       "weight": 0.5,
       "confidence": 0.3,
       "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "paranormal",
+      "parent": null,
+      "label": "Paranormal",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "culture/pop-culture",
+      "parent": "culture",
+      "label": "Pop Culture",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
     }
   ],
   "episode_attributes": {
