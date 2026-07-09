@@ -507,30 +507,75 @@ function tokenize(q) {
    term cluster ("bbq" -> barbecue, grilling, smoking, brisket...). Falls
    back to plain tokens + ALIASES when the index files are absent. */
 
+/* Document frequency across the pool's tags: expansion terms that describe
+   half the catalog ("performance", "interview") are useless as evidence and
+   caused cross-domain bleed ("ai training" surfacing sports episodes via
+   the ML concept's generic terms). User-typed words are always exempt. */
+function tagDF(term) {
+  if (!state._dfMemo) state._dfMemo = new Map();
+  if (state._dfMemo.has(term)) return state._dfMemo.get(term);
+  const tagsMap = state.itemTags?.tags || {};
+  let n = 0;
+  for (const tags of Object.values(tagsMap)) {
+    if (tags.some(tag => term.length < 4 ? (tag === term || tag.split("-").includes(term)) : tag.includes(term))) n++;
+  }
+  state._dfMemo.set(term, n);
+  return n;
+}
+
 function interpretQuery(q) {
   const tokens = tokenize(q);
   const filters = [];
-  const termWeights = new Map();
   const topicBoosts = new Set();
-  const addTerm = (t, w) => termWeights.set(t, Math.max(termWeights.get(t) || 0, w));
-
   const mods = state.semantic?.modifiers || {};
   const concepts = state.semantic?.concepts || {};
 
-  for (const tok of tokens) {
-    if (mods[tok]) { filters.push(mods[tok]); continue; }
-    addTerm(tok, 1);
+  const contentTokens = tokens.filter(tok => {
+    if (mods[tok]) { filters.push(mods[tok]); return false; }
+    return true;
+  });
+
+  // One term-group per query word; scoring later requires results to cover
+  // ALL groups or sink (fixes "sleep training" surfacing ML-training items
+  // that match nothing sleep-related).
+  const groups = contentTokens.map(tok => {
+    const terms = new Map([[tok, 1]]);
+    const addTerm = (t, w) => terms.set(t, Math.max(terms.get(t) || 0, w));
+    const others = contentTokens.filter(o => o !== tok);
+
     for (const [cid, c] of Object.entries(concepts)) {
       if (!c.terms?.includes(tok)) continue;
-      c.terms.forEach(t => addTerm(t, 0.9));
-      (c.topics || []).forEach(t => topicBoosts.add(t));
+      // Contextual disambiguation: an ambiguous word ("training") only gets
+      // a concept's full expansion when the other query words support that
+      // sense — either they appear in the same concept, or in a concept
+      // linked to it. Unsupported senses expand faintly.
+      const related = new Set(c.related || []);
+      const supported = others.length === 0 || others.some(o => {
+        if (c.terms.includes(o)) return true;
+        return Object.entries(concepts).some(([oid, oc]) =>
+          oc.terms?.includes(o) && (related.has(oid) || (oc.related || []).includes(cid)));
+      });
+      const wTerm = supported ? 0.6 : 0.25;
+      const wRelated = supported ? 0.25 : 0.1;
+      c.terms.forEach(t => addTerm(t, wTerm));
+      if (supported) (c.topics || []).forEach(t => topicBoosts.add(t));
       (c.related || []).forEach(rid => {
         const rc = concepts[rid];
-        if (rc) rc.terms?.forEach(t => addTerm(t, 0.45));
+        if (rc) rc.terms?.forEach(t => addTerm(t, wRelated));
       });
     }
-  }
-  return { termWeights, filters, topicBoosts };
+    // Downweight/drop generic expansion terms by document frequency;
+    // the user's own word (weight 1) is never touched.
+    for (const [t, w] of [...terms]) {
+      if (w >= 1) continue;
+      const df = tagDF(t);
+      if (df > 60) terms.delete(t);
+      else if (df > 25) terms.set(t, w * 0.4);
+    }
+    return { token: tok, terms };
+  });
+
+  return { groups, filters, topicBoosts};
 }
 
 function passesFilters(item, filters) {
@@ -552,18 +597,41 @@ function scoreMatch(item, interp) {
   const show = item.show.toLowerCase();
   const topics = (item.topics || []).join(" ").toLowerCase();
   const tags = state.itemTags?.tags?.[item.id] || [];
-  let s = 0;
-  for (const [t, w] of interp.termWeights) {
-    if (tags.some(tag => tag.includes(t))) s += 2.5 * w;
-    if (topics.includes(t)) s += 3 * w;
-    if (title.includes(t)) s += 2 * w;
-    if (hook.includes(t)) s += 1.5 * w;
-    if (show.includes(t)) s += 1 * w;
+
+  // Short terms ("ai") must match whole words — substring matching would
+  // hit "trAIning", "brAIn", "spAIn" and poison every result set.
+  const hitText = (text, t) =>
+    t.length < 4 ? new RegExp("\\b" + t + "\\b").test(text) : text.includes(t);
+  const hitTag = (tag, t) =>
+    t.length < 4 ? (tag === t || tag.split("-").includes(t)) : tag.includes(t);
+
+  let sum = 0;
+  let matchedGroups = 0;
+  for (const group of interp.groups) {
+    let best = 0;
+    for (const [t, w] of group.terms) {
+      let f = 0;
+      if (tags.some(tag => hitTag(tag, t))) f += 2.5;
+      if (hitText(topics, t)) f += 3;
+      if (hitText(title, t)) f += 2;
+      if (hitText(hook, t)) f += 1.5;
+      if (hitText(show, t)) f += 1;
+      best = Math.max(best, f * w);
+    }
+    // Coverage needs a meaningful hit, not a faint expansion graze.
+    if (best >= 1.2) matchedGroups++;
+    // Rarer query words carry more information: "sleep training" should
+    // lean toward the sleep cluster, not whichever word is commonest.
+    const df = tagDF(group.token);
+    sum += best * (df <= 10 ? 1.35 : df <= 30 ? 1 : 0.75);
   }
+
   for (const tb of interp.topicBoosts) {
-    if ((item.topics || []).includes(tb)) s += 2;
+    if ((item.topics || []).includes(tb)) sum += 2;
   }
-  return s;
+  // matched is the coverage tier: results matching every word of the ask
+  // strictly outrank partial matches, regardless of raw score.
+  return { sum, matched: matchedGroups };
 }
 
 function epRowHtml(item, ctx, prefix = "") {
@@ -586,10 +654,13 @@ function epRowHtml(item, ctx, prefix = "") {
 function searchWithRelaxation(interp, minScore) {
   const attempt = (filters) => {
     const pool = fullPool().filter(i => passesFilters(i, filters));
-    const scored = interp.termWeights.size
-      ? pool.map(i => ({ i, s: scoreMatch(i, interp) })).filter(x => x.s > minScore)
-      : pool.map(i => ({ i, s: interestScore(i) }));
-    return scored.sort((a, b) => b.s - a.s);
+    if (!interp.groups.length) {
+      return pool.map(i => ({ i, sum: interestScore(i), matched: 0 }))
+        .sort((a, b) => b.sum - a.sum);
+    }
+    return pool.map(i => ({ i, ...scoreMatch(i, interp) }))
+      .filter(x => x.matched > 0 && x.sum > minScore)
+      .sort((a, b) => b.matched - a.matched || b.sum - a.sum);
   };
   let results = attempt(interp.filters);
   let relaxed = null;
@@ -608,7 +679,7 @@ function questList() { return lsGet("cp_quests", []); }
 
 function buildQuest(query) {
   const interp = interpretQuery(query);
-  if (!interp.termWeights.size && !interp.filters.length) return null;
+  if (!interp.groups.length && !interp.filters.length) return null;
   const { results } = searchWithRelaxation(interp, 2);
   const picks = results.slice(0, 10);
   if (picks.length < 2) return null;
@@ -653,7 +724,7 @@ function renderQuests() {
 function renderSearch(query) {
   const el = $("#search-results");
   const interp = interpretQuery(query);
-  if (!interp.termWeights.size && !interp.filters.length) { el.innerHTML = ""; return; }
+  if (!interp.groups.length && !interp.filters.length) { el.innerHTML = ""; return; }
   const { results, relaxed } = searchWithRelaxation(interp, 0);
   const top = results.slice(0, 20);
   const note = relaxed === "duration"
