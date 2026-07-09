@@ -22,6 +22,17 @@ const outPath = args.includes("--out") ? args[args.indexOf("--out") + 1] : join(
 
 const sleep = (ms) => new Promise(r => setTimeout(r, ms));
 
+/* Long runs get killed by session limits; checkpoint after every genre and
+   every lookup batch so a re-run resumes instead of restarting. */
+const CKPT = join(ROOT, "data", ".harvest-checkpoint.json");
+function loadCkpt() {
+  const defaults = { doneGenres: [], chartRows: {}, lookedUpBatches: 0, shows: [] };
+  try { return { ...defaults, ...JSON.parse(readFileSync(CKPT, "utf8")) }; } catch (_) {
+    return defaults;
+  }
+}
+function saveCkpt(c) { writeFileSync(CKPT, JSON.stringify(c)); }
+
 async function fetchJson(url, attempt = 1) {
   await sleep(THROTTLE_MS);
   try {
@@ -58,9 +69,12 @@ async function main() {
   console.log(`   ${genres.length} genres`);
 
   console.log("2/3 top charts per genre…");
-  const chartRows = new Map(); // collectionId -> {rank, genreId, genreName} (best rank wins)
+  const ckpt = loadCkpt();
+  const doneGenres = new Set(ckpt.doneGenres);
+  const chartRows = new Map(Object.entries(ckpt.chartRows).map(([k, v]) => [Number(k), v]));
   let failedGenres = 0;
   for (const [i, g] of genres.entries()) {
+    if (doneGenres.has(g.id)) continue;
     const url = `https://itunes.apple.com/${REGION}/rss/toppodcasts/limit=${CHART_LIMIT}/genre=${g.id}/json`;
     try {
       const feed = await fetchJson(url);
@@ -79,17 +93,21 @@ async function main() {
       failedGenres++;
       console.warn(`   genre ${g.id} (${g.name}) failed: ${e.message}`);
     }
+    doneGenres.add(g.id);
+    ckpt.doneGenres = [...doneGenres];
+    ckpt.chartRows = Object.fromEntries(chartRows);
+    saveCkpt(ckpt);
   }
-  console.log(`   done: ${chartRows.size} unique shows (${failedGenres} genres failed)`);
+  console.log(`   done: ${chartRows.size} unique shows (${failedGenres} genres failed this run)`);
 
   console.log("3/3 batched lookups…");
   const curated = existsSync(join(ROOT, "data", "catalog.json"))
     ? new Set(JSON.parse(readFileSync(join(ROOT, "data", "catalog.json"), "utf8")).shows.map(s => s.apple_collection_id))
     : new Set();
 
-  const ids = [...chartRows.keys()];
-  const shows = [];
-  for (let i = 0; i < ids.length; i += LOOKUP_BATCH) {
+  const ids = [...chartRows.keys()].sort((a, b) => a - b); // stable order for batch resume
+  const shows = ckpt.shows;
+  for (let i = ckpt.lookedUpBatches * LOOKUP_BATCH; i < ids.length; i += LOOKUP_BATCH) {
     const batch = ids.slice(i, i + LOOKUP_BATCH);
     try {
       const data = await fetchJson(`https://itunes.apple.com/lookup?id=${batch.join(",")}&entity=podcast`);
@@ -120,6 +138,9 @@ async function main() {
     } catch (e) {
       console.warn(`   lookup batch at ${i} failed: ${e.message}`);
     }
+    ckpt.lookedUpBatches = Math.floor(i / LOOKUP_BATCH) + 1;
+    ckpt.shows = shows;
+    saveCkpt(ckpt);
   }
 
   // final dedupe (lookup can echo an id twice across batches)
@@ -135,7 +156,9 @@ async function main() {
     shows: unique,
   };
   writeFileSync(outPath, JSON.stringify(doc) + "\n");
+  try { writeFileSync(CKPT, "{}"); } catch (_) {}
   console.log(`WROTE ${outPath}: ${unique.length} shows (${unique.filter(s => s.feed_url).length} with feed URLs, ${unique.filter(s => s.in_curated).length} overlap curated tier)`);
+  console.log("HARVEST_COMPLETE");
 }
 
 main().catch(e => { console.error("FATAL:", e); process.exit(1); });
