@@ -21,12 +21,12 @@ let package = Package(
     ],
     dependencies: [],
     targets: [
+        // swift-tools-version 5.10 builds in Swift 5 language mode by
+        // default; .swiftLanguageMode() is a tools-6.0 API and broke the
+        // manifest on first real compile (CI 2026-07-09).
         .target(
             name: "ForayKit",
-            dependencies: [],
-            swiftSettings: [
-                .swiftLanguageMode(.v5)
-            ]
+            dependencies: []
         ),
         .testTarget(
             name: "ForayKitTests",

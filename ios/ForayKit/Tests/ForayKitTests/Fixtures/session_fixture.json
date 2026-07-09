@@ -1,6 +1,7 @@
 {
   "version": 1,
   "session_id": "2026-07-08-morning",
+  "builder": "hand-architect-v1",
   "built_at": "2026-07-08T04:30:00-07:00",
   "commute": { "minutes": 18, "playback_speed": 1.5, "content_minutes": 27 },
   "cards": [
