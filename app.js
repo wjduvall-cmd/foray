@@ -56,10 +56,19 @@ function lsSet(key, value) {
   try { localStorage.setItem(key, JSON.stringify(value)); } catch (_) {}
 }
 
+function profileId() {
+  let id = lsGet("cp_profile_id", null);
+  if (!id) {
+    id = "p-" + Math.random().toString(36).slice(2, 10) + Date.now().toString(36);
+    lsSet("cp_profile_id", id);
+  }
+  return id;
+}
+
 function logEvent(type, payload) {
   const events = lsGet("cp_events", []);
   const builder = state.session?.builder || "unknown";
-  events.push({ ts: new Date().toISOString(), type, builder, payload });
+  events.push({ ts: new Date().toISOString(), type, builder, profile: profileId(), payload });
   // 5000-event buffer: this is the retention telemetry until a durable
   // /events endpoint exists (REQUIREMENTS-DELTA R2) — don't let it wrap.
   lsSet("cp_events", events.slice(-5000));
@@ -402,7 +411,23 @@ function renderInterests() {
       <span class="int-label">${esc(n.label)}</span>
       <input type="range" min="0" max="100" value="${Math.round((state.interests[n.id] ?? 0.5) * 100)}" data-node="${n.id}">
     </label>`).join("") +
-    `<p class="int-note">These tilt the cards and the splatter — but surprise is built in and always wins a share. New topics appear on their own.</p>`;
+    `<p class="int-note">These tilt the cards and the splatter — but surprise is built in and always wins a share. New topics appear on their own.</p>
+     <p class="int-note"><button class="q-remove" id="export-data">copy my listening data</button> — stars, history, and events live in this browser; export before switching devices.</p>`;
+
+  $("#export-data").addEventListener("click", async () => {
+    const dump = {};
+    ["cp_profile_id", "cp_events", "cp_saved", "cp_history", "cp_interests", "cp_quests", "cp_lastpick", "cp_seen"].forEach(k => {
+      dump[k] = lsGet(k, null);
+    });
+    const text = JSON.stringify(dump);
+    try {
+      await navigator.clipboard.writeText(text);
+      $("#export-data").textContent = "copied ✓";
+    } catch (_) {
+      window.prompt("Copy your data:", text);
+    }
+    logEvent("data_exported", { bytes: text.length });
+  });
 
   el.querySelectorAll("input[type=range]").forEach(input => {
     input.addEventListener("change", () => {

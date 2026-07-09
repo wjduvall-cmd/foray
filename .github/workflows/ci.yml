@@ -21,6 +21,15 @@ jobs:
       - run: npm ci
       - run: npm test
 
+  ios-kit:
+    # ForayKit is a pure-Swift package (no AVFoundation) precisely so its
+    # state machine + intent grammar tests can run on a CI Mac — the only
+    # Mac this project currently has.
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: swift test --package-path ios/ForayKit
+
   data-and-site:
     runs-on: ubuntu-latest
     steps:
@@ -38,6 +47,27 @@ jobs:
             const missing = refs.filter(id=>!s.episodes[id]);
             if (missing.length) { console.error('missing episode refs:', missing); process.exit(1); }
             console.log('session refs ok');
+
+            // Invariants from the architecture assessment (2026-07-09):
+            const d = require('./data/discover.json');
+            const t = require('./data/taxonomy.json');
+            const tg = require('./data/item-tags.json');
+            // 1. No episode may exist under two ids (session vs discover) — splits user state
+            const tracks = new Map();
+            Object.entries(s.episodes).forEach(([id,e])=>{ if(e.apple_track_id) tracks.set(e.apple_track_id, id); });
+            const dupes = d.items.filter(i=>i.apple_track_id && tracks.has(i.apple_track_id));
+            if (dupes.length) { console.error('duplicate episodes across files:', dupes.map(i=>i.id)); process.exit(1); }
+            const seen = new Set();
+            for (const i of d.items) { if (seen.has(i.id)) { console.error('duplicate discover id:', i.id); process.exit(1); } seen.add(i.id); }
+            // 2. Every pool topic must have a taxonomy node — else stars/sliders silently no-op
+            const nodeIds = new Set(t.nodes.map(n=>n.id));
+            const poolTopics = new Set([...d.items.flatMap(i=>i.topics||[]), ...Object.values(s.episodes).flatMap(e=>e.topics||[])]);
+            const orphans = [...poolTopics].filter(x=>!nodeIds.has(x));
+            if (orphans.length) { console.error('topics without taxonomy nodes:', orphans); process.exit(1); }
+            // 3. Every pool item should have tags (warn-level: new waves get tagged post-merge)
+            const untagged = [...d.items.map(i=>i.id), ...Object.keys(s.episodes)].filter(id=>!tg.tags[id]);
+            if (untagged.length) console.warn('WARN untagged items:', untagged.length);
+            console.log('data invariants ok');
           "
       - name: Syntax-check site JS
         run: node --check app.js

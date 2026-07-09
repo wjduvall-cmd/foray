@@ -55,6 +55,9 @@ export type SessionEpisodeDetail = z.infer<typeof SessionEpisodeDetailSchema>;
 export const SessionDocSchema = z.object({
   version: z.literal(1),
   session_id: z.string(),
+  // Which builder produced this session — the client stamps it into every
+  // event, powering the blind hand-vs-machine test (REQUIREMENTS-DELTA R1).
+  builder: z.string(),
   built_at: z.string(),
   commute: z.object({
     minutes: z.number(),

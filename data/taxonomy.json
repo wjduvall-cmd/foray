@@ -2,25 +2,345 @@
   "version": 1,
   "notes": "Two-level interest taxonomy per 03_CURATION_SPEC. Custom nodes anchor to Apple Podcasts standard categories (the industry taxonomy) for interop; weights are user-editable. depth is a per-episode attribute, not a taxonomy dimension (see docs/research/curation-practices.md).",
   "nodes": [
-    { "id": "engineering", "parent": null, "label": "Engineering", "apple_anchor": "Science", "weight": 0.9, "confidence": 0.9, "last_evidence_at": "2026-07-07" },
-    { "id": "engineering/energy-fusion", "parent": "engineering", "label": "Fusion & energy systems", "apple_anchor": "Science > Physics", "weight": 1.0, "confidence": 0.95, "last_evidence_at": "2026-07-07" },
-    { "id": "engineering/precision-mfg", "parent": "engineering", "label": "Precision manufacturing", "apple_anchor": "Technology", "weight": 0.7, "confidence": 0.7, "last_evidence_at": "2026-07-07" },
-    { "id": "science/materials", "parent": "science", "label": "Materials science", "apple_anchor": "Science > Chemistry", "weight": 0.7, "confidence": 0.6, "last_evidence_at": "2026-07-07" },
-    { "id": "science", "parent": null, "label": "Science", "apple_anchor": "Science", "weight": 0.6, "confidence": 0.7, "last_evidence_at": "2026-07-07" },
-    { "id": "history", "parent": null, "label": "History", "apple_anchor": "History", "weight": 0.8, "confidence": 0.8, "last_evidence_at": "2026-07-07" },
-    { "id": "history/military-ancient", "parent": "history", "label": "Ancient military history", "apple_anchor": "History", "weight": 0.85, "confidence": 0.8, "last_evidence_at": "2026-07-07" },
-    { "id": "history/technology", "parent": "history", "label": "History of technology", "apple_anchor": "History", "weight": 0.75, "confidence": 0.7, "last_evidence_at": "2026-07-07" },
-    { "id": "craft", "parent": null, "label": "Craft & making", "apple_anchor": "Leisure > Crafts", "weight": 0.6, "confidence": 0.6, "last_evidence_at": "2026-07-07" },
-    { "id": "craft/instrument-making", "parent": "craft", "label": "Instrument making", "apple_anchor": "Music", "weight": 0.6, "confidence": 0.5, "last_evidence_at": "2026-07-07" },
-    { "id": "craft/diy-home", "parent": "craft", "label": "DIY & home", "apple_anchor": "Leisure > Home & Garden", "weight": 0.5, "confidence": 0.5, "last_evidence_at": "2026-07-07" },
-    { "id": "business", "parent": null, "label": "Business", "apple_anchor": "Business", "weight": 0.5, "confidence": 0.5, "last_evidence_at": "2026-07-07" },
-    { "id": "business/startups", "parent": "business", "label": "Startups & deep tech", "apple_anchor": "Business > Entrepreneurship", "weight": 0.6, "confidence": 0.6, "last_evidence_at": "2026-07-07" },
-    { "id": "comedy", "parent": null, "label": "Comedy", "apple_anchor": "Comedy", "weight": 0.6, "confidence": 0.7, "last_evidence_at": "2026-07-07" },
-    { "id": "comedy/casual-hangs", "parent": "comedy", "label": "Casual hangs", "apple_anchor": "Comedy > Improv", "weight": 0.65, "confidence": 0.7, "last_evidence_at": "2026-07-07" }
+    {
+      "id": "engineering",
+      "parent": null,
+      "label": "Engineering",
+      "apple_anchor": "Science",
+      "weight": 0.9,
+      "confidence": 0.9,
+      "last_evidence_at": "2026-07-07"
+    },
+    {
+      "id": "engineering/energy-fusion",
+      "parent": "engineering",
+      "label": "Fusion & energy systems",
+      "apple_anchor": "Science > Physics",
+      "weight": 1,
+      "confidence": 0.95,
+      "last_evidence_at": "2026-07-07"
+    },
+    {
+      "id": "engineering/precision-mfg",
+      "parent": "engineering",
+      "label": "Precision manufacturing",
+      "apple_anchor": "Technology",
+      "weight": 0.7,
+      "confidence": 0.7,
+      "last_evidence_at": "2026-07-07"
+    },
+    {
+      "id": "science/materials",
+      "parent": "science",
+      "label": "Materials science",
+      "apple_anchor": "Science > Chemistry",
+      "weight": 0.7,
+      "confidence": 0.6,
+      "last_evidence_at": "2026-07-07"
+    },
+    {
+      "id": "science",
+      "parent": null,
+      "label": "Science",
+      "apple_anchor": "Science",
+      "weight": 0.6,
+      "confidence": 0.7,
+      "last_evidence_at": "2026-07-07"
+    },
+    {
+      "id": "history",
+      "parent": null,
+      "label": "History",
+      "apple_anchor": "History",
+      "weight": 0.8,
+      "confidence": 0.8,
+      "last_evidence_at": "2026-07-07"
+    },
+    {
+      "id": "history/military-ancient",
+      "parent": "history",
+      "label": "Ancient military history",
+      "apple_anchor": "History",
+      "weight": 0.85,
+      "confidence": 0.8,
+      "last_evidence_at": "2026-07-07"
+    },
+    {
+      "id": "history/technology",
+      "parent": "history",
+      "label": "History of technology",
+      "apple_anchor": "History",
+      "weight": 0.75,
+      "confidence": 0.7,
+      "last_evidence_at": "2026-07-07"
+    },
+    {
+      "id": "craft",
+      "parent": null,
+      "label": "Craft & making",
+      "apple_anchor": "Leisure > Crafts",
+      "weight": 0.6,
+      "confidence": 0.6,
+      "last_evidence_at": "2026-07-07"
+    },
+    {
+      "id": "craft/instrument-making",
+      "parent": "craft",
+      "label": "Instrument making",
+      "apple_anchor": "Music",
+      "weight": 0.6,
+      "confidence": 0.5,
+      "last_evidence_at": "2026-07-07"
+    },
+    {
+      "id": "craft/diy-home",
+      "parent": "craft",
+      "label": "DIY & home",
+      "apple_anchor": "Leisure > Home & Garden",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "last_evidence_at": "2026-07-07"
+    },
+    {
+      "id": "business",
+      "parent": null,
+      "label": "Business",
+      "apple_anchor": "Business",
+      "weight": 0.5,
+      "confidence": 0.5,
+      "last_evidence_at": "2026-07-07"
+    },
+    {
+      "id": "business/startups",
+      "parent": "business",
+      "label": "Startups & deep tech",
+      "apple_anchor": "Business > Entrepreneurship",
+      "weight": 0.6,
+      "confidence": 0.6,
+      "last_evidence_at": "2026-07-07"
+    },
+    {
+      "id": "comedy",
+      "parent": null,
+      "label": "Comedy",
+      "apple_anchor": "Comedy",
+      "weight": 0.6,
+      "confidence": 0.7,
+      "last_evidence_at": "2026-07-07"
+    },
+    {
+      "id": "comedy/casual-hangs",
+      "parent": "comedy",
+      "label": "Casual hangs",
+      "apple_anchor": "Comedy > Improv",
+      "weight": 0.65,
+      "confidence": 0.7,
+      "last_evidence_at": "2026-07-07"
+    },
+    {
+      "id": "architecture",
+      "parent": null,
+      "label": "Architecture",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "architecture/infrastructure",
+      "parent": "architecture",
+      "label": "Infrastructure",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "aviation",
+      "parent": null,
+      "label": "Aviation",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "aviation/accidents",
+      "parent": "aviation",
+      "label": "Accidents",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "espionage",
+      "parent": null,
+      "label": "Espionage",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "espionage/cold-war-tech",
+      "parent": "espionage",
+      "label": "Cold War Tech",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "food",
+      "parent": null,
+      "label": "Food",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "food/cooking-science",
+      "parent": "food",
+      "label": "Cooking Science",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "linguistics",
+      "parent": null,
+      "label": "Linguistics",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "linguistics/language",
+      "parent": "linguistics",
+      "label": "Language",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "math",
+      "parent": null,
+      "label": "Math",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "math/puzzles",
+      "parent": "math",
+      "label": "Puzzles",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "medicine",
+      "parent": null,
+      "label": "Medicine",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "medicine/biology",
+      "parent": "medicine",
+      "label": "Biology",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "music",
+      "parent": null,
+      "label": "Music",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "music/theory-production",
+      "parent": "music",
+      "label": "Theory Production",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "nature",
+      "parent": null,
+      "label": "Nature",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "nature/animal-cognition",
+      "parent": "nature",
+      "label": "Animal Cognition",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "nature/ocean-science",
+      "parent": "nature",
+      "label": "Ocean Science",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "sports",
+      "parent": null,
+      "label": "Sports",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    },
+    {
+      "id": "sports/biomechanics",
+      "parent": "sports",
+      "label": "Biomechanics",
+      "apple_anchor": null,
+      "weight": 0.5,
+      "confidence": 0.3,
+      "last_evidence_at": "2026-07-09"
+    }
   ],
   "episode_attributes": {
-    "depth": ["low", "medium", "high"],
-    "format": ["interview", "narrative", "panel", "solo", "documentary", "hang"],
+    "depth": [
+      "low",
+      "medium",
+      "high"
+    ],
+    "format": [
+      "interview",
+      "narrative",
+      "panel",
+      "solo",
+      "documentary",
+      "hang"
+    ],
     "evergreen": "boolean"
   }
 }

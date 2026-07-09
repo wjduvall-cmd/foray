@@ -17,6 +17,8 @@ import { groupDuplicates, type DedupCandidate } from "../identity/dedup";
 export interface BuildSessionOptions {
   userId: string;
   sessionKey: string;
+  /** Stamped into the session doc for the blind hand-vs-machine test (R1). */
+  builder?: string;
   builtAt?: Date;
   commuteMinutes: number;
   playbackSpeed: number;
@@ -45,14 +47,12 @@ export interface BuildSessionResult {
   droppedDuplicates: { keptId: string; droppedId: string }[];
 }
 
-function fitLine(durationMin: number, commuteMinutes: number, playbackSpeed: number): string {
+/* Plain duration statement only. Commute-length framing was dropped from all
+   user-facing copy on 2026-07-08 (state observed, not declared — see
+   docs/DECISIONS.md) and is on the banned list in copyRules.test.ts. */
+function fitLine(durationMin: number, _commuteMinutes: number, playbackSpeed: number): string {
   const adjustedMin = Math.round(durationMin / playbackSpeed);
-  if (adjustedMin <= commuteMinutes * 1.15) {
-    const closeness = Math.abs(adjustedMin - commuteMinutes) <= 3 ? "almost exactly" : "comfortably";
-    return `${durationMin} min ≈ ${adjustedMin} at your ${playbackSpeed}×: fits today's drive ${closeness}.`;
-  }
-  const drives = Math.max(1, Math.round(adjustedMin / commuteMinutes));
-  return `${durationMin} min — about ${drives} drive${drives === 1 ? "" : "s"} at your ${playbackSpeed}×.`;
+  return `${durationMin} min (≈ ${adjustedMin} at ${playbackSpeed}×).`;
 }
 
 export async function buildSession(opts: BuildSessionOptions): Promise<BuildSessionResult> {
@@ -220,6 +220,7 @@ export async function buildSession(opts: BuildSessionOptions): Promise<BuildSess
   const session: SessionDoc = SessionDocSchema.parse({
     version: 1,
     session_id: opts.sessionKey,
+    builder: opts.builder ?? "machine-v1",
     built_at: builtAt.toISOString(),
     commute: {
       minutes: opts.commuteMinutes,

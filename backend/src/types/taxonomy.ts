@@ -5,7 +5,10 @@ export const TaxonomyNodeSchema = z.object({
   id: z.string(),
   parent: z.string().nullable(),
   label: z.string(),
-  apple_anchor: z.string(),
+  // null = no Apple Podcasts category maps (the industry taxonomy has no
+  // Engineering, no aviation/food/etc. subtypes — that gap is why the custom
+  // tree exists; see docs/research/curation-practices.md)
+  apple_anchor: z.string().nullable(),
   weight: z.number().min(-1).max(1),
   confidence: z.number().min(0).max(1),
   last_evidence_at: z.string()

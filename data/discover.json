@@ -33,21 +33,6 @@
       "hook": "How FFmpeg's engineers built the codec quietly running every video on the internet."
     },
     {
-      "id": "lex-fridman-podcast--david-kirtley-helion",
-      "show": "Lex Fridman Podcast",
-      "title": "#485 – David Kirtley: Nuclear Fusion, Plasma Physics, and the Future of Energy",
-      "apple_collection_id": 1434243584,
-      "apple_track_id": 1000737133630,
-      "apple_episode_url": "https://podcasts.apple.com/us/podcast/485-david-kirtley-nuclear-fusion-plasma-physics-and/id1434243584?i=1000737133630&uo=4",
-      "release_date": "2025-11-17",
-      "duration_min": 165,
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/3e/e3/9c/3ee39c89-de08-47a6-7f3d-3849cef6d255/mza_16657851278549137484.png/600x600bb.jpg",
-      "topics": [
-        "engineering/energy-fusion"
-      ],
-      "hook": "Helion's CEO explains the plasma physics behind a fusion plant promised by 2028."
-    },
-    {
       "id": "titans-of-nuclear--brian-woods",
       "show": "Titans of Nuclear",
       "title": "Ep 458: Brian Woods - Head, School of Nuclear Science & Engineering, Oregon State University",
@@ -184,21 +169,6 @@
         "engineering/energy-fusion"
       ],
       "hook": "A startup is building AI data centers on 85-meter steel nodes anchored at sea."
-    },
-    {
-      "id": "catalyst-shayle-kann--blueprint-fusion-power",
-      "show": "Catalyst with Shayle Kann",
-      "title": "A blueprint for scalable fusion power",
-      "apple_collection_id": 1593204897,
-      "apple_track_id": 1000768899584,
-      "apple_episode_url": "https://podcasts.apple.com/us/podcast/a-blueprint-for-scalable-fusion-power/id1593204897?i=1000768899584&uo=4",
-      "release_date": "2026-05-21",
-      "duration_min": 41,
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/85/b4/75/85b475a8-93d1-ccdf-be5e-3399f4b322b2/mza_4579948121520406325.jpeg/600x600bb.jpg",
-      "topics": [
-        "engineering/energy-fusion"
-      ],
-      "hook": "What it actually takes to scale fusion power past a single net-energy headline."
     },
     {
       "id": "lab-to-market-leadership--hod-lipson-robotics",
@@ -511,22 +481,6 @@
         "history/technology"
       ],
       "hook": "The Mongol Empire's rise across the Eurasian steppe, told across two long episodes."
-    },
-    {
-      "id": "fall-of-civilizations--assyrians",
-      "show": "Fall of Civilizations Podcast",
-      "title": "13. The Assyrians - Empire of Iron",
-      "apple_collection_id": 1449884495,
-      "apple_track_id": 1000525464222,
-      "apple_episode_url": "https://podcasts.apple.com/us/podcast/13-the-assyrians-empire-of-iron/id1449884495?i=1000525464222&uo=4",
-      "release_date": "2021-06-14",
-      "duration_min": 185,
-      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/cd/d8/13/cdd813b3-edf4-da9d-b906-9926643dd6c8/mza_15725672231807341766.jpg/600x600bb.jpg",
-      "topics": [
-        "history/military-ancient",
-        "history/technology"
-      ],
-      "hook": "The Assyrians built an empire of iron out of the lowlands of northern Iraq."
     },
     {
       "id": "the-rest-is-history--hamilton-part-3",
