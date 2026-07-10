@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "built_at": "2026-07-10T00:12:11.091Z",
+  "built_at": "2026-07-10T00:14:24.332Z",
   "notes": "Show-level bench for the curation engine, per docs/brief/03_CURATION_SPEC.md. Carried-over shows (already referenced in data/session.json) were not re-verified via iTunes -- only their existing apple_collection_id was reused, plus feed_url already verified in docs/research/fusion-candidates.md and docs/research/other-slot-candidates.md by prior research passes in this project. All newly added shows were verified fresh via https://itunes.apple.com/search and https://itunes.apple.com/lookup; no collection id or feed url in this file was invented. cadence_hint is inferred from each show's most recent indexed release date (via iTunes lookup) relative to built_at, corroborated by trackCount and, where noted, public knowledge of the show's known publishing rhythm -- treat it as an approximation, not a guarantee.",
   "shows": [
     {
@@ -3949,6 +3949,246 @@
         "comfort"
       ],
       "cadence_hint": "ended",
+      "artwork_url": null,
+      "episode_count": null,
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "wow-in-the-world",
+      "title": "Wow in the World",
+      "apple_collection_id": 1233834541,
+      "feed_url": "https://rss.art19.com/wow-in-the-world",
+      "apple_genre": "Education for Kids",
+      "editorial_note": "Guy Raz and Mindy Thomas guide kids and grown-ups through real science with jokes, sound effects and wonder.",
+      "taxonomy_node_ids": [
+        "kids-family/education"
+      ],
+      "archetype_fit": [
+        "comfort",
+        "deep-learn"
+      ],
+      "cadence_hint": "weekly",
+      "artwork_url": null,
+      "episode_count": null,
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "story-pirates",
+      "title": "Story Pirates",
+      "apple_collection_id": 719585944,
+      "feed_url": "https://feeds.megaphone.fm/LEME2692268862",
+      "apple_genre": "Kids & Family",
+      "editorial_note": "A comedy troupe turns stories written by real kids into sketches, songs and full-cast performances.",
+      "taxonomy_node_ids": [
+        "kids-family/stories"
+      ],
+      "archetype_fit": [
+        "comfort",
+        "narrative"
+      ],
+      "cadence_hint": "weekly",
+      "artwork_url": null,
+      "episode_count": null,
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "circle-round",
+      "title": "Circle Round",
+      "apple_collection_id": 1246443751,
+      "feed_url": "https://rss.wbur.org/circleround/podcast",
+      "apple_genre": "Kids & Family",
+      "editorial_note": "WBUR adapts folktales from around the world into music-rich radio plays for kids, each with a conversation starter.",
+      "taxonomy_node_ids": [
+        "kids-family/stories"
+      ],
+      "archetype_fit": [
+        "comfort",
+        "narrative"
+      ],
+      "cadence_hint": "weekly",
+      "artwork_url": null,
+      "episode_count": null,
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "welcome-to-night-vale",
+      "title": "Welcome to Night Vale",
+      "apple_collection_id": 536258179,
+      "feed_url": "https://feeds.megaphone.fm/SBP4591212513",
+      "apple_genre": "Science Fiction",
+      "editorial_note": "Community radio for a small desert town where every conspiracy is real; self-contained broadcasts make any episode a doorway in.",
+      "taxonomy_node_ids": [
+        "fiction",
+        "fiction/drama"
+      ],
+      "archetype_fit": [
+        "narrative",
+        "comfort"
+      ],
+      "cadence_hint": "biweekly",
+      "artwork_url": null,
+      "episode_count": null,
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "the-magnus-archives",
+      "title": "The Magnus Archives",
+      "apple_collection_id": 1095138637,
+      "feed_url": "https://feeds.acast.com/public/shows/b6085bcd-3542-4a43-b6a8-021e3fd251b8",
+      "apple_genre": "Performing Arts",
+      "editorial_note": "A horror anthology framed as recorded statements to a paranormal institute, where standalone cases slowly reveal a larger dread.",
+      "taxonomy_node_ids": [
+        "fiction",
+        "fiction/drama"
+      ],
+      "archetype_fit": [
+        "narrative"
+      ],
+      "cadence_hint": "ended",
+      "artwork_url": null,
+      "episode_count": null,
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "old-gods-of-appalachia",
+      "title": "Old Gods of Appalachia",
+      "apple_collection_id": 1485435369,
+      "feed_url": "https://feeds.acast.com/public/shows/61ba0a431a8cbeb6ea3cf11a",
+      "apple_genre": "Science Fiction",
+      "editorial_note": "Eldritch horror set in an alternate Appalachia, narrated with the cadence of front-porch folklore.",
+      "taxonomy_node_ids": [
+        "fiction",
+        "fiction/drama"
+      ],
+      "archetype_fit": [
+        "narrative"
+      ],
+      "cadence_hint": "weekly",
+      "artwork_url": null,
+      "episode_count": null,
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "levar-burton-reads",
+      "title": "LeVar Burton Reads",
+      "apple_collection_id": 1244649384,
+      "feed_url": "https://feeds.simplecast.com/LDNgBXht",
+      "apple_genre": "Performing Arts",
+      "editorial_note": "LeVar Burton performs a hand-picked short story each episode, so every one stands entirely on its own.",
+      "taxonomy_node_ids": [
+        "fiction",
+        "fiction/sci-fi"
+      ],
+      "archetype_fit": [
+        "narrative",
+        "comfort"
+      ],
+      "cadence_hint": "ended",
+      "artwork_url": null,
+      "episode_count": null,
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "twenty-thousand-hertz",
+      "title": "Twenty Thousand Hertz",
+      "apple_collection_id": 1171270672,
+      "feed_url": "https://feeds.megaphone.fm/20k",
+      "apple_genre": "Design",
+      "editorial_note": "Dallas Taylor tells the stories behind the world's most recognizable sounds, from film scores to everyday noises.",
+      "taxonomy_node_ids": [
+        "culture/design",
+        "music/theory-production"
+      ],
+      "archetype_fit": [
+        "deep-learn",
+        "narrative"
+      ],
+      "cadence_hint": "biweekly",
+      "artwork_url": null,
+      "episode_count": null,
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "design-matters",
+      "title": "Design Matters with Debbie Millman",
+      "apple_collection_id": 328074695,
+      "feed_url": "https://feeds.acast.com/public/shows/67572f5f7205a5bc68e9792a",
+      "apple_genre": "Design",
+      "editorial_note": "The long-running interview show where Debbie Millman talks with designers, writers and artists about how they make meaning.",
+      "taxonomy_node_ids": [
+        "culture/design"
+      ],
+      "archetype_fit": [
+        "deep-learn"
+      ],
+      "cadence_hint": "weekly",
+      "artwork_url": null,
+      "episode_count": null,
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "the-great-women-artists",
+      "title": "The Great Women Artists",
+      "apple_collection_id": 1480259187,
+      "feed_url": "https://feeds.soundcloud.com/users/soundcloud:users:698800785/sounds.rss",
+      "apple_genre": "Arts",
+      "editorial_note": "Art historian Katy Hessel interviews artists, curators and writers about the women who reshaped art.",
+      "taxonomy_node_ids": [
+        "culture/art"
+      ],
+      "archetype_fit": [
+        "deep-learn"
+      ],
+      "cadence_hint": "monthly",
+      "artwork_url": null,
+      "episode_count": null,
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "dissect",
+      "title": "Dissect",
+      "apple_collection_id": 1143845868,
+      "feed_url": "https://feeds.megaphone.fm/dissectwide",
+      "apple_genre": "Music",
+      "editorial_note": "Cole Cuchna spends a whole season on one album, taking it apart song by song to show how it works.",
+      "taxonomy_node_ids": [
+        "music/theory-production"
+      ],
+      "archetype_fit": [
+        "deep-learn",
+        "narrative"
+      ],
+      "cadence_hint": "weekly",
+      "artwork_url": null,
+      "episode_count": null,
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "broken-record",
+      "title": "Broken Record with Rick Rubin, Malcolm Gladwell, Bruce Headlam and Justin Richmond",
+      "apple_collection_id": 1311004083,
+      "feed_url": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/ff0ba2f2-f33c-4193-aba2-ae32006cd633/11c188a1-cb86-4869-9c57-ae32006cd63c/podcast.rss",
+      "apple_genre": "Music",
+      "editorial_note": "Musicians sit down with Rick Rubin and company to talk craft, inspiration and the making of the work.",
+      "taxonomy_node_ids": [
+        "music"
+      ],
+      "archetype_fit": [
+        "deep-learn"
+      ],
+      "cadence_hint": "weekly",
       "artwork_url": null,
       "episode_count": null,
       "explicit": false,

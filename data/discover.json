@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "built_at": "2026-07-10T00:12:11.091Z",
+  "built_at": "2026-07-10T00:14:24.332Z",
   "items": [
     {
       "id": "lex-fridman-podcast--don-lincoln-physics",
@@ -10060,6 +10060,502 @@
       ],
       "hook": "Prudie and Traci Thomas on rude stepchildren, and loving a sister you don’t like.",
       "explicit": false
+    },
+    {
+      "id": "wow-in-the-world--do-fish-sleep",
+      "show": "Wow in the World",
+      "title": "Asleep in the Deep: Do Fish Sleep Just Like Humans?",
+      "apple_collection_id": 1233834541,
+      "apple_track_id": 1000775608108,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/asleep-in-the-deep-do-fish-sleep-just-like-humans/id1233834541?i=1000775608108&uo=4",
+      "release_date": "2026-07-06",
+      "duration_min": 31,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/e0/cc/e7/e0cce764-f486-047b-f197-c63c40722bad/mza_3293954619215566473.jpeg/600x600bb.jpg",
+      "topics": [
+        "kids-family/education"
+      ],
+      "hook": "Mindy and Guy Raz on a new discovery: fish sleep too, sort of.",
+      "explicit": false
+    },
+    {
+      "id": "wow-in-the-world--america-time-capsule",
+      "show": "Wow in the World",
+      "title": "Digging for Answers: The Engineering Marvel of America’s 250th Anniversary 2,000-Pound Time Capsule!",
+      "apple_collection_id": 1233834541,
+      "apple_track_id": 1000774657164,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/digging-for-answers-the-engineering-marvel-of/id1233834541?i=1000774657164&uo=4",
+      "release_date": "2026-06-29",
+      "duration_min": 21,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/af/c4/53/afc45300-3bf5-66f8-f67b-0d8c8f283b3b/mza_388677814898494326.jpeg/600x600bb.jpg",
+      "topics": [
+        "kids-family/education"
+      ],
+      "hook": "The engineering behind America's 250th-anniversary time capsule, a centuries-long experiment.",
+      "explicit": false
+    },
+    {
+      "id": "wow-in-the-world--two-whats-rachel-martin",
+      "show": "Wow in the World",
+      "title": "Two Whats?! And A Wow! People Who Wow Edition – Rachel Martin – Guess the True Facts about this Award-Winning Journalist and Interviewer!",
+      "apple_collection_id": 1233834541,
+      "apple_track_id": 1000775290393,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/two-whats-and-a-wow-people-who-wow-edition/id1233834541?i=1000775290393&uo=4",
+      "release_date": "2026-07-03",
+      "duration_min": 26,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/4c/9c/9d/4c9c9d7e-5bf4-b4f3-887c-e98b9e73dfb0/mza_3248481297463294509.jpeg/600x600bb.jpg",
+      "topics": [
+        "kids-family/education"
+      ],
+      "hook": "A guess-the-facts game with NPR journalist Rachel Martin about her real life.",
+      "explicit": false
+    },
+    {
+      "id": "story-pirates--lady-pirates-interview",
+      "show": "Story Pirates",
+      "title": "An Interview about Lady Pirates with Laura Sook Duncombe",
+      "apple_collection_id": 719585944,
+      "apple_track_id": 1000776030367,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/an-interview-about-lady-pirates-with-laura-sook-duncombe/id719585944?i=1000776030367&uo=4",
+      "release_date": "2026-07-09",
+      "duration_min": 18,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/d4/0e/60/d40e6059-d1cb-ba83-8e65-5f7f5ffae10d/mza_16733737576884898634.jpg/600x600bb.jpg",
+      "topics": [
+        "kids-family/stories"
+      ],
+      "hook": "Author Laura Sook Duncombe on the real history of female pirates at sea.",
+      "explicit": false
+    },
+    {
+      "id": "story-pirates--bad-poetry-class",
+      "show": "Story Pirates",
+      "title": "Bad Poetry Class",
+      "apple_collection_id": 719585944,
+      "apple_track_id": 1000773207548,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/bad-poetry-class/id719585944?i=1000773207548&uo=4",
+      "release_date": "2026-06-18",
+      "duration_min": 31,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/d4/0e/60/d40e6059-d1cb-ba83-8e65-5f7f5ffae10d/mza_16733737576884898634.jpg/600x600bb.jpg",
+      "topics": [
+        "kids-family/stories"
+      ],
+      "hook": "A twelve-year-old's story about the freedom to write badly, performed by comedians.",
+      "explicit": false
+    },
+    {
+      "id": "story-pirates--great-big-talk-show",
+      "show": "Story Pirates",
+      "title": "The Great Big Talk Show of Famous People (feat. Mindy from Wow in the World)",
+      "apple_collection_id": 719585944,
+      "apple_track_id": 1000774108884,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-great-big-talk-show-of-famous-people-feat-mindy/id719585944?i=1000774108884&uo=4",
+      "release_date": "2026-06-25",
+      "duration_min": 29,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/d4/0e/60/d40e6059-d1cb-ba83-8e65-5f7f5ffae10d/mza_16733737576884898634.jpg/600x600bb.jpg",
+      "topics": [
+        "kids-family/stories"
+      ],
+      "hook": "A kid-written story about a talk show falling apart, plus Mindy from Wow.",
+      "explicit": false
+    },
+    {
+      "id": "circle-round--upside-down-tree",
+      "show": "Circle Round",
+      "title": "Summer Camp: The Upside-Down Tree",
+      "apple_collection_id": 1246443751,
+      "apple_track_id": 1000775846743,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/summer-camp-the-upside-down-tree/id1246443751?i=1000775846743&uo=4",
+      "release_date": "2026-07-07",
+      "duration_min": 20,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/e0/70/84/e0708454-83b1-0236-bf3a-6f86f402d1f7/mza_9442013135626713048.jpg/600x600bb.jpg",
+      "topics": [
+        "kids-family/stories"
+      ],
+      "hook": "Alonzo Bodden narrates an African legend of how mischief made the savanna's baobabs.",
+      "explicit": false
+    },
+    {
+      "id": "circle-round--parakeets-promise",
+      "show": "Circle Round",
+      "title": "Summer Camp: The Parakeet’s Promise",
+      "apple_collection_id": 1246443751,
+      "apple_track_id": 1000774892086,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/summer-camp-the-parakeets-promise/id1246443751?i=1000774892086&uo=4",
+      "release_date": "2026-06-30",
+      "duration_min": 20,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/8f/0f/8d/8f0f8dbc-899a-9d83-73b7-5582746a8876/mza_15980870746260799082.jpg/600x600bb.jpg",
+      "topics": [
+        "kids-family/stories"
+      ],
+      "hook": "An Indian legend where a tiny bird opens a farmer's eyes, told by Broadway stars.",
+      "explicit": false
+    },
+    {
+      "id": "circle-round--sunlight-tree",
+      "show": "Circle Round",
+      "title": "Summer Camp: The Sunlight Tree",
+      "apple_collection_id": 1246443751,
+      "apple_track_id": 1000773927202,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/summer-camp-the-sunlight-tree/id1246443751?i=1000773927202&uo=4",
+      "release_date": "2026-06-23",
+      "duration_min": 28,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/eb/7c/c0/eb7cc0ff-ede7-a5e3-84a3-564c6d68d7df/mza_12498051514431779278.jpg/600x600bb.jpg",
+      "topics": [
+        "kids-family/stories"
+      ],
+      "hook": "A Swedish tale of kindness recorded live with the Boston Symphony Orchestra.",
+      "explicit": false
+    },
+    {
+      "id": "welcome-to-night-vale--290-a-solution",
+      "show": "Welcome to Night Vale",
+      "title": "290 - A Solution",
+      "apple_collection_id": 536258179,
+      "apple_track_id": 1000772718695,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/290-a-solution/id536258179?i=1000772718695&uo=4",
+      "release_date": "2026-06-15",
+      "duration_min": 34,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/1b/8a/b1/1b8ab189-9486-5f59-6539-87cd6eca1f4c/mza_13402306297442936306.jpg/600x600bb.jpg",
+      "topics": [
+        "fiction",
+        "fiction/drama"
+      ],
+      "hook": "Night Vale's radio host reports on a community-wide situation, weather included.",
+      "explicit": false
+    },
+    {
+      "id": "welcome-to-night-vale--287-sound-behind-the-sky",
+      "show": "Welcome to Night Vale",
+      "title": "287 - Hey, Does Anyone Hear That Sound Behind the Sky?",
+      "apple_collection_id": 536258179,
+      "apple_track_id": 1000765044119,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/287-hey-does-anyone-hear-that-sound-behind-the-sky/id536258179?i=1000765044119&uo=4",
+      "release_date": "2026-05-01",
+      "duration_min": 27,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/a3/52/83/a3528311-2f88-a40d-4313-6d27dd4d2614/mza_11094875118685898874.jpg/600x600bb.jpg",
+      "topics": [
+        "fiction",
+        "fiction/drama"
+      ],
+      "hook": "Night Vale's radio host wonders about a strange sound behind the sky.",
+      "explicit": false
+    },
+    {
+      "id": "the-magnus-archives--mag-81-a-guest-for-mr-spider",
+      "show": "The Magnus Archives",
+      "title": "MAG 81 - A Guest for Mr. Spider",
+      "apple_collection_id": 1095138637,
+      "apple_track_id": 1000395157014,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/mag-81-a-guest-for-mr-spider/id1095138637?i=1000395157014&uo=4",
+      "release_date": "2017-11-23",
+      "duration_min": 25,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/65/af/29/65af2940-90ec-69c8-c3e5-a4e62bf816d5/mza_15911937528686963194.jpg/600x600bb.jpg",
+      "topics": [
+        "fiction",
+        "fiction/drama"
+      ],
+      "hook": "An archivist reads a childhood statement about a book that should stay shut.",
+      "explicit": false
+    },
+    {
+      "id": "the-magnus-archives--magnus-protocol-1-first-shift",
+      "show": "The Magnus Archives",
+      "title": "The Magnus Protocol 1 – First Shift",
+      "apple_collection_id": 1095138637,
+      "apple_track_id": 1000642111615,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-magnus-protocol-1-first-shift/id1095138637?i=1000642111615&uo=4",
+      "release_date": "2024-01-18",
+      "duration_min": 42,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/3b/36/88/3b368863-a743-0005-a16a-c381b7bbe7f7/mza_169336127260486764.jpeg/600x600bb.jpg",
+      "topics": [
+        "fiction",
+        "fiction/drama"
+      ],
+      "hook": "A first shift at a strange institute logging cases that shouldn't exist.",
+      "explicit": false
+    },
+    {
+      "id": "old-gods-of-appalachia--episode-0-prologue",
+      "show": "Old Gods of Appalachia",
+      "title": "Episode 0: Prologue",
+      "apple_collection_id": 1485435369,
+      "apple_track_id": 1000463469567,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/episode-0-prologue/id1485435369?i=1000463469567&uo=4",
+      "release_date": "2019-10-31",
+      "duration_min": 10,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/c9/74/d2/c974d20d-f0f2-5468-0e89-a1be46ff4b16/mza_11828512398534028818.png/600x600bb.jpg",
+      "topics": [
+        "fiction",
+        "fiction/drama"
+      ],
+      "hook": "Welcome to an Appalachia where no one discusses what sleeps beneath the mountains.",
+      "explicit": true
+    },
+    {
+      "id": "old-gods-of-appalachia--episode-1-old-number-seven",
+      "show": "Old Gods of Appalachia",
+      "title": "Episode 1: Old Number Seven: Barlo, Kentucky 1917: Part One",
+      "apple_collection_id": 1485435369,
+      "apple_track_id": 1000463469578,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/episode-1-old-number-seven-barlo-kentucky-1917-part-one/id1485435369?i=1000463469578&uo=4",
+      "release_date": "2019-11-07",
+      "duration_min": 16,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/68/86/68/68866882-1729-f28f-1e0f-1e4c94d585d3/mza_3952837316300292729.png/600x600bb.jpg",
+      "topics": [
+        "fiction",
+        "fiction/drama"
+      ],
+      "hook": "Kentucky's worst mining disaster arrives, and young Sarah Avery runs.",
+      "explicit": true
+    },
+    {
+      "id": "levar-burton-reads--kin-bruce-mcallister",
+      "show": "LeVar Burton Reads",
+      "title": "\"Kin\" by Bruce McAllister",
+      "apple_collection_id": 1244649384,
+      "apple_track_id": 1000386477613,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/kin-by-bruce-mcallister/id1244649384?i=1000386477613&uo=4",
+      "release_date": "2017-06-13",
+      "duration_min": 33,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/2e/6d/f6/2e6df68b-dde6-60d0-9a03-748587b8348c/mza_18055716918579136858.jpg/600x600bb.jpg",
+      "topics": [
+        "fiction",
+        "fiction/sci-fi"
+      ],
+      "hook": "LeVar Burton reads Bruce McAllister's story of a boy hiring an alien assassin.",
+      "explicit": true
+    },
+    {
+      "id": "levar-burton-reads--man-falls-from-the-sky-arimah",
+      "show": "LeVar Burton Reads",
+      "title": "\"What It Means When a Man Falls From the Sky\" by Lesley Nneka Arimah",
+      "apple_collection_id": 1244649384,
+      "apple_track_id": 1000389759579,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/what-it-means-when-a-man-falls-from-the-sky-by/id1244649384?i=1000389759579&uo=4",
+      "release_date": "2017-07-11",
+      "duration_min": 45,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/20/ab/11/20ab11ba-27e8-6f52-11f5-5d71979d7451/mza_7418156125738309016.jpg/600x600bb.jpg",
+      "topics": [
+        "fiction",
+        "fiction/sci-fi"
+      ],
+      "hook": "LeVar Burton reads Lesley Nneka Arimah's tale of a formula that manipulates emotion.",
+      "explicit": true
+    },
+    {
+      "id": "twenty-thousand-hertz--music-of-bluey-joff-bush",
+      "show": "Twenty Thousand Hertz",
+      "title": "The Heartfelt Music of Bluey w/ Composer Joff Bush",
+      "apple_collection_id": 1171270672,
+      "apple_track_id": 1000764574258,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-heartfelt-music-of-bluey-w-composer-joff-bush/id1171270672?i=1000764574258&uo=4",
+      "release_date": "2026-05-04",
+      "duration_min": 30,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/4b/94/3f/4b943fcc-ede9-6a2e-b71c-89bba6870867/mza_1366450110780619917.jpg/600x600bb.jpg",
+      "topics": [
+        "culture/design",
+        "music"
+      ],
+      "hook": "Composer Joff Bush breaks down why Bluey's music feels so warm and alive.",
+      "explicit": false
+    },
+    {
+      "id": "twenty-thousand-hertz--john-williams-a-composers-life",
+      "show": "Twenty Thousand Hertz",
+      "title": "John Williams: A Composer’s Life",
+      "apple_collection_id": 1171270672,
+      "apple_track_id": 1000770054418,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/john-williams-a-composers-life/id1171270672?i=1000770054418&uo=4",
+      "release_date": "2026-06-01",
+      "duration_min": 36,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ae/42/c5/ae42c5bc-9016-59af-64a3-14af140c335a/mza_8537063967167831524.jpeg/600x600bb.jpg",
+      "topics": [
+        "music",
+        "culture/design"
+      ],
+      "hook": "Before Star Wars, a jazz-raised kid found his voice as a composer.",
+      "explicit": false
+    },
+    {
+      "id": "design-matters--maria-popova",
+      "show": "Design Matters with Debbie Millman",
+      "title": "Maria Popova",
+      "apple_collection_id": 328074695,
+      "apple_track_id": 1000773706705,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/maria-popova/id328074695?i=1000773706705&uo=4",
+      "release_date": "2026-06-22",
+      "duration_min": 61,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/de/cc/ca/deccca7e-6555-63bb-20af-2c28a28f8b7a/mza_13421823222559079106.jpeg/600x600bb.jpg",
+      "topics": [
+        "culture/design",
+        "culture/books"
+      ],
+      "hook": "Marginalian creator Maria Popova on wonder, meaning, and the search for connection.",
+      "explicit": false
+    },
+    {
+      "id": "design-matters--craig-mod",
+      "show": "Design Matters with Debbie Millman",
+      "title": "Craig Mod",
+      "apple_collection_id": 328074695,
+      "apple_track_id": 1000775619525,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/craig-mod/id328074695?i=1000775619525&uo=4",
+      "release_date": "2026-07-06",
+      "duration_min": 83,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/7d/d9/23/7dd92339-f1b3-be16-b3ad-052e338981e8/mza_2846745872657937863.jpeg/600x600bb.jpg",
+      "topics": [
+        "culture/design",
+        "craft/photography"
+      ],
+      "hook": "Writer and walker Craig Mod on how the roads we travel shape stories.",
+      "explicit": false
+    },
+    {
+      "id": "design-matters--michael-arden",
+      "show": "Design Matters with Debbie Millman",
+      "title": "Michael Arden",
+      "apple_collection_id": 328074695,
+      "apple_track_id": 1000770549619,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/michael-arden/id328074695?i=1000770549619&uo=4",
+      "release_date": "2026-06-01",
+      "duration_min": 60,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ff/93/5c/ff935c66-316a-5ef4-0fe8-b55305acd684/mza_14803696979141541.jpeg/600x600bb.jpg",
+      "topics": [
+        "culture/performing-arts",
+        "culture/design"
+      ],
+      "hook": "Tony-winning director Michael Arden on belonging and what happens when people feel seen.",
+      "explicit": false
+    },
+    {
+      "id": "the-great-women-artists--joan-snyder",
+      "show": "The Great Women Artists",
+      "title": "Joan Snyder",
+      "apple_collection_id": 1480259187,
+      "apple_track_id": 1000771067094,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/joan-snyder/id1480259187?i=1000771067094&uo=4",
+      "release_date": "2026-06-03",
+      "duration_min": 44,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/71/97/99/71979965-9816-1ab2-b65d-61d646e38549/mza_4562232233980712883.jpeg/600x600bb.jpg",
+      "topics": [
+        "culture/art"
+      ],
+      "hook": "Painter Joan Snyder on her electric, gestural canvases layered with flowers and text.",
+      "explicit": false
+    },
+    {
+      "id": "the-great-women-artists--lubaina-himid",
+      "show": "The Great Women Artists",
+      "title": "Venice Biennale special: Lubaina Himid",
+      "apple_collection_id": 1480259187,
+      "apple_track_id": 1000766337871,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/venice-biennale-special-lubaina-himid/id1480259187?i=1000766337871&uo=4",
+      "release_date": "2026-05-05",
+      "duration_min": 42,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/34/9a/85/349a8539-7301-664e-ff9c-0566b45f5e03/mza_4219603785125000199.jpeg/600x600bb.jpg",
+      "topics": [
+        "culture/art"
+      ],
+      "hook": "Turner Prize winner Lubaina Himid on her British Pavilion commission at Venice.",
+      "explicit": false
+    },
+    {
+      "id": "the-great-women-artists--deborah-levy-on-gertrude-stein",
+      "show": "The Great Women Artists",
+      "title": "Deborah Levy on Gertrude Stein",
+      "apple_collection_id": 1480259187,
+      "apple_track_id": 1000763060064,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/deborah-levy-on-gertrude-stein/id1480259187?i=1000763060064&uo=4",
+      "release_date": "2026-04-22",
+      "duration_min": 38,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/54/c2/f3/54c2f3fc-ca0c-f3a3-17cd-311e304def3d/mza_11740778682662000501.jpeg/600x600bb.jpg",
+      "topics": [
+        "culture/art",
+        "culture/books"
+      ],
+      "hook": "Novelist Deborah Levy on avant-garde pioneer Gertrude Stein.",
+      "explicit": false
+    },
+    {
+      "id": "dissect--e1-daft-punk-robots",
+      "show": "Dissect",
+      "title": "E1 - Daft Punk: Robots With A Human Touch",
+      "apple_collection_id": 1143845868,
+      "apple_track_id": 1000755737467,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/e1-daft-punk-robots-with-a-human-touch/id1143845868?i=1000755737467&uo=4",
+      "release_date": "2026-03-17",
+      "duration_min": 37,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/3a/e2/0e/3ae20e7f-f772-a575-9541-8728e979a957/mza_13171633086121528066.jpg/600x600bb.jpg",
+      "topics": [
+        "music/theory-production",
+        "music"
+      ],
+      "hook": "Cole Cuchna traces Daft Punk from a Paris rock band to 'Da Funk.'",
+      "explicit": true
+    },
+    {
+      "id": "dissect--e10-random-access-memories-part-1",
+      "show": "Dissect",
+      "title": "E10 - 'Random Access Memories' by Daft Punk [PART 1]",
+      "apple_collection_id": 1143845868,
+      "apple_track_id": 1000770751091,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/e10-random-access-memories-by-daft-punk-part-1/id1143845868?i=1000770751091&uo=4",
+      "release_date": "2026-06-02",
+      "duration_min": 52,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/7f/2b/39/7f2b390f-ad56-847e-7bff-fa24f7181a26/mza_11975526185883278119.jpg/600x600bb.jpg",
+      "topics": [
+        "music/theory-production",
+        "music"
+      ],
+      "hook": "Why Daft Punk left electronic music to chase human magic on Random Access Memories.",
+      "explicit": true
+    },
+    {
+      "id": "broken-record--earth-wind-and-fire",
+      "show": "Broken Record with Rick Rubin, Malcolm Gladwell, Bruce Headlam and Justin Richmond",
+      "title": "Earth, Wind & Fire",
+      "apple_collection_id": 1311004083,
+      "apple_track_id": 1000772876023,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/earth-wind-fire/id1311004083?i=1000772876023&uo=4",
+      "release_date": "2026-06-16",
+      "duration_min": 54,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/e1/e2/8e/e1e28ee7-c7ed-9a91-dbdf-0bac03b6fa38/mza_12090824434324250279.jpg/600x600bb.jpg",
+      "topics": [
+        "music"
+      ],
+      "hook": "Phillip Bailey, Ralph Johnson and Verdine White on Earth, Wind & Fire.",
+      "explicit": false
+    },
+    {
+      "id": "broken-record--the-new-pornographers",
+      "show": "Broken Record with Rick Rubin, Malcolm Gladwell, Bruce Headlam and Justin Richmond",
+      "title": "The New Pornographers",
+      "apple_collection_id": 1311004083,
+      "apple_track_id": 1000771789932,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-new-pornographers/id1311004083?i=1000771789932&uo=4",
+      "release_date": "2026-06-09",
+      "duration_min": 54,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/e1/e2/8e/e1e28ee7-c7ed-9a91-dbdf-0bac03b6fa38/mza_12090824434324250279.jpg/600x600bb.jpg",
+      "topics": [
+        "music"
+      ],
+      "hook": "Carl Newman on the New Pornographers and Canada's outside-the-mainstream indie explosion.",
+      "explicit": false
+    },
+    {
+      "id": "broken-record--radiohead-ed-obrien",
+      "show": "Broken Record with Rick Rubin, Malcolm Gladwell, Bruce Headlam and Justin Richmond",
+      "title": "Radiohead’s Ed O’Brien",
+      "apple_collection_id": 1311004083,
+      "apple_track_id": 1000773816510,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/radioheads-ed-obrien/id1311004083?i=1000773816510&uo=4",
+      "release_date": "2026-06-23",
+      "duration_min": 79,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/61/7d/00/617d00d4-9295-35bc-632b-7eb233263e07/mza_12638961919965937260.jpg/600x600bb.jpg",
+      "topics": [
+        "music"
+      ],
+      "hook": "Radiohead's Ed O'Brien on expanding what a guitar can do in rock.",
+      "explicit": true
     }
   ]
 }
