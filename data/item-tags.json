@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "built_at": "2026-07-10T00:14:24.332Z",
+  "built_at": "2026-07-10T04:43:18.696Z",
   "tags": {
     "lex-fridman-podcast--don-lincoln-physics": [
       "physics",
@@ -6341,6 +6341,50 @@
       "ed-obrien",
       "guitar",
       "craft"
+    ],
+    "catalyst-shayle-kann--ai-power-wars": [
+      "ai",
+      "data-centers",
+      "energy",
+      "grid",
+      "semiconductors",
+      "infrastructure",
+      "technical",
+      "interview"
+    ],
+    "cbc-ideas--fear-of-fire": [
+      "climate",
+      "nature",
+      "books",
+      "storytelling",
+      "ideas",
+      "journalism",
+      "interview"
+    ],
+    "cbc-ideas--suzuki-how-we-got-here": [
+      "climate",
+      "canada",
+      "policy",
+      "history",
+      "broadcasting",
+      "ideas",
+      "storytelling"
+    ],
+    "stuff-you-should-know--eleanor-roosevelt": [
+      "biography",
+      "american-history",
+      "politics",
+      "history",
+      "explainer",
+      "banter"
+    ],
+    "stuff-you-should-know--short-stuff-great-britain": [
+      "history",
+      "explainer",
+      "bite-sized",
+      "language",
+      "etymology",
+      "banter"
     ]
   }
 }

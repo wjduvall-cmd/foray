@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "built_at": "2026-07-10T00:14:24.332Z",
+  "built_at": "2026-07-10T04:43:18.696Z",
   "items": [
     {
       "id": "lex-fridman-podcast--don-lincoln-physics",
@@ -10556,6 +10556,88 @@
       ],
       "hook": "Radiohead's Ed O'Brien on expanding what a guitar can do in rock.",
       "explicit": true
+    },
+    {
+      "id": "catalyst-shayle-kann--ai-power-wars",
+      "show": "Catalyst with Shayle Kann",
+      "title": "Inside the AI power wars",
+      "apple_collection_id": 1593204897,
+      "apple_track_id": 1000776100686,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/inside-the-ai-power-wars/id1593204897?i=1000776100686&uo=4",
+      "release_date": "2026-07-09",
+      "duration_min": 44,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/85/b4/75/85b475a8-93d1-ccdf-be5e-3399f4b322b2/mza_4579948121520406325.jpeg/600x600bb.jpg",
+      "topics": [
+        "engineering/energy-fusion"
+      ],
+      "hook": "Why data-center growth is slamming into a power grid that can't scale fast enough.",
+      "explicit": false
+    },
+    {
+      "id": "cbc-ideas--fear-of-fire",
+      "show": "CBC Ideas",
+      "title": "The fear of fire is taking control of us",
+      "apple_collection_id": 151485663,
+      "apple_track_id": 1000776178741,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-fear-of-fire-is-taking-control-of-us/id151485663?i=1000776178741&uo=4",
+      "release_date": "2026-07-09",
+      "duration_min": 54,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/94/fe/a5/94fea51f-9e41-b60f-b5f2-3549407ef6fc/mza_4140352385670983274.jpg/600x600bb.jpg",
+      "topics": [
+        "engineering/energy-fusion"
+      ],
+      "hook": "Author John Vaillant on how fire shaped humanity — and how we're now reshaping fire.",
+      "explicit": false
+    },
+    {
+      "id": "cbc-ideas--suzuki-how-we-got-here",
+      "show": "CBC Ideas",
+      "title": "Suzuki's Survival Guide | How We Got To This Point",
+      "apple_collection_id": 151485663,
+      "apple_track_id": 1000775995016,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/suzukis-survival-guide-how-we-got-to-this-point/id151485663?i=1000775995016&uo=4",
+      "release_date": "2026-07-08",
+      "duration_min": 54,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/94/fe/a5/94fea51f-9e41-b60f-b5f2-3549407ef6fc/mza_4140352385670983274.jpg/600x600bb.jpg",
+      "topics": [
+        "engineering/energy-fusion"
+      ],
+      "hook": "David Suzuki's prescient 1989 radio warning that framed climate change as species survival.",
+      "explicit": false
+    },
+    {
+      "id": "stuff-you-should-know--eleanor-roosevelt",
+      "show": "Stuff You Should Know",
+      "title": "Eleanor Roosevelt: Best First Lady",
+      "apple_collection_id": 278981407,
+      "apple_track_id": 1000776095128,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/eleanor-roosevelt-best-first-lady/id278981407?i=1000776095128&uo=4",
+      "release_date": "2026-07-09",
+      "duration_min": 47,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/aa/82/91/aa82912f-23ee-6f6a-583c-a4e993164d0e/mza_12111158076643383507.jpg/600x600bb.jpg",
+      "topics": [
+        "science/materials",
+        "history/technology"
+      ],
+      "hook": "The life and outsized political legacy of America's most consequential first lady.",
+      "explicit": false
+    },
+    {
+      "id": "stuff-you-should-know--short-stuff-great-britain",
+      "show": "Stuff You Should Know",
+      "title": "Short Stuff: Great Britain",
+      "apple_collection_id": 278981407,
+      "apple_track_id": 1000775931690,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/short-stuff-great-britain/id278981407?i=1000775931690&uo=4",
+      "release_date": "2026-07-08",
+      "duration_min": 13,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/aa/82/91/aa82912f-23ee-6f6a-583c-a4e993164d0e/mza_12111158076643383507.jpg/600x600bb.jpg",
+      "topics": [
+        "science/materials",
+        "history/technology"
+      ],
+      "hook": "Finally sorting out the difference between the UK, Great Britain, and the British Isles.",
+      "explicit": false
     }
   ]
 }
