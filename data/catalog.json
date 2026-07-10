@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "built_at": "2026-07-10T00:02:26.570Z",
+  "built_at": "2026-07-10T00:03:27.167Z",
   "notes": "Show-level bench for the curation engine, per docs/brief/03_CURATION_SPEC.md. Carried-over shows (already referenced in data/session.json) were not re-verified via iTunes -- only their existing apple_collection_id was reused, plus feed_url already verified in docs/research/fusion-candidates.md and docs/research/other-slot-candidates.md by prior research passes in this project. All newly added shows were verified fresh via https://itunes.apple.com/search and https://itunes.apple.com/lookup; no collection id or feed url in this file was invented. cadence_hint is inferred from each show's most recent indexed release date (via iTunes lookup) relative to built_at, corroborated by trackCount and, where noted, public knowledge of the show's known publishing rhythm -- treat it as an approximation, not a guarantee.",
   "shows": [
     {
@@ -3467,6 +3467,243 @@
       "cadence_hint": "weekly",
       "explicit": false,
       "source": "itunes_verified"
+    },
+    {
+      "show_id": "criminal",
+      "title": "Criminal",
+      "apple_collection_id": 809264944,
+      "feed_url": "https://feeds.megaphone.fm/VMP7924981569",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/bd/98/22/bd9822cc-b8e0-59de-5809-45926a0ee5f3/mza_2331604259390110897.jpeg/600x600bb.jpg",
+      "apple_genre": "True Crime",
+      "episode_count": 470,
+      "editorial_note": "Phoebe Judge's quietly reported stories about people who've done wrong, been wronged, or landed in between.",
+      "taxonomy_node_ids": [
+        "true-crime",
+        "society/law"
+      ],
+      "archetype_fit": [
+        "documentary"
+      ],
+      "cadence_hint": null,
+      "explicit": false,
+      "source": "gap-wave-3"
+    },
+    {
+      "show_id": "serial",
+      "title": "Serial",
+      "apple_collection_id": 917918570,
+      "feed_url": "https://feeds.simplecast.com/PpzWFGhg",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/9a/fb/87/9afb8760-0e05-2b3e-24a2-7e14cce74570/mza_14816055607064169808.jpg/600x600bb.jpg",
+      "apple_genre": "News",
+      "episode_count": 125,
+      "editorial_note": "The show that defined narrative true crime: one investigation, reported week by week, told with rigor.",
+      "taxonomy_node_ids": [
+        "true-crime",
+        "society/law"
+      ],
+      "archetype_fit": [
+        "documentary"
+      ],
+      "cadence_hint": null,
+      "explicit": false,
+      "source": "gap-wave-3"
+    },
+    {
+      "show_id": "astonishing-legends",
+      "title": "Astonishing Legends",
+      "apple_collection_id": 923527373,
+      "feed_url": "https://audioboom.com/channels/4322549.rss",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/ad/76/bc/ad76bc47-5cc2-3a33-3831-eb131d4056ed/mza_6281920426640935874.jpg/600x600bb.jpg",
+      "apple_genre": "Society & Culture",
+      "episode_count": 454,
+      "editorial_note": "Scott Philbrick and Forrest Burgess research strange events at length, weighing evidence over easy answers.",
+      "taxonomy_node_ids": [
+        "paranormal",
+        "history"
+      ],
+      "archetype_fit": [
+        "documentary"
+      ],
+      "cadence_hint": null,
+      "explicit": false,
+      "source": "gap-wave-3"
+    },
+    {
+      "show_id": "lore",
+      "title": "Lore",
+      "apple_collection_id": 978052928,
+      "feed_url": "https://rss.libsyn.com/shows/65267/destinations/259905.xml",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/9b/e0/c0/9be0c09c-b803-4774-77d3-85167bc87a31/mza_16743750170316675841.jpg/600x600bb.jpg",
+      "apple_genre": "History",
+      "episode_count": 799,
+      "editorial_note": "Aaron Mahnke's folklore series on the dark historical roots of our fears and superstitions.",
+      "taxonomy_node_ids": [
+        "paranormal",
+        "history"
+      ],
+      "archetype_fit": [
+        "documentary"
+      ],
+      "cadence_hint": null,
+      "explicit": false,
+      "source": "gap-wave-3"
+    },
+    {
+      "show_id": "casefile-true-crime",
+      "title": "Casefile True Crime",
+      "apple_collection_id": 998568017,
+      "feed_url": "https://feeds.acast.com/public/shows/679acff465f74095106abfaa",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/32/81/a3/3281a345-6fa5-1d0d-b0bc-f02b0850a0ae/mza_17562537467118278179.jpeg/600x600bb.jpg",
+      "apple_genre": "True Crime",
+      "episode_count": 499,
+      "editorial_note": "Meticulously sourced, anonymously narrated accounts of solved and unsolved crimes, heavy on documented detail.",
+      "taxonomy_node_ids": [
+        "true-crime"
+      ],
+      "archetype_fit": [
+        "documentary"
+      ],
+      "cadence_hint": null,
+      "explicit": false,
+      "source": "gap-wave-3"
+    },
+    {
+      "show_id": "unexplained",
+      "title": "Unexplained",
+      "apple_collection_id": 1078112813,
+      "feed_url": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/4be3ef45-824a-44b3-b437-b038010038fc/3eb75c81-5ed8-4148-bb7b-b03801003947/podcast.rss",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/7e/a9/5c/7ea95c62-4e9b-359b-7dde-2df168676370/mza_156597234584228073.jpg/600x600bb.jpg",
+      "apple_genre": "Society & Culture",
+      "episode_count": 424,
+      "editorial_note": "Richard MacLean Smith's measured narration of real events that resist a tidy explanation.",
+      "taxonomy_node_ids": [
+        "paranormal"
+      ],
+      "archetype_fit": [
+        "documentary"
+      ],
+      "cadence_hint": null,
+      "explicit": false,
+      "source": "gap-wave-3"
+    },
+    {
+      "show_id": "in-the-dark",
+      "title": "In The Dark",
+      "apple_collection_id": 1148175292,
+      "feed_url": "https://publicfeeds.net/f/5770/apple/feed-rss.xml",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/72/ce/d9/72ced9bc-ce68-c56b-5194-c743c55b46b7/mza_13873143646731532957.jpg/600x600bb.jpg",
+      "apple_genre": "True Crime",
+      "episode_count": 70,
+      "editorial_note": "Madeleine Baran and team spend years on a single case, testing what the justice system got wrong.",
+      "taxonomy_node_ids": [
+        "true-crime",
+        "society/law"
+      ],
+      "archetype_fit": [
+        "documentary"
+      ],
+      "cadence_hint": null,
+      "explicit": false,
+      "source": "gap-wave-3"
+    },
+    {
+      "show_id": "crime-junkie",
+      "title": "Crime Junkie",
+      "apple_collection_id": 1322200189,
+      "feed_url": "https://feeds.simplecast.com/qm_9xx0g",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/8c/35/04/8c350430-2fbf-98d0-0a25-00b76550ffeb/mza_13445204151221888086.jpg/600x600bb.jpg",
+      "apple_genre": "True Crime",
+      "episode_count": 517,
+      "editorial_note": "Ashley Flowers walks through cases conversationally; the picks here favor documented, victim-centered reporting.",
+      "taxonomy_node_ids": [
+        "true-crime"
+      ],
+      "archetype_fit": [
+        "documentary"
+      ],
+      "cadence_hint": null,
+      "explicit": false,
+      "source": "gap-wave-3"
+    },
+    {
+      "show_id": "morbid",
+      "title": "Morbid",
+      "apple_collection_id": 1379959217,
+      "feed_url": "https://feeds.simplecast.com/ohmVlJZQ",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/a4/69/a6/a469a64c-580d-938a-53f1-893d968e1332/mza_11675757052043432554.jpg/600x600bb.jpg",
+      "apple_genre": "True Crime",
+      "episode_count": 879,
+      "editorial_note": "A high-reach true-crime and history show; these picks lean to its best-researched historical cases.",
+      "taxonomy_node_ids": [
+        "true-crime",
+        "history"
+      ],
+      "archetype_fit": [
+        "documentary"
+      ],
+      "cadence_hint": null,
+      "explicit": false,
+      "source": "gap-wave-3"
+    },
+    {
+      "show_id": "dateline-nbc",
+      "title": "Dateline NBC",
+      "apple_collection_id": 1464919521,
+      "feed_url": "https://podcastfeeds.nbcnews.com/HL4TzgYC",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/8c/00/7a/8c007a42-e550-0214-d4cb-b59cd7edf194/mza_5305664083935674472.jpeg/600x600bb.jpg",
+      "apple_genre": "True Crime",
+      "episode_count": 882,
+      "editorial_note": "NBC correspondents narrate single-case documentaries built on trial footage, interviews, and evidence.",
+      "taxonomy_node_ids": [
+        "true-crime",
+        "society/law"
+      ],
+      "archetype_fit": [
+        "documentary"
+      ],
+      "cadence_hint": null,
+      "explicit": false,
+      "source": "gap-wave-3"
+    },
+    {
+      "show_id": "wicked-words-kate-winkler-dawson",
+      "title": "Wicked Words - A True Crime Talk Show with Kate Winkler Dawson",
+      "apple_collection_id": 1538204210,
+      "feed_url": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/fdf29e64-8856-472d-b2cd-b24c011a225c/d35298b0-c12a-44ed-956a-b24c011a22e0/podcast.rss",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/9f/d5/37/9fd53772-b22c-5e3c-ac4a-3d8b9452fa74/mza_3649081017768100450.jpg/600x600bb.jpg",
+      "apple_genre": "True Crime",
+      "episode_count": 286,
+      "editorial_note": "Historian Kate Winkler Dawson interviews reporters and authors about how they investigate crime stories.",
+      "taxonomy_node_ids": [
+        "true-crime",
+        "history"
+      ],
+      "archetype_fit": [
+        "documentary"
+      ],
+      "cadence_hint": null,
+      "explicit": false,
+      "source": "gap-wave-3"
+    },
+    {
+      "show_id": "bone-valley",
+      "title": "Bone Valley",
+      "apple_collection_id": 1643974551,
+      "feed_url": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/2b18f6f0-09c0-471e-b663-aeed010410fa/da6eda02-def2-4de4-a1c2-aeed010456a1/podcast.rss",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/aa/72/2f/aa722ff2-7e96-dfbd-fd98-d23d36d035b3/mza_9383434172737455327.jpg/600x600bb.jpg",
+      "apple_genre": "True Crime",
+      "episode_count": 134,
+      "editorial_note": "Lava for Good's investigative series reexamine wrongful convictions with new reporting and archival records.",
+      "taxonomy_node_ids": [
+        "true-crime",
+        "society/law"
+      ],
+      "archetype_fit": [
+        "documentary"
+      ],
+      "cadence_hint": null,
+      "explicit": false,
+      "source": "gap-wave-3"
     }
   ]
 }

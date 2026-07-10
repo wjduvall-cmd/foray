@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "built_at": "2026-07-10T00:02:26.570Z",
+  "built_at": "2026-07-10T00:03:27.167Z",
   "tags": {
     "lex-fridman-podcast--don-lincoln-physics": [
       "physics",
@@ -5539,6 +5539,267 @@
       "writing",
       "craft",
       "interview"
+    ],
+    "criminal--the-caller": [
+      "criminal",
+      "911-calls",
+      "fbi",
+      "homicide-investigation",
+      "forensics",
+      "reporting",
+      "narrative"
+    ],
+    "criminal--rhinelander-v-rhinelander": [
+      "criminal",
+      "history",
+      "1920s",
+      "race",
+      "marriage",
+      "courtroom",
+      "narrative"
+    ],
+    "criminal--the-poison-squad": [
+      "criminal",
+      "history",
+      "food-safety",
+      "1900s",
+      "public-health",
+      "chemistry",
+      "narrative"
+    ],
+    "serial--the-last-12-weeks-ep1": [
+      "serial",
+      "death-penalty",
+      "texas",
+      "wrongful-conviction",
+      "investigative-journalism",
+      "appeal",
+      "narrative"
+    ],
+    "serial--the-idiot-ch1": [
+      "serial",
+      "kidnapping",
+      "family",
+      "investigative-journalism",
+      "russia",
+      "reporting",
+      "narrative"
+    ],
+    "astonishing-legends--ripperston-farm": [
+      "astonishing-legends",
+      "ufo",
+      "wales",
+      "1977",
+      "investigation",
+      "mystery",
+      "narrative"
+    ],
+    "astonishing-legends--ghost-bomber-monongahela": [
+      "astonishing-legends",
+      "aviation",
+      "mystery",
+      "1956",
+      "pittsburgh",
+      "cold-case",
+      "narrative"
+    ],
+    "astonishing-legends--gloria-ramirez": [
+      "astonishing-legends",
+      "medical-mystery",
+      "1994",
+      "california",
+      "toxic-lady",
+      "investigation",
+      "narrative"
+    ],
+    "lore--308-without-a-trace": [
+      "lore",
+      "folklore",
+      "history",
+      "mystery",
+      "americana",
+      "storytelling",
+      "narrative"
+    ],
+    "lore--309-party-favors": [
+      "lore",
+      "folklore",
+      "history",
+      "mystery",
+      "dark-history",
+      "storytelling",
+      "narrative"
+    ],
+    "lore--legends-82-weight-of-fear": [
+      "lore",
+      "folklore",
+      "nightmares",
+      "sleep-paralysis",
+      "superstition",
+      "history",
+      "storytelling"
+    ],
+    "casefile--amerithrax": [
+      "casefile",
+      "anthrax",
+      "bioterrorism",
+      "fbi",
+      "2001",
+      "investigation",
+      "narrative"
+    ],
+    "casefile--julia-wallace": [
+      "casefile",
+      "cold-case",
+      "1930s",
+      "liverpool",
+      "unsolved",
+      "investigation",
+      "narrative"
+    ],
+    "unexplained--s09e24-teresita-basa": [
+      "unexplained",
+      "paranormal",
+      "murder",
+      "1977",
+      "chicago",
+      "supernatural",
+      "narrative"
+    ],
+    "unexplained--s09e20-gerry-irwin": [
+      "unexplained",
+      "mystery",
+      "1959",
+      "ufo",
+      "amnesia",
+      "cold-case",
+      "narrative"
+    ],
+    "unexplained--s09e27-ted-binion": [
+      "unexplained",
+      "true-crime",
+      "las-vegas",
+      "1998",
+      "mystery",
+      "inheritance",
+      "narrative"
+    ],
+    "in-the-dark--blood-relatives-ep1": [
+      "in-the-dark",
+      "investigative-journalism",
+      "wrongful-conviction",
+      "england",
+      "cold-case",
+      "family",
+      "narrative"
+    ],
+    "in-the-dark--runaway-princesses-ep1": [
+      "in-the-dark",
+      "investigative-journalism",
+      "dubai",
+      "human-rights",
+      "reporting",
+      "royalty",
+      "narrative"
+    ],
+    "crime-junkie--alberta-o-jones": [
+      "crime-junkie",
+      "cold-case",
+      "civil-rights",
+      "1960s",
+      "unsolved",
+      "prosecutor",
+      "narrative"
+    ],
+    "crime-junkie--david-meirhofer": [
+      "crime-junkie",
+      "serial-killer",
+      "fbi-profiling",
+      "1970s",
+      "montana",
+      "investigation",
+      "narrative"
+    ],
+    "morbid--the-radium-girls": [
+      "morbid",
+      "history",
+      "radium",
+      "industrial",
+      "1920s",
+      "workers-rights",
+      "narrative"
+    ],
+    "morbid--san-ysidro-mcdonalds": [
+      "morbid",
+      "mass-shooting",
+      "1980s",
+      "california",
+      "tragedy",
+      "history",
+      "narrative"
+    ],
+    "dateline--out-of-the-darkness": [
+      "dateline",
+      "murder-investigation",
+      "texas",
+      "911",
+      "trial",
+      "evidence",
+      "narrative"
+    ],
+    "dateline--secrets-unmasked": [
+      "dateline",
+      "cold-case",
+      "ohio",
+      "unsolved",
+      "witness",
+      "investigation",
+      "narrative"
+    ],
+    "wicked-words--highway-of-tears": [
+      "wicked-words",
+      "interview",
+      "indigenous",
+      "canada",
+      "missing-persons",
+      "journalism",
+      "cold-case"
+    ],
+    "wicked-words--london-falling": [
+      "wicked-words",
+      "interview",
+      "espionage",
+      "britain",
+      "journalism",
+      "mystery",
+      "reporting"
+    ],
+    "wicked-words--catch-the-devil": [
+      "wicked-words",
+      "interview",
+      "serial-killer",
+      "journalism",
+      "reporting",
+      "investigation",
+      "narrative"
+    ],
+    "bone-valley--s5-criminal-mischief": [
+      "bone-valley",
+      "wrongful-conviction",
+      "investigative-journalism",
+      "new-york",
+      "murder",
+      "appeal",
+      "narrative"
+    ],
+    "bone-valley--earwitness-behind-the-crown": [
+      "bone-valley",
+      "wrongful-conviction",
+      "death-penalty",
+      "alabama",
+      "investigation",
+      "earwitness",
+      "narrative"
     ]
   }
 }
