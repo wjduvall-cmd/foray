@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "built_at": "2026-07-09T06:10:57.522Z",
+  "built_at": "2026-07-10T00:02:02.527Z",
   "notes": "Show-level bench for the curation engine, per docs/brief/03_CURATION_SPEC.md. Carried-over shows (already referenced in data/session.json) were not re-verified via iTunes -- only their existing apple_collection_id was reused, plus feed_url already verified in docs/research/fusion-candidates.md and docs/research/other-slot-candidates.md by prior research passes in this project. All newly added shows were verified fresh via https://itunes.apple.com/search and https://itunes.apple.com/lookup; no collection id or feed url in this file was invented. cadence_hint is inferred from each show's most recent indexed release date (via iTunes lookup) relative to built_at, corroborated by trackCount and, where noted, public knowledge of the show's known publishing rhythm -- treat it as an approximation, not a guarantee.",
   "shows": [
     {
@@ -3013,6 +3013,246 @@
         "stretch"
       ],
       "cadence_hint": "weekly",
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "happiness-lab",
+      "title": "The Happiness Lab with Dr. Laurie Santos",
+      "apple_collection_id": 1474245040,
+      "feed_url": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/96c5c41e-0bc8-4661-b184-ae32006cd726/d623ef0b-3fee-4c26-b815-ae32006cd739/podcast.rss",
+      "apple_genre": "Society & Culture",
+      "editorial_note": "Yale psychologist Laurie Santos turns happiness research into practical, myth-busting takes on feeling better.",
+      "taxonomy_node_ids": [
+        "health/mental",
+        "psychology"
+      ],
+      "archetype_fit": [
+        "deep-learn",
+        "comfort"
+      ],
+      "cadence_hint": "weekly",
+      "artwork_url": null,
+      "episode_count": null,
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "ten-percent-happier",
+      "title": "10% Happier with Dan Harris",
+      "apple_collection_id": 1087147821,
+      "feed_url": "https://feeds.libsyn.com/570160/rss",
+      "apple_genre": "Mental Health",
+      "editorial_note": "Dan Harris interviews clinicians and researchers on anxiety, meditation, and the science of a steadier mind.",
+      "taxonomy_node_ids": [
+        "health/mental",
+        "psychology"
+      ],
+      "archetype_fit": [
+        "deep-learn"
+      ],
+      "cadence_hint": "weekly",
+      "artwork_url": null,
+      "episode_count": null,
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "feel-better-live-more",
+      "title": "Feel Better, Live More with Dr Rangan Chatterjee",
+      "apple_collection_id": 1333552422,
+      "feed_url": "https://feeds.megaphone.fm/feelbetterlivemore",
+      "apple_genre": "Alternative Health",
+      "editorial_note": "GP Rangan Chatterjee hosts long-form conversations with doctors and scientists on sleep, stress, and healthy habits.",
+      "taxonomy_node_ids": [
+        "health/mental",
+        "health/nutrition"
+      ],
+      "archetype_fit": [
+        "deep-learn",
+        "comfort"
+      ],
+      "cadence_hint": "weekly",
+      "artwork_url": null,
+      "episode_count": null,
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "the-psychology-podcast",
+      "title": "The Psychology Podcast",
+      "apple_collection_id": 942777522,
+      "feed_url": "https://rss.art19.com/the-psychology-podcast",
+      "apple_genre": "Social Sciences",
+      "editorial_note": "Scott Barry Kaufman's long-running interviews with the researchers behind mindset, emotion, and personality science.",
+      "taxonomy_node_ids": [
+        "psychology"
+      ],
+      "archetype_fit": [
+        "deep-learn"
+      ],
+      "cadence_hint": "ended",
+      "artwork_url": null,
+      "episode_count": null,
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "maintenance-phase",
+      "title": "Maintenance Phase",
+      "apple_collection_id": 1535408667,
+      "feed_url": "https://rss.buzzsprout.com/1411126.rss",
+      "apple_genre": "Health & Fitness",
+      "editorial_note": "Aubrey Gordon and Michael Hobbes debunk the junk science behind diets, wellness fads, and nutrition panics.",
+      "taxonomy_node_ids": [
+        "health/nutrition"
+      ],
+      "archetype_fit": [
+        "stretch",
+        "narrative"
+      ],
+      "cadence_hint": "biweekly",
+      "artwork_url": null,
+      "episode_count": null,
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "zoe-science-nutrition",
+      "title": "ZOE Science & Nutrition",
+      "apple_collection_id": 1611216298,
+      "feed_url": "https://feeds.megaphone.fm/ZOELIMITED9301524082",
+      "apple_genre": "Nutrition",
+      "editorial_note": "Jonathan Wolf and Tim Spector translate nutrition and gut-microbiome research into practical eating guidance.",
+      "taxonomy_node_ids": [
+        "health/nutrition"
+      ],
+      "archetype_fit": [
+        "deep-learn"
+      ],
+      "cadence_hint": "weekly",
+      "artwork_url": null,
+      "episode_count": null,
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "foundmyfitness",
+      "title": "FoundMyFitness",
+      "apple_collection_id": 818198322,
+      "feed_url": "https://rss.libsyn.com/shows/51714/destinations/184296.xml",
+      "apple_genre": "Medicine",
+      "editorial_note": "Biochemist Rhonda Patrick digs into the primary research on exercise, nutrition, and healthy ageing.",
+      "taxonomy_node_ids": [
+        "health/nutrition",
+        "medicine/neuroscience"
+      ],
+      "archetype_fit": [
+        "deep-learn"
+      ],
+      "cadence_hint": "monthly",
+      "artwork_url": null,
+      "episode_count": null,
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "sigma-nutrition-radio",
+      "title": "Sigma Nutrition Radio",
+      "apple_collection_id": 857888327,
+      "feed_url": "https://rss.libsyn.com/shows/53224/destinations/192888.xml",
+      "apple_genre": "Nutrition",
+      "editorial_note": "Rigorous, evidence-first interviews on nutrition science, separating what studies show from wellness marketing.",
+      "taxonomy_node_ids": [
+        "health/nutrition"
+      ],
+      "archetype_fit": [
+        "deep-learn"
+      ],
+      "cadence_hint": "weekly",
+      "artwork_url": null,
+      "episode_count": null,
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "mel-robbins-podcast",
+      "title": "The Mel Robbins Podcast",
+      "apple_collection_id": 1646101002,
+      "feed_url": "https://feeds.simplecast.com/UCwaTX1J",
+      "apple_genre": "Self-Improvement",
+      "editorial_note": "Mel Robbins pairs motivational solo episodes with expert guests on habits, confidence, and everyday change.",
+      "taxonomy_node_ids": [
+        "education/self-improvement",
+        "health/mental"
+      ],
+      "archetype_fit": [
+        "comfort"
+      ],
+      "cadence_hint": "weekly",
+      "artwork_url": null,
+      "episode_count": null,
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "happier-gretchen-rubin",
+      "title": "Happier with Gretchen Rubin",
+      "apple_collection_id": 969519520,
+      "feed_url": "https://feeds.megaphone.fm/LEME9795629446",
+      "apple_genre": "Health & Fitness",
+      "editorial_note": "Gretchen Rubin and Elizabeth Craft test practical habit and happiness strategies drawn from her research.",
+      "taxonomy_node_ids": [
+        "education/self-improvement"
+      ],
+      "archetype_fit": [
+        "comfort"
+      ],
+      "cadence_hint": "weekly",
+      "artwork_url": null,
+      "episode_count": null,
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "good-inside-dr-becky",
+      "title": "Good Inside with Dr. Becky",
+      "apple_collection_id": 1561689671,
+      "feed_url": "https://feeds.simplecast.com/Y5N0xWWZ",
+      "apple_genre": "Parenting",
+      "editorial_note": "Clinical psychologist Becky Kennedy answers hard parenting questions with sturdy, research-grounded guidance.",
+      "taxonomy_node_ids": [
+        "kids-family/parenting",
+        "psychology"
+      ],
+      "archetype_fit": [
+        "comfort",
+        "deep-learn"
+      ],
+      "cadence_hint": "weekly",
+      "artwork_url": null,
+      "episode_count": null,
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "ask-lisa-parenting",
+      "title": "Ask Lisa: The Psychology of Parenting",
+      "apple_collection_id": 1525689066,
+      "feed_url": "https://feeds.megaphone.fm/ADL9419958163",
+      "apple_genre": "Parenting",
+      "editorial_note": "Clinical psychologist Lisa Damour and Reena Ninan bring science-backed answers to real questions about raising tweens and teens.",
+      "taxonomy_node_ids": [
+        "kids-family/parenting",
+        "psychology"
+      ],
+      "archetype_fit": [
+        "deep-learn",
+        "comfort"
+      ],
+      "cadence_hint": "weekly",
+      "artwork_url": null,
+      "episode_count": null,
       "explicit": false,
       "source": "itunes_verified"
     }

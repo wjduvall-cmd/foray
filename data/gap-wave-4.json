@@ -1,0 +1,1153 @@
+{
+  "version": 1,
+  "built_at": "2026-07-10T00:00:47.995Z",
+  "provenance": {
+    "produced_by": "gap-wave-4",
+    "model": "opus",
+    "date": "2026-07-09"
+  },
+  "shows": [
+    {
+      "show_id": "happiness-lab",
+      "title": "The Happiness Lab with Dr. Laurie Santos",
+      "apple_collection_id": 1474245040,
+      "feed_url": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/96c5c41e-0bc8-4661-b184-ae32006cd726/d623ef0b-3fee-4c26-b815-ae32006cd739/podcast.rss",
+      "apple_genre": "Society & Culture",
+      "editorial_note": "Yale psychologist Laurie Santos turns happiness research into practical, myth-busting takes on feeling better.",
+      "taxonomy_node_ids": [
+        "health/mental",
+        "psychology"
+      ],
+      "archetype_fit": [
+        "deep-learn",
+        "comfort"
+      ],
+      "cadence_hint": "weekly",
+      "artwork_url": null,
+      "episode_count": null,
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "ten-percent-happier",
+      "title": "10% Happier with Dan Harris",
+      "apple_collection_id": 1087147821,
+      "feed_url": "https://feeds.libsyn.com/570160/rss",
+      "apple_genre": "Mental Health",
+      "editorial_note": "Dan Harris interviews clinicians and researchers on anxiety, meditation, and the science of a steadier mind.",
+      "taxonomy_node_ids": [
+        "health/mental",
+        "psychology"
+      ],
+      "archetype_fit": [
+        "deep-learn"
+      ],
+      "cadence_hint": "weekly",
+      "artwork_url": null,
+      "episode_count": null,
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "feel-better-live-more",
+      "title": "Feel Better, Live More with Dr Rangan Chatterjee",
+      "apple_collection_id": 1333552422,
+      "feed_url": "https://feeds.megaphone.fm/feelbetterlivemore",
+      "apple_genre": "Alternative Health",
+      "editorial_note": "GP Rangan Chatterjee hosts long-form conversations with doctors and scientists on sleep, stress, and healthy habits.",
+      "taxonomy_node_ids": [
+        "health/mental",
+        "health/nutrition"
+      ],
+      "archetype_fit": [
+        "deep-learn",
+        "comfort"
+      ],
+      "cadence_hint": "weekly",
+      "artwork_url": null,
+      "episode_count": null,
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "the-psychology-podcast",
+      "title": "The Psychology Podcast",
+      "apple_collection_id": 942777522,
+      "feed_url": "https://rss.art19.com/the-psychology-podcast",
+      "apple_genre": "Social Sciences",
+      "editorial_note": "Scott Barry Kaufman's long-running interviews with the researchers behind mindset, emotion, and personality science.",
+      "taxonomy_node_ids": [
+        "psychology"
+      ],
+      "archetype_fit": [
+        "deep-learn"
+      ],
+      "cadence_hint": "ended",
+      "artwork_url": null,
+      "episode_count": null,
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "maintenance-phase",
+      "title": "Maintenance Phase",
+      "apple_collection_id": 1535408667,
+      "feed_url": "https://rss.buzzsprout.com/1411126.rss",
+      "apple_genre": "Health & Fitness",
+      "editorial_note": "Aubrey Gordon and Michael Hobbes debunk the junk science behind diets, wellness fads, and nutrition panics.",
+      "taxonomy_node_ids": [
+        "health/nutrition"
+      ],
+      "archetype_fit": [
+        "stretch",
+        "narrative"
+      ],
+      "cadence_hint": "biweekly",
+      "artwork_url": null,
+      "episode_count": null,
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "zoe-science-nutrition",
+      "title": "ZOE Science & Nutrition",
+      "apple_collection_id": 1611216298,
+      "feed_url": "https://feeds.megaphone.fm/ZOELIMITED9301524082",
+      "apple_genre": "Nutrition",
+      "editorial_note": "Jonathan Wolf and Tim Spector translate nutrition and gut-microbiome research into practical eating guidance.",
+      "taxonomy_node_ids": [
+        "health/nutrition"
+      ],
+      "archetype_fit": [
+        "deep-learn"
+      ],
+      "cadence_hint": "weekly",
+      "artwork_url": null,
+      "episode_count": null,
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "foundmyfitness",
+      "title": "FoundMyFitness",
+      "apple_collection_id": 818198322,
+      "feed_url": "https://rss.libsyn.com/shows/51714/destinations/184296.xml",
+      "apple_genre": "Medicine",
+      "editorial_note": "Biochemist Rhonda Patrick digs into the primary research on exercise, nutrition, and healthy ageing.",
+      "taxonomy_node_ids": [
+        "health/nutrition",
+        "medicine/neuroscience"
+      ],
+      "archetype_fit": [
+        "deep-learn"
+      ],
+      "cadence_hint": "monthly",
+      "artwork_url": null,
+      "episode_count": null,
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "sigma-nutrition-radio",
+      "title": "Sigma Nutrition Radio",
+      "apple_collection_id": 857888327,
+      "feed_url": "https://rss.libsyn.com/shows/53224/destinations/192888.xml",
+      "apple_genre": "Nutrition",
+      "editorial_note": "Rigorous, evidence-first interviews on nutrition science, separating what studies show from wellness marketing.",
+      "taxonomy_node_ids": [
+        "health/nutrition"
+      ],
+      "archetype_fit": [
+        "deep-learn"
+      ],
+      "cadence_hint": "weekly",
+      "artwork_url": null,
+      "episode_count": null,
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "mel-robbins-podcast",
+      "title": "The Mel Robbins Podcast",
+      "apple_collection_id": 1646101002,
+      "feed_url": "https://feeds.simplecast.com/UCwaTX1J",
+      "apple_genre": "Self-Improvement",
+      "editorial_note": "Mel Robbins pairs motivational solo episodes with expert guests on habits, confidence, and everyday change.",
+      "taxonomy_node_ids": [
+        "education/self-improvement",
+        "health/mental"
+      ],
+      "archetype_fit": [
+        "comfort"
+      ],
+      "cadence_hint": "weekly",
+      "artwork_url": null,
+      "episode_count": null,
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "happier-gretchen-rubin",
+      "title": "Happier with Gretchen Rubin",
+      "apple_collection_id": 969519520,
+      "feed_url": "https://feeds.megaphone.fm/LEME9795629446",
+      "apple_genre": "Health & Fitness",
+      "editorial_note": "Gretchen Rubin and Elizabeth Craft test practical habit and happiness strategies drawn from her research.",
+      "taxonomy_node_ids": [
+        "education/self-improvement"
+      ],
+      "archetype_fit": [
+        "comfort"
+      ],
+      "cadence_hint": "weekly",
+      "artwork_url": null,
+      "episode_count": null,
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "good-inside-dr-becky",
+      "title": "Good Inside with Dr. Becky",
+      "apple_collection_id": 1561689671,
+      "feed_url": "https://feeds.simplecast.com/Y5N0xWWZ",
+      "apple_genre": "Parenting",
+      "editorial_note": "Clinical psychologist Becky Kennedy answers hard parenting questions with sturdy, research-grounded guidance.",
+      "taxonomy_node_ids": [
+        "kids-family/parenting",
+        "psychology"
+      ],
+      "archetype_fit": [
+        "comfort",
+        "deep-learn"
+      ],
+      "cadence_hint": "weekly",
+      "artwork_url": null,
+      "episode_count": null,
+      "explicit": false,
+      "source": "itunes_verified"
+    },
+    {
+      "show_id": "ask-lisa-parenting",
+      "title": "Ask Lisa: The Psychology of Parenting",
+      "apple_collection_id": 1525689066,
+      "feed_url": "https://feeds.megaphone.fm/ADL9419958163",
+      "apple_genre": "Parenting",
+      "editorial_note": "Clinical psychologist Lisa Damour and Reena Ninan bring science-backed answers to real questions about raising tweens and teens.",
+      "taxonomy_node_ids": [
+        "kids-family/parenting",
+        "psychology"
+      ],
+      "archetype_fit": [
+        "deep-learn",
+        "comfort"
+      ],
+      "cadence_hint": "weekly",
+      "artwork_url": null,
+      "episode_count": null,
+      "explicit": false,
+      "source": "itunes_verified"
+    }
+  ],
+  "items": [
+    {
+      "id": "happiness-lab--no-regrets-bad-advice",
+      "show": "The Happiness Lab with Dr. Laurie Santos",
+      "title": "Why “No Regrets” Is Bad Advice",
+      "apple_collection_id": 1474245040,
+      "apple_track_id": 1000773657289,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/why-no-regrets-is-bad-advice/id1474245040?i=1000773657289&uo=4",
+      "release_date": "2026-06-22",
+      "duration_min": 31,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/5b/76/d6/5b76d66b-3a13-01fb-648c-b1ca45503022/mza_2270651768496302865.jpg/600x600bb.jpg",
+      "topics": [
+        "health/mental",
+        "psychology"
+      ],
+      "hook": "Laurie Santos on why regret, used well, guides better decisions than living regret-free.",
+      "explicit": false
+    },
+    {
+      "id": "happiness-lab--negative-emotions-signals",
+      "show": "The Happiness Lab with Dr. Laurie Santos",
+      "title": "What Your Negative Emotions Are Trying to Tell You",
+      "apple_collection_id": 1474245040,
+      "apple_track_id": 1000769141165,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/what-your-negative-emotions-are-trying-to-tell-you/id1474245040?i=1000769141165&uo=4",
+      "release_date": "2026-05-25",
+      "duration_min": 46,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/ed/de/9e/edde9ebe-cbe9-4962-c11a-601facc9fce8/mza_15348242201870749815.jpg/600x600bb.jpg",
+      "topics": [
+        "health/mental",
+        "psychology"
+      ],
+      "hook": "Sadness, anger and anxiety aren't problems to fix but signals worth listening to.",
+      "explicit": false
+    },
+    {
+      "id": "happiness-lab--art-of-doing-nothing",
+      "show": "The Happiness Lab with Dr. Laurie Santos",
+      "title": "The Art of Doing Nothing",
+      "apple_collection_id": 1474245040,
+      "apple_track_id": 1000766844019,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-art-of-doing-nothing/id1474245040?i=1000766844019&uo=4",
+      "release_date": "2026-05-11",
+      "duration_min": 35,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/68/62/41/68624156-66cd-83bb-9c75-0152ebb63a5e/mza_1947333516538258012.jpg/600x600bb.jpg",
+      "topics": [
+        "health/mental",
+        "psychology"
+      ],
+      "hook": "The science of time famine, and why rest feels impossible when always busy.",
+      "explicit": false
+    },
+    {
+      "id": "ten-percent-happier--attachment-style-amir-levine",
+      "show": "10% Happier with Dan Harris",
+      "title": "What Attachment Style Are You? How To Know, Why It Matters, and How To Change It If You Need To | Amir Levine",
+      "apple_collection_id": 1087147821,
+      "apple_track_id": 1000772080221,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/what-attachment-style-are-you-how-to-know-why-it-matters/id1087147821?i=1000772080221&uo=4",
+      "release_date": "2026-06-15",
+      "duration_min": 65,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/79/04/87/79048703-d88c-acc2-c319-a8f2534b9ae5/mza_15018160844227259170.jpg/600x600bb.jpg",
+      "topics": [
+        "health/mental",
+        "psychology"
+      ],
+      "hook": "Psychiatrist Amir Levine on knowing your attachment style and shifting toward secure connection.",
+      "explicit": false
+    },
+    {
+      "id": "ten-percent-happier--regulate-nervous-system-bruce-perry",
+      "show": "10% Happier with Dan Harris",
+      "title": "How To Regulate Your Nervous System: Anxiety, Relationships, and the Baggage You Didn't Ask For | Dr. Bruce Perry",
+      "apple_collection_id": 1087147821,
+      "apple_track_id": 1000774864803,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/how-to-regulate-your-nervous-system-anxiety-relationships/id1087147821?i=1000774864803&uo=4",
+      "release_date": "2026-07-01",
+      "duration_min": 77,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/79/04/87/79048703-d88c-acc2-c319-a8f2534b9ae5/mza_15018160844227259170.jpg/600x600bb.jpg",
+      "topics": [
+        "health/mental",
+        "psychology"
+      ],
+      "hook": "Neuroscientist Bruce Perry on how trauma rewires the brain and connection helps regulate it.",
+      "explicit": false
+    },
+    {
+      "id": "ten-percent-happier--muscle-emotions-gabrielle-lyon",
+      "show": "10% Happier with Dan Harris",
+      "title": "Muscle Regulates Your Emotions: The Science of Protein, Strength, and Aging Well | Dr. Gabrielle Lyon",
+      "apple_collection_id": 1087147821,
+      "apple_track_id": 1000773890460,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/muscle-regulates-your-emotions-the-science-of/id1087147821?i=1000773890460&uo=4",
+      "release_date": "2026-06-24",
+      "duration_min": 57,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/79/04/87/79048703-d88c-acc2-c319-a8f2534b9ae5/mza_15018160844227259170.jpg/600x600bb.jpg",
+      "topics": [
+        "health/mental",
+        "health/fitness"
+      ],
+      "hook": "Physician Gabrielle Lyon on how protein and strength training change your mental state.",
+      "explicit": false
+    },
+    {
+      "id": "feel-better-live-more--fix-your-sleep-michael-breus",
+      "show": "Feel Better, Live More with Dr Rangan Chatterjee",
+      "title": "How To Finally Fix Your Sleep, Wake Up Rested & Transform Your Life with Dr Michael Breus #672",
+      "apple_collection_id": 1333552422,
+      "apple_track_id": 1000775643482,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/how-to-finally-fix-your-sleep-wake-up-rested-transform/id1333552422?i=1000775643482&uo=4",
+      "release_date": "2026-07-07",
+      "duration_min": 120,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/e2/c0/4e/e2c04ee0-f2f8-da19-b47c-33ba47a10f6b/mza_10731746158490337858.jpg/600x600bb.jpg",
+      "topics": [
+        "health/mental",
+        "medicine/neuroscience"
+      ],
+      "hook": "Sleep doctor Michael Breus on five practices that finally fix broken sleep.",
+      "explicit": false
+    },
+    {
+      "id": "feel-better-live-more--science-of-deep-rest-elissa-epel",
+      "show": "Feel Better, Live More with Dr Rangan Chatterjee",
+      "title": "The Science of Deep Rest: How Relaxation Calms Stress & Slows Ageing with Dr Elissa Epel #668",
+      "apple_collection_id": 1333552422,
+      "apple_track_id": 1000773870756,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-science-of-deep-rest-how-relaxation-calms/id1333552422?i=1000773870756&uo=4",
+      "release_date": "2026-06-23",
+      "duration_min": 86,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/de/73/2d/de732df4-6948-97d7-3730-6ee0250c8429/mza_10671312713229466900.jpg/600x600bb.jpg",
+      "topics": [
+        "health/mental",
+        "psychology"
+      ],
+      "hook": "Researcher Elissa Epel on how unnoticed stress damages you, and relaxation slows ageing.",
+      "explicit": false
+    },
+    {
+      "id": "feel-better-live-more--chronic-pain-recovery-howard-schubiner",
+      "show": "Feel Better, Live More with Dr Rangan Chatterjee",
+      "title": "The Revolutionary Science Of Recovering From Chronic Pain, Fatigue, Anxiety & Depression with Dr Howard Schubiner #662",
+      "apple_collection_id": 1333552422,
+      "apple_track_id": 1000770545399,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-revolutionary-science-of-recovering-from/id1333552422?i=1000770545399&uo=4",
+      "release_date": "2026-06-02",
+      "duration_min": 95,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/e9/6c/27/e96c272d-bdaa-11db-088d-3a10317e3d88/mza_13666591082620871488.jpg/600x600bb.jpg",
+      "topics": [
+        "health/mental",
+        "medicine/neuroscience"
+      ],
+      "hook": "Dr. Howard Schubiner on the science of recovering from chronic pain, fatigue and anxiety.",
+      "explicit": false
+    },
+    {
+      "id": "the-psychology-podcast--how-mindsets-shape-reality-alia-crum",
+      "show": "The Psychology Podcast",
+      "title": "How Mindsets Shape Reality w/ Dr. Alia Crum",
+      "apple_collection_id": 942777522,
+      "apple_track_id": 1000737560335,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/how-mindsets-shape-reality-w-dr-alia-crum/id942777522?i=1000737560335&uo=4",
+      "release_date": "2025-11-20",
+      "duration_min": 60,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/51/ca/bb/51cabb70-64f5-184f-e04b-9581eb3f575f/mza_7262984333207456770.jpeg/600x600bb.jpg",
+      "topics": [
+        "psychology"
+      ],
+      "hook": "Stanford psychologist Alia Crum on how the mindsets you hold quietly reshape reality.",
+      "explicit": false
+    },
+    {
+      "id": "the-psychology-podcast--dealing-with-feelings-marc-brackett",
+      "show": "The Psychology Podcast",
+      "title": "Dealing with Feelings w/ Dr. Marc Brackett",
+      "apple_collection_id": 942777522,
+      "apple_track_id": 1000723846066,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/dealing-with-feelings-w-dr-marc-brackett/id942777522?i=1000723846066&uo=4",
+      "release_date": "2025-08-28",
+      "duration_min": 56,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/7d/ca/c8/7dcac897-46db-665d-9a7e-99df3035a596/mza_4316863943411516978.jpeg/600x600bb.jpg",
+      "topics": [
+        "psychology",
+        "health/mental"
+      ],
+      "hook": "Yale psychologist Marc Brackett on using emotions, rather than suppressing them, to decide well.",
+      "explicit": false
+    },
+    {
+      "id": "the-psychology-podcast--change-your-personality-olga-khazan",
+      "show": "The Psychology Podcast",
+      "title": "Can You Really Change Your Personality? w/ Olga Khazan",
+      "apple_collection_id": 942777522,
+      "apple_track_id": 1000719960962,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/can-you-really-change-your-personality-w-olga-khazan/id942777522?i=1000719960962&uo=4",
+      "release_date": "2025-07-31",
+      "duration_min": 48,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/20/e7/f0/20e7f08c-f41f-213b-9910-03a6cd3ccb9f/mza_804244913935249254.jpeg/600x600bb.jpg",
+      "topics": [
+        "psychology"
+      ],
+      "hook": "Journalist Olga Khazan on the science and real promise of changing your personality.",
+      "explicit": false
+    },
+    {
+      "id": "maintenance-phase--ultra-processed-foods",
+      "show": "Maintenance Phase",
+      "title": "Ultra-Processed Foods",
+      "apple_collection_id": 1535408667,
+      "apple_track_id": 1000710989373,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/ultra-processed-foods/id1535408667?i=1000710989373&uo=4",
+      "release_date": "2025-06-03",
+      "duration_min": 71,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/d3/23/3c/d3233ce4-e1e6-710c-141a-dad45b263c7d/mza_17331100152243008221.jpg/600x600bb.jpg",
+      "topics": [
+        "health/nutrition"
+      ],
+      "hook": "Everyone agrees processed food is bad; almost nobody agrees on what that means.",
+      "explicit": false
+    },
+    {
+      "id": "maintenance-phase--seed-oils",
+      "show": "Maintenance Phase",
+      "title": "Seed Oils",
+      "apple_collection_id": 1535408667,
+      "apple_track_id": 1000723572509,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/seed-oils/id1535408667?i=1000723572509&uo=4",
+      "release_date": "2025-08-26",
+      "duration_min": 79,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/d3/23/3c/d3233ce4-e1e6-710c-141a-dad45b263c7d/mza_17331100152243008221.jpg/600x600bb.jpg",
+      "topics": [
+        "health/nutrition"
+      ],
+      "hook": "Aubrey Gordon and Michael Hobbes weigh the actual evidence behind the seed-oil panic.",
+      "explicit": false
+    },
+    {
+      "id": "maintenance-phase--salt",
+      "show": "Maintenance Phase",
+      "title": "Salt",
+      "apple_collection_id": 1535408667,
+      "apple_track_id": 1000772010276,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/salt/id1535408667?i=1000772010276&uo=4",
+      "release_date": "2026-06-10",
+      "duration_min": 53,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/d3/23/3c/d3233ce4-e1e6-710c-141a-dad45b263c7d/mza_17331100152243008221.jpg/600x600bb.jpg",
+      "topics": [
+        "health/nutrition"
+      ],
+      "hook": "How low-sodium advice became repackaged as electrolytes and sold back as wellness.",
+      "explicit": false
+    },
+    {
+      "id": "zoe-science-nutrition--build-a-better-brain-jacka-spector",
+      "show": "ZOE Science & Nutrition",
+      "title": "How to build a better brain: The 5 foods you need to protect your memory, mood and to cut dementia risk | Prof Felice Jacka & Prof Tim Spector",
+      "apple_collection_id": 1611216298,
+      "apple_track_id": 1000775162161,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/how-to-build-a-better-brain-the-5-foods-you-need/id1611216298?i=1000775162161&uo=4",
+      "release_date": "2026-07-02",
+      "duration_min": 62,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/83/21/fa/8321fa07-c424-c95e-25f8-b99d952b074e/mza_11331013497668602482.jpeg/600x600bb.jpg",
+      "topics": [
+        "health/nutrition",
+        "medicine/neuroscience"
+      ],
+      "hook": "Professors Felice Jacka and Tim Spector on five foods that protect memory and mood.",
+      "explicit": false
+    },
+    {
+      "id": "zoe-science-nutrition--power-of-mushrooms-robin-may",
+      "show": "ZOE Science & Nutrition",
+      "title": "How to unlock the secret power of mushrooms to heal your gut, cut cholesterol and protect your brain | Prof Robin May",
+      "apple_collection_id": 1611216298,
+      "apple_track_id": 1000771148772,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/how-to-unlock-the-secret-power-of-mushrooms-to-heal/id1611216298?i=1000771148772&uo=4",
+      "release_date": "2026-06-04",
+      "duration_min": 57,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/83/21/fa/8321fa07-c424-c95e-25f8-b99d952b074e/mza_11331013497668602482.jpeg/600x600bb.jpg",
+      "topics": [
+        "health/nutrition"
+      ],
+      "hook": "Microbiologist Robin May on how mushrooms may aid gut health, cholesterol and brain.",
+      "explicit": false
+    },
+    {
+      "id": "zoe-science-nutrition--protect-muscle-on-glp1-federica-amati",
+      "show": "ZOE Science & Nutrition",
+      "title": "The 4 rules to protect your muscle, bones and brain health when using Ozempic and other weight loss injections | Dr Federica Amati",
+      "apple_collection_id": 1611216298,
+      "apple_track_id": 1000773258136,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-4-rules-to-protect-your-muscle-bones-and-brain/id1611216298?i=1000773258136&uo=4",
+      "release_date": "2026-06-18",
+      "duration_min": 63,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/83/21/fa/8321fa07-c424-c95e-25f8-b99d952b074e/mza_11331013497668602482.jpeg/600x600bb.jpg",
+      "topics": [
+        "health/nutrition"
+      ],
+      "hook": "Dr. Federica Amati on eating to protect muscle and bone while taking Ozempic.",
+      "explicit": false
+    },
+    {
+      "id": "foundmyfitness--best-exercise-for-longevity",
+      "show": "FoundMyFitness",
+      "title": "#108 The Best Type of Exercise for Longevity",
+      "apple_collection_id": 818198322,
+      "apple_track_id": 1000740244045,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/108-the-best-type-of-exercise-for-longevity/id818198322?i=1000740244045&uo=4",
+      "release_date": "2025-12-07",
+      "duration_min": 139,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/1f/fd/bb/1ffdbb90-5149-e60c-490f-3c48d6b5804d/mza_3483157469096287873.jpg/600x600bb.jpg",
+      "topics": [
+        "health/fitness",
+        "health/nutrition"
+      ],
+      "hook": "Rhonda Patrick breaks down which type of exercise most extends a healthy lifespan.",
+      "explicit": false
+    },
+    {
+      "id": "foundmyfitness--optimal-mobility-kelly-starrett",
+      "show": "FoundMyFitness",
+      "title": "#111 The Optimal Mobility Protocol for a Durable Body | Dr. Kelly Starrett",
+      "apple_collection_id": 818198322,
+      "apple_track_id": 1000766054859,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/111-the-optimal-mobility-protocol-for-a-durable-body/id818198322?i=1000766054859&uo=4",
+      "release_date": "2026-04-24",
+      "duration_min": 191,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/ce/08/cf/ce08cf8f-fd02-4b66-7d40-46311ddc7804/mza_3716936927658739764.jpg/600x600bb.jpg",
+      "topics": [
+        "health/fitness"
+      ],
+      "hook": "Kelly Starrett on the mobility work that keeps a body durable as it ages.",
+      "explicit": false
+    },
+    {
+      "id": "foundmyfitness--build-lasting-happiness-arthur-brooks",
+      "show": "FoundMyFitness",
+      "title": "#110 How To Build Lasting Happiness | Dr. Arthur Brooks",
+      "apple_collection_id": 818198322,
+      "apple_track_id": 1000757095400,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/110-how-to-build-lasting-happiness-dr-arthur-brooks/id818198322?i=1000757095400&uo=4",
+      "release_date": "2026-03-24",
+      "duration_min": 156,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/3e/92/0c/3e920c55-116e-b19e-65a3-a7e32a392910/mza_14452216125284965472.jpg/600x600bb.jpg",
+      "topics": [
+        "psychology",
+        "health/mental"
+      ],
+      "hook": "Arthur Brooks on why most of us chase happiness in exactly the wrong way.",
+      "explicit": false
+    },
+    {
+      "id": "sigma-nutrition-radio--electrolyte-mythology",
+      "show": "Sigma Nutrition Radio",
+      "title": "#611: Electrolyte Mythology: Wellness Marketing vs. Evidence - Zoë Rom & Kylee Van Horn",
+      "apple_collection_id": 857888327,
+      "apple_track_id": 1000774806835,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/611-electrolyte-mythology-wellness-marketing-vs-evidence/id857888327?i=1000774806835&uo=4",
+      "release_date": "2026-06-30",
+      "duration_min": 55,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/7d/ed/21/7ded21c8-f97e-982f-dcae-cff69d126da2/mza_7834073134319015021.png/600x600bb.jpg",
+      "topics": [
+        "health/nutrition"
+      ],
+      "hook": "Two sports dietitians separate electrolyte marketing from what the evidence actually supports.",
+      "explicit": false
+    },
+    {
+      "id": "sigma-nutrition-radio--red-meat-and-cancer-risk",
+      "show": "Sigma Nutrition Radio",
+      "title": "#609: Unprocessed Red Meat & Cancer Risk",
+      "apple_collection_id": 857888327,
+      "apple_track_id": 1000771819951,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/609-unprocessed-red-meat-cancer-risk/id857888327?i=1000771819951&uo=4",
+      "release_date": "2026-06-09",
+      "duration_min": 70,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/7d/ed/21/7ded21c8-f97e-982f-dcae-cff69d126da2/mza_7834073134319015021.png/600x600bb.jpg",
+      "topics": [
+        "health/nutrition"
+      ],
+      "hook": "Why unprocessed red meat and cancer risk is murkier than headlines make it.",
+      "explicit": false
+    },
+    {
+      "id": "sigma-nutrition-radio--how-to-interpret-nutrition-research-allison",
+      "show": "Sigma Nutrition Radio",
+      "title": "#604: How To Interpret Nutrition Research – David Allison, PhD",
+      "apple_collection_id": 857888327,
+      "apple_track_id": 1000766173294,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/604-how-to-interpret-nutrition-research-david-allison-phd/id857888327?i=1000766173294&uo=4",
+      "release_date": "2026-05-05",
+      "duration_min": 52,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/7d/ed/21/7ded21c8-f97e-982f-dcae-cff69d126da2/mza_7834073134319015021.png/600x600bb.jpg",
+      "topics": [
+        "health/nutrition"
+      ],
+      "hook": "Epidemiologist David Allison on judging whether a nutrition study is actually trustworthy.",
+      "explicit": false
+    },
+    {
+      "id": "mel-robbins-podcast--science-of-dreaming",
+      "show": "The Mel Robbins Podcast",
+      "title": "#1 Neuroscientist: How to Unlock the Power of Your Mind Using The Science of Dreaming",
+      "apple_collection_id": 1646101002,
+      "apple_track_id": 1000774381419,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/1-neuroscientist-how-to-unlock-the-power-of-your/id1646101002?i=1000774381419&uo=4",
+      "release_date": "2026-06-29",
+      "duration_min": 71,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/2a/9f/c7/2a9fc792-c6a7-e159-0e10-a4442eec27d5/mza_5919882476720095362.jpg/600x600bb.jpg",
+      "topics": [
+        "education/self-improvement",
+        "medicine/neuroscience"
+      ],
+      "hook": "A neuroscientist on what your dreams mean and how sleep sharpens the mind.",
+      "explicit": false
+    },
+    {
+      "id": "mel-robbins-podcast--gottman-relationship-research",
+      "show": "The Mel Robbins Podcast",
+      "title": "The #1 Relationship Researchers in the World: 50 Years of Marriage & Love Advice in One Conversation",
+      "apple_collection_id": 1646101002,
+      "apple_track_id": 1000773175432,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-1-relationship-researchers-in-the-world-50/id1646101002?i=1000773175432&uo=4",
+      "release_date": "2026-06-18",
+      "duration_min": 88,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/2a/9f/c7/2a9fc792-c6a7-e159-0e10-a4442eec27d5/mza_5919882476720095362.jpg/600x600bb.jpg",
+      "topics": [
+        "education/self-improvement",
+        "psychology"
+      ],
+      "hook": "The Gottmans distill fifty years of marriage research into one practical conversation.",
+      "explicit": false
+    },
+    {
+      "id": "mel-robbins-podcast--master-any-conversation",
+      "show": "The Mel Robbins Podcast",
+      "title": "How to Master Any Conversation, Communicate With Confidence, and Deal With Difficult People",
+      "apple_collection_id": 1646101002,
+      "apple_track_id": 1000774743354,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/how-to-master-any-conversation-communicate-with/id1646101002?i=1000774743354&uo=4",
+      "release_date": "2026-07-06",
+      "duration_min": 69,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/2a/9f/c7/2a9fc792-c6a7-e159-0e10-a4442eec27d5/mza_5919882476720095362.jpg/600x600bb.jpg",
+      "topics": [
+        "education/self-improvement"
+      ],
+      "hook": "Practical ways to communicate with confidence and handle difficult people in any room.",
+      "explicit": false
+    },
+    {
+      "id": "happier-gretchen-rubin--fight-perfectionism",
+      "show": "Happier with Gretchen Rubin",
+      "title": "Ep. 591: How to Fight Perfectionism—Plus a Simple Happiness Hack That Really Matters",
+      "apple_collection_id": 969519520,
+      "apple_track_id": 1000772228251,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/ep-591-how-to-fight-perfectionism-plus-a-simple/id969519520?i=1000772228251&uo=4",
+      "release_date": "2026-06-17",
+      "duration_min": 40,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/f7/99/85/f7998526-25c9-b63e-0db4-9e1a3032a93d/mza_7151041563222863798.jpeg/600x600bb.jpg",
+      "topics": [
+        "education/self-improvement",
+        "health/mental"
+      ],
+      "hook": "Why perfectionism is driven by anxiety, not high standards, and how to loosen it.",
+      "explicit": false
+    },
+    {
+      "id": "happier-gretchen-rubin--strategies-for-managing-worry",
+      "show": "Happier with Gretchen Rubin",
+      "title": "Ep. 590: Very Special Episode! 20 Practical Strategies for Managing Worry",
+      "apple_collection_id": 969519520,
+      "apple_track_id": 1000770820122,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/ep-590-very-special-episode-20-practical-strategies/id969519520?i=1000770820122&uo=4",
+      "release_date": "2026-06-10",
+      "duration_min": 37,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/79/f7/5c/79f75c4e-2c15-0501-89b1-cdf935378f79/mza_1286142879749396072.jpeg/600x600bb.jpg",
+      "topics": [
+        "education/self-improvement",
+        "health/mental"
+      ],
+      "hook": "Twenty practical strategies for managing worry, from scheduled worry-time to spotting false alarms.",
+      "explicit": false
+    },
+    {
+      "id": "good-inside-dr-becky--neuroscience-of-fatherhood",
+      "show": "Good Inside with Dr. Becky",
+      "title": "Great Dads Are Made, Not Born: The Neuroscience of Fatherhood",
+      "apple_collection_id": 1561689671,
+      "apple_track_id": 1000775754654,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/great-dads-are-made-not-born-the-neuroscience-of-fatherhood/id1561689671?i=1000775754654&uo=4",
+      "release_date": "2026-07-07",
+      "duration_min": 32,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ce/43/fd/ce43fdee-824d-b97c-3642-959e971579c2/mza_9334100872530662650.jpg/600x600bb.jpg",
+      "topics": [
+        "kids-family/parenting",
+        "medicine/neuroscience"
+      ],
+      "hook": "New research shows fathers' brains reorganize around a baby, just as mothers' do.",
+      "explicit": false
+    },
+    {
+      "id": "good-inside-dr-becky--stop-trying-to-make-kids-creative",
+      "show": "Good Inside with Dr. Becky",
+      "title": "Stop Trying to Make Your Kids Creative",
+      "apple_collection_id": 1561689671,
+      "apple_track_id": 1000772915540,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/stop-trying-to-make-your-kids-creative/id1561689671?i=1000772915540&uo=4",
+      "release_date": "2026-06-16",
+      "duration_min": 34,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ce/43/fd/ce43fdee-824d-b97c-3642-959e971579c2/mza_9334100872530662650.jpg/600x600bb.jpg",
+      "topics": [
+        "kids-family/parenting",
+        "psychology"
+      ],
+      "hook": "Clinical psychologist Becky Kennedy on why creativity kits won't make your kid creative.",
+      "explicit": false
+    },
+    {
+      "id": "good-inside-dr-becky--why-kids-behavior-feels-big",
+      "show": "Good Inside with Dr. Becky",
+      "title": "Why Your Kid’s Behavior Feels So Big",
+      "apple_collection_id": 1561689671,
+      "apple_track_id": 1000768511140,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/why-your-kids-behavior-feels-so-big/id1561689671?i=1000768511140&uo=4",
+      "release_date": "2026-05-19",
+      "duration_min": 28,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ce/43/fd/ce43fdee-824d-b97c-3642-959e971579c2/mza_9334100872530662650.jpg/600x600bb.jpg",
+      "topics": [
+        "kids-family/parenting",
+        "psychology"
+      ],
+      "hook": "Dr. Lindsay Gibson on why your child's big reactions feel so overwhelming.",
+      "explicit": false
+    },
+    {
+      "id": "ask-lisa-parenting--why-is-my-teen-bombing-tests",
+      "show": "Ask Lisa: The Psychology of Parenting",
+      "title": "272: Why Is My Teen Bombing Tests?",
+      "apple_collection_id": 1525689066,
+      "apple_track_id": 1000768521036,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/272-why-is-my-teen-bombing-tests/id1525689066?i=1000768521036&uo=4",
+      "release_date": "2026-05-19",
+      "duration_min": 35,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ee/0b/78/ee0b7836-10e5-e534-6dc3-ed9e68b4a8bf/mza_17757739287205185539.jpeg/600x600bb.jpg",
+      "topics": [
+        "kids-family/parenting",
+        "psychology"
+      ],
+      "hook": "Clinical psychologist Lisa Damour on why a diligent teen still struggles with tests.",
+      "explicit": false
+    },
+    {
+      "id": "ask-lisa-parenting--embracing-adhd-holderness",
+      "show": "Ask Lisa: The Psychology of Parenting",
+      "title": "277: ENCORE: Embracing ADHD with Penn and Kim Holderness",
+      "apple_collection_id": 1525689066,
+      "apple_track_id": 1000773850288,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/277-encore-embracing-adhd-with-penn-and-kim-holderness/id1525689066?i=1000773850288&uo=4",
+      "release_date": "2026-06-23",
+      "duration_min": 43,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ee/0b/78/ee0b7836-10e5-e534-6dc3-ed9e68b4a8bf/mza_17757739287205185539.jpeg/600x600bb.jpg",
+      "topics": [
+        "kids-family/parenting",
+        "psychology"
+      ],
+      "hook": "Lisa Damour and the Holdernesses on seeing a child's ADHD diagnosis differently.",
+      "explicit": false
+    },
+    {
+      "id": "ask-lisa-parenting--confidence-self-esteem-self-compassion",
+      "show": "Ask Lisa: The Psychology of Parenting",
+      "title": "273: Best of Ask Lisa: Confidence, Self-Esteem & Self-Compassion",
+      "apple_collection_id": 1525689066,
+      "apple_track_id": 1000769600283,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/273-best-of-ask-lisa-confidence-self-esteem-self-compassion/id1525689066?i=1000769600283&uo=4",
+      "release_date": "2026-05-26",
+      "duration_min": 43,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ee/0b/78/ee0b7836-10e5-e534-6dc3-ed9e68b4a8bf/mza_17757739287205185539.jpeg/600x600bb.jpg",
+      "topics": [
+        "kids-family/parenting",
+        "psychology"
+      ],
+      "hook": "Lisa Damour on building genuine confidence, self-esteem and self-compassion in kids and yourself.",
+      "explicit": false
+    }
+  ],
+  "tags": {
+    "happiness-lab--no-regrets-bad-advice": [
+      "happiness",
+      "regret",
+      "decision-making",
+      "psychology",
+      "emotions",
+      "laurie-santos",
+      "interview"
+    ],
+    "happiness-lab--negative-emotions-signals": [
+      "emotions",
+      "mental-health",
+      "anxiety",
+      "psychology",
+      "self-awareness",
+      "wellbeing",
+      "interview"
+    ],
+    "happiness-lab--art-of-doing-nothing": [
+      "rest",
+      "burnout",
+      "time-famine",
+      "mental-health",
+      "productivity",
+      "wellbeing",
+      "solo"
+    ],
+    "ten-percent-happier--attachment-style-amir-levine": [
+      "attachment",
+      "relationships",
+      "psychology",
+      "anxiety",
+      "mental-health",
+      "amir-levine",
+      "interview"
+    ],
+    "ten-percent-happier--regulate-nervous-system-bruce-perry": [
+      "trauma",
+      "nervous-system",
+      "neuroscience",
+      "anxiety",
+      "mental-health",
+      "bruce-perry",
+      "interview"
+    ],
+    "ten-percent-happier--muscle-emotions-gabrielle-lyon": [
+      "strength-training",
+      "protein",
+      "muscle",
+      "mental-health",
+      "longevity",
+      "gabrielle-lyon",
+      "interview"
+    ],
+    "feel-better-live-more--fix-your-sleep-michael-breus": [
+      "sleep",
+      "insomnia",
+      "circadian-rhythm",
+      "health",
+      "habits",
+      "michael-breus",
+      "interview"
+    ],
+    "feel-better-live-more--science-of-deep-rest-elissa-epel": [
+      "stress",
+      "ageing",
+      "relaxation",
+      "mental-health",
+      "telomeres",
+      "elissa-epel",
+      "interview"
+    ],
+    "feel-better-live-more--chronic-pain-recovery-howard-schubiner": [
+      "chronic-pain",
+      "mind-body",
+      "anxiety",
+      "fatigue",
+      "neuroscience",
+      "howard-schubiner",
+      "interview"
+    ],
+    "the-psychology-podcast--how-mindsets-shape-reality-alia-crum": [
+      "mindset",
+      "psychology",
+      "placebo",
+      "stress",
+      "behavior-change",
+      "alia-crum",
+      "interview"
+    ],
+    "the-psychology-podcast--dealing-with-feelings-marc-brackett": [
+      "emotional-intelligence",
+      "emotions",
+      "psychology",
+      "mental-health",
+      "yale",
+      "marc-brackett",
+      "interview"
+    ],
+    "the-psychology-podcast--change-your-personality-olga-khazan": [
+      "personality",
+      "psychology",
+      "self-improvement",
+      "big-five",
+      "behavior-change",
+      "olga-khazan",
+      "interview"
+    ],
+    "maintenance-phase--ultra-processed-foods": [
+      "ultra-processed-food",
+      "nutrition",
+      "diet-culture",
+      "food-science",
+      "debunking",
+      "skeptic",
+      "panel"
+    ],
+    "maintenance-phase--seed-oils": [
+      "seed-oils",
+      "nutrition",
+      "wellness-myths",
+      "food-science",
+      "debunking",
+      "skeptic",
+      "panel"
+    ],
+    "maintenance-phase--salt": [
+      "salt",
+      "sodium",
+      "electrolytes",
+      "nutrition",
+      "wellness-marketing",
+      "debunking",
+      "panel"
+    ],
+    "zoe-science-nutrition--build-a-better-brain-jacka-spector": [
+      "brain-health",
+      "nutrition",
+      "microbiome",
+      "mood",
+      "dementia",
+      "tim-spector",
+      "interview"
+    ],
+    "zoe-science-nutrition--power-of-mushrooms-robin-may": [
+      "mushrooms",
+      "gut-health",
+      "nutrition",
+      "cholesterol",
+      "microbiome",
+      "robin-may",
+      "interview"
+    ],
+    "zoe-science-nutrition--protect-muscle-on-glp1-federica-amati": [
+      "glp-1",
+      "ozempic",
+      "nutrition",
+      "muscle",
+      "weight-loss",
+      "federica-amati",
+      "interview"
+    ],
+    "foundmyfitness--best-exercise-for-longevity": [
+      "exercise",
+      "longevity",
+      "fitness",
+      "vo2-max",
+      "healthspan",
+      "rhonda-patrick",
+      "solo"
+    ],
+    "foundmyfitness--optimal-mobility-kelly-starrett": [
+      "mobility",
+      "fitness",
+      "range-of-motion",
+      "injury-prevention",
+      "strength",
+      "kelly-starrett",
+      "interview"
+    ],
+    "foundmyfitness--build-lasting-happiness-arthur-brooks": [
+      "happiness",
+      "psychology",
+      "wellbeing",
+      "emotions",
+      "purpose",
+      "arthur-brooks",
+      "interview"
+    ],
+    "sigma-nutrition-radio--electrolyte-mythology": [
+      "electrolytes",
+      "sports-nutrition",
+      "hydration",
+      "evidence-based",
+      "wellness-myths",
+      "nutrition",
+      "interview"
+    ],
+    "sigma-nutrition-radio--red-meat-and-cancer-risk": [
+      "red-meat",
+      "cancer-risk",
+      "nutrition-science",
+      "epidemiology",
+      "evidence-based",
+      "nutrition",
+      "panel"
+    ],
+    "sigma-nutrition-radio--how-to-interpret-nutrition-research-allison": [
+      "research-methods",
+      "nutrition-science",
+      "evidence-based",
+      "statistics",
+      "critical-thinking",
+      "david-allison",
+      "interview"
+    ],
+    "mel-robbins-podcast--science-of-dreaming": [
+      "dreams",
+      "sleep",
+      "neuroscience",
+      "memory",
+      "self-improvement",
+      "brain",
+      "interview"
+    ],
+    "mel-robbins-podcast--gottman-relationship-research": [
+      "relationships",
+      "marriage",
+      "gottman",
+      "psychology",
+      "communication",
+      "self-improvement",
+      "interview"
+    ],
+    "mel-robbins-podcast--master-any-conversation": [
+      "communication",
+      "confidence",
+      "social-skills",
+      "self-improvement",
+      "conflict",
+      "conversation",
+      "interview"
+    ],
+    "happier-gretchen-rubin--fight-perfectionism": [
+      "perfectionism",
+      "anxiety",
+      "habits",
+      "self-improvement",
+      "happiness",
+      "gretchen-rubin",
+      "panel"
+    ],
+    "happier-gretchen-rubin--strategies-for-managing-worry": [
+      "worry",
+      "anxiety",
+      "habits",
+      "self-improvement",
+      "mental-health",
+      "coping",
+      "panel"
+    ],
+    "good-inside-dr-becky--neuroscience-of-fatherhood": [
+      "fatherhood",
+      "parenting",
+      "neuroscience",
+      "babies",
+      "brain",
+      "becky-kennedy",
+      "interview"
+    ],
+    "good-inside-dr-becky--stop-trying-to-make-kids-creative": [
+      "parenting",
+      "creativity",
+      "child-development",
+      "psychology",
+      "play",
+      "becky-kennedy",
+      "solo"
+    ],
+    "good-inside-dr-becky--why-kids-behavior-feels-big": [
+      "parenting",
+      "emotions",
+      "child-behavior",
+      "psychology",
+      "emotional-immaturity",
+      "lindsay-gibson",
+      "interview"
+    ],
+    "ask-lisa-parenting--why-is-my-teen-bombing-tests": [
+      "parenting",
+      "teens",
+      "test-anxiety",
+      "psychology",
+      "school",
+      "lisa-damour",
+      "interview"
+    ],
+    "ask-lisa-parenting--embracing-adhd-holderness": [
+      "adhd",
+      "parenting",
+      "teens",
+      "psychology",
+      "neurodiversity",
+      "lisa-damour",
+      "interview"
+    ],
+    "ask-lisa-parenting--confidence-self-esteem-self-compassion": [
+      "confidence",
+      "self-esteem",
+      "self-compassion",
+      "parenting",
+      "teens",
+      "lisa-damour",
+      "interview"
+    ]
+  }
+}

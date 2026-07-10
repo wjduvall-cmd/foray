@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "built_at": "2026-07-09T23:08:54.271Z",
+  "built_at": "2026-07-10T00:02:02.527Z",
   "tags": {
     "lex-fridman-podcast--don-lincoln-physics": [
       "physics",
@@ -4943,6 +4943,321 @@
       "metal-organic-frameworks",
       "carbon-capture",
       "nobel-prize",
+      "interview"
+    ],
+    "happiness-lab--no-regrets-bad-advice": [
+      "happiness",
+      "regret",
+      "decision-making",
+      "psychology",
+      "emotions",
+      "laurie-santos",
+      "interview"
+    ],
+    "happiness-lab--negative-emotions-signals": [
+      "emotions",
+      "mental-health",
+      "anxiety",
+      "psychology",
+      "self-awareness",
+      "wellbeing",
+      "interview"
+    ],
+    "happiness-lab--art-of-doing-nothing": [
+      "rest",
+      "burnout",
+      "time-famine",
+      "mental-health",
+      "productivity",
+      "wellbeing",
+      "solo"
+    ],
+    "ten-percent-happier--attachment-style-amir-levine": [
+      "attachment",
+      "relationships",
+      "psychology",
+      "anxiety",
+      "mental-health",
+      "amir-levine",
+      "interview"
+    ],
+    "ten-percent-happier--regulate-nervous-system-bruce-perry": [
+      "trauma",
+      "nervous-system",
+      "neuroscience",
+      "anxiety",
+      "mental-health",
+      "bruce-perry",
+      "interview"
+    ],
+    "ten-percent-happier--muscle-emotions-gabrielle-lyon": [
+      "strength-training",
+      "protein",
+      "muscle",
+      "mental-health",
+      "longevity",
+      "gabrielle-lyon",
+      "interview"
+    ],
+    "feel-better-live-more--fix-your-sleep-michael-breus": [
+      "sleep",
+      "insomnia",
+      "circadian-rhythm",
+      "health",
+      "habits",
+      "michael-breus",
+      "interview"
+    ],
+    "feel-better-live-more--science-of-deep-rest-elissa-epel": [
+      "stress",
+      "ageing",
+      "relaxation",
+      "mental-health",
+      "telomeres",
+      "elissa-epel",
+      "interview"
+    ],
+    "feel-better-live-more--chronic-pain-recovery-howard-schubiner": [
+      "chronic-pain",
+      "mind-body",
+      "anxiety",
+      "fatigue",
+      "neuroscience",
+      "howard-schubiner",
+      "interview"
+    ],
+    "the-psychology-podcast--how-mindsets-shape-reality-alia-crum": [
+      "mindset",
+      "psychology",
+      "placebo",
+      "stress",
+      "behavior-change",
+      "alia-crum",
+      "interview"
+    ],
+    "the-psychology-podcast--dealing-with-feelings-marc-brackett": [
+      "emotional-intelligence",
+      "emotions",
+      "psychology",
+      "mental-health",
+      "yale",
+      "marc-brackett",
+      "interview"
+    ],
+    "the-psychology-podcast--change-your-personality-olga-khazan": [
+      "personality",
+      "psychology",
+      "self-improvement",
+      "big-five",
+      "behavior-change",
+      "olga-khazan",
+      "interview"
+    ],
+    "maintenance-phase--ultra-processed-foods": [
+      "ultra-processed-food",
+      "nutrition",
+      "diet-culture",
+      "food-science",
+      "debunking",
+      "skeptic",
+      "panel"
+    ],
+    "maintenance-phase--seed-oils": [
+      "seed-oils",
+      "nutrition",
+      "wellness-myths",
+      "food-science",
+      "debunking",
+      "skeptic",
+      "panel"
+    ],
+    "maintenance-phase--salt": [
+      "salt",
+      "sodium",
+      "electrolytes",
+      "nutrition",
+      "wellness-marketing",
+      "debunking",
+      "panel"
+    ],
+    "zoe-science-nutrition--build-a-better-brain-jacka-spector": [
+      "brain-health",
+      "nutrition",
+      "microbiome",
+      "mood",
+      "dementia",
+      "tim-spector",
+      "interview"
+    ],
+    "zoe-science-nutrition--power-of-mushrooms-robin-may": [
+      "mushrooms",
+      "gut-health",
+      "nutrition",
+      "cholesterol",
+      "microbiome",
+      "robin-may",
+      "interview"
+    ],
+    "zoe-science-nutrition--protect-muscle-on-glp1-federica-amati": [
+      "glp-1",
+      "ozempic",
+      "nutrition",
+      "muscle",
+      "weight-loss",
+      "federica-amati",
+      "interview"
+    ],
+    "foundmyfitness--best-exercise-for-longevity": [
+      "exercise",
+      "longevity",
+      "fitness",
+      "vo2-max",
+      "healthspan",
+      "rhonda-patrick",
+      "solo"
+    ],
+    "foundmyfitness--optimal-mobility-kelly-starrett": [
+      "mobility",
+      "fitness",
+      "range-of-motion",
+      "injury-prevention",
+      "strength",
+      "kelly-starrett",
+      "interview"
+    ],
+    "foundmyfitness--build-lasting-happiness-arthur-brooks": [
+      "happiness",
+      "psychology",
+      "wellbeing",
+      "emotions",
+      "purpose",
+      "arthur-brooks",
+      "interview"
+    ],
+    "sigma-nutrition-radio--electrolyte-mythology": [
+      "electrolytes",
+      "sports-nutrition",
+      "hydration",
+      "evidence-based",
+      "wellness-myths",
+      "nutrition",
+      "interview"
+    ],
+    "sigma-nutrition-radio--red-meat-and-cancer-risk": [
+      "red-meat",
+      "cancer-risk",
+      "nutrition-science",
+      "epidemiology",
+      "evidence-based",
+      "nutrition",
+      "panel"
+    ],
+    "sigma-nutrition-radio--how-to-interpret-nutrition-research-allison": [
+      "research-methods",
+      "nutrition-science",
+      "evidence-based",
+      "statistics",
+      "critical-thinking",
+      "david-allison",
+      "interview"
+    ],
+    "mel-robbins-podcast--science-of-dreaming": [
+      "dreams",
+      "sleep",
+      "neuroscience",
+      "memory",
+      "self-improvement",
+      "brain",
+      "interview"
+    ],
+    "mel-robbins-podcast--gottman-relationship-research": [
+      "relationships",
+      "marriage",
+      "gottman",
+      "psychology",
+      "communication",
+      "self-improvement",
+      "interview"
+    ],
+    "mel-robbins-podcast--master-any-conversation": [
+      "communication",
+      "confidence",
+      "social-skills",
+      "self-improvement",
+      "conflict",
+      "conversation",
+      "interview"
+    ],
+    "happier-gretchen-rubin--fight-perfectionism": [
+      "perfectionism",
+      "anxiety",
+      "habits",
+      "self-improvement",
+      "happiness",
+      "gretchen-rubin",
+      "panel"
+    ],
+    "happier-gretchen-rubin--strategies-for-managing-worry": [
+      "worry",
+      "anxiety",
+      "habits",
+      "self-improvement",
+      "mental-health",
+      "coping",
+      "panel"
+    ],
+    "good-inside-dr-becky--neuroscience-of-fatherhood": [
+      "fatherhood",
+      "parenting",
+      "neuroscience",
+      "babies",
+      "brain",
+      "becky-kennedy",
+      "interview"
+    ],
+    "good-inside-dr-becky--stop-trying-to-make-kids-creative": [
+      "parenting",
+      "creativity",
+      "child-development",
+      "psychology",
+      "play",
+      "becky-kennedy",
+      "solo"
+    ],
+    "good-inside-dr-becky--why-kids-behavior-feels-big": [
+      "parenting",
+      "emotions",
+      "child-behavior",
+      "psychology",
+      "emotional-immaturity",
+      "lindsay-gibson",
+      "interview"
+    ],
+    "ask-lisa-parenting--why-is-my-teen-bombing-tests": [
+      "parenting",
+      "teens",
+      "test-anxiety",
+      "psychology",
+      "school",
+      "lisa-damour",
+      "interview"
+    ],
+    "ask-lisa-parenting--embracing-adhd-holderness": [
+      "adhd",
+      "parenting",
+      "teens",
+      "psychology",
+      "neurodiversity",
+      "lisa-damour",
+      "interview"
+    ],
+    "ask-lisa-parenting--confidence-self-esteem-self-compassion": [
+      "confidence",
+      "self-esteem",
+      "self-compassion",
+      "parenting",
+      "teens",
+      "lisa-damour",
       "interview"
     ]
   }

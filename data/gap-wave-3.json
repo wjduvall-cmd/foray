@@ -1,0 +1,1010 @@
+{
+  "version": 1,
+  "built_at": "2026-07-10T00:01:53.924Z",
+  "provenance": {
+    "produced_by": "gap-wave-3",
+    "model": "opus",
+    "date": "2026-07-09"
+  },
+  "shows": [
+    {
+      "show_id": "criminal",
+      "title": "Criminal",
+      "apple_collection_id": 809264944,
+      "feed_url": "https://feeds.megaphone.fm/VMP7924981569",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/bd/98/22/bd9822cc-b8e0-59de-5809-45926a0ee5f3/mza_2331604259390110897.jpeg/600x600bb.jpg",
+      "apple_genre": "True Crime",
+      "episode_count": 470,
+      "editorial_note": "Phoebe Judge's quietly reported stories about people who've done wrong, been wronged, or landed in between.",
+      "taxonomy_node_ids": [
+        "true-crime",
+        "society/law"
+      ],
+      "archetype_fit": [
+        "documentary"
+      ],
+      "cadence_hint": null,
+      "explicit": false,
+      "source": "gap-wave-3"
+    },
+    {
+      "show_id": "serial",
+      "title": "Serial",
+      "apple_collection_id": 917918570,
+      "feed_url": "https://feeds.simplecast.com/PpzWFGhg",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/9a/fb/87/9afb8760-0e05-2b3e-24a2-7e14cce74570/mza_14816055607064169808.jpg/600x600bb.jpg",
+      "apple_genre": "News",
+      "episode_count": 125,
+      "editorial_note": "The show that defined narrative true crime: one investigation, reported week by week, told with rigor.",
+      "taxonomy_node_ids": [
+        "true-crime",
+        "society/law"
+      ],
+      "archetype_fit": [
+        "documentary"
+      ],
+      "cadence_hint": null,
+      "explicit": false,
+      "source": "gap-wave-3"
+    },
+    {
+      "show_id": "astonishing-legends",
+      "title": "Astonishing Legends",
+      "apple_collection_id": 923527373,
+      "feed_url": "https://audioboom.com/channels/4322549.rss",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/ad/76/bc/ad76bc47-5cc2-3a33-3831-eb131d4056ed/mza_6281920426640935874.jpg/600x600bb.jpg",
+      "apple_genre": "Society & Culture",
+      "episode_count": 454,
+      "editorial_note": "Scott Philbrick and Forrest Burgess research strange events at length, weighing evidence over easy answers.",
+      "taxonomy_node_ids": [
+        "paranormal",
+        "history"
+      ],
+      "archetype_fit": [
+        "documentary"
+      ],
+      "cadence_hint": null,
+      "explicit": false,
+      "source": "gap-wave-3"
+    },
+    {
+      "show_id": "lore",
+      "title": "Lore",
+      "apple_collection_id": 978052928,
+      "feed_url": "https://rss.libsyn.com/shows/65267/destinations/259905.xml",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/9b/e0/c0/9be0c09c-b803-4774-77d3-85167bc87a31/mza_16743750170316675841.jpg/600x600bb.jpg",
+      "apple_genre": "History",
+      "episode_count": 799,
+      "editorial_note": "Aaron Mahnke's folklore series on the dark historical roots of our fears and superstitions.",
+      "taxonomy_node_ids": [
+        "paranormal",
+        "history"
+      ],
+      "archetype_fit": [
+        "documentary"
+      ],
+      "cadence_hint": null,
+      "explicit": false,
+      "source": "gap-wave-3"
+    },
+    {
+      "show_id": "casefile-true-crime",
+      "title": "Casefile True Crime",
+      "apple_collection_id": 998568017,
+      "feed_url": "https://feeds.acast.com/public/shows/679acff465f74095106abfaa",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/32/81/a3/3281a345-6fa5-1d0d-b0bc-f02b0850a0ae/mza_17562537467118278179.jpeg/600x600bb.jpg",
+      "apple_genre": "True Crime",
+      "episode_count": 499,
+      "editorial_note": "Meticulously sourced, anonymously narrated accounts of solved and unsolved crimes, heavy on documented detail.",
+      "taxonomy_node_ids": [
+        "true-crime"
+      ],
+      "archetype_fit": [
+        "documentary"
+      ],
+      "cadence_hint": null,
+      "explicit": false,
+      "source": "gap-wave-3"
+    },
+    {
+      "show_id": "unexplained",
+      "title": "Unexplained",
+      "apple_collection_id": 1078112813,
+      "feed_url": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/4be3ef45-824a-44b3-b437-b038010038fc/3eb75c81-5ed8-4148-bb7b-b03801003947/podcast.rss",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/7e/a9/5c/7ea95c62-4e9b-359b-7dde-2df168676370/mza_156597234584228073.jpg/600x600bb.jpg",
+      "apple_genre": "Society & Culture",
+      "episode_count": 424,
+      "editorial_note": "Richard MacLean Smith's measured narration of real events that resist a tidy explanation.",
+      "taxonomy_node_ids": [
+        "paranormal"
+      ],
+      "archetype_fit": [
+        "documentary"
+      ],
+      "cadence_hint": null,
+      "explicit": false,
+      "source": "gap-wave-3"
+    },
+    {
+      "show_id": "in-the-dark",
+      "title": "In The Dark",
+      "apple_collection_id": 1148175292,
+      "feed_url": "https://publicfeeds.net/f/5770/apple/feed-rss.xml",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/72/ce/d9/72ced9bc-ce68-c56b-5194-c743c55b46b7/mza_13873143646731532957.jpg/600x600bb.jpg",
+      "apple_genre": "True Crime",
+      "episode_count": 70,
+      "editorial_note": "Madeleine Baran and team spend years on a single case, testing what the justice system got wrong.",
+      "taxonomy_node_ids": [
+        "true-crime",
+        "society/law"
+      ],
+      "archetype_fit": [
+        "documentary"
+      ],
+      "cadence_hint": null,
+      "explicit": false,
+      "source": "gap-wave-3"
+    },
+    {
+      "show_id": "crime-junkie",
+      "title": "Crime Junkie",
+      "apple_collection_id": 1322200189,
+      "feed_url": "https://feeds.simplecast.com/qm_9xx0g",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/8c/35/04/8c350430-2fbf-98d0-0a25-00b76550ffeb/mza_13445204151221888086.jpg/600x600bb.jpg",
+      "apple_genre": "True Crime",
+      "episode_count": 517,
+      "editorial_note": "Ashley Flowers walks through cases conversationally; the picks here favor documented, victim-centered reporting.",
+      "taxonomy_node_ids": [
+        "true-crime"
+      ],
+      "archetype_fit": [
+        "documentary"
+      ],
+      "cadence_hint": null,
+      "explicit": false,
+      "source": "gap-wave-3"
+    },
+    {
+      "show_id": "morbid",
+      "title": "Morbid",
+      "apple_collection_id": 1379959217,
+      "feed_url": "https://feeds.simplecast.com/ohmVlJZQ",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/a4/69/a6/a469a64c-580d-938a-53f1-893d968e1332/mza_11675757052043432554.jpg/600x600bb.jpg",
+      "apple_genre": "True Crime",
+      "episode_count": 879,
+      "editorial_note": "A high-reach true-crime and history show; these picks lean to its best-researched historical cases.",
+      "taxonomy_node_ids": [
+        "true-crime",
+        "history"
+      ],
+      "archetype_fit": [
+        "documentary"
+      ],
+      "cadence_hint": null,
+      "explicit": false,
+      "source": "gap-wave-3"
+    },
+    {
+      "show_id": "dateline-nbc",
+      "title": "Dateline NBC",
+      "apple_collection_id": 1464919521,
+      "feed_url": "https://podcastfeeds.nbcnews.com/HL4TzgYC",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/8c/00/7a/8c007a42-e550-0214-d4cb-b59cd7edf194/mza_5305664083935674472.jpeg/600x600bb.jpg",
+      "apple_genre": "True Crime",
+      "episode_count": 882,
+      "editorial_note": "NBC correspondents narrate single-case documentaries built on trial footage, interviews, and evidence.",
+      "taxonomy_node_ids": [
+        "true-crime",
+        "society/law"
+      ],
+      "archetype_fit": [
+        "documentary"
+      ],
+      "cadence_hint": null,
+      "explicit": false,
+      "source": "gap-wave-3"
+    },
+    {
+      "show_id": "wicked-words-kate-winkler-dawson",
+      "title": "Wicked Words - A True Crime Talk Show with Kate Winkler Dawson",
+      "apple_collection_id": 1538204210,
+      "feed_url": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/fdf29e64-8856-472d-b2cd-b24c011a225c/d35298b0-c12a-44ed-956a-b24c011a22e0/podcast.rss",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/9f/d5/37/9fd53772-b22c-5e3c-ac4a-3d8b9452fa74/mza_3649081017768100450.jpg/600x600bb.jpg",
+      "apple_genre": "True Crime",
+      "episode_count": 286,
+      "editorial_note": "Historian Kate Winkler Dawson interviews reporters and authors about how they investigate crime stories.",
+      "taxonomy_node_ids": [
+        "true-crime",
+        "history"
+      ],
+      "archetype_fit": [
+        "documentary"
+      ],
+      "cadence_hint": null,
+      "explicit": false,
+      "source": "gap-wave-3"
+    },
+    {
+      "show_id": "bone-valley",
+      "title": "Bone Valley",
+      "apple_collection_id": 1643974551,
+      "feed_url": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/2b18f6f0-09c0-471e-b663-aeed010410fa/da6eda02-def2-4de4-a1c2-aeed010456a1/podcast.rss",
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/aa/72/2f/aa722ff2-7e96-dfbd-fd98-d23d36d035b3/mza_9383434172737455327.jpg/600x600bb.jpg",
+      "apple_genre": "True Crime",
+      "episode_count": 134,
+      "editorial_note": "Lava for Good's investigative series reexamine wrongful convictions with new reporting and archival records.",
+      "taxonomy_node_ids": [
+        "true-crime",
+        "society/law"
+      ],
+      "archetype_fit": [
+        "documentary"
+      ],
+      "cadence_hint": null,
+      "explicit": false,
+      "source": "gap-wave-3"
+    }
+  ],
+  "items": [
+    {
+      "id": "criminal--the-caller",
+      "show": "Criminal",
+      "title": "The Caller",
+      "apple_collection_id": 809264944,
+      "apple_track_id": 1000772971602,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-caller/id809264944?i=1000772971602&uo=4",
+      "release_date": "2026-06-19",
+      "duration_min": 43,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/5e/b2/33/5eb233d6-913f-0cf4-fae3-5fe45133ddcc/mza_15916165992809072643.jpeg/600x600bb.jpg",
+      "topics": [
+        "true-crime",
+        "society/law"
+      ],
+      "hook": "In 2008, an FBI bulletin argued a 911 caller reporting a homicide could be the killer.",
+      "explicit": false
+    },
+    {
+      "id": "criminal--rhinelander-v-rhinelander",
+      "show": "Criminal",
+      "title": "Rhinelander v. Rhinelander",
+      "apple_collection_id": 809264944,
+      "apple_track_id": 1000758883021,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/rhinelander-v-rhinelander/id809264944?i=1000758883021&uo=4",
+      "release_date": "2026-04-10",
+      "duration_min": 41,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/c5/39/b0/c539b003-2edd-a7b3-9057-eefb9df120b3/mza_7816934926105047946.jpeg/600x600bb.jpg",
+      "topics": [
+        "true-crime",
+        "history",
+        "society/law"
+      ],
+      "hook": "A 1924 New York annulment trial turned on whether Alice Rhinelander had concealed her race.",
+      "explicit": false
+    },
+    {
+      "id": "criminal--the-poison-squad",
+      "show": "Criminal",
+      "title": "The Poison Squad",
+      "apple_collection_id": 809264944,
+      "apple_track_id": 1000766624907,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-poison-squad/id809264944?i=1000766624907&uo=4",
+      "release_date": "2026-05-08",
+      "duration_min": 43,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/b4/bd/03/b4bd032a-6893-a433-c934-bf4009dd9e36/mza_10770433903891171291.jpeg/600x600bb.jpg",
+      "topics": [
+        "true-crime",
+        "history",
+        "society/law"
+      ],
+      "hook": "In 1902, twelve volunteers ate food laced with formaldehyde and borax for government science.",
+      "explicit": false
+    },
+    {
+      "id": "serial--the-last-12-weeks-ep1",
+      "show": "Serial",
+      "title": "The Last 12 Weeks - Ep. 1",
+      "apple_collection_id": 917918570,
+      "apple_track_id": 1000773250098,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-last-12-weeks-ep-1/id917918570?i=1000773250098&uo=4",
+      "release_date": "2026-06-18",
+      "duration_min": 41,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ff/90/4f/ff904fc7-5dd8-495a-6ec5-fec7ada275be/mza_17541278032225597641.jpg/600x600bb.jpg",
+      "topics": [
+        "true-crime",
+        "society/law"
+      ],
+      "hook": "David Wood has sat on Texas death row since 1992; his lawyers have months left.",
+      "explicit": true
+    },
+    {
+      "id": "serial--the-idiot-ch1",
+      "show": "Serial",
+      "title": "The Idiot - Chapter 1",
+      "apple_collection_id": 917918570,
+      "apple_track_id": 1000757399992,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-idiot-chapter-1/id917918570?i=1000757399992&uo=4",
+      "release_date": "2026-03-26",
+      "duration_min": 22,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/97/00/b4/9700b422-363b-b5e6-8e71-680f4bb879c7/mza_16370163991934811347.jpg/600x600bb.jpg",
+      "topics": [
+        "true-crime",
+        "society/law"
+      ],
+      "hook": "M. Gessen suspects a boastful relative who turned up in Cape Cod committed a kidnapping.",
+      "explicit": false
+    },
+    {
+      "id": "astonishing-legends--ripperston-farm",
+      "show": "Astonishing Legends",
+      "title": "The Uninvited: The Ripperston Farm Invasion",
+      "apple_collection_id": 923527373,
+      "apple_track_id": 1000772578359,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-uninvited-the-ripperston-farm-invasion/id923527373?i=1000772578359&uo=4",
+      "release_date": "2026-06-14",
+      "duration_min": 143,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/ad/76/bc/ad76bc47-5cc2-3a33-3831-eb131d4056ed/mza_6281920426640935874.jpg/600x600bb.jpg",
+      "topics": [
+        "paranormal",
+        "history"
+      ],
+      "hook": "In 1977, a remote Welsh dairy farm became Britain's strangest and most enduring UFO case.",
+      "explicit": false
+    },
+    {
+      "id": "astonishing-legends--ghost-bomber-monongahela",
+      "show": "Astonishing Legends",
+      "title": "The Ghost Bomber of the Monongahela",
+      "apple_collection_id": 923527373,
+      "apple_track_id": 1000769270186,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-ghost-bomber-of-the-monongahela/id923527373?i=1000769270186&uo=4",
+      "release_date": "2026-05-23",
+      "duration_min": 143,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/ad/76/bc/ad76bc47-5cc2-3a33-3831-eb131d4056ed/mza_6281920426640935874.jpg/600x600bb.jpg",
+      "topics": [
+        "paranormal",
+        "history"
+      ],
+      "hook": "In 1956, a B-25 bomber crashed into a Pittsburgh river and was never recovered.",
+      "explicit": false
+    },
+    {
+      "id": "astonishing-legends--gloria-ramirez",
+      "show": "Astonishing Legends",
+      "title": "The Strange Death of Gloria Ramirez",
+      "apple_collection_id": 923527373,
+      "apple_track_id": 1000767076668,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-strange-death-of-gloria-ramirez/id923527373?i=1000767076668&uo=4",
+      "release_date": "2026-05-10",
+      "duration_min": 124,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/ad/76/bc/ad76bc47-5cc2-3a33-3831-eb131d4056ed/mza_6281920426640935874.jpg/600x600bb.jpg",
+      "topics": [
+        "paranormal",
+        "history",
+        "medicine"
+      ],
+      "hook": "In 1994, a dying woman's body gave off strange fumes that sickened a California ER.",
+      "explicit": false
+    },
+    {
+      "id": "lore--308-without-a-trace",
+      "show": "Lore",
+      "title": "Lore 308: Without a Trace",
+      "apple_collection_id": 978052928,
+      "apple_track_id": 1000761587785,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/lore-308-without-a-trace/id978052928?i=1000761587785&uo=4",
+      "release_date": "2026-06-15",
+      "duration_min": 29,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/9b/e0/c0/9be0c09c-b803-4774-77d3-85167bc87a31/mza_16743750170316675841.jpg/600x600bb.jpg",
+      "topics": [
+        "paranormal",
+        "history"
+      ],
+      "hook": "One real American trail has long carried dark stories of travelers who got lost.",
+      "explicit": false
+    },
+    {
+      "id": "lore--309-party-favors",
+      "show": "Lore",
+      "title": "Lore 309: Party Favors",
+      "apple_collection_id": 978052928,
+      "apple_track_id": 1000761587867,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/lore-309-party-favors/id978052928?i=1000761587867&uo=4",
+      "release_date": "2026-06-29",
+      "duration_min": 32,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/9b/e0/c0/9be0c09c-b803-4774-77d3-85167bc87a31/mza_16743750170316675841.jpg/600x600bb.jpg",
+      "topics": [
+        "paranormal",
+        "history"
+      ],
+      "hook": "A handful of celebratory gatherings in history turned frightening instead of festive.",
+      "explicit": false
+    },
+    {
+      "id": "lore--legends-82-weight-of-fear",
+      "show": "Lore",
+      "title": "Legends 82: The Weight of Fear",
+      "apple_collection_id": 978052928,
+      "apple_track_id": 1000761587748,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/legends-82-the-weight-of-fear/id978052928?i=1000761587748&uo=4",
+      "release_date": "2026-06-22",
+      "duration_min": 25,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/9b/e0/c0/9be0c09c-b803-4774-77d3-85167bc87a31/mza_16743750170316675841.jpg/600x600bb.jpg",
+      "topics": [
+        "paranormal",
+        "history",
+        "culture/mythology"
+      ],
+      "hook": "Calling a bad experience a nightmare traces back to a genuinely terrifying old belief.",
+      "explicit": false
+    },
+    {
+      "id": "casefile--amerithrax",
+      "show": "Casefile True Crime",
+      "title": "Case 344: Amerithrax",
+      "apple_collection_id": 998568017,
+      "apple_track_id": 1000773504314,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/case-344-amerithrax/id998568017?i=1000773504314&uo=4",
+      "release_date": "2026-06-27",
+      "duration_min": 120,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/cd/bd/b5/cdbdb59a-f95f-0ce5-06a1-b4867fd5ce2d/mza_6291656191589825374.jpeg/600x600bb.jpg",
+      "topics": [
+        "true-crime",
+        "history"
+      ],
+      "hook": "After 9/11, anthrax-laced letters killed five and triggered the FBI's largest bioterrorism investigation.",
+      "explicit": true
+    },
+    {
+      "id": "casefile--julia-wallace",
+      "show": "Casefile True Crime",
+      "title": "Case 342: Julia Wallace",
+      "apple_collection_id": 998568017,
+      "apple_track_id": 1000770747949,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/case-342-julia-wallace/id998568017?i=1000770747949&uo=4",
+      "release_date": "2026-06-13",
+      "duration_min": 101,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/2d/67/a1/2d67a157-b333-44e2-f268-57ccc1ee7233/mza_16644604990812487634.jpeg/600x600bb.jpg",
+      "topics": [
+        "true-crime",
+        "history"
+      ],
+      "hook": "When Julia Wallace was murdered in 1931 Liverpool, the case became a famous unsolved puzzle.",
+      "explicit": true
+    },
+    {
+      "id": "unexplained--s09e24-teresita-basa",
+      "show": "Unexplained",
+      "title": "Season 09 Episode 24: Audi Altarem Partem",
+      "apple_collection_id": 1078112813,
+      "apple_track_id": 1000770200288,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/season-09-episode-24-audi-altarem-partem/id1078112813?i=1000770200288&uo=4",
+      "release_date": "2026-05-29",
+      "duration_min": 34,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/69/7b/90/697b90c0-2504-2655-9825-119d7f0db9ad/mza_17011185954011837002.jpg/600x600bb.jpg",
+      "topics": [
+        "paranormal",
+        "true-crime"
+      ],
+      "hook": "After Teresita Basa's 1977 murder, a colleague claimed her spirit named the killer.",
+      "explicit": false
+    },
+    {
+      "id": "unexplained--s09e20-gerry-irwin",
+      "show": "Unexplained",
+      "title": "Season 09 Episode 20: Over the Hills and Far Away",
+      "apple_collection_id": 1078112813,
+      "apple_track_id": 1000765336370,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/season-09-episode-20-over-the-hills-and-far-away/id1078112813?i=1000765336370&uo=4",
+      "release_date": "2026-05-01",
+      "duration_min": 30,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/f5/33/75/f5337526-a192-513a-8b63-2dddfa709785/mza_16037363487721833509.jpg/600x600bb.jpg",
+      "topics": [
+        "paranormal"
+      ],
+      "hook": "In 1959, a soldier was found unconscious near a lonely Utah road with no memory.",
+      "explicit": false
+    },
+    {
+      "id": "unexplained--s09e27-ted-binion",
+      "show": "Unexplained",
+      "title": "Season 09 Episode 27: Death in Vegas, the Ted Binion Mystery (Pt. 1 of 3)",
+      "apple_collection_id": 1078112813,
+      "apple_track_id": 1000775381759,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/season-09-episode-27-death-in-vegas-the-ted-binion/id1078112813?i=1000775381759&uo=4",
+      "release_date": "2026-07-03",
+      "duration_min": 36,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/4c/c7/fd/4cc7fdd9-3536-0628-535d-9d2648079a20/mza_692809340969241201.jpg/600x600bb.jpg",
+      "topics": [
+        "true-crime",
+        "paranormal"
+      ],
+      "hook": "A 1998 Las Vegas casino heir's death and a buried silver vault sparked suspicion.",
+      "explicit": false
+    },
+    {
+      "id": "in-the-dark--blood-relatives-ep1",
+      "show": "In The Dark",
+      "title": "Blood Relatives, Episode 1",
+      "apple_collection_id": 1148175292,
+      "apple_track_id": 1000733850028,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/blood-relatives-episode-1/id1148175292?i=1000733850028&uo=4",
+      "release_date": "2025-10-28",
+      "duration_min": 45,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/7b/c8/db/7bc8dbeb-9aff-7bb0-3867-8b2d6ab2fc6f/mza_1281941438107495115.png/600x600bb.jpg",
+      "topics": [
+        "true-crime",
+        "society/law"
+      ],
+      "hook": "In 1985, five family members were shot dead in an English manor; the case looked closed.",
+      "explicit": false
+    },
+    {
+      "id": "in-the-dark--runaway-princesses-ep1",
+      "show": "In The Dark",
+      "title": "The Runaway Princesses, Episode 1: Sisters",
+      "apple_collection_id": 1148175292,
+      "apple_track_id": 1000643498891,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-runaway-princesses-episode-1-sisters/id1148175292?i=1000643498891&uo=4",
+      "release_date": "2024-01-30",
+      "duration_min": 39,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/6b/cf/cc/6bcfcc6b-5e2b-e2eb-2858-227e04f59c74/mza_17949278616043989223.png/600x600bb.jpg",
+      "topics": [
+        "true-crime",
+        "society/law"
+      ],
+      "hook": "Sex workers flee Dubai's ruler's estate bruised while British authorities look the other way.",
+      "explicit": false
+    },
+    {
+      "id": "crime-junkie--alberta-o-jones",
+      "show": "Crime Junkie",
+      "title": "MURDERED: Alberta O. Jones",
+      "apple_collection_id": 1322200189,
+      "apple_track_id": 1000772253567,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/murdered-alberta-o-jones/id1322200189?i=1000772253567&uo=4",
+      "release_date": "2026-06-15",
+      "duration_min": 56,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/cb/08/fe/cb08fee8-57a8-171a-1c16-b73ef9bb4f60/mza_15612216171594584004.jpg/600x600bb.jpg",
+      "topics": [
+        "true-crime",
+        "history",
+        "society/law"
+      ],
+      "hook": "Alberta Jones, Louisville's first Black woman prosecutor, was murdered in 1965; the case stays unsolved.",
+      "explicit": false
+    },
+    {
+      "id": "crime-junkie--david-meirhofer",
+      "show": "Crime Junkie",
+      "title": "SERIAL KILLER: David Meirhofer",
+      "apple_collection_id": 1322200189,
+      "apple_track_id": 1000770533092,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/serial-killer-david-meirhofer/id1322200189?i=1000770533092&uo=4",
+      "release_date": "2026-06-01",
+      "duration_min": 51,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/70/cc/3c/70cc3c75-ae3a-75fa-573a-c2cc9064d732/mza_5952747749108781960.jpg/600x600bb.jpg",
+      "topics": [
+        "true-crime",
+        "history"
+      ],
+      "hook": "A girl vanishes from a 1973 Montana campground, leading to an early FBI profiling case.",
+      "explicit": false
+    },
+    {
+      "id": "morbid--the-radium-girls",
+      "show": "Morbid",
+      "title": "Episode Revisit: The Radium Girls",
+      "apple_collection_id": 1379959217,
+      "apple_track_id": 1000773203725,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/episode-revisit-the-radium-girls/id1379959217?i=1000773203725&uo=4",
+      "release_date": "2026-06-18",
+      "duration_min": 82,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/a4/69/a6/a469a64c-580d-938a-53f1-893d968e1332/mza_11675757052043432554.jpg/600x600bb.jpg",
+      "topics": [
+        "true-crime",
+        "history",
+        "society/law"
+      ],
+      "hook": "Factory women who painted watch dials with glowing radium paid with their health and lives.",
+      "explicit": true
+    },
+    {
+      "id": "morbid--san-ysidro-mcdonalds",
+      "show": "Morbid",
+      "title": "The San Ysidro McDonald's Massacre",
+      "apple_collection_id": 1379959217,
+      "apple_track_id": 1000771615077,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-san-ysidro-mcdonalds-massacre/id1379959217?i=1000771615077&uo=4",
+      "release_date": "2026-06-08",
+      "duration_min": 78,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/a4/69/a6/a469a64c-580d-938a-53f1-893d968e1332/mza_11675757052043432554.jpg/600x600bb.jpg",
+      "topics": [
+        "true-crime",
+        "history"
+      ],
+      "hook": "In July 1984, a gunman killed twenty-one people at a San Ysidro McDonald's.",
+      "explicit": true
+    },
+    {
+      "id": "dateline--out-of-the-darkness",
+      "show": "Dateline NBC",
+      "title": "Out of the Darkness",
+      "apple_collection_id": 1464919521,
+      "apple_track_id": 1000775649781,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/out-of-the-darkness/id1464919521?i=1000775649781&uo=4",
+      "release_date": "2026-07-07",
+      "duration_min": 41,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/8c/00/7a/8c007a42-e550-0214-d4cb-b59cd7edf194/mza_5305664083935674472.jpeg/600x600bb.jpg",
+      "topics": [
+        "true-crime",
+        "society/law"
+      ],
+      "hook": "A Texas wife calls 911 to report her husband shot on a country road.",
+      "explicit": false
+    },
+    {
+      "id": "dateline--secrets-unmasked",
+      "show": "Dateline NBC",
+      "title": "Secrets Unmasked",
+      "apple_collection_id": 1464919521,
+      "apple_track_id": 1000773734998,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/secrets-unmasked/id1464919521?i=1000773734998&uo=4",
+      "release_date": "2026-06-23",
+      "duration_min": 41,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/8c/00/7a/8c007a42-e550-0214-d4cb-b59cd7edf194/mza_5305664083935674472.jpeg/600x600bb.jpg",
+      "topics": [
+        "true-crime",
+        "society/law"
+      ],
+      "hook": "An Ohio mother found dead in a pond stays a mystery for nearly twenty-five years.",
+      "explicit": false
+    },
+    {
+      "id": "wicked-words--highway-of-tears",
+      "show": "Wicked Words - A True Crime Talk Show with Kate Winkler Dawson",
+      "title": "Jessica McDiarmid: Highway of Tears",
+      "apple_collection_id": 1538204210,
+      "apple_track_id": 1000770529358,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/jessica-mcdiarmid-highway-of-tears/id1538204210?i=1000770529358&uo=4",
+      "release_date": "2026-06-01",
+      "duration_min": 53,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/9f/d5/37/9fd53772-b22c-5e3c-ac4a-3d8b9452fa74/mza_3649081017768100450.jpg/600x600bb.jpg",
+      "topics": [
+        "true-crime",
+        "society/law"
+      ],
+      "hook": "Journalist Jessica McDiarmid on the Indigenous women vanished from a British Columbia highway.",
+      "explicit": true
+    },
+    {
+      "id": "wicked-words--london-falling",
+      "show": "Wicked Words - A True Crime Talk Show with Kate Winkler Dawson",
+      "title": "Patrick Radden Keefe: London Falling",
+      "apple_collection_id": 1538204210,
+      "apple_track_id": 1000762354559,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/patrick-radden-keefe-london-falling/id1538204210?i=1000762354559&uo=4",
+      "release_date": "2026-04-20",
+      "duration_min": 67,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/9f/d5/37/9fd53772-b22c-5e3c-ac4a-3d8b9452fa74/mza_3649081017768100450.jpg/600x600bb.jpg",
+      "topics": [
+        "true-crime",
+        "history"
+      ],
+      "hook": "Patrick Radden Keefe on a young man filmed pacing a balcony at Britain's spy headquarters.",
+      "explicit": true
+    },
+    {
+      "id": "wicked-words--catch-the-devil",
+      "show": "Wicked Words - A True Crime Talk Show with Kate Winkler Dawson",
+      "title": "Pamela Colloff: Catch the Devil",
+      "apple_collection_id": 1538204210,
+      "apple_track_id": 1000775606861,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/pamela-colloff-catch-the-devil/id1538204210?i=1000775606861&uo=4",
+      "release_date": "2026-07-06",
+      "duration_min": 66,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/9f/d5/37/9fd53772-b22c-5e3c-ac4a-3d8b9452fa74/mza_3649081017768100450.jpg/600x600bb.jpg",
+      "topics": [
+        "true-crime"
+      ],
+      "hook": "Reporter Pamela Colloff on her first book, tracing a serial killer through the case record.",
+      "explicit": true
+    },
+    {
+      "id": "bone-valley--s5-criminal-mischief",
+      "show": "Bone Valley",
+      "title": "Chapter 1 | Criminal Mischief",
+      "apple_collection_id": 1643974551,
+      "apple_track_id": 1000772085381,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/chapter-1-criminal-mischief/id1643974551?i=1000772085381&uo=4",
+      "release_date": "2026-06-10",
+      "duration_min": 32,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/4c/60/f4/4c60f4ce-b142-fc1e-8c4a-baec06bf0408/mza_12819136648232087001.jpg/600x600bb.jpg",
+      "topics": [
+        "true-crime",
+        "society/law"
+      ],
+      "hook": "A twelve-year-old's bones surface in New York woods, and police fix on two suspects.",
+      "explicit": true
+    },
+    {
+      "id": "bone-valley--earwitness-behind-the-crown",
+      "show": "Bone Valley",
+      "title": "Chapter 1 | Behind the Crown",
+      "apple_collection_id": 1643974551,
+      "apple_track_id": 1000746923406,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/chapter-1-behind-the-crown/id1643974551?i=1000746923406&uo=4",
+      "release_date": "2026-02-04",
+      "duration_min": 43,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/b8/d9/b0/b8d9b0e4-4747-07bb-46c6-e95ef3e1ab26/mza_9405725213502579404.jpg/600x600bb.jpg",
+      "topics": [
+        "true-crime",
+        "society/law"
+      ],
+      "hook": "Beth Shelburne reexamines Toforest Johnson's conviction for killing an Alabama sheriff's deputy.",
+      "explicit": true
+    }
+  ],
+  "tags": {
+    "criminal--the-caller": [
+      "criminal",
+      "911-calls",
+      "fbi",
+      "homicide-investigation",
+      "forensics",
+      "reporting",
+      "narrative"
+    ],
+    "criminal--rhinelander-v-rhinelander": [
+      "criminal",
+      "history",
+      "1920s",
+      "race",
+      "marriage",
+      "courtroom",
+      "narrative"
+    ],
+    "criminal--the-poison-squad": [
+      "criminal",
+      "history",
+      "food-safety",
+      "1900s",
+      "public-health",
+      "chemistry",
+      "narrative"
+    ],
+    "serial--the-last-12-weeks-ep1": [
+      "serial",
+      "death-penalty",
+      "texas",
+      "wrongful-conviction",
+      "investigative-journalism",
+      "appeal",
+      "narrative"
+    ],
+    "serial--the-idiot-ch1": [
+      "serial",
+      "kidnapping",
+      "family",
+      "investigative-journalism",
+      "russia",
+      "reporting",
+      "narrative"
+    ],
+    "astonishing-legends--ripperston-farm": [
+      "astonishing-legends",
+      "ufo",
+      "wales",
+      "1977",
+      "investigation",
+      "mystery",
+      "narrative"
+    ],
+    "astonishing-legends--ghost-bomber-monongahela": [
+      "astonishing-legends",
+      "aviation",
+      "mystery",
+      "1956",
+      "pittsburgh",
+      "cold-case",
+      "narrative"
+    ],
+    "astonishing-legends--gloria-ramirez": [
+      "astonishing-legends",
+      "medical-mystery",
+      "1994",
+      "california",
+      "toxic-lady",
+      "investigation",
+      "narrative"
+    ],
+    "lore--308-without-a-trace": [
+      "lore",
+      "folklore",
+      "history",
+      "mystery",
+      "americana",
+      "storytelling",
+      "narrative"
+    ],
+    "lore--309-party-favors": [
+      "lore",
+      "folklore",
+      "history",
+      "mystery",
+      "dark-history",
+      "storytelling",
+      "narrative"
+    ],
+    "lore--legends-82-weight-of-fear": [
+      "lore",
+      "folklore",
+      "nightmares",
+      "sleep-paralysis",
+      "superstition",
+      "history",
+      "storytelling"
+    ],
+    "casefile--amerithrax": [
+      "casefile",
+      "anthrax",
+      "bioterrorism",
+      "fbi",
+      "2001",
+      "investigation",
+      "narrative"
+    ],
+    "casefile--julia-wallace": [
+      "casefile",
+      "cold-case",
+      "1930s",
+      "liverpool",
+      "unsolved",
+      "investigation",
+      "narrative"
+    ],
+    "unexplained--s09e24-teresita-basa": [
+      "unexplained",
+      "paranormal",
+      "murder",
+      "1977",
+      "chicago",
+      "supernatural",
+      "narrative"
+    ],
+    "unexplained--s09e20-gerry-irwin": [
+      "unexplained",
+      "mystery",
+      "1959",
+      "ufo",
+      "amnesia",
+      "cold-case",
+      "narrative"
+    ],
+    "unexplained--s09e27-ted-binion": [
+      "unexplained",
+      "true-crime",
+      "las-vegas",
+      "1998",
+      "mystery",
+      "inheritance",
+      "narrative"
+    ],
+    "in-the-dark--blood-relatives-ep1": [
+      "in-the-dark",
+      "investigative-journalism",
+      "wrongful-conviction",
+      "england",
+      "cold-case",
+      "family",
+      "narrative"
+    ],
+    "in-the-dark--runaway-princesses-ep1": [
+      "in-the-dark",
+      "investigative-journalism",
+      "dubai",
+      "human-rights",
+      "reporting",
+      "royalty",
+      "narrative"
+    ],
+    "crime-junkie--alberta-o-jones": [
+      "crime-junkie",
+      "cold-case",
+      "civil-rights",
+      "1960s",
+      "unsolved",
+      "prosecutor",
+      "narrative"
+    ],
+    "crime-junkie--david-meirhofer": [
+      "crime-junkie",
+      "serial-killer",
+      "fbi-profiling",
+      "1970s",
+      "montana",
+      "investigation",
+      "narrative"
+    ],
+    "morbid--the-radium-girls": [
+      "morbid",
+      "history",
+      "radium",
+      "industrial",
+      "1920s",
+      "workers-rights",
+      "narrative"
+    ],
+    "morbid--san-ysidro-mcdonalds": [
+      "morbid",
+      "mass-shooting",
+      "1980s",
+      "california",
+      "tragedy",
+      "history",
+      "narrative"
+    ],
+    "dateline--out-of-the-darkness": [
+      "dateline",
+      "murder-investigation",
+      "texas",
+      "911",
+      "trial",
+      "evidence",
+      "narrative"
+    ],
+    "dateline--secrets-unmasked": [
+      "dateline",
+      "cold-case",
+      "ohio",
+      "unsolved",
+      "witness",
+      "investigation",
+      "narrative"
+    ],
+    "wicked-words--highway-of-tears": [
+      "wicked-words",
+      "interview",
+      "indigenous",
+      "canada",
+      "missing-persons",
+      "journalism",
+      "cold-case"
+    ],
+    "wicked-words--london-falling": [
+      "wicked-words",
+      "interview",
+      "espionage",
+      "britain",
+      "journalism",
+      "mystery",
+      "reporting"
+    ],
+    "wicked-words--catch-the-devil": [
+      "wicked-words",
+      "interview",
+      "serial-killer",
+      "journalism",
+      "reporting",
+      "investigation",
+      "narrative"
+    ],
+    "bone-valley--s5-criminal-mischief": [
+      "bone-valley",
+      "wrongful-conviction",
+      "investigative-journalism",
+      "new-york",
+      "murder",
+      "appeal",
+      "narrative"
+    ],
+    "bone-valley--earwitness-behind-the-crown": [
+      "bone-valley",
+      "wrongful-conviction",
+      "death-penalty",
+      "alabama",
+      "investigation",
+      "earwitness",
+      "narrative"
+    ]
+  }
+}
