@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "built_at": "2026-07-11T17:55:12.829Z",
+  "built_at": "2026-07-12T11:42:01.631Z",
   "items": [
     {
       "id": "lex-fridman-podcast--don-lincoln-physics",
@@ -11272,6 +11272,70 @@
       ],
       "hook": "Wildlife ecologist Rae Wynn-Grant shares true facts and sneaky fibs for kids to catch.",
       "explicit": false
+    },
+    {
+      "id": "the-ancients--odyssey-cyclops-circe",
+      "show": "The Ancients",
+      "title": "Odyssey | Cyclops, Circe and Calypso",
+      "apple_collection_id": 1520403988,
+      "apple_track_id": 1000774871184,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/odyssey-cyclops-circe-and-calypso/id1520403988?i=1000774871184&uo=4",
+      "release_date": "2026-07-12",
+      "duration_min": 64,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/6c/94/31/6c943113-5484-a41d-5cb7-bf606ff289ef/mza_6401313720037127611.jpeg/600x600bb.jpg",
+      "topics": [
+        "history/military-ancient"
+      ],
+      "hook": "Odysseus battles monsters, gods, and sorcery on his long voyage home from Troy to Ithaca.",
+      "explicit": false
+    },
+    {
+      "id": "the-race-f1-podcast--williams-dorilton-valuation",
+      "show": "The Race F1 Podcast",
+      "title": "Race Business: How Williams went from $200 million sale to being worth $2.5 billion",
+      "apple_collection_id": 1495557562,
+      "apple_track_id": 1000776453686,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/race-business-how-williams-went-from-%24200-million-sale/id1495557562?i=1000776453686&uo=4",
+      "release_date": "2026-07-12",
+      "duration_min": 49,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/40/7b/8c/407b8cbe-cd34-d818-ff69-a11bc1d6c690/mza_9877600709441097500.jpeg/600x600bb.jpg",
+      "topics": [
+        "automotive/racing"
+      ],
+      "hook": "Dorilton's chairman on turning a $200 million Williams purchase into a $2.5 billion team.",
+      "explicit": false
+    },
+    {
+      "id": "partially-examined-life--pmp-survivor",
+      "show": "The Partially Examined Life Philosophy Podcast",
+      "title": "PEL Presents PMP#225: Survivor the Constant (with Wes!)",
+      "apple_collection_id": 318345767,
+      "apple_track_id": 1000776416009,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/pel-presents-pmp-225-survivor-the-constant-with-wes/id318345767?i=1000776416009&uo=4",
+      "release_date": "2026-07-11",
+      "duration_min": 54,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts114/v4/32/eb/a9/32eba9ac-dfb0-618b-e874-6696c69ea59d/mza_257738567509116492.jpeg/600x600bb.jpg",
+      "topics": [
+        "philosophy/ideas"
+      ],
+      "hook": "The Pretty Much Pop crew on Survivor's evolution from torture exhibitionism to beach soap opera.",
+      "explicit": true
+    },
+    {
+      "id": "call-her-daddy--maria-georgas",
+      "show": "Call Her Daddy",
+      "title": "Maria Georgas: I Made Out with My Boyfriend’s Mistress (FBF)",
+      "apple_collection_id": 1418960261,
+      "apple_track_id": 1000776392632,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/maria-georgas-i-made-out-with-my-boyfriends-mistress-fbf/id1418960261?i=1000776392632&uo=4",
+      "release_date": "2026-07-12",
+      "duration_min": 74,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/05/10/91/05109145-8c22-5464-1f20-aaedeab769f8/mza_10276081716633787086.jpg/600x600bb.jpg",
+      "topics": [
+        "comedy/interviews"
+      ],
+      "hook": "Maria Georgas shares wild Bachelor-era dating stories, including how she proved her boyfriend was cheating.",
+      "explicit": true
     }
   ]
 }

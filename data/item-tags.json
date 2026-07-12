@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "built_at": "2026-07-11T17:55:12.829Z",
+  "built_at": "2026-07-12T11:42:01.631Z",
   "tags": {
     "lex-fridman-podcast--don-lincoln-physics": [
       "physics",
@@ -6705,6 +6705,41 @@
       "science-for-kids",
       "interactive",
       "ecology"
+    ],
+    "the-ancients--odyssey-cyclops-circe": [
+      "odyssey",
+      "homer",
+      "odysseus",
+      "greek-mythology",
+      "ancient-greece",
+      "mythology",
+      "interview",
+      "storytelling"
+    ],
+    "the-race-f1-podcast--williams-dorilton-valuation": [
+      "formula-1",
+      "motorsport",
+      "racing",
+      "williams",
+      "business",
+      "finance",
+      "interview"
+    ],
+    "partially-examined-life--pmp-survivor": [
+      "philosophy",
+      "pop-culture",
+      "survivor",
+      "reality-tv",
+      "television",
+      "media-criticism"
+    ],
+    "call-her-daddy--maria-georgas": [
+      "maria-georgas",
+      "the-bachelor",
+      "reality-tv",
+      "dating",
+      "relationships",
+      "interview"
     ]
   }
 }
