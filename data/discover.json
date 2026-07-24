@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "built_at": "2026-07-21T11:43:48.094Z",
+  "built_at": "2026-07-24T11:47:14.754Z",
   "items": [
     {
       "id": "lex-fridman-podcast--don-lincoln-physics",
@@ -14458,6 +14458,1060 @@
       ],
       "hook": "Daveed Diggs on artistic expression, from W. Kamau Bell's new interview show.",
       "explicit": true
+    },
+    {
+      "id": "catalyst-shayle-kann--the-multi-billion-dollar-promise-of",
+      "show": "Catalyst with Shayle Kann",
+      "title": "The multi-billion dollar promise of vehicle-to-grid integration",
+      "apple_collection_id": 1593204897,
+      "apple_track_id": 1000778015044,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-multi-billion-dollar-promise-of-vehicle-to/id1593204897?i=1000778015044&uo=4",
+      "release_date": "2026-07-23",
+      "duration_min": 35,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/85/b4/75/85b475a8-93d1-ccdf-be5e-3399f4b322b2/mza_4579948121520406325.jpeg/600x600bb.jpg",
+      "topics": [
+        "engineering/energy-fusion"
+      ],
+      "hook": "Idle EV batteries hold enormous power; why vehicle-to-grid tech still hasn't scaled past pilots.",
+      "explicit": false
+    },
+    {
+      "id": "cbc-ideas--was-justice-served-by-south-africa",
+      "show": "CBC Ideas",
+      "title": "Was justice served by South Africa's peace accord?",
+      "apple_collection_id": 151485663,
+      "apple_track_id": 1000727938563,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/was-justice-served-by-south-africas-peace-accord/id151485663?i=1000727938563&uo=4",
+      "release_date": "2026-07-23",
+      "duration_min": 54,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/94/fe/a5/94fea51f-9e41-b60f-b5f2-3549407ef6fc/mza_4140352385670983274.jpg/600x600bb.jpg",
+      "topics": [
+        "engineering/energy-fusion"
+      ],
+      "hook": "Two apartheid-era activists ask whether South Africa's peace accord and truth commission delivered real justice.",
+      "explicit": false
+    },
+    {
+      "id": "cbc-ideas--how-leaders-in-the-former-yugoslavia",
+      "show": "CBC Ideas",
+      "title": "How leaders in the former Yugoslavia forged peace in 1995",
+      "apple_collection_id": 151485663,
+      "apple_track_id": 1000726957149,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/how-leaders-in-the-former-yugoslavia-forged-peace-in-1995/id151485663?i=1000726957149&uo=4",
+      "release_date": "2026-07-22",
+      "duration_min": 54,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/94/fe/a5/94fea51f-9e41-b60f-b5f2-3549407ef6fc/mza_4140352385670983274.jpg/600x600bb.jpg",
+      "topics": [
+        "engineering/energy-fusion"
+      ],
+      "hook": "The 1995 Dayton Accord ended Bosnia's war—but does stopping the killing amount to real peace?",
+      "explicit": false
+    },
+    {
+      "id": "stuff-you-should-know--what-s-the-deal-with-swiss",
+      "show": "Stuff You Should Know",
+      "title": "What's the deal with Swiss neutrality?",
+      "apple_collection_id": 278981407,
+      "apple_track_id": 1000778005871,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/whats-the-deal-with-swiss-neutrality/id278981407?i=1000778005871&uo=4",
+      "release_date": "2026-07-23",
+      "duration_min": 48,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/aa/82/91/aa82912f-23ee-6f6a-583c-a4e993164d0e/mza_12111158076643383507.jpg/600x600bb.jpg",
+      "topics": [
+        "science/materials",
+        "history/technology"
+      ],
+      "hook": "How Switzerland became the world's most famous neutral country, and what that neutrality actually means.",
+      "explicit": false
+    },
+    {
+      "id": "being-an-engineer--s7e31-stanley-leong-engineering-your-finances",
+      "show": "Being an Engineer",
+      "title": "S7E31 Stanley Leong | Engineering Your Finances: A Former Electrical Engineer’s Guide to Building Wealth",
+      "apple_collection_id": 1508222292,
+      "apple_track_id": 1000778180550,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/s7e31-stanley-leong-engineering-your-finances-a/id1508222292?i=1000778180550&uo=4",
+      "release_date": "2026-07-24",
+      "duration_min": 51,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/f9/ea/7e/f9ea7e14-28a4-07e0-7727-ba24527dfb7c/mza_2694726557793121439.jpg/600x600bb.jpg",
+      "topics": [
+        "engineering/precision-mfg",
+        "craft/diy-home"
+      ],
+      "hook": "An electrical engineer turned wealth advisor on managing the money that technical careers can generate.",
+      "explicit": false
+    },
+    {
+      "id": "the-rest-is-history--690-a-murderous-affair-death-at",
+      "show": "The Rest Is History",
+      "title": "690.  A Murderous Affair: Death at Mayerling (Part 2)",
+      "apple_collection_id": 1537788786,
+      "apple_track_id": 1000777218890,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/a-murderous-affair-death-at-mayerling-part-2/id1537788786?i=1000777218890&uo=4",
+      "release_date": "2026-07-22",
+      "duration_min": 79,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/20/ed/c7/20edc799-fdb3-e608-a164-0cdaaee63c6b/mza_16701966284979673066.jpg/600x600bb.jpg",
+      "topics": [
+        "history/technology",
+        "history/military-ancient"
+      ],
+      "hook": "Murder or suicide at Mayerling? The Habsburg heir, his teenage mistress, and a covered-up death.",
+      "explicit": false
+    },
+    {
+      "id": "conan-obrien-needs-a-friend--knife-porn",
+      "show": "Conan O'Brien Needs a Friend",
+      "title": "Knife Porn",
+      "apple_collection_id": 1438054347,
+      "apple_track_id": 1000776971554,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/knife-porn/id1438054347?i=1000776971554&uo=4",
+      "release_date": "2026-07-23",
+      "duration_min": 27,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/c6/02/8a/c6028ab7-bffd-db83-53e4-34a4ea9bef21/mza_16944101310108746053.jpg/600x600bb.jpg",
+      "topics": [
+        "comedy/casual-hangs"
+      ],
+      "hook": "Conan talks with a Liverpool, NY bladesmith about the craft of forging a perfect knife.",
+      "explicit": true
+    },
+    {
+      "id": "business-of-machining--462-llm-s-and-software-hardware",
+      "show": "Business of Machining",
+      "title": "#462 LLM's and software/hardware projects",
+      "apple_collection_id": 1206942864,
+      "apple_track_id": 1000778149399,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/462-llms-and-software-hardware-projects/id1206942864?i=1000778149399&uo=4",
+      "release_date": "2026-07-24",
+      "duration_min": 47,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/77/a4/bc/77a4bc8a-76f6-e612-da13-050262cbdbae/mza_5516773433192487976.jpg/600x600bb.jpg",
+      "topics": [
+        "engineering/precision-mfg"
+      ],
+      "hook": "Two shop owners on using LLMs for projects, linear gages, and DIY versus Keyence vision.",
+      "explicit": false
+    },
+    {
+      "id": "within-tolerance--down-the-rabbit-hole-with-justin",
+      "show": "Within Tolerance",
+      "title": "Down the Rabbit Hole with Justin Gray EP3 - Always Be Auditing",
+      "apple_collection_id": 1474857063,
+      "apple_track_id": 1000778093871,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/down-the-rabbit-hole-with-justin-gray-ep3-always-be-auditing/id1474857063?i=1000778093871&uo=4",
+      "release_date": "2026-07-23",
+      "duration_min": 26,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/83/6e/ba/836ebae9-68ae-7506-52aa-57d847536a8f/mza_6383185451985653612.jpg/600x600bb.jpg",
+      "topics": [
+        "engineering/precision-mfg"
+      ],
+      "hook": "Treating your tool library like a digital twin, and why perfectionism shouldn't stop you starting.",
+      "explicit": true
+    },
+    {
+      "id": "the-ancients--the-first-new-zealanders",
+      "show": "The Ancients",
+      "title": "The First New Zealanders",
+      "apple_collection_id": 1520403988,
+      "apple_track_id": 1000777731366,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-first-new-zealanders/id1520403988?i=1000777731366&uo=4",
+      "release_date": "2026-07-23",
+      "duration_min": 57,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/6c/94/31/6c943113-5484-a41d-5cb7-bf606ff289ef/mza_6401313720037127611.jpeg/600x600bb.jpg",
+      "topics": [
+        "history/military-ancient"
+      ],
+      "hook": "How East Polynesian voyagers reached Aotearoa around 1300 and built a society in a few generations.",
+      "explicit": false
+    },
+    {
+      "id": "ancient-history-fangirl--the-secret-lives-of-julio-claudian",
+      "show": "Ancient History Fangirl",
+      "title": "The Secret Lives of Julio-Claudian Wives (Part 3)",
+      "apple_collection_id": 1348151802,
+      "apple_track_id": 1000769933818,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-secret-lives-of-julio-claudian-wives-part-3/id1348151802?i=1000769933818&uo=4",
+      "release_date": "2026-07-23",
+      "duration_min": 71,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts123/v4/3a/b4/37/3ab4371d-8b31-8d91-758b-cad09fc294e8/mza_249453363545711140.jpg/600x600bb.jpg",
+      "topics": [
+        "history/military-ancient"
+      ],
+      "hook": "The women of Augustus's new autocracy—Julia and Agrippina the Elder—and the rules imposed on them.",
+      "explicit": true
+    },
+    {
+      "id": "engines-of-our-ingenuity--the-engines-of-our-ingenuity-1606",
+      "show": "Engines of Our Ingenuity",
+      "title": "The Engines of Our Ingenuity 1606: The Skycity",
+      "apple_collection_id": 121493645,
+      "apple_track_id": 1000778150952,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-engines-of-our-ingenuity-1606-the-skycity/id121493645?i=1000778150952&uo=4",
+      "release_date": "2026-07-24",
+      "duration_min": 4,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts113/v4/d9/48/5f/d9485f01-660b-d928-e85f-d61b6f877982/mza_8721609852467453666.png/600x600bb.jpg",
+      "topics": [
+        "history/technology"
+      ],
+      "hook": "The Skycity: a towering utopian megastructure concept weighed down by its own Gothic ambitions.",
+      "explicit": false
+    },
+    {
+      "id": "engines-of-our-ingenuity--the-engines-of-our-ingenuity-2622",
+      "show": "Engines of Our Ingenuity",
+      "title": "The Engines of Our Ingenuity 2622: Watson",
+      "apple_collection_id": 121493645,
+      "apple_track_id": 1000777983191,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-engines-of-our-ingenuity-2622-watson/id121493645?i=1000777983191&uo=4",
+      "release_date": "2026-07-23",
+      "duration_min": 4,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts113/v4/d9/48/5f/d9485f01-660b-d928-e85f-d61b6f877982/mza_8721609852467453666.png/600x600bb.jpg",
+      "topics": [
+        "history/technology"
+      ],
+      "hook": "How IBM's Watson computer learned to beat human champions at Jeopardy!",
+      "explicit": false
+    },
+    {
+      "id": "this-week-in-startups--why-this-longevity-startup-raised-in",
+      "show": "This Week in Startups",
+      "title": "Why this longevity startup raised in Japan, not Silicon Valley | TWiST Tokyo | E2315",
+      "apple_collection_id": 315114957,
+      "apple_track_id": 1000777936172,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/why-this-longevity-startup-raised-in-japan-not-silicon/id315114957?i=1000777936172&uo=4",
+      "release_date": "2026-07-22",
+      "duration_min": 72,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/bf/ce/23/bfce2354-2548-00f0-d795-a34404946a6b/mza_10222213905677371023.jpg/600x600bb.jpg",
+      "topics": [
+        "business/startups"
+      ],
+      "hook": "Why a longevity founder built in Okinawa, and how $200K in Japan can outbuild $2M elsewhere.",
+      "explicit": false
+    },
+    {
+      "id": "twenty-minute-vc--20vc-openai-and-anthropic-threatened-by",
+      "show": "The Twenty Minute VC (20VC)",
+      "title": "20VC: OpenAI and Anthropic Threatened by Kimi? | Should the US Ban Chinese Open-Source Models | Should Openrouter Sell & Value in the Routing Layer? | Stripe Buying Paypal: What You Need to Know",
+      "apple_collection_id": 958230465,
+      "apple_track_id": 1000777996242,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/20vc-openai-and-anthropic-threatened-by-kimi-should/id958230465?i=1000777996242&uo=4",
+      "release_date": "2026-07-23",
+      "duration_min": 83,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/cb/4a/f9/cb4af9a2-5857-c3f1-30d4-14395af9a14f/mza_11350890235230424535.jpeg/600x600bb.jpg",
+      "topics": [
+        "business/startups"
+      ],
+      "hook": "Chinese models like Kimi pressure frontier labs; plus OpenRouter's exit and Stripe's PayPal play.",
+      "explicit": true
+    },
+    {
+      "id": "around-the-house-eric-g--coming-up-saturday-on-around-the",
+      "show": "Around the House with Eric G",
+      "title": "Coming up Saturday on Around the House Show!",
+      "apple_collection_id": 869377733,
+      "apple_track_id": 1000778115159,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/coming-up-saturday-on-around-the-house-show/id869377733?i=1000778115159&uo=4",
+      "release_date": "2026-07-23",
+      "duration_min": 5,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/55/d0/42/55d042d1-d595-0fce-c14a-04e2d4d48505/mza_8757307005226717506.jpg/600x600bb.jpg",
+      "topics": [
+        "craft/diy-home"
+      ],
+      "hook": "A lighting designer on transforming a home's feel—and why recessed can lights aren't the answer.",
+      "explicit": false
+    },
+    {
+      "id": "wood-talk--when-she-gives-away-your-tools",
+      "show": "Wood Talk | Woodworking",
+      "title": "When She Gives Away Your Tools | 611",
+      "apple_collection_id": 251471480,
+      "apple_track_id": 1000777955985,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/when-she-gives-away-your-tools-611/id251471480?i=1000777955985&uo=4",
+      "release_date": "2026-07-23",
+      "duration_min": 79,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/03/77/34/037734a5-38ac-d844-4d1e-f25fb7bfb11f/mza_406931835671098101.jpeg/600x600bb.jpg",
+      "topics": [
+        "craft/diy-home"
+      ],
+      "hook": "Why a heavy workbench beats the floor, plus managing woodworking customers' expectations.",
+      "explicit": false
+    },
+    {
+      "id": "fly-on-the-wall--jake-johnson-on-ed-harris-chris",
+      "show": "Fly on the Wall with Dana Carvey and David Spade",
+      "title": "Jake Johnson on Ed Harris, Chris Farley and The Dink",
+      "apple_collection_id": 1603639502,
+      "apple_track_id": 1000777993359,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/jake-johnson-on-ed-harris-chris-farley-and-the-dink/id1603639502?i=1000777993359&uo=4",
+      "release_date": "2026-07-23",
+      "duration_min": 58,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/c4/5f/1e/c45f1e02-7a76-a6e6-d53d-9705246ed2c1/mza_17162576389956741702.jpeg/600x600bb.jpg",
+      "topics": [
+        "comedy/casual-hangs"
+      ],
+      "hook": "Jake Johnson on comedy with Ed Harris, New Girl, Chris Farley, and his film The Dink.",
+      "explicit": true
+    },
+    {
+      "id": "the-bbq-central-show--sam-tours-japan-with-guests-ali",
+      "show": "The BBQ Central Show",
+      "title": "Sam Tours Japan With Guests & Ali Khan Spills On Fast Food Burgers!",
+      "apple_collection_id": 1412947410,
+      "apple_track_id": 1000777981376,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/sam-tours-japan-with-guests-ali-khan-spills-on-fast/id1412947410?i=1000777981376&uo=4",
+      "release_date": "2026-07-23",
+      "duration_min": 69,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/b6/ae/a7/b6aea743-7a14-dd74-7297-552d4225b7d4/mza_12416154268561529211.jpg/600x600bb.jpg",
+      "topics": [
+        "food/cooking-science"
+      ],
+      "hook": "Four guests on the outdoor cooking business and ranking the ultimate fast-food burgers.",
+      "explicit": true
+    },
+    {
+      "id": "flight-safety-detectives--young-aviation-enthusiast-examines-air-traffic",
+      "show": "Flight Safety Detectives",
+      "title": "Young Aviation Enthusiast Examines Air Traffic Issues - Episode 338",
+      "apple_collection_id": 1477655202,
+      "apple_track_id": 1000777873836,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/young-aviation-enthusiast-examines-air-traffic-issues/id1477655202?i=1000777873836&uo=4",
+      "release_date": "2026-07-22",
+      "duration_min": 37,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/d3/a4/5a/d3a45a3c-d254-9e7c-ec02-2fa924091f83/mza_3114558249847592794.jpeg/600x600bb.jpg",
+      "topics": [
+        "aviation/accidents"
+      ],
+      "hook": "A 16-year-old pilot-in-training on his coastal cross-country flight and today's air traffic problems.",
+      "explicit": false
+    },
+    {
+      "id": "just-fly-performance-podcast--525-ryan-paul-on-speed-training",
+      "show": "Just Fly Performance Podcast",
+      "title": "525: Ryan Paul on Speed Training, Isometrics, and the Art of Intention",
+      "apple_collection_id": 1121047188,
+      "apple_track_id": 1000778038089,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/525-ryan-paul-on-speed-training-isometrics-and-the/id1121047188?i=1000778038089&uo=4",
+      "release_date": "2026-07-23",
+      "duration_min": 76,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/bf/31/2a/bf312a79-6f03-6b36-101c-b39a3624ae7b/mza_17594812248167925708.jpeg/600x600bb.jpg",
+      "topics": [
+        "sports/biomechanics"
+      ],
+      "hook": "Ryan Paul on blending sprints with high-intent isometrics and readiness data to build faster athletes.",
+      "explicit": false
+    },
+    {
+      "id": "song-exploder--suki-waterhouse-back-in-love",
+      "show": "Song Exploder",
+      "title": "Suki Waterhouse - Back in Love",
+      "apple_collection_id": 788236947,
+      "apple_track_id": 1000777886394,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/suki-waterhouse-back-in-love/id788236947?i=1000777886394&uo=4",
+      "release_date": "2026-07-22",
+      "duration_min": 23,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/05/7b/35/057b3588-c74c-0334-d8ef-c6b8166d4afc/mza_12324100546486323942.jpg/600x600bb.jpg",
+      "topics": [
+        "music/theory-production"
+      ],
+      "hook": "Suki Waterhouse breaks down building 'Back in Love' from her album Loveland with her collaborator.",
+      "explicit": true
+    },
+    {
+      "id": "99-percent-invisible--100-objects-10-nunchaku",
+      "show": "99% Invisible",
+      "title": "100 Objects #10: Nunchaku",
+      "apple_collection_id": 394775318,
+      "apple_track_id": 1000775828115,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/100-objects-10-nunchaku/id394775318?i=1000775828115&uo=4",
+      "release_date": "2026-07-24",
+      "duration_min": 36,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/79/d0/35/79d035ea-9043-b43e-7380-33cd47bd968b/mza_2606971010425550919.jpg/600x600bb.jpg",
+      "topics": [
+        "architecture/infrastructure"
+      ],
+      "hook": "How Bruce Lee's nunchucks became a symbol of 1970s Asian American identity and resistance.",
+      "explicit": false
+    },
+    {
+      "id": "the-worlds-best-construction-podcast--new-york-s-2wtc-finally-breaks",
+      "show": "The World's Best Construction Podcast",
+      "title": "New York’s 2WTC Finally Breaks Ground - #198",
+      "apple_collection_id": 1635354647,
+      "apple_track_id": 1000778023144,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/new-yorks-2wtc-finally-breaks-ground-198/id1635354647?i=1000778023144&uo=4",
+      "release_date": "2026-07-23",
+      "duration_min": 43,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/d1/8d/15/d18d15c0-ce12-312d-fdae-6d58179572d3/mza_17731699531660745375.jpeg/600x600bb.jpg",
+      "topics": [
+        "architecture/infrastructure"
+      ],
+      "hook": "New York's 2WTC finally breaks ground, London's BT Tower turns hotel, and Shanghai's opera house.",
+      "explicit": false
+    },
+    {
+      "id": "spit-and-twitches-animal-cognition--episode-28-season-3-episode-1",
+      "show": "Spit and Twitches: The Animal Cognition Podcast",
+      "title": "Episode 28 (Season 3, Episode 1) - Madeleine Brodbeck",
+      "apple_collection_id": 1015557071,
+      "apple_track_id": 1000778055816,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/episode-28-season-3-episode-1-madeleine-brodbeck/id1015557071?i=1000778055816&uo=4",
+      "release_date": "2026-07-23",
+      "duration_min": null,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts113/v4/c3/ca/ed/c3caeddc-304a-ec4f-ce5a-848c8cf5361a/mza_5199943751913908942.jpg/600x600bb.jpg",
+      "topics": [
+        "nature/animal-cognition"
+      ],
+      "hook": "Avian cognition researcher Madeleine Brodbeck on studying bird minds at Western Ontario's AFAR facility.",
+      "explicit": false
+    },
+    {
+      "id": "ologies-with-alie-ward--emmenology-menopause-perimenopause-part-2-with",
+      "show": "Ologies with Alie Ward",
+      "title": "Emmenology (MENOPAUSE & PERIMENOPAUSE) Part 2 with Monica Christmas, Mary Claire Haver and Sarah Witkowski",
+      "apple_collection_id": 1278815517,
+      "apple_track_id": 1000778102256,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/emmenology-menopause-perimenopause-part-2-with-monica/id1278815517?i=1000778102256&uo=4",
+      "release_date": "2026-07-23",
+      "duration_min": 123,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/44/4e/42/444e42f6-1ce8-1e7b-2d50-4ed506c27004/mza_18370866018545460916.jpg/600x600bb.jpg",
+      "topics": [
+        "nature/animal-cognition"
+      ],
+      "hook": "Four experts on menopause and perimenopause: hormone therapy, sleep, and separating science from myth.",
+      "explicit": true
+    },
+    {
+      "id": "off-nominal--249-peeing-out-your-bones-with",
+      "show": "Off-Nominal",
+      "title": "249 - Peeing Out Your Bones (with Ethan Barajas and Jamie Palmer)",
+      "apple_collection_id": 1294131221,
+      "apple_track_id": 1000778116522,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/249-peeing-out-your-bones-with-ethan-barajas-and/id1294131221?i=1000778116522&uo=4",
+      "release_date": "2026-07-24",
+      "duration_min": 61,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/8a/3a/c3/8a3ac39d-9739-d1bd-0699-25d89bd74531/mza_6548671454048201085.jpg/600x600bb.jpg",
+      "topics": [
+        "space/rockets"
+      ],
+      "hook": "Icarus Robotics' founders on building embodied-AI robots to do warehouse-style work in orbit.",
+      "explicit": true
+    },
+    {
+      "id": "planetary-radio--hot-jupiters-the-roasted-planet-and",
+      "show": "Planetary Radio: Space Exploration, Astronomy and Science",
+      "title": "Hot Jupiters: The ‘Roasted Planet’ and the wrong-way hotspot",
+      "apple_collection_id": 91689834,
+      "apple_track_id": 1000777895562,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/hot-jupiters-the-roasted-planet-and-the-wrong-way-hotspot/id91689834?i=1000777895562&uo=4",
+      "release_date": "2026-07-22",
+      "duration_min": 63,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/12/9d/e6/129de6c3-8048-078a-e054-751af12fdcd1/mza_5394175969927495016.jpg/600x600bb.jpg",
+      "topics": [
+        "space/rockets"
+      ],
+      "hook": "New JWST observations of two extreme hot Jupiters, including the eccentric 'Roasted Planet.'",
+      "explicit": false
+    },
+    {
+      "id": "planet-money--big-lettuce-meets-small-intestine",
+      "show": "Planet Money",
+      "title": "Big Lettuce meets Small Intestine",
+      "apple_collection_id": 290783428,
+      "apple_track_id": 1000777946964,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/big-lettuce-meets-small-intestine/id290783428?i=1000777946964&uo=4",
+      "release_date": "2026-07-22",
+      "duration_min": 26,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/85/df/53/85df5334-0fae-28a9-2bc4-b97b81061d0e/mza_10839245066228881011.jpg/600x600bb.jpg",
+      "topics": [
+        "economics/markets"
+      ],
+      "hook": "How bagged lettuce took over grocery stores, and why cyclospora outbreaks keep happening.",
+      "explicit": false
+    },
+    {
+      "id": "odd-lots--how-franchise-restaurants-opened-the-door",
+      "show": "Odd Lots",
+      "title": "How Franchise Restaurants Opened the Door to the Gig Economy",
+      "apple_collection_id": 1056200096,
+      "apple_track_id": 1000778166740,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/how-franchise-restaurants-opened-the-door-to-the/id1056200096?i=1000778166740&uo=4",
+      "release_date": "2026-07-24",
+      "duration_min": 45,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/f3/99/6a/f3996a52-e4a4-bf0d-b7d6-e376c4058568/mza_15550359494736224565.jpg/600x600bb.jpg",
+      "topics": [
+        "economics/markets"
+      ],
+      "hook": "How the fast-food franchise model paved the legal path to today's gig economy.",
+      "explicit": false
+    },
+    {
+      "id": "odd-lots--why-apple-is-heading-into-a",
+      "show": "Odd Lots",
+      "title": "Why Apple Is Heading Into a Pivotal Moment",
+      "apple_collection_id": 1056200096,
+      "apple_track_id": 1000777999205,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/why-apple-is-heading-into-a-pivotal-moment/id1056200096?i=1000777999205&uo=4",
+      "release_date": "2026-07-23",
+      "duration_min": 49,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/f3/99/6a/f3996a52-e4a4-bf0d-b7d6-e376c4058568/mza_15550359494736224565.jpg/600x600bb.jpg",
+      "topics": [
+        "economics/markets"
+      ],
+      "hook": "Why Apple's next moves matter: a new CEO, missed AI hype, and long-promised products.",
+      "explicit": false
+    },
+    {
+      "id": "freakonomics-radio--682-should-a-i-move-to",
+      "show": "Freakonomics Radio",
+      "title": "682. Should A.I. Move to Space?",
+      "apple_collection_id": 354668519,
+      "apple_track_id": 1000778112770,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/682-should-a-i-move-to-space/id354668519?i=1000778112770&uo=4",
+      "release_date": "2026-07-24",
+      "duration_min": 48,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/f7/0c/c5/f70cc540-ce36-d96f-b111-c970aad5505c/mza_17703422762227531425.jpg/600x600bb.jpg",
+      "topics": [
+        "economics/markets"
+      ],
+      "hook": "Steve Levitt talks with a team that wants to move AI data centers into space.",
+      "explicit": false
+    },
+    {
+      "id": "the-race-f1-podcast--bring-back-v10s-we-answer-your",
+      "show": "The Race F1 Podcast",
+      "title": "Bring Back V10s: We answer your questions on classic liveries, V10 era video games, and the best 'worst' team",
+      "apple_collection_id": 1495557562,
+      "apple_track_id": 1000778021754,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/bring-back-v10s-we-answer-your-questions-on-classic/id1495557562?i=1000778021754&uo=4",
+      "release_date": "2026-07-23",
+      "duration_min": 82,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/40/7b/8c/407b8cbe-cd34-d818-ff69-a11bc1d6c690/mza_9877600709441097500.jpeg/600x600bb.jpg",
+      "topics": [
+        "automotive/racing"
+      ],
+      "hook": "Listener questions on F1's V10 era: classic liveries, Raikkonen's 2003 title charge, and retro games.",
+      "explicit": false
+    },
+    {
+      "id": "camera-shake-photography-podcast--how-to-pose-anyone-with-jerry",
+      "show": "Camera Shake Photography Podcast",
+      "title": "How to Pose Anyone with JERRY GHIONIS - Episode 319",
+      "apple_collection_id": 1514179611,
+      "apple_track_id": 1000778034463,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/how-to-pose-anyone-with-jerry-ghionis-episode-319/id1514179611?i=1000778034463&uo=4",
+      "release_date": "2026-07-23",
+      "duration_min": 89,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/7c/5e/51/7c5e519b-7f7a-2a58-ca12-f3aa88d921f7/mza_13857594628227726337.jpg/600x600bb.jpg",
+      "topics": [
+        "craft/photography"
+      ],
+      "hook": "Portrait photographer Jerry Ghionis on posing nervous clients through trust, empathy, and clear direction.",
+      "explicit": true
+    },
+    {
+      "id": "how-i-built-this--advice-line-with-curt-richardson-of",
+      "show": "How I Built This with Guy Raz",
+      "title": "Advice Line with Curt Richardson of OtterBox",
+      "apple_collection_id": 1150510297,
+      "apple_track_id": 1000777995074,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/advice-line-with-curt-richardson-of-otterbox/id1150510297?i=1000777995074&uo=4",
+      "release_date": "2026-07-23",
+      "duration_min": 42,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/64/45/06/644506b5-c44f-f661-f74e-f63a4b2511bc/mza_14892199991035639268.jpeg/600x600bb.jpg",
+      "topics": [
+        "business/founders"
+      ],
+      "hook": "OtterBox founder Curt Richardson fields questions on scaling, comebacks, and marketing spend.",
+      "explicit": false
+    },
+    {
+      "id": "business-wars--universal-vs-disney-the-battle-for",
+      "show": "Business Wars",
+      "title": "Universal vs Disney: The Battle for Orlando | Epic Rivalry | 4",
+      "apple_collection_id": 1335814741,
+      "apple_track_id": 1000777933433,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/universal-vs-disney-the-battle-for-orlando-epic-rivalry/id1335814741?i=1000777933433&uo=4",
+      "release_date": "2026-07-23",
+      "duration_min": 44,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/88/78/24/887824a1-8191-f922-a27e-499bb3f9e624/mza_2534133078841157643.jpeg/600x600bb.jpg",
+      "topics": [
+        "business/founders"
+      ],
+      "hook": "How Universal's Harry Potter and Epic Universe closed the gap on Disney's theme-park dominance.",
+      "explicit": false
+    },
+    {
+      "id": "masters-of-scale--author-jim-collins-on-unlocking-your",
+      "show": "Masters of Scale",
+      "title": "Author Jim Collins on unlocking your potential",
+      "apple_collection_id": 1227971746,
+      "apple_track_id": 1000778004782,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/author-jim-collins-on-unlocking-your-potential/id1227971746?i=1000778004782&uo=4",
+      "release_date": "2026-07-23",
+      "duration_min": 32,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/13/4b/81/134b8173-d713-cbb2-2d3b-4a8692bd87c0/mza_996010941061703843.jpeg/600x600bb.jpg",
+      "topics": [
+        "business/founders"
+      ],
+      "hook": "Jim Collins on lessons from Grace Hopper and John Glenn for navigating life's cliffs and fog.",
+      "explicit": false
+    },
+    {
+      "id": "we-have-ways-of-making-you-talk--operation-barbarossa-barbarossa-unleashed-part-5",
+      "show": "WW2 Pod: We Have Ways of Making You Talk",
+      "title": "Operation Barbarossa: Barbarossa Unleashed (Part 5)",
+      "apple_collection_id": 1457552694,
+      "apple_track_id": 1000777910320,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/operation-barbarossa-barbarossa-unleashed-part-5/id1457552694?i=1000777910320&uo=4",
+      "release_date": "2026-07-22",
+      "duration_min": 72,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/c5/22/e9/c522e983-ceb9-9337-d7b5-9b6f1e77e16b/mza_10534174726318393863.jpeg/600x600bb.jpg",
+      "topics": [
+        "history/military-modern"
+      ],
+      "hook": "Why Hitler invaded the USSR in 1941, the three army groups, and Stalin's stunned reaction.",
+      "explicit": false
+    },
+    {
+      "id": "history-of-wwii-podcast--we-the-founders-the-constitution-government",
+      "show": "The History of WWII Podcast",
+      "title": "We The Founders (The Constitution) | Government That Doesn’t Suck",
+      "apple_collection_id": 493253759,
+      "apple_track_id": 1000777975842,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/we-the-founders-the-constitution-government-that/id493253759?i=1000777975842&uo=4",
+      "release_date": "2026-07-23",
+      "duration_min": 9,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/bb/fa/9a/bbfa9a3d-9cb1-a452-fc74-c8ebab7bac9a/mza_13831910833290623732.jpg/600x600bb.jpg",
+      "topics": [
+        "history/military-modern"
+      ],
+      "hook": "A feed-drop on the U.S. Constitution's origins, from the show's creators' new civics series.",
+      "explicit": false
+    },
+    {
+      "id": "talking-headways--episode-587-dangerous-by-design",
+      "show": "Talking Headways: A Streetsblog Podcast",
+      "title": "Episode 587: Dangerous by Design",
+      "apple_collection_id": 775143271,
+      "apple_track_id": 1000777984753,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/episode-587-dangerous-by-design/id775143271?i=1000777984753&uo=4",
+      "release_date": "2026-07-23",
+      "duration_min": 58,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/89/59/f1/8959f121-bfad-7597-127c-66ddafc642e2/mza_17751439431270750380.png/600x600bb.jpg",
+      "topics": [
+        "cities/urbanism"
+      ],
+      "hook": "Steve Davis on Dangerous by Design, rising pedestrian deaths, and holding road design accountable.",
+      "explicit": false
+    },
+    {
+      "id": "huberman-lab--essentials-using-meditation-to-focus-view",
+      "show": "Huberman Lab",
+      "title": "Essentials: Using Meditation to Focus, View Consciousness & Expand Your Mind | Dr. Sam Harris",
+      "apple_collection_id": 1545953110,
+      "apple_track_id": 1000778000483,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/essentials-using-meditation-to-focus-view-consciousness/id1545953110?i=1000778000483&uo=4",
+      "release_date": "2026-07-23",
+      "duration_min": 41,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/9a/d3/19/9ad31912-0b5a-a16e-2d7c-9fd074698b9c/mza_8994222203629500925.jpg/600x600bb.jpg",
+      "topics": [
+        "medicine/neuroscience"
+      ],
+      "hook": "Neuroscientist Sam Harris on how meditation reshapes focus, the sense of self, and reactivity.",
+      "explicit": false
+    },
+    {
+      "id": "craft-beer-and-brewing-magazine-podcast--494-patrick-raasch-of-sunriver-builds",
+      "show": "Craft Beer & Brewing Magazine Podcast",
+      "title": "494: Patrick Raasch of Sunriver Builds a Throughline of Refinement into Boldly Flavored Beers",
+      "apple_collection_id": 1296082082,
+      "apple_track_id": 1000778159769,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/patrick-raasch-of-sunriver-builds-a/id1296082082?i=1000778159769&uo=4",
+      "release_date": "2026-07-24",
+      "duration_min": 76,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/b6/db/11/b6db1143-1196-629d-97cc-f028ceda4084/mza_14037476996481271738.jpg/600x600bb.jpg",
+      "topics": [
+        "food/fermentation"
+      ],
+      "hook": "Sunriver's Patrick Raasch on medal-winning hop-forward beers and brewing with left-field culinary ingredients.",
+      "explicit": true
+    },
+    {
+      "id": "i-know-dino--the-dinosaur-with-the-widest-wingspan",
+      "show": "I Know Dino: The Big Dinosaur Podcast",
+      "title": "The Dinosaur with the Widest Wingspan Ever",
+      "apple_collection_id": 960976813,
+      "apple_track_id": 1000778155095,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-dinosaur-with-the-widest-wingspan-ever/id960976813?i=1000778155095&uo=4",
+      "release_date": "2026-07-23",
+      "duration_min": 45,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/49/6c/4c/496c4c91-e216-77d6-64a4-8096e6f89f48/mza_14223214653639207080.jpeg/600x600bb.jpg",
+      "topics": [
+        "nature/paleontology"
+      ],
+      "hook": "Paleontologist Daniel Ksepka on giant extinct birds, dinosaur brains, and a new sauropodomorph.",
+      "explicit": false
+    },
+    {
+      "id": "sticky-notes--scriabin-poem-of-ecstasy",
+      "show": "Sticky Notes: The Classical Music Podcast",
+      "title": "Scriabin Poem of Ecstasy",
+      "apple_collection_id": 1215386938,
+      "apple_track_id": 1000778018843,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/scriabin-poem-of-ecstasy/id1215386938?i=1000778018843&uo=4",
+      "release_date": "2026-07-23",
+      "duration_min": 51,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/58/60/74/58607414-6263-9fa9-4fad-d5879c071643/mza_11208751241845350981.jpeg/600x600bb.jpg",
+      "topics": [
+        "music/classical"
+      ],
+      "hook": "How Scriabin wrote his surreal Poem of Ecstasy as both epic text and 20-minute orchestral thrill.",
+      "explicit": false
+    },
+    {
+      "id": "that-triathlon-show--physiology-over-ftp-robbie-deckard-pro",
+      "show": "That Triathlon Show",
+      "title": "Physiology Over FTP | Robbie Deckard, Pro Triathlete & Coach",
+      "apple_collection_id": 1209821045,
+      "apple_track_id": 1000777974233,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/physiology-over-ftp-robbie-deckard-pro-triathlete-coach/id1209821045?i=1000777974233&uo=4",
+      "release_date": "2026-07-23",
+      "duration_min": 82,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/a0/53/7b/a0537b7e-22bb-0f4c-ce13-8b85515690c8/mza_9842357023075081546.jpg/600x600bb.jpg",
+      "topics": [
+        "sports/endurance"
+      ],
+      "hook": "Robbie Deckard on lactate, VLaMax, and applying lab-grade thinking to swim, bike, and run.",
+      "explicit": false
+    },
+    {
+      "id": "fast-talk--433-what-s-behind-the-resurgence",
+      "show": "Fast Talk",
+      "title": "433: What’s Behind the Resurgence of American Mountain Bike Talent?",
+      "apple_collection_id": 1490521721,
+      "apple_track_id": 1000778020845,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/whats-behind-the-resurgence-of-american-mountain/id1490521721?i=1000778020845&uo=4",
+      "release_date": "2026-07-23",
+      "duration_min": 51,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/83/5c/44/835c44ca-7d8e-f044-9562-9952adaef507/mza_17747615336144522345.jpg/600x600bb.jpg",
+      "topics": [
+        "sports/endurance"
+      ],
+      "hook": "Riley Amos on the surge of American mountain bikers reaching the World Cup level.",
+      "explicit": false
+    },
+    {
+      "id": "practical-ai--surviving-the-new-economics-of-a",
+      "show": "Practical AI",
+      "title": "Surviving the New Economics of a Post-Agentic World",
+      "apple_collection_id": 1406537385,
+      "apple_track_id": 1000778006222,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/surviving-the-new-economics-of-a-post-agentic-world/id1406537385?i=1000778006222&uo=4",
+      "release_date": "2026-07-23",
+      "duration_min": 36,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/72/7a/be/727abe96-2e44-d9ac-a6d9-7226372b5eb9/mza_6848050469316823102.jpg/600x600bb.jpg",
+      "topics": [
+        "engineering/ai-robotics"
+      ],
+      "hook": "As companies deploy thousands of AI agents, Daniel and Chris map the new post-agentic economics.",
+      "explicit": false
+    },
+    {
+      "id": "ten-percent-happier--that-feeling-of-always-behind-and",
+      "show": "10% Happier with Dan Harris",
+      "title": "That Feeling of \"Always-Behind and Never-Enough\"—Here's the Antidote | Ellen Hendriksen",
+      "apple_collection_id": 1087147821,
+      "apple_track_id": 1000778039868,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/that-feeling-of-always-behind-and-never-enough/id1087147821?i=1000778039868&uo=4",
+      "release_date": "2026-07-24",
+      "duration_min": 66,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/79/04/87/79048703-d88c-acc2-c319-a8f2534b9ae5/mza_15018160844227259170.jpg/600x600bb.jpg",
+      "topics": [
+        "health/mental",
+        "psychology"
+      ],
+      "hook": "Psychologist Ellen Hendriksen on quieting the inner critic and beating perfectionism without lowering standards.",
+      "explicit": false
+    },
+    {
+      "id": "zoe-science-nutrition--how-to-eat-sugar-without-gaining",
+      "show": "ZOE Science & Nutrition",
+      "title": "How to eat sugar without gaining weight (crush your cravings and end energy crashes) | Prof Tim Spector & Prof Sarah Berry",
+      "apple_collection_id": 1611216298,
+      "apple_track_id": 1000778021264,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/how-to-eat-sugar-without-gaining-weight-crush-your/id1611216298?i=1000778021264&uo=4",
+      "release_date": "2026-07-23",
+      "duration_min": 61,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/83/21/fa/8321fa07-c424-c95e-25f8-b99d952b074e/mza_11331013497668602482.jpeg/600x600bb.jpg",
+      "topics": [
+        "health/nutrition"
+      ],
+      "hook": "Tim Spector and Sarah Berry on which sugars spike blood sugar—and small changes that help.",
+      "explicit": false
+    },
+    {
+      "id": "mel-robbins-podcast--1-hormone-doctor-the-ultimate-guide",
+      "show": "The Mel Robbins Podcast",
+      "title": "#1 Hormone Doctor: The Ultimate Guide to Perimenopause, Fertility, Birth Control, PCOS, & Menopause",
+      "apple_collection_id": 1646101002,
+      "apple_track_id": 1000777925724,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/1-hormone-doctor-the-ultimate-guide-to-perimenopause/id1646101002?i=1000777925724&uo=4",
+      "release_date": "2026-07-23",
+      "duration_min": 79,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/2a/9f/c7/2a9fc792-c6a7-e159-0e10-a4442eec27d5/mza_5919882476720095362.jpg/600x600bb.jpg",
+      "topics": [
+        "education/self-improvement",
+        "health/mental"
+      ],
+      "hook": "Dr. Sharon Malone on women's hormone health across perimenopause, PCOS, birth control, and menopause.",
+      "explicit": false
+    },
+    {
+      "id": "armchair-expert--armchair-anonymous-wild-card-xiii",
+      "show": "Armchair Expert with Dax Shepard",
+      "title": "Armchair Anonymous: Wild Card XIII",
+      "apple_collection_id": 1345682353,
+      "apple_track_id": 1000778165127,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/armchair-anonymous-wild-card-xiii/id1345682353?i=1000778165127&uo=4",
+      "release_date": "2026-07-24",
+      "duration_min": 38,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/f0/13/8f/f0138f4b-8bc3-0a64-2c11-ef566840f60f/mza_3062409012210474882.jpeg/600x600bb.jpg",
+      "topics": [
+        "comedy/interviews"
+      ],
+      "hook": "Dax and Monica trade wild listener stories in another Armchair Anonymous call-in.",
+      "explicit": true
+    },
+    {
+      "id": "this-past-weekend-theo-von--671-casey-rocket",
+      "show": "This Past Weekend w/ Theo Von",
+      "title": "#671 - Casey Rocket",
+      "apple_collection_id": 1190981360,
+      "apple_track_id": 1000778004457,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/casey-rocket/id1190981360?i=1000778004457&uo=4",
+      "release_date": "2026-07-23",
+      "duration_min": 105,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/9c/f6/5a/9cf65abb-f8db-fb7b-984f-b4276a1e8c85/mza_2107148709996282347.jpg/600x600bb.jpg",
+      "topics": [
+        "comedy/interviews"
+      ],
+      "hook": "Comedian Casey Rocket on his mysterious southern origins, leaving Austin for Chicago, and riffing.",
+      "explicit": true
+    },
+    {
+      "id": "comedy-bang-bang--bonus-bang-wain-packaged-foods-david",
+      "show": "Comedy Bang Bang: The Podcast",
+      "title": "Bonus Bang: Wain Packaged Foods (David Wain, Dan Lippert, Ele Woods)",
+      "apple_collection_id": 316045799,
+      "apple_track_id": 1000777987933,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/bonus-bang-wain-packaged-foods-david-wain-dan-lippert/id316045799?i=1000777987933&uo=4",
+      "release_date": "2026-07-23",
+      "duration_min": 107,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/0b/ca/6e/0bca6ee0-0b2b-5df7-edee-4d9d1b2d4e8a/mza_10749952114435066299.jpg/600x600bb.jpg",
+      "topics": [
+        "comedy/casual-hangs"
+      ],
+      "hook": "David Wain returns with a new food product, plus Bill Walton and a concerned dance mom.",
+      "explicit": true
+    },
+    {
+      "id": "how-did-this-get-made--last-looks-thrashin",
+      "show": "How Did This Get Made?",
+      "title": "Last Looks: Thrashin'",
+      "apple_collection_id": 409287913,
+      "apple_track_id": 1000778133119,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/last-looks-thrashin/id409287913?i=1000778133119&uo=4",
+      "release_date": "2026-07-24",
+      "duration_min": 47,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/4b/06/00/4b06006c-8936-1653-fc82-132b64441f4f/mza_5523773122723324139.jpg/600x600bb.jpg",
+      "topics": [
+        "comedy/casual-hangs",
+        "tv-film/reviews"
+      ],
+      "hook": "Jason and Paul share what they're watching and answer corrections on the skateboarding film Thrashin'.",
+      "explicit": true
+    },
+    {
+      "id": "handsome--pretty-little-episode-101",
+      "show": "Handsome",
+      "title": "Pretty Little Episode #101",
+      "apple_collection_id": 1702258458,
+      "apple_track_id": 1000778170345,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/pretty-little-episode-101/id1702258458?i=1000778170345&uo=4",
+      "release_date": "2026-07-24",
+      "duration_min": 23,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/e1/96/1b/e1961bc1-eae4-b488-3b0f-abdc52f06568/mza_18244201912816466457.jpeg/600x600bb.jpg",
+      "topics": [
+        "comedy/casual-hangs"
+      ],
+      "hook": "Fortune and Tig plan a road trip and daydream about nostalgic desserts.",
+      "explicit": true
+    },
+    {
+      "id": "criminal--the-comfort-kit",
+      "show": "Criminal",
+      "title": "The Comfort Kit",
+      "apple_collection_id": 809264944,
+      "apple_track_id": 1000777615084,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-comfort-kit/id809264944?i=1000777615084&uo=4",
+      "release_date": "2026-07-24",
+      "duration_min": 40,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/bd/98/22/bd9822cc-b8e0-59de-5809-45926a0ee5f3/mza_2331604259390110897.jpeg/600x600bb.jpg",
+      "topics": [
+        "true-crime",
+        "society/law"
+      ],
+      "hook": "Hours after her mother died in hospice, police arrived with a homicide search warrant.",
+      "explicit": false
+    },
+    {
+      "id": "crime-junkie--exclusive-nancy-guthrie",
+      "show": "Crime Junkie",
+      "title": "EXCLUSIVE: Nancy Guthrie",
+      "apple_collection_id": 1322200189,
+      "apple_track_id": 1000777909548,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/exclusive-nancy-guthrie/id1322200189?i=1000777909548&uo=4",
+      "release_date": "2026-07-22",
+      "duration_min": 54,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/8c/35/04/8c350430-2fbf-98d0-0a25-00b76550ffeb/mza_13445204151221888086.jpg/600x600bb.jpg",
+      "topics": [
+        "true-crime"
+      ],
+      "hook": "New details on the Nancy Guthrie abduction: unheard ransom notes and a theory of the case.",
+      "explicit": false
+    },
+    {
+      "id": "morbid--george-hassell-the-family-axeman",
+      "show": "Morbid",
+      "title": "George Hassell: The Family Axeman",
+      "apple_collection_id": 1379959217,
+      "apple_track_id": 1000777963018,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/george-hassell-the-family-axeman/id1379959217?i=1000777963018&uo=4",
+      "release_date": "2026-07-23",
+      "duration_min": 56,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/a4/69/a6/a469a64c-580d-938a-53f1-893d968e1332/mza_11675757052043432554.jpg/600x600bb.jpg",
+      "topics": [
+        "true-crime",
+        "history"
+      ],
+      "hook": "A 1926 Texas farmer's conflicting stories about his missing family unravel into a mass murder.",
+      "explicit": true
+    },
+    {
+      "id": "dateline--the-prosecution-case-against-d4vd-massachusetts",
+      "show": "Dateline NBC",
+      "title": "The prosecution case against D4vd. Massachusetts mom on trial for murder. Plus, a criminal profiler.",
+      "apple_collection_id": 1464919521,
+      "apple_track_id": 1000778019909,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/the-prosecution-case-against-d4vd-massachusetts-mom/id1464919521?i=1000778019909&uo=4",
+      "release_date": "2026-07-23",
+      "duration_min": 33,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/8c/00/7a/8c007a42-e550-0214-d4cb-b59cd7edf194/mza_5305664083935674472.jpeg/600x600bb.jpg",
+      "topics": [
+        "true-crime",
+        "society/law"
+      ],
+      "hook": "Prosecutors lay out the case against singer D4vd, plus the Lindsay Clancy murder trial.",
+      "explicit": false
+    },
+    {
+      "id": "snap-judgment--fire-ice-all-systems-down",
+      "show": "Snap Judgment",
+      "title": "Fire & Ice - All Systems Down",
+      "apple_collection_id": 283657561,
+      "apple_track_id": 1000778032875,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/fire-ice-all-systems-down/id283657561?i=1000778032875&uo=4",
+      "release_date": "2026-07-23",
+      "duration_min": 50,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/e6/19/fe/e619fefa-c250-efb5-dc54-9f34d61a635f/mza_15498774594038794850.jpg/600x600bb.jpg",
+      "topics": [
+        "science/storytelling",
+        "personal-journals"
+      ],
+      "hook": "A surfer fights a wildfire alone, and four men survive a blizzard atop a Tennessee bald.",
+      "explicit": true
+    },
+    {
+      "id": "the-moth--bittersweet-the-moth-podcast",
+      "show": "The Moth",
+      "title": "Bittersweet: The Moth Podcast",
+      "apple_collection_id": 275699983,
+      "apple_track_id": 1000778131462,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/bittersweet-the-moth-podcast/id275699983?i=1000778131462&uo=4",
+      "release_date": "2026-07-24",
+      "duration_min": 16,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/16/39/63/1639632d-7ad2-d87b-d4f7-d0ec95eff386/mza_8915289722686017414.jpg/600x600bb.jpg",
+      "topics": [
+        "science/storytelling",
+        "culture/performing-arts"
+      ],
+      "hook": "Two true stories about the pettiness, mess, and dark humor of being human.",
+      "explicit": false
+    },
+    {
+      "id": "ear-hustle--revisiting-last-memory-linda",
+      "show": "Ear Hustle",
+      "title": "Revisiting \"Last Memory: Linda\"",
+      "apple_collection_id": 1240841298,
+      "apple_track_id": 1000777971274,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/revisiting-last-memory-linda/id1240841298?i=1000777971274&uo=4",
+      "release_date": "2026-07-23",
+      "duration_min": 58,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/fa/0d/b5/fa0db568-0322-5ae8-4103-10049e8f251e/mza_4737289068008548133.jpg/600x600bb.jpg",
+      "topics": [
+        "society",
+        "personal-journals"
+      ],
+      "hook": "Serving 37 years, Linda revisits the Catholic Mass her mother hoped would change her path.",
+      "explicit": true
+    },
+    {
+      "id": "we-can-do-hard-things--best-of-samantha-irby-s-survival",
+      "show": "We Can Do Hard Things",
+      "title": "(BEST OF) Samantha Irby's Survival Guide for Ridiculous Times",
+      "apple_collection_id": 1564530722,
+      "apple_track_id": 1000777974998,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/best-of-samantha-irbys-survival-guide-for-ridiculous-times/id1564530722?i=1000777974998&uo=4",
+      "release_date": "2026-07-23",
+      "duration_min": 63,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/8a/84/fc/8a84fc28-bfb6-e29d-2762-040dcabbb823/mza_6381531599649162033.jpeg/600x600bb.jpg",
+      "topics": [
+        "relationships",
+        "health/mental"
+      ],
+      "hook": "Samantha Irby on getting through absurd times one bearable five-minute stretch at a time.",
+      "explicit": true
+    },
+    {
+      "id": "dear-sugars--coming-soon-you-could-make-this",
+      "show": "Dear Sugars",
+      "title": "Coming soon... 'You Could Make This Beautiful'",
+      "apple_collection_id": 950464429,
+      "apple_track_id": 1000778172291,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/coming-soon-you-could-make-this-beautiful/id950464429?i=1000778172291&uo=4",
+      "release_date": "2026-07-24",
+      "duration_min": 3,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/9c/ec/f7/9cecf7cd-0b56-ed03-ca68-c69aa6a9a29a/mza_4730390367844023060.jpg/600x600bb.jpg",
+      "topics": [
+        "relationships",
+        "personal-journals"
+      ],
+      "hook": "A preview of 'You Could Make This Beautiful,' a new series from Maggie Smith.",
+      "explicit": false
+    },
+    {
+      "id": "wow-in-the-world--two-whats-and-a-wow-just",
+      "show": "Wow in the World",
+      "title": "Two Whats?! And A Wow! – Just Kitten Around",
+      "apple_collection_id": 1233834541,
+      "apple_track_id": 1000778163102,
+      "apple_episode_url": "https://podcasts.apple.com/us/podcast/two-whats-and-a-wow-just-kitten-around/id1233834541?i=1000778163102&uo=4",
+      "release_date": "2026-07-24",
+      "duration_min": 13,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/01/83/a2/0183a212-3dc6-e533-0743-3f3618c73a22/mza_7437140655794165168.jpeg/600x600bb.jpg",
+      "topics": [
+        "kids-family/education"
+      ],
+      "hook": "Guy and Mindy share surprising facts about cats in this kid-friendly science quiz.",
+      "explicit": false
     }
   ]
 }

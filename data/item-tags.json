@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "built_at": "2026-07-21T11:43:48.094Z",
+  "built_at": "2026-07-24T11:47:14.754Z",
   "tags": {
     "lex-fridman-podcast--don-lincoln-physics": [
       "physics",
@@ -8433,6 +8433,533 @@
       "culture",
       "hollywood",
       "interview"
+    ],
+    "catalyst-shayle-kann--the-multi-billion-dollar-promise-of": [
+      "energy",
+      "electric-vehicles",
+      "vehicle-to-grid",
+      "grid",
+      "batteries",
+      "clean-energy",
+      "infrastructure"
+    ],
+    "cbc-ideas--was-justice-served-by-south-africa": [
+      "south-africa",
+      "apartheid",
+      "justice",
+      "reconciliation",
+      "history",
+      "politics",
+      "human-rights"
+    ],
+    "cbc-ideas--how-leaders-in-the-former-yugoslavia": [
+      "yugoslavia",
+      "bosnia",
+      "dayton-accord",
+      "war",
+      "peace",
+      "history",
+      "balkans"
+    ],
+    "stuff-you-should-know--what-s-the-deal-with-swiss": [
+      "switzerland",
+      "neutrality",
+      "history",
+      "geopolitics",
+      "europe",
+      "explainer"
+    ],
+    "being-an-engineer--s7e31-stanley-leong-engineering-your-finances": [
+      "engineering",
+      "careers",
+      "personal-finance",
+      "wealth",
+      "electrical-engineering",
+      "interview"
+    ],
+    "the-rest-is-history--690-a-murderous-affair-death-at": [
+      "history",
+      "habsburg",
+      "austria",
+      "mystery",
+      "mayerling",
+      "royalty",
+      "19th-century"
+    ],
+    "conan-obrien-needs-a-friend--knife-porn": [
+      "comedy",
+      "interview",
+      "bladesmithing",
+      "knives",
+      "craftsmanship",
+      "conan-obrien"
+    ],
+    "business-of-machining--462-llm-s-and-software-hardware": [
+      "machining",
+      "manufacturing",
+      "llms",
+      "metrology",
+      "vision-systems",
+      "cnc",
+      "shop-talk"
+    ],
+    "within-tolerance--down-the-rabbit-hole-with-justin": [
+      "machining",
+      "tooling",
+      "manufacturing",
+      "organization",
+      "shop-talk",
+      "precision"
+    ],
+    "the-ancients--the-first-new-zealanders": [
+      "archaeology",
+      "new-zealand",
+      "polynesia",
+      "maori",
+      "migration",
+      "ancient-history",
+      "seafaring"
+    ],
+    "ancient-history-fangirl--the-secret-lives-of-julio-claudian": [
+      "ancient-rome",
+      "roman-history",
+      "women",
+      "augustus",
+      "julio-claudian",
+      "biography"
+    ],
+    "engines-of-our-ingenuity--the-engines-of-our-ingenuity-1606": [
+      "architecture",
+      "engineering",
+      "history",
+      "megastructure",
+      "urban-design",
+      "ideas"
+    ],
+    "engines-of-our-ingenuity--the-engines-of-our-ingenuity-2622": [
+      "technology",
+      "ai",
+      "ibm",
+      "watson",
+      "computing",
+      "history",
+      "jeopardy"
+    ],
+    "this-week-in-startups--why-this-longevity-startup-raised-in": [
+      "startups",
+      "venture-capital",
+      "longevity",
+      "japan",
+      "fundraising",
+      "entrepreneurship"
+    ],
+    "twenty-minute-vc--20vc-openai-and-anthropic-threatened-by": [
+      "venture-capital",
+      "ai",
+      "startups",
+      "open-source-ai",
+      "china",
+      "fintech",
+      "stripe"
+    ],
+    "around-the-house-eric-g--coming-up-saturday-on-around-the": [
+      "home-improvement",
+      "lighting",
+      "interior-design",
+      "diy",
+      "home"
+    ],
+    "wood-talk--when-she-gives-away-your-tools": [
+      "woodworking",
+      "workbench",
+      "craft",
+      "tools",
+      "diy",
+      "shop-talk"
+    ],
+    "fly-on-the-wall--jake-johnson-on-ed-harris-chris": [
+      "comedy",
+      "interview",
+      "saturday-night-live",
+      "jake-johnson",
+      "film",
+      "hollywood"
+    ],
+    "the-bbq-central-show--sam-tours-japan-with-guests-ali": [
+      "bbq",
+      "grilling",
+      "cooking",
+      "food",
+      "fast-food",
+      "interview"
+    ],
+    "flight-safety-detectives--young-aviation-enthusiast-examines-air-traffic": [
+      "aviation",
+      "flying",
+      "air-traffic-control",
+      "pilots",
+      "safety",
+      "interview"
+    ],
+    "just-fly-performance-podcast--525-ryan-paul-on-speed-training": [
+      "sports-science",
+      "speed-training",
+      "isometrics",
+      "plyometrics",
+      "athletics",
+      "coaching",
+      "biomechanics"
+    ],
+    "song-exploder--suki-waterhouse-back-in-love": [
+      "music",
+      "songwriting",
+      "music-production",
+      "suki-waterhouse",
+      "indie",
+      "interview"
+    ],
+    "99-percent-invisible--100-objects-10-nunchaku": [
+      "design",
+      "history",
+      "culture",
+      "asian-american",
+      "bruce-lee",
+      "identity",
+      "objects"
+    ],
+    "the-worlds-best-construction-podcast--new-york-s-2wtc-finally-breaks": [
+      "construction",
+      "architecture",
+      "skyscrapers",
+      "new-york",
+      "infrastructure",
+      "engineering",
+      "news"
+    ],
+    "spit-and-twitches-animal-cognition--episode-28-season-3-episode-1": [
+      "animal-cognition",
+      "birds",
+      "neuroscience",
+      "research",
+      "psychology",
+      "interview"
+    ],
+    "ologies-with-alie-ward--emmenology-menopause-perimenopause-part-2-with": [
+      "menopause",
+      "perimenopause",
+      "womens-health",
+      "hormones",
+      "medicine",
+      "science",
+      "hrt"
+    ],
+    "off-nominal--249-peeing-out-your-bones-with": [
+      "space",
+      "robotics",
+      "ai",
+      "startups",
+      "iss",
+      "engineering",
+      "interview"
+    ],
+    "planetary-radio--hot-jupiters-the-roasted-planet-and": [
+      "astronomy",
+      "exoplanets",
+      "jwst",
+      "planetary-science",
+      "space",
+      "research"
+    ],
+    "planet-money--big-lettuce-meets-small-intestine": [
+      "economics",
+      "food-safety",
+      "agriculture",
+      "food",
+      "business",
+      "public-health"
+    ],
+    "odd-lots--how-franchise-restaurants-opened-the-door": [
+      "economics",
+      "franchising",
+      "gig-economy",
+      "labor",
+      "business",
+      "history"
+    ],
+    "odd-lots--why-apple-is-heading-into-a": [
+      "economics",
+      "apple",
+      "technology",
+      "ai",
+      "business",
+      "markets"
+    ],
+    "freakonomics-radio--682-should-a-i-move-to": [
+      "economics",
+      "ai",
+      "space",
+      "infrastructure",
+      "technology",
+      "energy"
+    ],
+    "the-race-f1-podcast--bring-back-v10s-we-answer-your": [
+      "formula-1",
+      "motorsport",
+      "racing",
+      "f1-history",
+      "v10",
+      "fan-questions"
+    ],
+    "camera-shake-photography-podcast--how-to-pose-anyone-with-jerry": [
+      "photography",
+      "portrait-photography",
+      "posing",
+      "wedding-photography",
+      "craft",
+      "interview"
+    ],
+    "how-i-built-this--advice-line-with-curt-richardson-of": [
+      "entrepreneurship",
+      "business",
+      "startups",
+      "otterbox",
+      "advice",
+      "founders"
+    ],
+    "business-wars--universal-vs-disney-the-battle-for": [
+      "business",
+      "theme-parks",
+      "disney",
+      "universal",
+      "orlando",
+      "entertainment",
+      "rivalry"
+    ],
+    "masters-of-scale--author-jim-collins-on-unlocking-your": [
+      "business",
+      "leadership",
+      "jim-collins",
+      "personal-growth",
+      "biography",
+      "interview"
+    ],
+    "we-have-ways-of-making-you-talk--operation-barbarossa-barbarossa-unleashed-part-5": [
+      "history",
+      "world-war-two",
+      "eastern-front",
+      "operation-barbarossa",
+      "military-history",
+      "nazi-germany",
+      "soviet-union"
+    ],
+    "history-of-wwii-podcast--we-the-founders-the-constitution-government": [
+      "history",
+      "us-constitution",
+      "american-history",
+      "government",
+      "civics",
+      "politics"
+    ],
+    "talking-headways--episode-587-dangerous-by-design": [
+      "urbanism",
+      "transportation",
+      "pedestrian-safety",
+      "road-design",
+      "cities",
+      "planning"
+    ],
+    "huberman-lab--essentials-using-meditation-to-focus-view": [
+      "neuroscience",
+      "meditation",
+      "consciousness",
+      "mindfulness",
+      "mental-health",
+      "sam-harris"
+    ],
+    "craft-beer-and-brewing-magazine-podcast--494-patrick-raasch-of-sunriver-builds": [
+      "beer",
+      "brewing",
+      "craft-beer",
+      "fermentation",
+      "food",
+      "interview"
+    ],
+    "i-know-dino--the-dinosaur-with-the-widest-wingspan": [
+      "paleontology",
+      "dinosaurs",
+      "birds",
+      "fossils",
+      "science",
+      "interview"
+    ],
+    "sticky-notes--scriabin-poem-of-ecstasy": [
+      "classical-music",
+      "scriabin",
+      "orchestral",
+      "music-history",
+      "composition",
+      "analysis"
+    ],
+    "that-triathlon-show--physiology-over-ftp-robbie-deckard-pro": [
+      "triathlon",
+      "endurance",
+      "sports-science",
+      "lactate",
+      "training",
+      "coaching"
+    ],
+    "fast-talk--433-what-s-behind-the-resurgence": [
+      "cycling",
+      "mountain-biking",
+      "endurance",
+      "sports",
+      "world-cup",
+      "interview"
+    ],
+    "practical-ai--surviving-the-new-economics-of-a": [
+      "ai",
+      "agents",
+      "economics",
+      "enterprise",
+      "automation",
+      "technology"
+    ],
+    "ten-percent-happier--that-feeling-of-always-behind-and": [
+      "psychology",
+      "perfectionism",
+      "mental-health",
+      "self-improvement",
+      "anxiety",
+      "interview"
+    ],
+    "zoe-science-nutrition--how-to-eat-sugar-without-gaining": [
+      "nutrition",
+      "blood-sugar",
+      "health",
+      "diet",
+      "science",
+      "metabolism"
+    ],
+    "mel-robbins-podcast--1-hormone-doctor-the-ultimate-guide": [
+      "womens-health",
+      "hormones",
+      "menopause",
+      "perimenopause",
+      "fertility",
+      "medicine"
+    ],
+    "armchair-expert--armchair-anonymous-wild-card-xiii": [
+      "comedy",
+      "interview",
+      "storytelling",
+      "armchair-expert",
+      "call-in"
+    ],
+    "this-past-weekend-theo-von--671-casey-rocket": [
+      "comedy",
+      "interview",
+      "stand-up",
+      "comedians",
+      "theo-von"
+    ],
+    "comedy-bang-bang--bonus-bang-wain-packaged-foods-david": [
+      "comedy",
+      "improv",
+      "interview",
+      "characters",
+      "comedy-bang-bang"
+    ],
+    "how-did-this-get-made--last-looks-thrashin": [
+      "comedy",
+      "movies",
+      "film-podcast",
+      "bad-movies",
+      "skateboarding",
+      "recommendations"
+    ],
+    "handsome--pretty-little-episode-101": [
+      "comedy",
+      "interview",
+      "casual",
+      "handsome",
+      "friendship"
+    ],
+    "criminal--the-comfort-kit": [
+      "true-crime",
+      "criminal-justice",
+      "investigation",
+      "storytelling",
+      "law",
+      "hospice"
+    ],
+    "crime-junkie--exclusive-nancy-guthrie": [
+      "true-crime",
+      "abduction",
+      "investigation",
+      "ransom",
+      "breaking-news"
+    ],
+    "morbid--george-hassell-the-family-axeman": [
+      "true-crime",
+      "history",
+      "murder",
+      "texas",
+      "1920s",
+      "crime"
+    ],
+    "dateline--the-prosecution-case-against-d4vd-massachusetts": [
+      "true-crime",
+      "courts",
+      "trial",
+      "criminal-justice",
+      "news",
+      "dateline"
+    ],
+    "snap-judgment--fire-ice-all-systems-down": [
+      "storytelling",
+      "survival",
+      "narrative",
+      "wildfire",
+      "adventure",
+      "radio"
+    ],
+    "the-moth--bittersweet-the-moth-podcast": [
+      "storytelling",
+      "personal-stories",
+      "live-storytelling",
+      "humor",
+      "the-moth"
+    ],
+    "ear-hustle--revisiting-last-memory-linda": [
+      "prison",
+      "incarceration",
+      "storytelling",
+      "memory",
+      "criminal-justice",
+      "personal-stories"
+    ],
+    "we-can-do-hard-things--best-of-samantha-irby-s-survival": [
+      "relationships",
+      "mental-health",
+      "humor",
+      "resilience",
+      "interview",
+      "self-help"
+    ],
+    "dear-sugars--coming-soon-you-could-make-this": [
+      "relationships",
+      "poetry",
+      "storytelling",
+      "preview",
+      "maggie-smith"
+    ],
+    "wow-in-the-world--two-whats-and-a-wow-just": [
+      "kids",
+      "science",
+      "education",
+      "animals",
+      "cats",
+      "family"
     ]
   }
 }
